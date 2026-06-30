@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+.uv/
+
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+secrets.json
+.secrets
+
+# Data files (large or obtained source files live in data/, kept out of git)
+data/**/*.csv
+data/**/*.json
+data/**/*.parquet
+data/**/*.xlsx
+data/**/*.xls
+data/**/*.pkl
+data/**/*.h5
+data/**/*.zip
+# ...but keep the folder structure and small committed samples
+!data/**/.gitkeep
+!data/**/sample_*.csv
+!data/**/example_*.csv
+
+# Editors / OS
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Logs / temp
+*.log
+logs/
+*.tmp
+temp/
+tmp/
