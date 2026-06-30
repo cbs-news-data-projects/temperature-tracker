@@ -20,11 +20,24 @@
   #legend{margin-top:10px;font-size:11px}
   #legend i{display:inline-block;width:14px;height:14px;margin-right:4px;vertical-align:-2px}
   #meta{margin-top:8px;font-size:11px;color:#666}
+  #searchwrap{position:relative}
+  #search{width:100%;box-sizing:border-box;padding:6px;border:1px solid #ccc;border-radius:6px}
+  #results{position:absolute;left:0;right:0;top:100%;background:#fff;border:1px solid #ccc;
+           border-top:none;max-height:220px;overflow:auto;z-index:2;display:none;border-radius:0 0 6px 6px}
+  #results div{padding:5px 8px;cursor:pointer;border-bottom:1px solid #eee;font-size:12px}
+  #results div:last-child{border-bottom:none}
+  #results div:hover,#results div.active{background:#f0e6e6}
+  #results .none{color:#999;cursor:default}
 </style>
 </head>
 <body>
 <div id="panel">
   <h1 id="title">Forecast temperature</h1>
+  <label for="search">Find a place</label>
+  <div id="searchwrap">
+    <input id="search" type="text" placeholder="City, state…" autocomplete="off"/>
+    <div id="results"></div>
+  </div>
   <label for="measure">Measure</label>
   <select id="measure">
     <option value="temp">Temperature (daytime high)</option>
@@ -34,7 +47,7 @@
   <label>Layer</label>
   <div class="seg">
     <button id="b-geo" class="on">Counties</button>
-    <button id="b-dots">Dots</button>
+    <button id="b-dots">Places</button>
   </div>
   <label for="day">Day</label>
   <select id="day"></select>
@@ -77,6 +90,7 @@ map.addControl(new maplibregl.NavigationControl());
 // Counties give the clean national overview; dots are for drill-down ("find my town").
 let measure='temp', layer='geo', day='day1', days=[];
 const cache={};  // prefix -> {pts, cty}
+let placeIndex=[];  // [{label, coords:[lon,lat], props}] for the search box
 
 async function fetchJSON(url){ return fetch(url).then(r=>r.ok?r.json():EMPTY).catch(()=>EMPTY); }
 async function fetchDataset(prefix){
@@ -104,7 +118,10 @@ map.on('load', async ()=>{
     paint:{'fill-opacity':0.75,'fill-outline-color':'#999'}});
   map.addLayer({id:'dots',type:'circle',source:'pts',layout:{visibility:'none'},
     paint:{'circle-radius':['interpolate',['linear'],['zoom'],3,2.2,7,5],
-           'circle-stroke-width':0.4,'circle-stroke-color':'#444','circle-opacity':0.9}});
+           // Outline fades in only as you zoom in: at national zoom the dots blend
+           // into a heat field; zoomed in they gain a crisp edge for drill-down.
+           'circle-stroke-width':['interpolate',['linear'],['zoom'],4,0,7,0.6],
+           'circle-stroke-color':'#444','circle-opacity':0.9}});
   popup('dots'); popup('geo');
   setLayer('geo');
   await setMeasure('temp');
@@ -117,6 +134,7 @@ async function setMeasure(m){
   const {pts,cty}=await fetchDataset(ds.prefix);
   map.getSource('pts').setData(pts);
   map.getSource('cty').setData(cty);
+  buildIndex(pts);
   days=dayList(pts,cty);
   const sel=document.getElementById('day');
   const prev=day;
@@ -153,10 +171,55 @@ function legend(){
   document.getElementById('legend').innerHTML=
     DATASETS[measure].stops.map(([t,c])=>`<div><i style="background:${c}"></i>${t}°F</div>`).join('');
 }
+
+// ---- place search (client-side, over the points already loaded) ----
+function buildIndex(pts){
+  placeIndex=(pts.features||[]).map(f=>({
+    label:f.properties.name_state||f.properties.name_display||f.properties.name||'',
+    coords:f.geometry.coordinates, props:f.properties,
+  })).filter(p=>p.label);
+}
+function runSearch(q){
+  const box=document.getElementById('results');
+  q=q.trim().toLowerCase();
+  if(q.length<2){box.style.display='none';box.innerHTML='';box._hits=[];return;}
+  const starts=[], contains=[];
+  for(const p of placeIndex){
+    const l=p.label.toLowerCase();
+    if(l.startsWith(q)) starts.push(p);
+    else if(l.includes(q)) contains.push(p);
+    if(starts.length>=8) break;
+  }
+  const hits=starts.concat(contains).slice(0,8);
+  box._hits=hits;
+  box.innerHTML=hits.length
+    ? hits.map((p,i)=>`<div data-i="${i}">${p.label}</div>`).join('')
+    : '<div class="none">No match</div>';
+  box.style.display='block';
+}
+function selectPlace(p){
+  if(!p) return;
+  document.getElementById('search').value=p.label;
+  const box=document.getElementById('results'); box.style.display='none';
+  setLayer('dots');                          // reveal the Places layer
+  map.flyTo({center:p.coords, zoom:9});
+  new maplibregl.Popup().setLngLat(p.coords)
+    .setHTML(`<b>${p.label}</b><br>${day}: ${p.props[day]??'n/a'} °F`).addTo(map);
+}
+
 document.getElementById('measure').onchange=e=>setMeasure(e.target.value);
 document.getElementById('day').onchange=e=>{day=e.target.value;paint();};
 document.getElementById('b-dots').onclick=()=>setLayer('dots');
 document.getElementById('b-geo').onclick=()=>setLayer('geo');
+
+const searchEl=document.getElementById('search'), resultsEl=document.getElementById('results');
+searchEl.oninput=e=>runSearch(e.target.value);
+searchEl.onkeydown=e=>{ if(e.key==='Enter'){ selectPlace((resultsEl._hits||[])[0]); }
+                       else if(e.key==='Escape'){ resultsEl.style.display='none'; } };
+resultsEl.onclick=e=>{ const d=e.target.closest('div[data-i]');
+                       if(d) selectPlace(resultsEl._hits[+d.dataset.i]); };
+// close the dropdown when clicking elsewhere
+document.addEventListener('click',e=>{ if(!e.target.closest('#searchwrap')) resultsEl.style.display='none'; });
 </script>
 </body>
 </html>

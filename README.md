@@ -73,11 +73,13 @@ Join/dedupe on `place_id` (Census GEOID, a string), **never** on `name`.
 
 ## Viewer
 
-`viewer/index.html` is a self-contained MapLibre map: a **Measure** dropdown
-(Temperature / Feels-like / Warm nights), a **Counties/Dots** toggle (counties
-is the default national overview; dots are for drill-down), and a **Day**
-selector. Each measure has its own ramp; thin buckets (`n_hours` < 6) are flagged
-⚠ in the day list; no-data places are hidden, not painted the coldest color.
+`viewer/index.html` is a self-contained MapLibre map: a **Find a place** search
+box (type 2+ chars → flies to the community and shows its value), a **Measure**
+dropdown (Temperature / Feels-like / Warm nights), a **Counties/Places** toggle
+(counties is the default national overview; places are for drill-down), and a
+**Day** selector. Each measure has its own ramp; thin buckets (`n_hours` < 6) are
+flagged ⚠ in the day list; no-data places are hidden, not painted the coldest
+color; place dots drop their outline at national zoom so they blend into a field.
 
 It loads GeoJSON from `DATA_BASE`, set via the `?data=` query param (default
 `data`). Local: `?data=../data/processed`. Deployed: the publish workflow lays the
