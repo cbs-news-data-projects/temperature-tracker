@@ -69,7 +69,9 @@ Each day carries `seq`, `fcst_date`, and `valid_utc`. The apt products also carr
 Place labels (Census Gazetteer) come in three forms: `name` is raw (`"Phoenix
 city"`); `name_display` strips the descriptor (`"Phoenix"`, while keeping
 `"Carson City"`); `name_state` adds the state (`"Phoenix, AZ"` — the popup label).
-Join/dedupe on `place_id` (Census GEOID, a string), **never** on `name`.
+Join/dedupe on `place_id` (Census GEOID, a string), **never** on `name`. New York
+City is one consolidated place in the Census files (a single dot); `make_reference.py`
+replaces it with its five boroughs (`place_id` = borough-county GEOID) for detail.
 
 ## Viewer
 

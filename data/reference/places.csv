@@ -19137,7 +19137,6 @@ place_id,name,name_display,name_state,state,lat,lon
 3650705,New Square village,New Square,"New Square, NY",NY,41.141022,-74.029362
 3650727,New Suffolk CDP,New Suffolk,"New Suffolk, NY",NY,40.996754,-72.477472
 3650837,New Windsor CDP,New Windsor,"New Windsor, NY",NY,41.46983,-74.031832
-3651000,New York city,New York,"New York, NY",NY,40.662712,-73.938677
 3651011,New York Mills village,New York Mills,"New York Mills, NY",NY,43.100709,-75.293111
 3651055,Niagara Falls city,Niagara Falls,"Niagara Falls, NY",NY,43.092841,-79.014743
 3651088,Niagara University CDP,Niagara University,"Niagara University, NY",NY,43.137212,-79.035127
@@ -32332,3 +32331,8 @@ place_id,name,name_display,name_state,state,lat,lon
 7288035,Yauco zona urbana,Yauco,"Yauco, PR",PR,18.034793,-66.86213
 7288121,Yaurel comunidad,Yaurel,"Yaurel, PR",PR,18.030065,-66.056034
 7288293,Yeguada comunidad,Yeguada,"Yeguada, PR",PR,18.483885,-66.880244
+36085,Staten Island,Staten Island,"Staten Island, NY",NY,40.57409443316975,-74.14706705531458
+36047,Brooklyn,Brooklyn,"Brooklyn, NY",NY,40.6393815,-73.95151488434834
+36061,Manhattan,Manhattan,"Manhattan, NY",NY,40.787094499999995,-73.95773820687532
+36005,The Bronx,The Bronx,"The Bronx, NY",NY,40.8535835,-73.83967673136081
+36081,Queens,Queens,"Queens, NY",NY,40.702277,-73.82937932200142

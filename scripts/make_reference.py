@@ -70,7 +70,7 @@ def get_bytes(url: str, tries: int = 4) -> bytes:
             time.sleep(2 * attempt)
 
 
-def build_places(outdir: Path, min_sqmi: float, incorporated: bool) -> None:
+def build_places(min_sqmi: float, incorporated: bool) -> pd.DataFrame:
     print(f"GET {GAZ}")
     z = zipfile.ZipFile(io.BytesIO(get_bytes(GAZ)))
     name = next(n for n in z.namelist() if n.lower().endswith(".txt"))
@@ -89,14 +89,35 @@ def build_places(outdir: Path, min_sqmi: float, incorporated: bool) -> None:
     }).dropna(subset=["lat", "lon"])
     out["name_display"] = out["name"].map(clean_place_name)        # descriptor stripped
     out["name_state"] = out["name_display"] + ", " + out["state"]  # "Phoenix, AZ" popup label
-    out = out[["place_id", "name", "name_display", "name_state", "state", "lat", "lon"]]
-
-    outdir.mkdir(parents=True, exist_ok=True)
-    out.to_csv(outdir / "places.csv", index=False)
-    print(f"  places.csv: {len(out):,} communities")
+    return out[["place_id", "name", "name_display", "name_state", "state", "lat", "lon"]]
 
 
-def build_counties(outdir: Path) -> None:
+# The Gazetteer models NYC as ONE consolidated place (3651000) over five counties,
+# so it yields a single dot. Swap it for the five boroughs, located at each
+# borough-county's interior point, for borough-level detail in the dots layer.
+NYC_PLACE_ID = "3651000"
+NYC_BOROUGHS = {"36061": "Manhattan", "36047": "Brooklyn", "36081": "Queens",
+                "36005": "The Bronx", "36085": "Staten Island"}
+
+
+def add_nyc_boroughs(places: pd.DataFrame, counties_gdf) -> pd.DataFrame:
+    """Replace the single NYC place with five borough dots from county geometry."""
+    if counties_gdf is None:
+        return places  # need geometry for the interior points; left as-is
+    sub = counties_gdf[counties_gdf["GEOID"].isin(NYC_BOROUGHS)]
+    if sub.empty:
+        return places
+    rows = []
+    for _, c in sub.iterrows():
+        pt = c.geometry.representative_point()      # guaranteed inside the borough
+        nm = NYC_BOROUGHS[c["GEOID"]]
+        rows.append({"place_id": c["GEOID"], "name": nm, "name_display": nm,
+                     "name_state": f"{nm}, NY", "state": "NY", "lat": pt.y, "lon": pt.x})
+    places = places[places["place_id"] != NYC_PLACE_ID]
+    return pd.concat([places, pd.DataFrame(rows)], ignore_index=True)
+
+
+def build_counties(outdir: Path):
     import geopandas as gpd
     print(f"GET {CB_COUNTY}")
     outdir.mkdir(parents=True, exist_ok=True)
@@ -105,9 +126,11 @@ def build_counties(outdir: Path) -> None:
     gdf = gpd.read_file(f"zip://{zpath}").to_crs(4326)
     keep = [c for c in ("GEOID", "NAME", "NAMELSAD", "STUSPS", "STATE_NAME", "geometry")
             if c in gdf.columns]
-    gdf[keep].to_file(outdir / "counties.geojson", driver="GeoJSON")
+    gdf = gdf[keep]
+    gdf.to_file(outdir / "counties.geojson", driver="GeoJSON")
     zpath.unlink(missing_ok=True)
     print(f"  counties.geojson: {len(gdf):,} polygons")
+    return gdf
 
 
 def main() -> int:
@@ -120,9 +143,12 @@ def main() -> int:
     args = ap.parse_args()
 
     outdir = Path(args.outdir)
-    build_places(outdir, args.min_sqmi, args.incorporated)
-    if not args.skip_counties:
-        build_counties(outdir)
+    outdir.mkdir(parents=True, exist_ok=True)
+    places = build_places(args.min_sqmi, args.incorporated)
+    counties_gdf = None if args.skip_counties else build_counties(outdir)
+    places = add_nyc_boroughs(places, counties_gdf)   # 5 borough dots, not 1 NYC dot
+    places.to_csv(outdir / "places.csv", index=False)
+    print(f"  places.csv: {len(places):,} communities")
     return 0
 
 
