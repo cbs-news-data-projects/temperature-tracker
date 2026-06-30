@@ -49,6 +49,12 @@
     <button id="b-geo" class="on">Counties</button>
     <button id="b-dots">Places</button>
   </div>
+  <label>Region</label>
+  <div class="seg">
+    <button id="r-conus" class="on">CONUS</button>
+    <button id="r-ak">Alaska</button>
+    <button id="r-hi">Hawaii</button>
+  </div>
   <label for="day">Day</label>
   <select id="day"></select>
   <div id="legend"></div>
@@ -238,6 +244,18 @@ document.getElementById('measure').onchange=e=>setMeasure(e.target.value);
 document.getElementById('day').onchange=e=>{day=e.target.value;paint();};
 document.getElementById('b-dots').onclick=()=>setLayer('dots');
 document.getElementById('b-geo').onclick=()=>setLayer('geo');
+
+// Region jump: AK/HI sit far off the CONUS view, so offer quick presets.
+const VIEWS={conus:{center:[-97,38],zoom:3.6},
+             ak:{center:[-152,63],zoom:3.1},
+             hi:{center:[-157.3,20.5],zoom:6}};
+function gotoRegion(r){
+  for(const id of ['r-conus','r-ak','r-hi']) document.getElementById(id).classList.toggle('on',id==='r-'+r);
+  map.flyTo(VIEWS[r]);
+}
+document.getElementById('r-conus').onclick=()=>gotoRegion('conus');
+document.getElementById('r-ak').onclick=()=>gotoRegion('ak');
+document.getElementById('r-hi').onclick=()=>gotoRegion('hi');
 
 const searchEl=document.getElementById('search'), resultsEl=document.getElementById('results');
 searchEl.oninput=e=>runSearch(e.target.value);

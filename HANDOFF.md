@@ -56,6 +56,9 @@ Two things the live run exposed (now fixed — see git log):
 - **Warm-night date = the evening the night begins.**
 - **County aggregation flips by PRODUCT** (not the output prefix — that was a bug,
   now fixed): temp/feelslike report the county max; warmnight reports the min.
+- **Sectors: CONUS + Alaska + Hawaii.** NDFD ships separate grids per sector;
+  each place/county is routed to its own grid (AK→alaska, HI→hawaii, else conus)
+  and the sectors merge into one set of outputs, aligned by `fcst_date`.
 - **One fixed timezone nationally** (`--tz`, default `America/Chicago`).
 - **Whole °F only**; **guard band −80…145°F** at decode.
 - **Place identity:** `place_id` = Census GEOID (string join key); `name` (raw),

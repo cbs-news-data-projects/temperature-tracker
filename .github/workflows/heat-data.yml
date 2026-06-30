@@ -44,8 +44,8 @@ jobs:
           test -f data/reference/places.csv     || uv run python scripts/make_reference.py --skip-counties
           test -f data/reference/counties.geojson || uv run python scripts/make_reference.py
 
-      - name: Fetch NDFD (maxt + apt)        # Job 1
-        run: uv run python scripts/fetch_ndfd.py --area conus --elements maxt,apt
+      - name: Fetch NDFD (maxt + apt, CONUS + AK + HI)   # Job 1
+        run: uv run python scripts/fetch_ndfd.py --area conus,alaska,hawaii --elements maxt,apt
 
       - name: Reformat into map-ready data    # Job 2
         run: |

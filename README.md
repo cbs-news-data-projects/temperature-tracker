@@ -45,7 +45,7 @@ uv sync --extra heat            # pygrib, scipy, geopandas, shapely, pyproj, tzd
 ```bash
 uv run python scripts/make_reference.py                       # once (refresh ~yearly)
 uv run python scripts/validate_live.py                        # FIRST live pull — see Validation
-uv run python scripts/fetch_ndfd.py --elements maxt,apt       # days 1–3 and 4–7 (CONUS)
+uv run python scripts/fetch_ndfd.py --elements maxt,apt       # days 1–7, CONUS + Alaska + Hawaii
 uv run python scripts/build_heat.py --product temp            # -> data/processed/heat_*
 uv run python scripts/build_heat.py --product feelslike
 uv run python scripts/build_heat.py --product warmnight
@@ -74,10 +74,10 @@ Join/dedupe on `place_id` (Census GEOID, a string), **never** on `name`.
 ## Viewer
 
 `viewer/index.html` is a self-contained MapLibre map: a **Find a place** search
-box (type 2+ chars → flies to the community and shows its value), a **Measure**
-dropdown (Temperature / Feels-like / Warm nights), a **Counties/Places** toggle
-(counties is the default national overview; places are for drill-down), and a
-**Day** selector. Temperature and feels-like share a heat-emphasis ramp (yellow at
+box (type 2+ chars → flies to the community and shows its full forecast), a
+**Measure** dropdown (Temperature / Feels-like / Warm nights), a **Counties/Places**
+toggle (counties is the default national overview; places are for drill-down), a
+**Region** switcher (CONUS / Alaska / Hawaii), and a **Day** selector. Temperature and feels-like share a heat-emphasis ramp (yellow at
 80°F, orange in the low 90s, red in the upper 90s, deepening past 100); warm nights
 has its own. Thin buckets (`n_hours` < 6) are flagged ⚠ in the day list; no-data
 places are hidden, not painted the coldest color; place dots have no outline and
@@ -125,7 +125,9 @@ a block), (2) `apt` arrives as many sub-daily messages, and (3) day/night
   (2 ≈ 5 km; barely moves a county extreme, ~4× faster join).
 - `make_reference.py --incorporated --min-sqmi 0.5` — trim ~32k places to a
   lighter cities-only dots universe.
-- `fetch_ndfd.py --area hawaii|alaska|puertorico` — OCONUS sectors.
+- `fetch_ndfd.py --area conus,alaska,hawaii` — sectors to download (default all
+  three; add `puertorico` if needed). `build_heat.py --areas …` selects which to
+  merge; each place/county is routed to its own sector grid (AK/HI/CONUS).
 
 ## Caveats (read before publishing)
 

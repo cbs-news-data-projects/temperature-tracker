@@ -19,6 +19,11 @@ Three products (pick with --product), each writing the same file family:
 apt = NWS apparent temperature: heat index when hot, wind chill when cold, plain
 air temp in between — the versatile year-round "feels-like," not heat-index-only.
 
+Sectors: NDFD ships separate grids for CONUS, Alaska, and Hawaii. Each place and
+county is routed to its own sector (AK -> alaska, HI -> hawaii, else conus) and
+sampled against that sector's grid, so the three merge into one set of outputs.
+Sectors with no GRIB in data/raw/ are skipped (those places come out blank).
+
 Two geographies per product (--mode): points (dots) and counties (geometry).
 
 Outputs (in data/processed/, prefixed):
@@ -54,6 +59,18 @@ from utils.heat import (  # noqa: E402
     to_int_f,
 )
 
+# Sector routing. AK/HI have their own NDFD grids; everything else is CONUS.
+PLACE_SECTOR = {"AK": "alaska", "HI": "hawaii"}        # by USPS state
+COUNTY_FIPS_SECTOR = {"02": "alaska", "15": "hawaii"}  # by GEOID state prefix
+
+
+def place_sector(state) -> str:
+    return PLACE_SECTOR.get(state, "conus")
+
+
+def county_sector(geoid) -> str:
+    return COUNTY_FIPS_SECTOR.get(str(geoid)[:2], "conus")
+
 
 # ---------------------------------------------------------------- decode (pygrib)
 def decode_raw(grib_paths: list[Path]):
@@ -84,6 +101,14 @@ def decode_raw(grib_paths: list[Path]):
     return lats1d, lons1d, records
 
 
+def days_for(product: str, records, tz: str) -> list[dict]:
+    if product == "temp":
+        return as_daily_maxt(records)
+    if product == "feelslike":
+        return as_apt_daymax(records, tz)
+    return as_apt_nightmin(records, tz)
+
+
 # ---------------------------------------------------------------- points (dots)
 def load_places(places_csv: Path) -> pd.DataFrame:
     df = pd.read_csv(places_csv, dtype={"place_id": "string"})
@@ -93,18 +118,14 @@ def load_places(places_csv: Path) -> pd.DataFrame:
     return df.dropna(subset=["lat", "lon"]).reset_index(drop=True)
 
 
-def sample_points(lats1d, lons1d, days, places: pd.DataFrame) -> pd.DataFrame:
-    """Nearest-grid-cell value for each community point (approx. equirectangular)."""
+def nearest_idx(lats1d, lons1d, lat, lon):
+    """Nearest grid-cell index per point (approx. equirectangular metric)."""
     from scipy.spatial import cKDTree
     coslat = np.cos(np.deg2rad(np.clip(lats1d, -89, 89)))
     tree = cKDTree(np.column_stack([lons1d * coslat, lats1d]))
-    q = np.cos(np.deg2rad(places["lat"].to_numpy()))
-    _, idx = tree.query(np.column_stack([places["lon"].to_numpy() * q,
-                                         places["lat"].to_numpy()]))
-    out = places.copy()
-    for d in days:
-        out[f"day{d['seq']}"] = to_int_f(d["vals_f"][idx])
-    return out
+    q = np.cos(np.deg2rad(lat))
+    _, idx = tree.query(np.column_stack([lon * q, lat]))
+    return idx
 
 
 def write_points(out, days, outdir: Path, prefix, element_label) -> None:
@@ -140,38 +161,31 @@ def write_points(out, days, outdir: Path, prefix, element_label) -> None:
 
 
 # ---------------------------------------------------------------- counties (geometry)
-def build_counties(lats1d, lons1d, days, counties_geojson: Path, outdir: Path,
-                   decimate, prefix, county_agg) -> None:
-    """Zonal value per county. county_agg is 'max' (hottest cell, for temp/feelslike)
-    or 'min' (coolest cell, the right 'how warm does it stay overnight' reading for
-    warmnight). Keyed off the product, never the output prefix."""
+def accumulate_counties(county_vals, csub, geoid_col, lats1d, lons1d, days, decimate, county_agg):
+    """Add this sector's per-county values (keyed by fcst_date -> {geoid: value})."""
     import geopandas as gpd
-    counties = gpd.read_file(counties_geojson)
-    geoid_col = next((c for c in ("GEOID", "GEOID20", "geoid") if c in counties.columns), None)
-    name_col = next((c for c in ("NAME", "NAMELSAD", "name") if c in counties.columns), None)
-    if geoid_col is None:
-        raise SystemExit(f"no GEOID column in {counties_geojson} (have {list(counties.columns)})")
-    counties = counties.to_crs(4326)
-
     sl = slice(None, None, decimate)
     grid = gpd.GeoDataFrame(geometry=gpd.points_from_xy(lons1d[sl], lats1d[sl]), crs=4326)
-    joined = gpd.sjoin(grid, counties[[geoid_col, "geometry"]], how="inner", predicate="within")
+    joined = gpd.sjoin(grid, csub[[geoid_col, "geometry"]], how="inner", predicate="within")
+    if joined.empty:
+        return
     base = joined[[geoid_col]].copy()
-
-    result = counties[[geoid_col] + ([name_col] if name_col else [])].copy()
     for d in days:
         base["v"] = d["vals_f"][sl][joined.index]
         grp = base.groupby(geoid_col)["v"]
         agg = grp.min() if county_agg == "min" else grp.max()
-        result[f"day{d['seq']}"] = to_int_f(result[geoid_col].map(agg))
+        county_vals.setdefault(d["fcst_date"], {}).update(agg.to_dict())
 
-    result.drop(columns="geometry", errors="ignore").to_csv(
-        outdir / f"{prefix}_counties.csv", index=False)
-    geo = counties[[geoid_col, "geometry"]].merge(
-        result.drop(columns="geometry", errors="ignore"), on=geoid_col, how="left")
+
+def write_counties(counties, geoid_col, name_col, county_vals, days, outdir: Path, prefix, county_agg) -> None:
+    result = counties[[geoid_col] + ([name_col] if name_col else [])].copy()
+    for d in days:
+        vals = county_vals.get(d["fcst_date"], {})
+        result[f"day{d['seq']}"] = to_int_f(result[geoid_col].map(lambda g: vals.get(g, np.nan)))
+    result.to_csv(outdir / f"{prefix}_counties.csv", index=False)
+    geo = counties[[geoid_col, "geometry"]].merge(result, on=geoid_col, how="left")
     geo.to_file(outdir / f"{prefix}_counties.geojson", driver="GeoJSON")
-    print(f"counties: {len(result):,} polygons (decimate={decimate}, agg={county_agg}) "
-          f"-> {prefix}_counties.[csv|geojson]")
+    print(f"counties: {len(result):,} polygons (agg={county_agg}) -> {prefix}_counties.[csv|geojson]")
 
 
 # ---------------------------------------------------------------- main
@@ -186,12 +200,27 @@ PRODUCTS = {
 }
 
 
+def global_days(day_meta_by_date: dict) -> list[dict]:
+    """One ordered day list across all sectors, keyed by forecast date. Sectors
+    align on fcst_date, not the dayN index, so a sector missing 'today' still
+    lands on the right column. CONUS metadata wins (it's processed first)."""
+    days = []
+    for i, fd in enumerate(sorted(day_meta_by_date), start=1):
+        m = day_meta_by_date[fd]
+        g = {"seq": i, "fcst_date": fd, "valid_utc": m["valid_utc"]}
+        if "n_hours" in m:
+            g["n_hours"] = m["n_hours"]
+            g["valid_start_utc"] = m["valid_start_utc"]
+        days.append(g)
+    return days
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--product", choices=list(PRODUCTS), default="temp")
-    ap.add_argument("--grib", nargs="+", default=None,
-                    help="default: data/raw/<element>_conus_001-003.bin + 004-007.bin")
+    ap.add_argument("--areas", default="conus,alaska,hawaii",
+                    help="NDFD sectors to merge (default: conus,alaska,hawaii); missing ones are skipped")
     ap.add_argument("--mode", choices=["points", "counties", "both"], default="both")
     ap.add_argument("--places", default=str(config.REFERENCE_DIR / "places.csv"))
     ap.add_argument("--counties", default=str(config.REFERENCE_DIR / "counties.geojson"))
@@ -205,33 +234,72 @@ def main() -> int:
 
     prod = PRODUCTS[args.product]
     prefix = args.outprefix or prod["prefix"]
-    grib = args.grib or [str(config.RAW_DATA_DIR / f"{prod['element']}_conus_001-003.bin"),
-                         str(config.RAW_DATA_DIR / f"{prod['element']}_conus_004-007.bin")]
+    areas = [a.strip() for a in args.areas.split(",") if a.strip()]
     outdir = Path(args.outdir)
     outdir.mkdir(parents=True, exist_ok=True)
-    paths = [Path(p) for p in grib if Path(p).exists()]
-    if not paths:
-        raise SystemExit(f"no GRIB inputs found among {grib}")
+    want_points = args.mode in ("points", "both")
+    want_counties = args.mode in ("counties", "both")
 
-    lats1d, lons1d, records = decode_raw(paths)
-    if args.product == "temp":
-        days = as_daily_maxt(records)
-        print(f"temp(maxt): {len(days)} daily grids")
-    elif args.product == "feelslike":
-        days = as_apt_daymax(records, args.tz)
-        print(f"feelslike(apt day-max): {len(days)} days (tz={args.tz}); "
-              f"hours/day: {[d['n_hours'] for d in days]}")
-    else:
-        days = as_apt_nightmin(records, args.tz)
-        print(f"warmnight(apt overnight-min): {len(days)} nights (tz={args.tz}); "
-              f"hours/night: {[d['n_hours'] for d in days]}")
+    if want_points:
+        places = load_places(Path(args.places))
+        psec = places["state"].map(place_sector).to_numpy()
+        plat, plon = places["lat"].to_numpy(), places["lon"].to_numpy()
+        place_vals: dict = {}   # fcst_date -> float array (per place)
+    if want_counties:
+        import geopandas as gpd
+        counties = gpd.read_file(args.counties).to_crs(4326)
+        geoid_col = next((c for c in ("GEOID", "GEOID20", "geoid") if c in counties.columns), None)
+        name_col = next((c for c in ("NAME", "NAMELSAD", "name") if c in counties.columns), None)
+        if geoid_col is None:
+            raise SystemExit(f"no GEOID column in {args.counties} (have {list(counties.columns)})")
+        csec = counties[geoid_col].astype(str).map(county_sector).to_numpy()
+        county_vals: dict = {}  # fcst_date -> {geoid: value}
 
-    if args.mode in ("points", "both"):
-        write_points(sample_points(lats1d, lons1d, days, load_places(Path(args.places))),
-                     days, outdir, prefix, prod["label"])
-    if args.mode in ("counties", "both"):
-        build_counties(lats1d, lons1d, days, Path(args.counties), outdir,
-                       args.decimate, prefix, prod["county_agg"])
+    day_meta_by_date: dict = {}  # fcst_date -> day dict (no vals), CONUS wins
+    decoded = []
+    for area in areas:   # CONUS first (as listed) so its day metadata wins
+        paths = [config.RAW_DATA_DIR / f"{prod['element']}_{area}_{p}.bin"
+                 for p in ("001-003", "004-007")]
+        paths = [p for p in paths if p.exists()]
+        if not paths:
+            print(f"  skip {area}: no GRIB in {config.RAW_DATA_DIR}")
+            continue
+        lats1d, lons1d, records = decode_raw(paths)
+        days = days_for(args.product, records, args.tz)
+        del records
+        print(f"{area}/{prod['element']}: {len(days)} day(s) "
+              f"{'hours: ' + str([d.get('n_hours') for d in days]) if 'n_hours' in days[0] else ''}")
+        for d in days:
+            day_meta_by_date.setdefault(d["fcst_date"], {k: v for k, v in d.items() if k != "vals_f"})
+
+        if want_points:
+            pos = np.where(psec == area)[0]
+            if pos.size:
+                idx = nearest_idx(lats1d, lons1d, plat[pos], plon[pos])
+                for d in days:
+                    arr = place_vals.setdefault(d["fcst_date"], np.full(len(places), np.nan))
+                    arr[pos] = d["vals_f"][idx]
+        if want_counties:
+            csub = counties[csec == area]
+            if not csub.empty:
+                accumulate_counties(county_vals, csub, geoid_col, lats1d, lons1d,
+                                    days, args.decimate, prod["county_agg"])
+        del lats1d, lons1d, days
+        decoded.append(area)
+
+    if not decoded:
+        raise SystemExit(f"no GRIB inputs found for any sector in {areas} "
+                         f"(looked in {config.RAW_DATA_DIR})")
+    print(f"sectors merged: {', '.join(decoded)}")
+    gdays = global_days(day_meta_by_date)
+
+    if want_points:
+        out = places.copy()
+        for g in gdays:
+            out[f"day{g['seq']}"] = to_int_f(place_vals.get(g["fcst_date"], np.full(len(places), np.nan)))
+        write_points(out, gdays, outdir, prefix, prod["label"])
+    if want_counties:
+        write_counties(counties, geoid_col, name_col, county_vals, gdays, outdir, prefix, prod["county_agg"])
     return 0
 
 

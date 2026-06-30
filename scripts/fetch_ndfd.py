@@ -68,8 +68,8 @@ def fetch_one(status: str, area: str, period: str, element: str,
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--area", default="conus",
-                    help="NDFD sector: conus (default), or e.g. hawaii, alaska, puertorico")
+    ap.add_argument("--area", default="conus,alaska,hawaii",
+                    help="comma-separated NDFD sectors (default: conus,alaska,hawaii; also e.g. puertorico)")
     ap.add_argument("--elements", default="maxt,apt",
                     help="comma-separated NDFD elements (default: maxt,apt)")
     ap.add_argument("--status", default="opnl", choices=["opnl", "expr"],
@@ -82,11 +82,12 @@ def main() -> int:
     status = f"ST.{args.status}"
 
     ok = True
-    for element in [e.strip() for e in args.elements.split(",") if e.strip()]:
-        print(f"element: {element}")
-        for period in PERIODS:
-            if fetch_one(status, args.area, period, element, outdir) is None:
-                ok = False
+    for area in [a.strip() for a in args.area.split(",") if a.strip()]:
+        for element in [e.strip() for e in args.elements.split(",") if e.strip()]:
+            print(f"{area} / {element}")
+            for period in PERIODS:
+                if fetch_one(status, area, period, element, outdir) is None:
+                    ok = False
     return 0 if ok else 1
 
 
