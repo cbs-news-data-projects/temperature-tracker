@@ -117,9 +117,10 @@ map.on('load', async ()=>{
   map.addLayer({id:'geo',type:'fill',source:'cty',
     paint:{'fill-opacity':0.75,'fill-outline-color':'#999'}});
   map.addLayer({id:'dots',type:'circle',source:'pts',layout:{visibility:'none'},
-    paint:{'circle-radius':['interpolate',['linear'],['zoom'],3,2.2,7,5],
-           // Outline fades in only as you zoom in: at national zoom the dots blend
-           // into a heat field; zoomed in they gain a crisp edge for drill-down.
+    paint:{'circle-radius':['interpolate',['linear'],['zoom'],3,1.6,7,5],
+           // Small radius at national zoom so dots tile into a field instead of
+           // piling into blobs; the outline fades in only as you zoom in, so the
+           // dots blend from a distance and gain a crisp edge for drill-down.
            'circle-stroke-width':['interpolate',['linear'],['zoom'],4,0,7,0.6],
            'circle-stroke-color':'#444','circle-opacity':0.9}});
   popup('dots'); popup('geo');
