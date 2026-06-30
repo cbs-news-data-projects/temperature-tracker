@@ -77,9 +77,11 @@ Join/dedupe on `place_id` (Census GEOID, a string), **never** on `name`.
 box (type 2+ chars → flies to the community and shows its value), a **Measure**
 dropdown (Temperature / Feels-like / Warm nights), a **Counties/Places** toggle
 (counties is the default national overview; places are for drill-down), and a
-**Day** selector. Each measure has its own ramp; thin buckets (`n_hours` < 6) are
-flagged ⚠ in the day list; no-data places are hidden, not painted the coldest
-color; place dots have no outline and overlap into a field.
+**Day** selector. Temperature and feels-like share a heat-emphasis ramp (yellow at
+80°F, orange in the low 90s, red in the upper 90s, deepening past 100); warm nights
+has its own. Thin buckets (`n_hours` < 6) are flagged ⚠ in the day list; no-data
+places are hidden, not painted the coldest color; place dots have no outline and
+overlap into a field.
 
 It loads GeoJSON from `DATA_BASE`, set via the `?data=` query param (default
 `data`). Local: `?data=../data/processed`. Deployed: the publish workflow lays the

@@ -61,11 +61,15 @@
 //  - Local: serve the repo root, then open  index.html?data=../data/processed
 const DATA_BASE = new URLSearchParams(location.search).get('data') || 'data';
 
+// Heat-emphasis ramp for daytime highs: cool below 80°F, YELLOW at 80, ORANGE in
+// the low 90s, RED in the upper 90s, deepening toward black by 110. Shared by temp
+// and feels-like so a given temperature reads the same color in both.
+const HEAT_STOPS=[[50,'#2c7bb6'],[70,'#abd9e9'],[75,'#e8f5b0'],[80,'#ffe23d'],
+                  [85,'#ffa726'],[90,'#fb6a00'],[95,'#ec3a25'],[98,'#d32f2f'],
+                  [105,'#9c1414'],[110,'#6d0000']];
 const DATASETS = {
-  temp:      {prefix:'heat',      title:'Forecast temperature (daytime high)',
-              stops:[[70,'#2c7bb6'],[80,'#abd9e9'],[90,'#ffffbf'],[95,'#fdae61'],[100,'#f46d43'],[105,'#d73027'],[110,'#7f0000']]},
-  feelslike: {prefix:'feelslike', title:'Feels-like temperature (daytime high)',
-              stops:[[70,'#2c7bb6'],[80,'#abd9e9'],[90,'#ffffbf'],[95,'#fdae61'],[100,'#f46d43'],[105,'#d73027'],[115,'#7f0000']]},
+  temp:      {prefix:'heat',      title:'Forecast temperature (daytime high)', stops:HEAT_STOPS},
+  feelslike: {prefix:'feelslike', title:'Feels-like temperature (daytime high)', stops:HEAT_STOPS},
   warmnight: {prefix:'warmnight', title:'Warm nights (overnight feels-like low)',
               stops:[[60,'#2c7bb6'],[68,'#abd9e9'],[72,'#ffffbf'],[75,'#fdae61'],[80,'#f46d43'],[85,'#d73027'],[90,'#7f0000']]}
 };
