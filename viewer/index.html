@@ -115,6 +115,20 @@ function dayList(pts,cty){
   return keys.length?keys.sort((a,b)=>+a.slice(3)-+b.slice(3)).map(k=>({key:k})):[{key:'day1'}];
 }
 
+// Human day labels from the forecast date: Today / Tomorrow / weekday + short date.
+// Derived from fcst_date, NOT the dayN index — NDFD can drop "today" mid-day, so
+// day1's date may actually be tomorrow.
+function dayLabel(iso){
+  if(!iso) return '';
+  const d=new Date(iso+'T00:00:00');
+  const today=new Date(); today.setHours(0,0,0,0);
+  const diff=Math.round((d-today)/86400000);
+  const rel = diff===0 ? 'Today' : diff===1 ? 'Tomorrow'
+            : d.toLocaleDateString(undefined,{weekday:'long'});
+  return `${rel} · ${d.toLocaleDateString(undefined,{month:'short',day:'numeric'})}`;
+}
+function labelFor(key){ const d=days.find(x=>x.key===key); return d&&d.fcst_date?dayLabel(d.fcst_date):key; }
+
 map.on('load', async ()=>{
   map.addSource('pts',{type:'geojson',data:EMPTY});
   map.addSource('cty',{type:'geojson',data:EMPTY});
@@ -144,7 +158,7 @@ async function setMeasure(m){
   sel.innerHTML='';
   days.forEach(d=>{const o=document.createElement('option');o.value=d.key;
     const thin=(d.n_hours!==undefined&&d.n_hours<6)?` ⚠${d.n_hours}h`:'';
-    o.textContent=`${d.key} — ${d.fcst_date||''}${thin}`; sel.appendChild(o);});
+    o.textContent=`${dayLabel(d.fcst_date)||d.key}${thin}`; sel.appendChild(o);});
   day=days.some(d=>d.key===prev)?prev:days[0].key;
   sel.value=day;
   paint(); legend();
@@ -166,7 +180,7 @@ function popup(id){
   map.on('click',id,e=>{const p=e.features[0].properties;
     const nm=p.name_state??p.name_display??p.name??p.NAME??p.NAMELSAD??'';
     new maplibregl.Popup().setLngLat(e.lngLat)
-      .setHTML(`<b>${nm}</b><br>${day}: ${p[day]??'n/a'} °F`).addTo(map);});
+      .setHTML(`<b>${nm}</b><br>${labelFor(day)}: ${p[day]??'n/a'} °F`).addTo(map);});
   map.on('mouseenter',id,()=>map.getCanvas().style.cursor='pointer');
   map.on('mouseleave',id,()=>map.getCanvas().style.cursor='');
 }
@@ -207,7 +221,7 @@ function selectPlace(p){
   setLayer('dots');                          // reveal the Places layer
   map.flyTo({center:p.coords, zoom:9});
   new maplibregl.Popup().setLngLat(p.coords)
-    .setHTML(`<b>${p.label}</b><br>${day}: ${p.props[day]??'n/a'} °F`).addTo(map);
+    .setHTML(`<b>${p.label}</b><br>${labelFor(day)}: ${p.props[day]??'n/a'} °F`).addTo(map);
 }
 
 document.getElementById('measure').onchange=e=>setMeasure(e.target.value);
