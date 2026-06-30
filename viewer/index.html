@@ -64,9 +64,9 @@ const DATA_BASE = new URLSearchParams(location.search).get('data') || 'data';
 // Heat-emphasis ramp for daytime highs: cool below 80°F, YELLOW at 80, ORANGE in
 // the low 90s, RED in the upper 90s, deepening toward black by 110. Shared by temp
 // and feels-like so a given temperature reads the same color in both.
-const HEAT_STOPS=[[50,'#2c7bb6'],[70,'#abd9e9'],[75,'#e8f5b0'],[80,'#ffe23d'],
-                  [85,'#ffa726'],[90,'#fb6a00'],[95,'#ec3a25'],[98,'#d32f2f'],
-                  [105,'#9c1414'],[110,'#6d0000']];
+const HEAT_STOPS=[[50,'#2c7bb6'],[70,'#abd9e9'],[75,'#e8f5b0'],
+                  [80,'#ffe23d'],[85,'#ffa726'],[90,'#fb6a00'],[95,'#e53935'],
+                  [100,'#c1161b'],[105,'#9c1414'],[110,'#6d0000']];
 const DATASETS = {
   temp:      {prefix:'heat',      title:'Forecast temperature (daytime high)', stops:HEAT_STOPS},
   feelslike: {prefix:'feelslike', title:'Feels-like temperature (daytime high)', stops:HEAT_STOPS},
