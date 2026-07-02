@@ -121,6 +121,8 @@ def build_places(min_sqmi: float, incorporated: bool) -> pd.DataFrame:
 NYC_PLACE_ID = "3651000"
 NYC_BOROUGHS = {"36061": "Manhattan", "36047": "Brooklyn", "36081": "Queens",
                 "36005": "The Bronx", "36085": "Staten Island"}
+# Display name overrides for name_state (city label shown in outputs)
+NYC_BOROUGH_DISPLAY = {"36061": "New York"}
 
 
 def add_nyc_boroughs(places: pd.DataFrame, counties_gdf) -> pd.DataFrame:
@@ -134,8 +136,9 @@ def add_nyc_boroughs(places: pd.DataFrame, counties_gdf) -> pd.DataFrame:
     for _, c in sub.iterrows():
         pt = c.geometry.representative_point()      # guaranteed inside the borough
         nm = NYC_BOROUGHS[c["GEOID"]]
+        display_nm = NYC_BOROUGH_DISPLAY.get(c["GEOID"], nm)
         rows.append({"place_id": c["GEOID"], "name": nm, "name_display": nm,
-                     "name_state": f"{nm}, NY", "state": "NY", "lat": pt.y, "lon": pt.x})
+                     "name_state": f"{display_nm}, NY", "state": "NY", "lat": pt.y, "lon": pt.x})
     places = places[places["place_id"] != NYC_PLACE_ID]
     return pd.concat([places, pd.DataFrame(rows)], ignore_index=True)
 
