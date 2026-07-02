@@ -32333,6 +32333,6 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 7288293,Yeguada comunidad,Yeguada,"Yeguada, PR",PR,18.483885,-66.880244,,,,,,,
 36085,Staten Island,Staten Island,"Staten Island, NY",NY,40.57409443316975,-74.14706705531458,113,111,106,94,85,84,82
 36047,Brooklyn,Brooklyn,"Brooklyn, NY",NY,40.6393815,-73.95151488434834,109,109,105,92,84,84,80
-36061,Manhattan,Manhattan,"Manhattan, NY",NY,40.7870945,-73.95773820687532,110,107,102,92,83,83,80
+36061,Manhattan,Manhattan,"New York, NY",NY,40.7870945,-73.95773820687532,110,107,102,92,83,83,80
 36005,The Bronx,The Bronx,"The Bronx, NY",NY,40.8535835,-73.83967673136081,110,109,102,90,77,77,76
 36081,Queens,Queens,"Queens, NY",NY,40.702277,-73.82937932200142,109,109,105,93,85,84,80
