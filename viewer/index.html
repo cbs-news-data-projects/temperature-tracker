@@ -46,7 +46,7 @@
   #results .none{color:#999;cursor:default}
   /* Mobile: dock the panel as a TOP sheet (over Canada/ocean, not the hot data),
      collapsed to an obvious slim bar; measure buttons go in a row. */
-  @media (max-width:560px){
+  @media (max-width:768px){
     #panel{top:0;bottom:auto;left:0;right:0;width:auto;max-width:none;
            max-height:64vh;border-radius:0 0 14px 14px;padding:8px 16px 12px;
            animation:drawerNudge 0.9s ease 0.6s 1}   /* one gentle bob on load to say "I open" */
@@ -153,7 +153,7 @@ const basemap = {version:8,
     tileSize:256,attribution:'© OpenStreetMap, © CARTO'}},
   layers:[{id:'bg',type:'raster',source:'carto'}]};
 
-const IS_MOBILE = window.matchMedia && window.matchMedia('(max-width:560px)').matches;
+const IS_MOBILE = window.matchMedia && window.matchMedia('(max-width:768px)').matches;  // matches CMS embed breakpoint
 // A phone's tall, narrow window can't fit the whole country — bias the framing east
 // so the population-dense East/Northeast stays on screen (the West trims instead).
 const map=new maplibregl.Map({container:'map',style:basemap,
