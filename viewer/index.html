@@ -153,9 +153,13 @@ const basemap = {version:8,
     tileSize:256,attribution:'© OpenStreetMap, © CARTO'}},
   layers:[{id:'bg',type:'raster',source:'carto'}]};
 
-const map=new maplibregl.Map({container:'map',style:basemap,center:[-97,38],zoom:3.6});
-map.addControl(new maplibregl.NavigationControl(), 'bottom-right');  // clear of the top panel
 const IS_MOBILE = window.matchMedia && window.matchMedia('(max-width:560px)').matches;
+// A phone's tall, narrow window can't fit the whole country — bias the framing east
+// so the population-dense East/Northeast stays on screen (the West trims instead).
+const map=new maplibregl.Map({container:'map',style:basemap,
+  center: IS_MOBILE ? [-88,40] : [-97,38],
+  zoom:   IS_MOBILE ? 3.4 : 3.6});
+map.addControl(new maplibregl.NavigationControl(), 'bottom-right');  // clear of the top panel
 
 // Counties give the clean national overview; dots are for drill-down ("find my town").
 let measure='temp', layer='geo', day='day1', days=[];
