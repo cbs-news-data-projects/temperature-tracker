@@ -81,9 +81,12 @@ buttons (High temp / Feels like / Overnight low), a **Counties/Places** toggle
 (counties is the default national overview; places are for drill-down), and a **Day**
 selector. Alaska and Hawaii are in the data — reach them via search or by panning.
 The layout is responsive: a left panel on desktop, a collapsible bottom sheet on
-phones. Temperature and feels-like share a heat-emphasis ramp (yellow at
-80°F, orange in the low 90s, red in the upper 90s, deepening past 100); warm nights
-has its own. Thin buckets (`n_hours` < 6) are flagged ⚠ in the day list; no-data
+phones. Temperature uses a heat-emphasis ramp (yellow at 80°F, orange in the low
+90s, red in the upper 90s, deepening past 100). Feels-like is colored by the **NWS
+Heat Index categories** (Caution 80–90 / Extreme Caution 90–103 / Danger 103–125 /
+Extreme Danger 125+ °F) — appropriate because feels-like is NWS apparent temperature;
+those categories are *not* applied to raw air temp or overnight lows. Warm nights has
+its own ramp. Thin buckets (`n_hours` < 6) are flagged ⚠ in the day list; no-data
 places are hidden, not painted the coldest color; place dots have no outline and
 overlap into a field.
 

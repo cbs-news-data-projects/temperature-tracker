@@ -43,15 +43,38 @@ INCORP_LSAD = {"25", "43", "47", "53", "55", "62", "21", "37", "39", "41"}
 # or as "CDP" / "(balance)". Strip only those so capitalized name parts survive
 # ("Carson City" stays "Carson City"; "Oklahoma City city" becomes "Oklahoma City").
 _BALANCE = re.compile(r"\s*\(balance\)\s*$", re.I)
-_MULTI = re.compile(r"\s+(?:city and borough|"
-                    r"(?:metropolitan|consolidated|unified|metro) government|"
-                    r"zona urbana)$", re.I)
-_DESC = re.compile(r"\s+(?:CDP|city|town|village|borough|municipality|comunidad|pueblo)$")
+# Consolidated city-county governments. Detect one of these markers, then reduce
+# "City-County … government" to just the city: "Nashville-Davidson metropolitan
+# government" -> "Nashville", "Lexington-Fayette urban county" -> "Lexington",
+# "Louisville/Jefferson County metro government" -> "Louisville". Detection guards
+# ordinary hyphenated names (Winston-Salem, Dewey-Humboldt), which instead carry a
+# plain city/town/CDP descriptor and are left intact.
+_CONSOL = re.compile(r"\b(?:urban county|city and borough|"
+                     r"(?:metropolitan|consolidated|unified|metro)\s+government)\b", re.I)
+_CONSOL_TAIL = re.compile(r"\s+(?:urban county|city and borough|"
+                          r"(?:metropolitan|consolidated|unified|metro)\s+government)\b.*$", re.I)
+_COUNTY_TAIL = re.compile(r"\s+county$", re.I)
+# Case-SENSITIVE: lowercase "city" is the LSAD descriptor to strip ("Oklahoma City
+# city" -> "Oklahoma City"); a capitalized "City" is a real name part to keep
+# ("Carson City", "Kansas City").
+_DESC = re.compile(r"\s+(?:CDP|city|town|village|borough|municipality|comunidad|pueblo|zona urbana)$")
+
+# Consolidated city-counties whose Gazetteer name carries NO government marker, so
+# the rule below can't catch them. Exact match on the balance-stripped name.
+NAME_OVERRIDES = {
+    "Butte-Silver Bow": "Butte",
+    "Anaconda-Deer Lodge County": "Anaconda",
+}
 
 
 def clean_place_name(name: str) -> str:
     n = _BALANCE.sub("", str(name).strip())
-    n = _MULTI.sub("", n)        # strip multi-word forms before the single-word pass
+    if n in NAME_OVERRIDES:
+        return NAME_OVERRIDES[n]
+    if _CONSOL.search(n):
+        n = _CONSOL_TAIL.sub("", n).strip()             # drop the government descriptor
+        n = re.split(r"\s*[-/,]\s*", n, maxsplit=1)[0].strip()  # "City-County"/"City, County" -> "City"
+        return _COUNTY_TAIL.sub("", n).strip()          # "Echols County" -> "Echols"
     return _DESC.sub("", n).strip()
 
 

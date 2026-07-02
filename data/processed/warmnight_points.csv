@@ -5419,11 +5419,11 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 1302928,Arlington city,Arlington,"Arlington, GA",GA,31.437527,-84.729234,72,73,76,75,75,76
 1303124,Arnoldsville city,Arnoldsville,"Arnoldsville, GA",GA,33.914955,-83.218427,75,75,77,76,76,76
 1303236,Ashburn city,Ashburn,"Ashburn, GA",GA,31.709191,-83.652424,73,75,78,77,77,78
-1303440,Athens-Clarke County unified government (balance),Athens-Clarke County,"Athens-Clarke County, GA",GA,33.949597,-83.370088,76,76,77,77,76,76
+1303440,Athens-Clarke County unified government (balance),Athens,"Athens, GA",GA,33.949597,-83.370088,76,76,77,77,76,76
 1304000,Atlanta city,Atlanta,"Atlanta, GA",GA,33.762909,-84.422675,78,78,78,77,77,77
 1304084,Attapulgus city,Attapulgus,"Attapulgus, GA",GA,30.74949,-84.483886,74,76,78,78,78,79
 1304140,Auburn city,Auburn,"Auburn, GA",GA,34.015186,-83.833741,76,76,77,76,76,76
-1304204,Augusta-Richmond County consolidated government (balance),Augusta-Richmond County,"Augusta-Richmond County, GA",GA,33.365531,-82.073422,75,74,78,78,77,77
+1304204,Augusta-Richmond County consolidated government (balance),Augusta,"Augusta, GA",GA,33.365531,-82.073422,75,74,78,78,77,77
 1304252,Austell city,Austell,"Austell, GA",GA,33.819766,-84.643774,77,76,77,76,76,76
 1304392,Avalon town,Avalon,"Avalon, GA",GA,34.497141,-83.198203,75,75,77,76,75,75
 1304448,Avera city,Avera,"Avera, GA",GA,33.193423,-82.528732,73,75,78,77,77,77
@@ -5546,7 +5546,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 1320550,Crooked Creek CDP,Crooked Creek,"Crooked Creek, GA",GA,33.265688,-83.27525,75,75,77,77,76,76
 1320848,Culloden city,Culloden,"Culloden, GA",GA,32.864908,-84.093999,74,75,76,75,75,76
 1320932,Cumming city,Cumming,"Cumming, GA",GA,34.206067,-84.133848,76,75,76,75,75,74
-1321017,Cusseta-Chattahoochee County unified government,Cusseta-Chattahoochee County,"Cusseta-Chattahoochee County, GA",GA,32.347445,-84.788021,74,75,77,77,77,77
+1321017,Cusseta-Chattahoochee County unified government,Cusseta,"Cusseta, GA",GA,32.347445,-84.788021,74,75,77,77,77,77
 1321072,Cuthbert city,Cuthbert,"Cuthbert, GA",GA,31.770686,-84.793575,72,73,76,75,75,76
 1321184,Dacula city,Dacula,"Dacula, GA",GA,33.981967,-83.90108,76,76,77,76,76,75
 1321240,Dahlonega city,Dahlonega,"Dahlonega, GA",GA,34.529909,-83.979579,73,73,73,73,72,72
@@ -5595,7 +5595,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 1325692,East Newnan CDP,East Newnan,"East Newnan, GA",GA,33.345796,-84.776725,75,74,75,75,74,75
 1325720,East Point city,East Point,"East Point, GA",GA,33.67112,-84.473429,78,77,78,77,77,77
 1326084,Eatonton city,Eatonton,"Eatonton, GA",GA,33.325821,-83.388862,74,75,77,76,76,76
-1326156,Echols County consolidated government,Echols County,"Echols County, GA",GA,30.714008,-82.897376,72,75,78,77,77,78
+1326156,Echols County consolidated government,Echols,"Echols, GA",GA,30.714008,-82.897376,72,75,78,77,77,78
 1326224,Edge Hill city,Edge Hill,"Edge Hill, GA",GA,33.153421,-82.624989,74,75,77,77,77,77
 1326448,Edison city,Edison,"Edison, GA",GA,31.560812,-84.737402,71,73,75,74,75,76
 1326616,Elberton city,Elberton,"Elberton, GA",GA,34.104921,-82.87276,75,75,77,77,76,76
@@ -5644,7 +5644,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 1332384,Gay town,Gay,"Gay, GA",GA,33.095757,-84.579365,74,74,75,74,75,75
 1332412,Geneva town,Geneva,"Geneva, GA",GA,32.578235,-84.553065,74,75,76,76,76,76
 1332482,Georgetown CDP,Georgetown,"Georgetown, GA",GA,31.982716,-81.230275,73,75,79,79,79,79
-1332528,Georgetown-Quitman County unified government,Georgetown-Quitman County,"Georgetown-Quitman County, GA",GA,31.862938,-85.004798,73,74,76,76,76,76
+1332528,Georgetown-Quitman County unified government,Georgetown,"Georgetown, GA",GA,31.862938,-85.004798,73,74,76,76,76,76
 1332748,Gibson city,Gibson,"Gibson, GA",GA,33.231691,-82.600978,74,75,78,77,77,77
 1332860,Gillsville city,Gillsville,"Gillsville, GA",GA,34.309321,-83.63093,75,76,77,76,75,75
 1332916,Girard town,Girard,"Girard, GA",GA,33.033888,-81.715514,73,72,76,77,77,76
@@ -6039,7 +6039,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 1380956,Waycross city,Waycross,"Waycross, GA",GA,31.211006,-82.357658,71,73,77,76,77,77
 1380984,Waynesboro city,Waynesboro,"Waynesboro, GA",GA,33.091279,-82.01429,74,73,77,78,77,77
 1381012,Waynesville CDP,Waynesville,"Waynesville, GA",GA,31.227222,-81.783591,71,72,76,76,77,77
-1381128,Webster County unified government,Webster County,"Webster County, GA",GA,32.046691,-84.553828,73,74,77,75,76,76
+1381128,Webster County unified government,Webster,"Webster, GA",GA,32.046691,-84.553828,73,74,77,75,76,76
 1381208,Wenona CDP,Wenona,"Wenona, GA",GA,31.910941,-83.751066,74,76,78,77,78,78
 1381488,West Brow CDP,West Brow,"West Brow, GA",GA,34.914816,-85.418583,75,74,75,74,74,74
 1382132,West Point city,West Point,"West Point, GA",GA,32.898518,-85.141499,75,76,77,76,76,76
@@ -10187,7 +10187,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2028200,Grantville CDP,Grantville,"Grantville, KS",KS,39.080594,-95.561169,77,76,72,74,73,73
 2028300,Great Bend city,Great Bend,"Great Bend, KS",KS,38.359792,-98.799514,73,73,69,69,70,71
 2028350,Greeley city,Greeley,"Greeley, KS",KS,38.367374,-95.126349,77,76,73,74,73,73
-2028412,Greeley County unified government (balance),Greeley County,"Greeley County, KS",KS,38.480413,-101.806024,67,65,61,62,64,65
+2028412,Greeley County unified government (balance),Greeley,"Greeley, KS",KS,38.480413,-101.806024,67,65,61,62,64,65
 2028425,Green city,Green,"Green, KS",KS,39.430124,-96.999896,76,75,71,72,73,73
 2028625,Greenleaf city,Greenleaf,"Greenleaf, KS",KS,39.726706,-96.979827,74,72,69,69,70,70
 2028675,Greensburg city,Greensburg,"Greensburg, KS",KS,37.604875,-99.289569,71,71,68,68,68,70
@@ -10956,7 +10956,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2144686,Leitchfield city,Leitchfield,"Leitchfield, KY",KY,37.48624,-86.284687,75,74,75,74,73,73
 2145064,Lewisburg city,Lewisburg,"Lewisburg, KY",KY,36.98723,-86.950188,76,75,76,76,75,74
 2145136,Lewisport city,Lewisport,"Lewisport, KY",KY,37.930668,-86.902816,76,75,76,75,74,73
-2146027,Lexington-Fayette urban county,Lexington-Fayette urban county,"Lexington-Fayette urban county, KY",KY,38.040678,-84.458272,75,74,75,74,73,73
+2146027,Lexington-Fayette urban county,Lexington,"Lexington, KY",KY,38.040678,-84.458272,75,74,75,74,73,73
 2146072,Liberty city,Liberty,"Liberty, KY",KY,37.317988,-84.930487,75,73,75,75,73,73
 2146540,Lincolnshire city,Lincolnshire,"Lincolnshire, KY",KY,38.223784,-85.62156,77,76,77,75,74,74
 2147062,Livermore city,Livermore,"Livermore, KY",KY,37.492045,-87.134135,76,75,76,75,74,74
@@ -10965,7 +10965,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2147710,Loretto city,Loretto,"Loretto, KY",KY,37.642039,-85.393147,75,74,75,75,74,74
 2147854,Louisa city,Louisa,"Louisa, KY",KY,38.111611,-82.61517,71,75,74,73,71,71
 2148000,Louisville city,Louisville,"Louisville, KY",KY,38.224728,-85.740614,77,76,76,76,74,74
-2148006,Louisville/Jefferson County metro government (balance),Louisville/Jefferson County,"Louisville/Jefferson County, KY",KY,38.165376,-85.647377,76,76,76,75,74,74
+2148006,Louisville/Jefferson County metro government (balance),Louisville,"Louisville, KY",KY,38.165376,-85.647377,76,76,76,75,74,74
 2148072,Lovelaceville CDP,Lovelaceville,"Lovelaceville, KY",KY,36.967427,-88.832446,76,76,77,76,75,75
 2148234,Lowes CDP,Lowes,"Lowes, KY",KY,36.882838,-88.766366,76,76,76,76,75,75
 2148288,Loyall city,Loyall,"Loyall, KY",KY,36.851937,-83.349013,72,71,73,71,71,69
@@ -12661,7 +12661,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2600980,Albion city,Albion,"Albion, MI",MI,42.247855,-84.759191,73,69,68,66,66,68
 2601060,Alden CDP,Alden,"Alden, MI",MI,44.879187,-85.272985,70,64,64,63,64,66
 2601180,Algonac city,Algonac,"Algonac, MI",MI,42.620867,-82.533915,76,71,68,68,67,70
-2601260,Allegan city,Allegan,"Allegan, MI",MI,42.531075,-85.839236,73,69,69,66,66,67
+2601260,Allegan city,Allegan,"Allegan, MI",MI,42.531075,-85.839236,72,69,69,66,66,67
 2601300,Allen village,Allen,"Allen, MI",MI,41.957926,-84.768435,74,70,69,66,67,68
 2601340,Allendale CDP,Allendale,"Allendale, MI",MI,42.981962,-85.944126,72,68,68,66,67,68
 2601380,Allen Park city,Allen Park,"Allen Park, MI",MI,42.259473,-83.21039,78,74,72,70,70,71
@@ -12676,7 +12676,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2603400,Argentine CDP,Argentine,"Argentine, MI",MI,42.790313,-83.838026,73,69,67,65,65,67
 2603520,Armada village,Armada,"Armada, MI",MI,42.842083,-82.881108,73,68,65,65,64,67
 2603740,Ashley village,Ashley,"Ashley, MI",MI,43.185995,-84.475832,72,68,67,65,66,68
-2603880,Athens village,Athens,"Athens, MI",MI,42.086994,-85.234814,74,70,69,66,67,68
+2603880,Athens village,Athens,"Athens, MI",MI,42.086994,-85.234814,73,70,69,66,67,68
 2603920,Atlanta CDP,Atlanta,"Atlanta, MI",MI,45.004164,-84.154815,69,60,59,59,60,63
 2603960,Atlantic Mine CDP,Atlantic Mine,"Atlantic Mine, MI",MI,47.10369,-88.628112,62,57,59,59,65,62
 2604020,Attica CDP,Attica,"Attica, MI",MI,43.024395,-83.160982,73,68,66,65,64,67
@@ -12688,7 +12688,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2604740,Bad Axe city,Bad Axe,"Bad Axe, MI",MI,43.804919,-82.998319,71,66,63,64,63,66
 2604940,Baldwin village,Baldwin,"Baldwin, MI",MI,43.896973,-85.852328,68,64,64,63,63,65
 2605080,Bancroft village,Bancroft,"Bancroft, MI",MI,42.877044,-84.066393,73,69,67,65,65,66
-2605140,Bangor city,Bangor,"Bangor, MI",MI,42.31243,-86.113441,73,69,70,68,67,69
+2605140,Bangor city,Bangor,"Bangor, MI",MI,42.31243,-86.113441,74,69,70,68,67,69
 2605320,Baraga village,Baraga,"Baraga, MI",MI,46.778729,-88.493909,60,54,55,55,61,61
 2605466,Barnes Lake CDP,Barnes Lake,"Barnes Lake, MI",MI,43.182757,-83.303283,73,68,66,66,65,68
 2605500,Baroda village,Baroda,"Baroda, MI",MI,41.954018,-86.487965,75,71,71,68,68,70
@@ -12709,7 +12709,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2606900,Belding city,Belding,"Belding, MI",MI,43.096485,-85.233029,72,68,67,65,66,68
 2606980,Bellaire village,Bellaire,"Bellaire, MI",MI,44.97116,-85.202326,69,62,63,62,63,65
 2607020,Belleville city,Belleville,"Belleville, MI",MI,42.201917,-83.482812,75,71,70,68,68,69
-2607060,Bellevue village,Bellevue,"Bellevue, MI",MI,42.444303,-85.01871,73,69,69,66,66,68
+2607060,Bellevue village,Bellevue,"Bellevue, MI",MI,42.444303,-85.01871,72,69,69,66,66,68
 2607220,Bendon CDP,Bendon,"Bendon, MI",MI,44.637099,-85.847916,69,64,63,62,63,64
 2607520,Benton Harbor city,Benton Harbor,"Benton Harbor, MI",MI,42.113495,-86.44725,74,70,71,69,69,70
 2607540,Benton Heights CDP,Benton Heights,"Benton Heights, MI",MI,42.122196,-86.415051,74,70,71,69,69,71
@@ -12721,7 +12721,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2608100,Beulah village,Beulah,"Beulah, MI",MI,44.627315,-86.09975,69,66,66,65,65,68
 2608160,Beverly Hills village,Beverly Hills,"Beverly Hills, MI",MI,42.522543,-83.24034,77,71,69,68,68,70
 2608180,Big Bay CDP,Big Bay,"Big Bay, MI",MI,46.817343,-87.708012,63,57,59,59,65,65
-2608300,Big Rapids city,Big Rapids,"Big Rapids, MI",MI,43.699671,-85.48125,68,64,63,62,62,65
+2608300,Big Rapids city,Big Rapids,"Big Rapids, MI",MI,43.699671,-85.48125,67,64,63,62,62,65
 2608460,Bingham Farms village,Bingham Farms,"Bingham Farms, MI",MI,42.517662,-83.278003,76,71,69,67,68,69
 2608540,Birch Run village,Birch Run,"Birch Run, MI",MI,43.250743,-83.791674,72,68,66,65,65,67
 2608640,Birmingham city,Birmingham,"Birmingham, MI",MI,42.544805,-83.216576,76,71,69,67,68,69
@@ -12768,7 +12768,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2613400,Carney village,Carney,"Carney, MI",MI,45.59354,-87.554685,66,59,61,59,63,64
 2613420,Caro city,Caro,"Caro, MI",MI,43.489303,-83.401744,73,68,65,65,64,67
 2613480,Carp Lake CDP,Carp Lake,"Carp Lake, MI",MI,45.696939,-84.750297,69,62,65,64,65,67
-2613600,Carson City city,Carson City,"Carson City, MI",MI,43.181536,-84.845223,72,68,66,65,65,68
+2613600,Carson City city,Carson City,"Carson City, MI",MI,43.181536,-84.845223,71,68,66,65,65,68
 2613620,Carsonville village,Carsonville,"Carsonville, MI",MI,43.42571,-82.672952,72,67,66,66,66,68
 2613760,Caseville city,Caseville,"Caseville, MI",MI,43.94164,-83.275289,72,67,65,66,65,68
 2613820,Casnovia village,Casnovia,"Casnovia, MI",MI,43.231998,-85.787451,71,67,67,65,66,68
@@ -12820,7 +12820,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2619140,Crystal Falls city,Crystal Falls,"Crystal Falls, MI",MI,46.090199,-88.321439,63,57,58,57,62,63
 2619195,Crystal Mountain CDP,Crystal Mountain,"Crystal Mountain, MI",MI,44.524268,-86.002247,70,64,62,63,63,64
 2619420,Custer village,Custer,"Custer, MI",MI,43.951065,-86.219487,70,66,67,65,65,67
-2619500,Cutlerville CDP,Cutlerville,"Cutlerville, MI",MI,42.838729,-85.672784,73,69,68,66,67,69
+2619500,Cutlerville CDP,Cutlerville,"Cutlerville, MI",MI,42.838729,-85.672784,72,69,68,66,67,69
 2619560,Daggett village,Daggett,"Daggett, MI",MI,45.46201,-87.604684,66,60,61,59,62,64
 2619780,Dansville village,Dansville,"Dansville, MI",MI,42.555453,-84.302516,73,69,67,65,65,67
 2619880,Davison city,Davison,"Davison, MI",MI,43.031783,-83.518677,73,68,66,65,65,67
@@ -12839,9 +12839,9 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2622500,Dodgeville CDP,Dodgeville,"Dodgeville, MI",MI,47.091218,-88.57971,61,56,57,57,63,62
 2622520,Dollar Bay CDP,Dollar Bay,"Dollar Bay, MI",MI,47.127287,-88.507035,61,56,57,57,63,62
 2622660,Dorr CDP,Dorr,"Dorr, MI",MI,42.726723,-85.716885,72,69,68,65,66,68
-2622740,Douglas city,Douglas,"Douglas, MI",MI,42.638926,-86.207604,73,70,71,69,70,71
+2622740,Douglas city,Douglas,"Douglas, MI",MI,42.638926,-86.207604,74,70,71,69,70,71
 2622880,Dowagiac city,Dowagiac,"Dowagiac, MI",MI,41.983432,-86.112844,75,71,71,67,67,69
-2622900,Dowling CDP,Dowling,"Dowling, MI",MI,42.529764,-85.234176,73,69,68,65,66,68
+2622900,Dowling CDP,Dowling,"Dowling, MI",MI,42.529764,-85.234176,72,69,68,65,66,68
 2623140,Dryden village,Dryden,"Dryden, MI",MI,42.945581,-83.123986,74,69,66,65,65,67
 2623380,Dundee village,Dundee,"Dundee, MI",MI,41.966485,-83.669417,75,71,70,67,68,68
 2623500,Durand city,Durand,"Durand, MI",MI,42.912759,-83.989076,73,69,67,65,65,66
@@ -12874,18 +12874,18 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2626420,Essexville city,Essexville,"Essexville, MI",MI,43.61229,-83.841983,73,69,67,66,66,68
 2626460,Estral Beach village,Estral Beach,"Estral Beach, MI",MI,41.98597,-83.23586,76,72,71,69,70,70
 2626500,Eureka CDP,Eureka,"Eureka, MI",MI,43.103604,-84.513605,73,68,67,65,66,68
-2626640,Evart city,Evart,"Evart, MI",MI,43.898807,-85.270534,67,63,62,61,61,64
+2626640,Evart city,Evart,"Evart, MI",MI,43.898807,-85.270534,66,63,62,61,61,64
 2626820,Ewen CDP,Ewen,"Ewen, MI",MI,46.533156,-89.285196,63,57,58,58,66,65
 2627080,Fairgrove village,Fairgrove,"Fairgrove, MI",MI,43.524484,-83.543436,73,68,65,65,65,67
 2627160,Fair Plain CDP,Fair Plain,"Fair Plain, MI",MI,42.08186,-86.45354,74,71,71,69,69,70
 2627320,Falmouth CDP,Falmouth,"Falmouth, MI",MI,44.239804,-85.080085,69,61,61,60,60,63
 2627380,Farmington city,Farmington,"Farmington, MI",MI,42.461379,-83.378385,76,71,69,68,68,70
 2627440,Farmington Hills city,Farmington Hills,"Farmington Hills, MI",MI,42.485648,-83.375961,76,71,69,68,68,69
-2627500,Farwell village,Farwell,"Farwell, MI",MI,43.83684,-84.867335,68,64,63,62,63,65
+2627500,Farwell village,Farwell,"Farwell, MI",MI,43.83684,-84.867335,67,64,63,62,63,65
 2627740,Fennville city,Fennville,"Fennville, MI",MI,42.59472,-86.105066,73,69,71,68,68,69
 2627760,Fenton city,Fenton,"Fenton, MI",MI,42.800606,-83.717708,74,69,67,65,65,67
 2627880,Ferndale city,Ferndale,"Ferndale, MI",MI,42.45921,-83.131366,78,72,70,68,69,70
-2627960,Ferrysburg city,Ferrysburg,"Ferrysburg, MI",MI,43.087541,-86.227024,72,69,70,68,69,70
+2627960,Ferrysburg city,Ferrysburg,"Ferrysburg, MI",MI,43.087541,-86.227024,73,69,70,68,69,70
 2628000,Fife Lake village,Fife Lake,"Fife Lake, MI",MI,44.575764,-85.347772,69,63,62,61,61,64
 2628060,Filer City CDP,Filer City,"Filer City, MI",MI,44.214721,-86.288768,70,67,65,66,65,67
 2628360,Flat Rock city,Flat Rock,"Flat Rock, MI",MI,42.097866,-83.269827,77,73,72,70,70,71
@@ -12894,7 +12894,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2629580,Forest Hills CDP,Forest Hills,"Forest Hills, MI",MI,42.960191,-85.489674,73,69,68,66,67,68
 2629660,Forestville village,Forestville,"Forestville, MI",MI,43.659867,-82.612562,72,68,67,66,66,68
 2629920,Fostoria CDP,Fostoria,"Fostoria, MI",MI,43.253097,-83.361765,73,68,65,65,64,67
-2629940,Fountain village,Fountain,"Fountain, MI",MI,44.048439,-86.180986,69,66,66,64,64,66
+2629940,Fountain village,Fountain,"Fountain, MI",MI,44.048439,-86.180986,70,66,66,64,64,66
 2630040,Fowler village,Fowler,"Fowler, MI",MI,43.003991,-84.741698,72,68,67,65,66,68
 2630060,Fowlerville village,Fowlerville,"Fowlerville, MI",MI,42.65938,-84.073743,73,69,67,65,65,66
 2630200,Frankenmuth city,Frankenmuth,"Frankenmuth, MI",MI,43.332832,-83.739129,72,67,65,65,65,67
@@ -12902,10 +12902,10 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2630340,Franklin village,Franklin,"Franklin, MI",MI,42.518759,-83.303027,76,71,69,67,67,69
 2630420,Fraser city,Fraser,"Fraser, MI",MI,42.537633,-82.946742,77,72,69,68,68,69
 2630540,Freeland CDP,Freeland,"Freeland, MI",MI,43.517527,-84.114738,72,67,66,65,65,66
-2630580,Freeport village,Freeport,"Freeport, MI",MI,42.763631,-85.315757,73,69,68,65,66,68
-2630600,Free Soil village,Free Soil,"Free Soil, MI",MI,44.10714,-86.210978,69,66,67,65,65,67
+2630580,Freeport village,Freeport,"Freeport, MI",MI,42.763631,-85.315757,72,69,68,65,66,68
+2630600,Free Soil village,Free Soil,"Free Soil, MI",MI,44.10714,-86.210978,70,66,67,65,65,67
 2630700,Fremont city,Fremont,"Fremont, MI",MI,43.462476,-85.954758,70,66,66,65,65,66
-2631000,Fruitport village,Fruitport,"Fruitport, MI",MI,43.12552,-86.156144,72,69,70,67,69,70
+2631000,Fruitport village,Fruitport,"Fruitport, MI",MI,43.12552,-86.156144,73,69,70,67,69,70
 2631120,Fulton CDP,Fulton,"Fulton, MI",MI,47.299161,-88.360809,61,57,58,59,65,62
 2631160,Gaastra city,Gaastra,"Gaastra, MI",MI,46.055724,-88.60497,62,56,57,56,61,62
 2631180,Gagetown village,Gagetown,"Gagetown, MI",MI,43.658122,-83.244605,73,67,64,65,64,67
@@ -12927,7 +12927,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2633420,Grand Ledge city,Grand Ledge,"Grand Ledge, MI",MI,42.752927,-84.744901,73,69,68,65,66,68
 2633440,Grand Marais CDP,Grand Marais,"Grand Marais, MI",MI,46.675701,-85.96643,59,52,55,55,61,60
 2634000,Grand Rapids city,Grand Rapids,"Grand Rapids, MI",MI,42.961156,-85.65557,73,70,67,66,67,69
-2634160,Grandville city,Grandville,"Grandville, MI",MI,42.900514,-85.752086,73,69,69,67,67,69
+2634160,Grandville city,Grandville,"Grandville, MI",MI,42.900514,-85.752086,72,69,69,67,67,69
 2634360,Grant city,Grant,"Grant, MI",MI,43.333986,-85.809879,71,67,65,65,66,67
 2634480,Grass Lake village,Grass Lake,"Grass Lake, MI",MI,42.250798,-84.206176,73,69,67,65,65,66
 2634620,Grawn CDP,Grawn,"Grawn, MI",MI,44.661043,-85.68833,70,64,63,62,63,65
@@ -12951,7 +12951,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2636720,Harrietta village,Harrietta,"Harrietta, MI",MI,44.309129,-85.700639,69,63,63,61,61,63
 2636800,Harrison city,Harrison,"Harrison, MI",MI,44.012954,-84.810647,67,63,62,61,61,64
 2636860,Harrisville city,Harrisville,"Harrisville, MI",MI,44.657509,-83.29458,68,65,63,63,63,66
-2636920,Hart city,Hart,"Hart, MI",MI,43.696618,-86.367269,71,68,69,67,68,69
+2636920,Hart city,Hart,"Hart, MI",MI,43.696618,-86.367269,72,68,69,67,68,69
 2636960,Hartford city,Hartford,"Hartford, MI",MI,42.204959,-86.166122,74,70,70,68,67,69
 2637020,Hartland CDP,Hartland,"Hartland, MI",MI,42.66455,-83.743754,73,69,67,65,65,67
 2637080,Harvey CDP,Harvey,"Harvey, MI",MI,46.483625,-87.356715,64,57,56,57,64,66
@@ -12961,8 +12961,8 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2637600,Hemlock CDP,Hemlock,"Hemlock, MI",MI,43.421637,-84.239945,71,67,66,65,65,66
 2637620,Henderson CDP,Henderson,"Henderson, MI",MI,43.087562,-84.192135,72,68,67,65,65,67
 2637760,Hermansville CDP,Hermansville,"Hermansville, MI",MI,45.708081,-87.607173,65,59,60,59,63,64
-2637820,Hersey village,Hersey,"Hersey, MI",MI,43.851264,-85.441879,67,63,62,61,61,64
-2637860,Hesperia village,Hesperia,"Hesperia, MI",MI,43.569472,-86.040931,69,66,66,64,65,66
+2637820,Hersey village,Hersey,"Hersey, MI",MI,43.851264,-85.441879,66,63,62,61,61,64
+2637860,Hesperia village,Hesperia,"Hesperia, MI",MI,43.569472,-86.040931,70,66,66,64,65,66
 2637960,Hickory Corners CDP,Hickory Corners,"Hickory Corners, MI",MI,42.434402,-85.385859,72,69,68,65,66,68
 2638180,Highland Park city,Highland Park,"Highland Park, MI",MI,42.405226,-83.09765,78,72,70,69,69,70
 2638380,Hillman village,Hillman,"Hillman, MI",MI,45.06683,-83.893657,70,61,60,60,61,64
@@ -12972,7 +12972,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2638780,Holt CDP,Holt,"Holt, MI",MI,42.642061,-84.530768,73,70,68,66,66,68
 2638920,Homer village,Homer,"Homer, MI",MI,42.146423,-84.809738,73,69,69,66,66,68
 2639080,Honor village,Honor,"Honor, MI",MI,44.666362,-86.019445,70,65,65,64,65,67
-2639180,Hopkins village,Hopkins,"Hopkins, MI",MI,42.625054,-85.763345,73,69,68,66,66,68
+2639180,Hopkins village,Hopkins,"Hopkins, MI",MI,42.625054,-85.763345,72,69,68,66,66,68
 2639340,Horton Bay CDP,Horton Bay,"Horton Bay, MI",MI,45.281226,-85.074661,69,62,63,63,64,65
 2639360,Houghton city,Houghton,"Houghton, MI",MI,47.111751,-88.567237,61,56,57,57,63,62
 2639400,Houghton Lake CDP,Houghton Lake,"Houghton Lake, MI",MI,44.301067,-84.749865,68,62,61,60,60,63
@@ -12996,18 +12996,18 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2641040,Ironton CDP,Ironton,"Ironton, MI",MI,45.256898,-85.192928,68,62,63,62,63,65
 2641060,Ironwood city,Ironwood,"Ironwood, MI",MI,46.452209,-90.150432,63,58,58,58,66,63
 2641220,Ishpeming city,Ishpeming,"Ishpeming, MI",MI,46.470344,-87.675141,63,55,56,56,62,62
-2641340,Ithaca city,Ithaca,"Ithaca, MI",MI,43.291094,-84.595673,72,68,66,65,65,68
+2641340,Ithaca city,Ithaca,"Ithaca, MI",MI,43.291094,-84.595673,71,68,66,65,65,68
 2641420,Jackson city,Jackson,"Jackson, MI",MI,42.243441,-84.404858,74,70,68,65,66,68
 2641540,Jasper CDP,Jasper,"Jasper, MI",MI,41.785907,-84.040344,75,71,70,67,67,68
 2641680,Jenison CDP,Jenison,"Jenison, MI",MI,42.901908,-85.827273,72,69,69,66,67,69
 2641720,Jennings CDP,Jennings,"Jennings, MI",MI,44.332466,-85.297231,68,62,62,60,61,63
 2641920,Jonesville city,Jonesville,"Jonesville, MI",MI,41.979437,-84.665812,74,69,69,66,67,68
-2642160,Kalamazoo city,Kalamazoo,"Kalamazoo, MI",MI,42.275163,-85.588501,74,70,69,67,67,69
+2642160,Kalamazoo city,Kalamazoo,"Kalamazoo, MI",MI,42.275163,-85.588501,73,70,69,67,67,69
 2642240,Kaleva village,Kaleva,"Kaleva, MI",MI,44.372279,-86.013552,70,64,64,62,62,64
 2642260,Kalkaska village,Kalkaska,"Kalkaska, MI",MI,44.731565,-85.184329,68,62,62,61,62,64
 2642460,Keego Harbor city,Keego Harbor,"Keego Harbor, MI",MI,42.608273,-83.345752,75,70,68,66,67,68
 2642780,Kent City village,Kent City,"Kent City, MI",MI,43.226366,-85.755468,71,67,67,65,66,67
-2642820,Kentwood city,Kentwood,"Kentwood, MI",MI,42.88482,-85.59254,73,69,68,66,67,68
+2642820,Kentwood city,Kentwood,"Kentwood, MI",MI,42.88482,-85.59254,72,69,68,66,67,68
 2643180,Kincheloe CDP,Kincheloe,"Kincheloe, MI",MI,46.268845,-84.456814,67,57,61,61,61,63
 2643220,Kinde village,Kinde,"Kinde, MI",MI,43.941426,-82.996704,72,66,64,65,64,67
 2643300,Kingsford city,Kingsford,"Kingsford, MI",MI,45.806438,-88.100365,66,59,60,59,63,64
@@ -13031,7 +13031,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2645144,Lakes of the North CDP,Lakes of the North,"Lakes of the North, MI",MI,44.930026,-84.88508,67,60,60,59,61,63
 2645190,Lake Victoria CDP,Lake Victoria,"Lake Victoria, MI",MI,42.917917,-84.379972,74,69,68,66,66,69
 2645240,Lakeview village,Lakeview,"Lakeview, MI",MI,43.443065,-85.266937,70,66,65,64,64,66
-2645340,Lakewood Club village,Lakewood Club,"Lakewood Club, MI",MI,43.37616,-86.252572,71,68,67,66,67,68
+2645340,Lakewood Club village,Lakewood Club,"Lakewood Club, MI",MI,43.37616,-86.252572,72,68,67,66,67,68
 2645420,Lambertville CDP,Lambertville,"Lambertville, MI",MI,41.745082,-83.621825,77,73,72,69,69,70
 2645440,Lamont CDP,Lamont,"Lamont, MI",MI,43.017048,-85.91053,72,68,68,66,67,68
 2645540,L'Anse village,L'Anse,"L'Anse, MI",MI,46.752055,-88.4484,62,55,57,56,63,63
@@ -13055,14 +13055,14 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2647820,Linden city,Linden,"Linden, MI",MI,42.819164,-83.781225,73,69,67,65,65,67
 2647980,Litchfield city,Litchfield,"Litchfield, MI",MI,42.040153,-84.752172,74,69,69,66,67,68
 2649000,Livonia city,Livonia,"Livonia, MI",MI,42.397183,-83.372319,77,72,70,68,69,70
-2649400,Loomis CDP,Loomis,"Loomis, MI",MI,43.783996,-84.658389,69,64,63,62,63,66
+2649400,Loomis CDP,Loomis,"Loomis, MI",MI,43.783996,-84.658389,68,64,63,62,63,66
 2649450,Lost Lake Woods CDP,Lost Lake Woods,"Lost Lake Woods, MI",MI,44.798526,-83.42108,70,63,61,62,63,65
 2649540,Lowell city,Lowell,"Lowell, MI",MI,42.9346,-85.346219,73,69,68,65,66,68
-2649640,Ludington city,Ludington,"Ludington, MI",MI,43.957196,-86.442937,71,68,68,68,69,70
+2649640,Ludington city,Ludington,"Ludington, MI",MI,43.957196,-86.442937,72,68,68,68,69,70
 2649700,Luna Pier city,Luna Pier,"Luna Pier, MI",MI,41.803255,-83.442482,77,73,72,70,70,71
 2649720,Lupton CDP,Lupton,"Lupton, MI",MI,44.429168,-84.023882,70,62,60,60,61,64
 2649740,Luther village,Luther,"Luther, MI",MI,44.038779,-85.683001,68,64,63,62,62,64
-2649900,Lyons village,Lyons,"Lyons, MI",MI,42.986519,-84.944178,73,68,67,65,66,68
+2649900,Lyons village,Lyons,"Lyons, MI",MI,42.986519,-84.944178,72,68,67,65,66,68
 2649980,McBain city,McBain,"McBain, MI",MI,44.196055,-85.215381,69,62,62,60,61,64
 2650000,McBride village,McBride,"McBride, MI",MI,43.352057,-85.044134,71,67,66,64,65,68
 2650280,Mackinac Island city,Mackinac Island,"Mackinac Island, MI",MI,45.860184,-84.625834,66,62,64,63,65,66
@@ -13093,7 +13093,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2652440,Maybee village,Maybee,"Maybee, MI",MI,42.010183,-83.509259,75,71,70,68,68,69
 2652540,Mayville village,Mayville,"Mayville, MI",MI,43.335942,-83.351972,73,68,65,65,64,67
 2652720,Mears CDP,Mears,"Mears, MI",MI,43.683473,-86.422227,72,69,70,68,69,70
-2652760,Mecosta village,Mecosta,"Mecosta, MI",MI,43.618108,-85.229964,69,65,64,63,63,66
+2652760,Mecosta village,Mecosta,"Mecosta, MI",MI,43.618108,-85.229964,68,65,64,63,63,66
 2652920,Melvin village,Melvin,"Melvin, MI",MI,43.18643,-82.861653,72,67,65,65,64,67
 2652940,Melvindale city,Melvindale,"Melvindale, MI",MI,42.278607,-83.182255,78,73,71,70,70,71
 2652960,Memphis city,Memphis,"Memphis, MI",MI,42.895234,-82.768258,73,68,65,65,64,67
@@ -13118,19 +13118,19 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2654660,Mio CDP,Mio,"Mio, MI",MI,44.662314,-84.145991,69,61,60,59,60,63
 2654820,Mohawk CDP,Mohawk,"Mohawk, MI",MI,47.310187,-88.344658,61,58,59,60,65,63
 2655020,Monroe city,Monroe,"Monroe, MI",MI,41.916586,-83.384324,77,73,72,69,70,70
-2655100,Montague city,Montague,"Montague, MI",MI,43.412561,-86.363119,71,69,67,67,69,70
+2655100,Montague city,Montague,"Montague, MI",MI,43.412561,-86.363119,72,69,67,67,69,70
 2655220,Montgomery village,Montgomery,"Montgomery, MI",MI,41.776041,-84.808997,74,71,70,67,68,69
 2655280,Montrose city,Montrose,"Montrose, MI",MI,43.176345,-83.893185,72,68,66,65,65,67
 2655500,Morenci city,Morenci,"Morenci, MI",MI,41.722711,-84.216844,75,71,70,67,68,69
-2655540,Morley village,Morley,"Morley, MI",MI,43.490389,-85.445471,70,65,64,63,63,66
+2655540,Morley village,Morley,"Morley, MI",MI,43.490389,-85.445471,69,65,64,63,63,66
 2655560,Morrice village,Morrice,"Morrice, MI",MI,42.836015,-84.184476,73,69,67,65,65,67
 2655820,Mount Clemens city,Mount Clemens,"Mount Clemens, MI",MI,42.598055,-82.881506,77,71,68,67,67,69
 2655960,Mount Morris city,Mount Morris,"Mount Morris, MI",MI,43.117664,-83.698729,73,68,66,65,65,67
 2656020,Mount Pleasant city,Mount Pleasant,"Mount Pleasant, MI",MI,43.59671,-84.775972,70,66,65,64,64,67
-2656080,Muir village,Muir,"Muir, MI",MI,42.998361,-84.935183,73,68,67,65,66,68
+2656080,Muir village,Muir,"Muir, MI",MI,42.998361,-84.935183,72,68,67,65,66,68
 2656140,Mulliken village,Mulliken,"Mulliken, MI",MI,42.763008,-84.89637,72,69,68,65,65,68
 2656200,Munising city,Munising,"Munising, MI",MI,46.430919,-86.619443,61,53,56,56,61,61
-2656320,Muskegon city,Muskegon,"Muskegon, MI",MI,43.22654,-86.257247,71,69,68,66,68,69
+2656320,Muskegon city,Muskegon,"Muskegon, MI",MI,43.22654,-86.257247,72,69,68,66,68,69
 2656360,Muskegon Heights city,Muskegon Heights,"Muskegon Heights, MI",MI,43.201921,-86.240963,72,69,68,67,69,70
 2656620,Napoleon CDP,Napoleon,"Napoleon, MI",MI,42.164503,-84.243842,74,70,68,65,66,67
 2656680,Nashville village,Nashville,"Nashville, MI",MI,42.602967,-85.093882,72,69,68,66,66,68
@@ -13141,7 +13141,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2657100,New Baltimore city,New Baltimore,"New Baltimore, MI",MI,42.685306,-82.737649,76,71,68,67,67,69
 2657140,Newberry village,Newberry,"Newberry, MI",MI,46.353821,-85.509804,64,54,59,58,61,63
 2657220,New Buffalo city,New Buffalo,"New Buffalo, MI",MI,41.791382,-86.742543,76,73,72,69,70,70
-2657280,New Era village,New Era,"New Era, MI",MI,43.559633,-86.347156,70,68,66,66,68,68
+2657280,New Era village,New Era,"New Era, MI",MI,43.559633,-86.347156,71,68,66,66,68,68
 2657380,New Haven village,New Haven,"New Haven, MI",MI,42.729762,-82.79704,74,69,66,66,65,68
 2657520,New Lothrop village,New Lothrop,"New Lothrop, MI",MI,43.117275,-83.968974,72,68,66,65,65,66
 2657660,New Troy CDP,New Troy,"New Troy, MI",MI,41.881797,-86.542358,75,71,71,68,68,69
@@ -13150,7 +13150,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2658080,North Branch village,North Branch,"North Branch, MI",MI,43.228637,-83.191973,73,68,65,65,64,67
 2658640,North Muskegon city,North Muskegon,"North Muskegon, MI",MI,43.252163,-86.270831,72,69,68,67,68,70
 2658740,Northport village,Northport,"Northport, MI",MI,45.130272,-85.617661,67,66,67,67,69,69
-2658945,Northview CDP,Northview,"Northview, MI",MI,43.03985,-85.603448,73,69,66,65,66,68
+2658945,Northview CDP,Northview,"Northview, MI",MI,43.03985,-85.603448,72,69,66,65,66,68
 2658980,Northville city,Northville,"Northville, MI",MI,42.436205,-83.488283,75,71,69,67,68,69
 2659140,Norton Shores city,Norton Shores,"Norton Shores, MI",MI,43.169538,-86.235405,72,69,68,67,69,70
 2659220,Norway city,Norway,"Norway, MI",MI,45.798585,-87.913952,65,59,60,59,63,63
@@ -13161,7 +13161,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2659860,Oakley village,Oakley,"Oakley, MI",MI,43.143364,-84.168566,72,68,67,65,65,67
 2659920,Oak Park city,Oak Park,"Oak Park, MI",MI,42.464943,-83.18241,77,72,70,68,69,70
 2660180,Oden CDP,Oden,"Oden, MI",MI,45.425064,-84.82576,69,60,62,61,63,65
-2660340,Okemos CDP,Okemos,"Okemos, MI",MI,42.709062,-84.414283,74,69,67,65,66,68
+2660340,Okemos CDP,Okemos,"Okemos, MI",MI,42.709062,-84.414283,73,69,67,65,66,68
 2660580,Olivet city,Olivet,"Olivet, MI",MI,42.443077,-84.930262,73,69,68,66,66,68
 2660640,Omena CDP,Omena,"Omena, MI",MI,45.062472,-85.598315,66,63,63,65,67,68
 2660660,Omer city,Omer,"Omer, MI",MI,44.048897,-83.857288,71,64,63,62,63,64
@@ -13193,13 +13193,13 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2663260,Peck village,Peck,"Peck, MI",MI,43.258857,-82.816754,72,67,65,65,64,67
 2663280,Pelkie CDP,Pelkie,"Pelkie, MI",MI,46.815639,-88.641548,59,54,55,55,61,61
 2663300,Pellston village,Pellston,"Pellston, MI",MI,45.551578,-84.783372,69,60,63,62,64,65
-2663540,Pentwater village,Pentwater,"Pentwater, MI",MI,43.77962,-86.429916,72,69,69,67,69,69
+2663540,Pentwater village,Pentwater,"Pentwater, MI",MI,43.77962,-86.429916,73,69,69,67,69,69
 2663660,Perrinton village,Perrinton,"Perrinton, MI",MI,43.180834,-84.6799,72,68,67,65,65,68
 2663700,Perry city,Perry,"Perry, MI",MI,42.83203,-84.220112,74,69,67,65,66,67
 2663800,Petersburg city,Petersburg,"Petersburg, MI",MI,41.899695,-83.71403,75,71,69,67,67,68
 2663820,Petoskey city,Petoskey,"Petoskey, MI",MI,45.36485,-85.010701,67,62,63,61,62,63
 2663900,Pewamo village,Pewamo,"Pewamo, MI",MI,43.001974,-84.847338,72,68,67,65,66,68
-2664020,Pierson village,Pierson,"Pierson, MI",MI,43.319647,-85.497502,71,67,66,64,64,67
+2664020,Pierson village,Pierson,"Pierson, MI",MI,43.319647,-85.497502,70,67,66,64,64,67
 2664060,Pigeon village,Pigeon,"Pigeon, MI",MI,43.829432,-83.270227,73,67,65,66,65,68
 2664100,Pilgrim CDP,Pilgrim,"Pilgrim, MI",MI,44.664553,-86.24986,68,67,68,65,68,68
 2664140,Pinckney village,Pinckney,"Pinckney, MI",MI,42.455397,-83.941075,74,69,68,66,66,67
@@ -13210,7 +13210,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2665060,Plymouth city,Plymouth,"Plymouth, MI",MI,42.371246,-83.467617,75,71,69,67,68,69
 2665420,Ponshewaing CDP,Ponshewaing,"Ponshewaing, MI",MI,45.42083,-84.805815,69,60,62,61,63,64
 2665440,Pontiac city,Pontiac,"Pontiac, MI",MI,42.649228,-83.287363,75,70,68,66,66,68
-2665560,Portage city,Portage,"Portage, MI",MI,42.19705,-85.591395,74,69,69,67,67,69
+2665560,Portage city,Portage,"Portage, MI",MI,42.19705,-85.591395,73,69,69,67,67,69
 2665680,Port Austin village,Port Austin,"Port Austin, MI",MI,44.042552,-82.995086,71,66,66,66,66,68
 2665800,Port Hope village,Port Hope,"Port Hope, MI",MI,43.939406,-82.714955,71,67,66,66,66,68
 2665820,Port Huron city,Port Huron,"Port Huron, MI",MI,42.993766,-82.433743,74,69,68,67,67,68
@@ -13229,12 +13229,12 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2667160,Rapid River CDP,Rapid River,"Rapid River, MI",MI,45.926394,-86.974284,65,57,60,58,63,64
 2667280,Ravenna village,Ravenna,"Ravenna, MI",MI,43.187995,-85.941183,71,67,68,65,66,67
 2667500,Reading city,Reading,"Reading, MI",MI,41.839583,-84.74783,74,70,70,67,67,69
-2667820,Reed City city,Reed City,"Reed City, MI",MI,43.872754,-85.507006,67,63,62,61,61,63
+2667820,Reed City city,Reed City,"Reed City, MI",MI,43.872754,-85.507006,66,63,62,61,61,63
 2667900,Reese village,Reese,"Reese, MI",MI,43.452753,-83.689417,73,68,66,66,65,67
 2667980,Republic CDP,Republic,"Republic, MI",MI,46.408561,-87.988013,62,55,56,55,60,60
 2668240,Richland village,Richland,"Richland, MI",MI,42.37171,-85.458147,73,69,69,66,66,68
 2668380,Richmond city,Richmond,"Richmond, MI",MI,42.810558,-82.752173,73,68,65,65,64,67
-2668720,Riverdale CDP,Riverdale,"Riverdale, MI",MI,43.382448,-84.840784,71,67,66,64,65,67
+2668720,Riverdale CDP,Riverdale,"Riverdale, MI",MI,43.382448,-84.840784,70,67,66,64,65,67
 2668760,River Rouge city,River Rouge,"River Rouge, MI",MI,42.274346,-83.124162,80,75,72,70,70,72
 2668880,Riverview city,Riverview,"Riverview, MI",MI,42.173456,-83.19838,78,74,72,70,71,71
 2668990,Robin Glen-Indiantown CDP,Robin Glen-Indiantown,"Robin Glen-Indiantown, MI",MI,43.461835,-83.840784,72,68,66,66,66,67
@@ -13249,7 +13249,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2669420,Romulus city,Romulus,"Romulus, MI",MI,42.223649,-83.366036,76,72,70,68,69,70
 2669520,Roosevelt Park city,Roosevelt Park,"Roosevelt Park, MI",MI,43.198147,-86.273346,72,69,68,67,69,70
 2669540,Roscommon village,Roscommon,"Roscommon, MI",MI,44.488292,-84.589938,68,61,61,60,61,63
-2669640,Rosebush village,Rosebush,"Rosebush, MI",MI,43.703977,-84.763725,69,65,64,63,63,66
+2669640,Rosebush village,Rosebush,"Rosebush, MI",MI,43.703977,-84.763725,68,65,64,63,63,66
 2669680,Rose City city,Rose City,"Rose City, MI",MI,44.421054,-84.115409,69,62,60,60,61,64
 2669800,Roseville city,Roseville,"Roseville, MI",MI,42.507586,-82.936582,78,72,70,69,69,71
 2669880,Rothbury village,Rothbury,"Rothbury, MI",MI,43.51841,-86.361411,71,68,67,67,68,69
@@ -13264,22 +13264,22 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2670900,St. James CDP,St. James,"St. James, MI",MI,45.742671,-85.530064,65,65,67,64,67,67
 2670940,St. Johns city,St. Johns,"St. Johns, MI",MI,43.000509,-84.555518,73,69,67,65,66,68
 2670960,St. Joseph city,St. Joseph,"St. Joseph, MI",MI,42.09971,-86.488756,74,71,72,69,69,71
-2671000,St. Louis city,St. Louis,"St. Louis, MI",MI,43.408528,-84.61123,72,67,66,65,65,68
+2671000,St. Louis city,St. Louis,"St. Louis, MI",MI,43.408528,-84.61123,71,67,66,65,65,68
 2671140,Saline city,Saline,"Saline, MI",MI,42.173829,-83.776924,74,69,68,66,66,67
 2671340,Sand Lake CDP,Sand Lake,"Sand Lake, MI",MI,44.328956,-83.665714,70,63,61,61,61,64
-2671360,Sand Lake village,Sand Lake,"Sand Lake, MI",MI,43.28859,-85.52403,71,67,66,64,65,67
+2671360,Sand Lake village,Sand Lake,"Sand Lake, MI",MI,43.28859,-85.52403,70,67,66,64,65,67
 2671540,Sandusky city,Sandusky,"Sandusky, MI",MI,43.420184,-82.833043,72,67,65,65,64,67
 2671560,Sanford village,Sanford,"Sanford, MI",MI,43.678174,-84.385543,71,66,65,64,65,66
 2671660,Saranac village,Saranac,"Saranac, MI",MI,42.927315,-85.209544,72,69,67,65,66,68
-2671700,Saugatuck city,Saugatuck,"Saugatuck, MI",MI,42.661361,-86.204623,73,70,72,69,70,71
+2671700,Saugatuck city,Saugatuck,"Saugatuck, MI",MI,42.661361,-86.204623,74,70,72,69,70,71
 2671740,Sault Ste. Marie city,Sault Ste. Marie,"Sault Ste. Marie, MI",MI,46.476169,-84.370544,67,58,62,62,62,63
-2671860,Schoolcraft village,Schoolcraft,"Schoolcraft, MI",MI,42.116947,-85.633738,74,69,69,67,67,68
-2672060,Scotts CDP,Scotts,"Scotts, MI",MI,42.194134,-85.41368,74,70,69,67,67,69
-2672080,Scottville city,Scottville,"Scottville, MI",MI,43.951101,-86.279816,70,67,67,65,65,67
+2671860,Schoolcraft village,Schoolcraft,"Schoolcraft, MI",MI,42.116947,-85.633738,73,69,69,67,67,68
+2672060,Scotts CDP,Scotts,"Scotts, MI",MI,42.194134,-85.41368,73,70,69,67,67,69
+2672080,Scottville city,Scottville,"Scottville, MI",MI,43.951101,-86.279816,71,67,67,65,65,67
 2672180,Sebewaing village,Sebewaing,"Sebewaing, MI",MI,43.731719,-83.450916,73,68,65,66,66,69
 2672700,Shaftsburg CDP,Shaftsburg,"Shaftsburg, MI",MI,42.808078,-84.299594,74,69,68,65,66,68
-2672840,Shelby village,Shelby,"Shelby, MI",MI,43.612058,-86.364492,70,68,66,66,67,68
-2672960,Shepherd village,Shepherd,"Shepherd, MI",MI,43.523558,-84.692697,71,66,65,64,64,67
+2672840,Shelby village,Shelby,"Shelby, MI",MI,43.612058,-86.364492,71,68,66,66,67,68
+2672960,Shepherd village,Shepherd,"Shepherd, MI",MI,43.523558,-84.692697,70,66,65,64,64,67
 2673100,Sheridan village,Sheridan,"Sheridan, MI",MI,43.209778,-85.079847,72,68,67,65,66,68
 2673420,Sherwood village,Sherwood,"Sherwood, MI",MI,41.999707,-85.239404,75,70,70,67,67,68
 2673560,Shields CDP,Shields,"Shields, MI",MI,43.422926,-84.074073,72,68,66,65,65,67
@@ -13292,15 +13292,15 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2674900,Southfield city,Southfield,"Southfield, MI",MI,42.47464,-83.259509,77,72,70,68,69,70
 2674960,Southgate city,Southgate,"Southgate, MI",MI,42.204707,-83.205685,78,74,72,70,70,71
 2674975,South Gull Lake CDP,South Gull Lake,"South Gull Lake, MI",MI,42.386452,-85.406297,72,68,68,65,66,67
-2674980,South Haven city,South Haven,"South Haven, MI",MI,42.401341,-86.268434,74,71,72,70,70,71
+2674980,South Haven city,South Haven,"South Haven, MI",MI,42.401341,-86.268434,75,71,72,70,70,71
 2675100,South Lyon city,South Lyon,"South Lyon, MI",MI,42.461015,-83.653169,74,69,68,66,66,68
 2675140,South Monroe CDP,South Monroe,"South Monroe, MI",MI,41.892659,-83.41856,77,73,72,69,70,70
 2675220,South Range village,South Range,"South Range, MI",MI,47.070307,-88.644003,62,57,58,58,64,62
 2675280,South Rockwood village,South Rockwood,"South Rockwood, MI",MI,42.060421,-83.271532,76,72,71,70,70,71
 2675420,Sparta village,Sparta,"Sparta, MI",MI,43.156706,-85.710989,71,68,67,65,66,68
 2675620,Spring Arbor CDP,Spring Arbor,"Spring Arbor, MI",MI,42.206771,-84.554945,74,69,68,65,66,68
-2675700,Springfield city,Springfield,"Springfield, MI",MI,42.324099,-85.235369,74,70,69,66,67,69
-2675820,Spring Lake village,Spring Lake,"Spring Lake, MI",MI,43.073454,-86.194149,72,69,70,68,69,70
+2675700,Springfield city,Springfield,"Springfield, MI",MI,42.324099,-85.235369,73,70,69,66,67,69
+2675820,Spring Lake village,Spring Lake,"Spring Lake, MI",MI,43.073454,-86.194149,73,69,70,68,69,70
 2675860,Springport village,Springport,"Springport, MI",MI,42.378335,-84.696476,73,69,67,65,65,67
 2676120,Standish city,Standish,"Standish, MI",MI,43.977711,-83.963989,71,64,63,62,63,64
 2676220,Stanton city,Stanton,"Stanton, MI",MI,43.293152,-85.079576,71,67,66,65,65,68
@@ -13332,11 +13332,11 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2680480,Trimountain CDP,Trimountain,"Trimountain, MI",MI,47.055706,-88.658594,61,57,57,57,63,62
 2680660,Trowbridge Park CDP,Trowbridge Park,"Trowbridge Park, MI",MI,46.556125,-87.44124,66,58,58,59,66,66
 2680700,Troy city,Troy,"Troy, MI",MI,42.583882,-83.145533,77,71,69,67,68,69
-2680720,Trufant CDP,Trufant,"Trufant, MI",MI,43.321851,-85.349868,71,67,66,64,64,67
+2680720,Trufant CDP,Trufant,"Trufant, MI",MI,43.321851,-85.349868,70,67,66,64,64,67
 2680820,Turner village,Turner,"Turner, MI",MI,44.141532,-83.788111,71,64,62,62,62,64
 2680960,Tustin village,Tustin,"Tustin, MI",MI,44.10094,-85.45892,67,63,62,61,61,64
 2681020,Twining village,Twining,"Twining, MI",MI,44.115193,-83.812228,71,64,62,62,62,64
-2681040,Twin Lake CDP,Twin Lake,"Twin Lake, MI",MI,43.368535,-86.183603,71,68,66,65,67,68
+2681040,Twin Lake CDP,Twin Lake,"Twin Lake, MI",MI,43.368535,-86.183603,72,68,66,65,67,68
 2681200,Ubly village,Ubly,"Ubly, MI",MI,43.708237,-82.935589,72,66,63,64,64,67
 2681360,Union City village,Union City,"Union City, MI",MI,42.066714,-85.143168,75,70,69,66,67,68
 2681420,Unionville village,Unionville,"Unionville, MI",MI,43.653523,-83.467098,73,68,65,66,65,68
@@ -13347,11 +13347,11 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2681840,Vassar city,Vassar,"Vassar, MI",MI,43.370831,-83.577539,72,68,65,65,65,67
 2681960,Vermontville village,Vermontville,"Vermontville, MI",MI,42.626676,-85.027611,72,69,68,65,65,68
 2682020,Vernon village,Vernon,"Vernon, MI",MI,42.939363,-84.0336,73,69,67,65,65,66
-2682300,Vicksburg village,Vicksburg,"Vicksburg, MI",MI,42.123026,-85.538293,74,70,70,67,67,69
+2682300,Vicksburg village,Vicksburg,"Vicksburg, MI",MI,42.123026,-85.538293,73,70,70,67,67,69
 2682450,Village of Clarkston city,Village of Clarkston,"Village of Clarkston, MI",MI,42.732134,-83.421132,73,69,67,65,65,67
 2682453,Village of Grosse Pointe Shores city,Village of Grosse Pointe Shores,"Village of Grosse Pointe Shores, MI",MI,42.451262,-82.870379,78,73,71,70,70,71
 2682490,Vineyard Lake CDP,Vineyard Lake,"Vineyard Lake, MI",MI,42.090395,-84.2173,74,70,68,66,66,67
-2682680,Wacousta CDP,Wacousta,"Wacousta, MI",MI,42.816929,-84.690964,74,69,68,66,66,68
+2682680,Wacousta CDP,Wacousta,"Wacousta, MI",MI,42.816929,-84.690964,73,69,68,66,66,68
 2682780,Wakefield city,Wakefield,"Wakefield, MI",MI,46.476904,-89.93343,63,58,58,59,66,63
 2682880,Waldron village,Waldron,"Waldron, MI",MI,41.724175,-84.41884,75,71,70,67,68,69
 2682960,Walker city,Walker,"Walker, MI",MI,42.996553,-85.756366,72,69,67,66,67,69
@@ -13366,16 +13366,16 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2684940,Wayne city,Wayne,"Wayne, MI",MI,42.276913,-83.388148,76,72,70,68,69,69
 2685080,Webberville village,Webberville,"Webberville, MI",MI,42.660867,-84.189001,73,69,67,65,65,66
 2685110,Wedgewood CDP,Wedgewood,"Wedgewood, MI",MI,44.194302,-85.489842,69,62,62,60,61,63
-2685140,Weidman CDP,Weidman,"Weidman, MI",MI,43.704084,-84.977992,69,65,64,63,63,66
+2685140,Weidman CDP,Weidman,"Weidman, MI",MI,43.704084,-84.977992,68,65,64,63,63,66
 2685300,Wellston CDP,Wellston,"Wellston, MI",MI,44.222689,-85.968132,70,64,65,63,63,65
 2685580,West Branch city,West Branch,"West Branch, MI",MI,44.273789,-84.236589,70,62,61,60,61,64
 2685700,West Ishpeming CDP,West Ishpeming,"West Ishpeming, MI",MI,46.488444,-87.717078,63,55,56,56,61,62
 2686000,Westland city,Westland,"Westland, MI",MI,42.319173,-83.380778,77,72,70,68,69,70
 2686050,West Monroe CDP,West Monroe,"West Monroe, MI",MI,41.914035,-83.431604,76,72,71,69,69,70
 2686120,Westphalia village,Westphalia,"Westphalia, MI",MI,42.93104,-84.797881,73,68,67,65,66,68
-2686380,Westwood CDP,Westwood,"Westwood, MI",MI,42.303024,-85.628718,74,69,69,66,67,69
+2686380,Westwood CDP,Westwood,"Westwood, MI",MI,42.303024,-85.628718,73,69,69,66,67,69
 2686680,White Cloud city,White Cloud,"White Cloud, MI",MI,43.557519,-85.7743,69,65,65,63,64,66
-2686780,Whitehall city,Whitehall,"Whitehall, MI",MI,43.400517,-86.339599,71,69,67,67,68,70
+2686780,Whitehall city,Whitehall,"Whitehall, MI",MI,43.400517,-86.339599,72,69,67,67,68,70
 2686920,White Pigeon village,White Pigeon,"White Pigeon, MI",MI,41.795234,-85.650406,76,71,71,67,67,69
 2686960,White Pine CDP,White Pine,"White Pine, MI",MI,46.740122,-89.58126,64,59,60,61,68,66
 2687060,Whitmore Lake CDP,Whitmore Lake,"Whitmore Lake, MI",MI,42.420281,-83.752134,74,70,68,66,66,67
@@ -13383,7 +13383,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2687420,Williamston city,Williamston,"Williamston, MI",MI,42.683348,-84.283557,73,69,67,65,65,67
 2687920,Winn CDP,Winn,"Winn, MI",MI,43.518732,-84.901052,70,66,65,64,64,67
 2688140,Wixom city,Wixom,"Wixom, MI",MI,42.522781,-83.530188,75,70,68,66,67,68
-2688220,Wolf Lake CDP,Wolf Lake,"Wolf Lake, MI",MI,43.244424,-86.112341,71,68,67,66,67,68
+2688220,Wolf Lake CDP,Wolf Lake,"Wolf Lake, MI",MI,43.244424,-86.112341,72,68,67,66,67,68
 2688240,Wolverine village,Wolverine,"Wolverine, MI",MI,45.273593,-84.605544,69,59,60,59,60,64
 2688260,Wolverine Lake village,Wolverine Lake,"Wolverine Lake, MI",MI,42.553333,-83.486391,75,70,68,66,67,68
 2688380,Woodhaven city,Woodhaven,"Woodhaven, MI",MI,42.13453,-83.235139,77,73,72,70,70,71
@@ -15826,7 +15826,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 3000850,Alder CDP,Alder,"Alder, MT",MT,45.321591,-112.109216,46,47,53,54,55,55
 3001300,Alzada CDP,Alzada,"Alzada, MT",MT,45.020549,-104.412787,57,56,59,64,63,63
 3001525,Amsterdam CDP,Amsterdam,"Amsterdam, MT",MT,45.738262,-111.339096,49,49,54,56,58,58
-3001675,Anaconda-Deer Lodge County,Anaconda-Deer Lodge County,"Anaconda-Deer Lodge County, MT",MT,46.094672,-113.141624,34,33,38,42,45,44
+3001675,Anaconda-Deer Lodge County,Anaconda,"Anaconda, MT",MT,46.094672,-113.141624,34,33,38,42,45,44
 3002050,Antelope CDP,Antelope,"Antelope, MT",MT,48.689714,-104.454017,55,57,60,60,61,62
 3002350,Argenta CDP,Argenta,"Argenta, MT",MT,45.278728,-112.860611,46,46,52,55,56,55
 3002425,Arlee CDP,Arlee,"Arlee, MT",MT,47.168088,-114.083645,54,54,57,57,62,63
@@ -15880,7 +15880,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 3010375,Browning CDP,Browning,"Browning, MT",MT,48.556397,-113.01512,45,45,45,49,56,57
 3010935,Bull Lake CDP,Bull Lake,"Bull Lake, MT",MT,48.229506,-115.852598,50,50,50,51,57,58
 3011200,Busby CDP,Busby,"Busby, MT",MT,45.525636,-106.977522,59,58,64,65,67,65
-3011397,Butte-Silver Bow (balance),Butte-Silver Bow,"Butte-Silver Bow, MT",MT,45.896232,-112.660071,48,45,52,55,56,56
+3011397,Butte-Silver Bow (balance),Butte,"Butte, MT",MT,45.896232,-112.660071,48,45,52,55,56,56
 3011500,Bynum CDP,Bynum,"Bynum, MT",MT,47.968123,-112.316476,51,51,52,53,58,59
 3011800,Camas CDP,Camas,"Camas, MT",MT,47.617922,-114.655991,49,49,50,52,59,60
 3011995,Camp Three CDP,Camp Three,"Camp Three, MT",MT,46.453303,-108.574113,55,54,59,61,63,62
@@ -26652,7 +26652,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 4744200,Luray CDP,Luray,"Luray, TN",TN,35.601704,-88.570246,76,75,77,76,76,76
 4744300,Luttrell town,Luttrell,"Luttrell, TN",TN,36.209619,-83.748494,73,72,74,74,73,73
 4744360,Lyles CDP,Lyles,"Lyles, TN",TN,35.919496,-87.344979,75,74,75,75,75,74
-4744382,"Lynchburg, Moore County metropolitan government","Lynchburg, Moore County","Lynchburg, Moore County, TN",TN,35.288888,-86.358684,74,73,75,75,74,74
+4744382,"Lynchburg, Moore County metropolitan government",Lynchburg,"Lynchburg, TN",TN,35.288888,-86.358684,74,73,75,75,74,74
 4744420,Lynnville town,Lynnville,"Lynnville, TN",TN,35.378104,-87.005437,74,73,75,74,74,74
 4744700,McDonald CDP,McDonald,"McDonald, TN",TN,35.108782,-84.985289,75,74,76,75,75,75
 4744840,McEwen city,McEwen,"McEwen, TN",TN,36.109837,-87.635517,75,73,75,75,74,74
@@ -26698,7 +26698,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 4751402,Mowbray Mountain CDP,Mowbray Mountain,"Mowbray Mountain, TN",TN,35.275117,-85.222552,73,71,73,72,72,72
 4751540,Munford city,Munford,"Munford, TN",TN,35.442869,-89.815922,76,76,77,77,77,77
 4751560,Murfreesboro city,Murfreesboro,"Murfreesboro, TN",TN,35.853915,-86.421224,76,75,77,76,76,75
-4752006,Nashville-Davidson metropolitan government (balance),Nashville-Davidson,"Nashville-Davidson, TN",TN,36.1718,-86.785002,79,77,79,79,78,77
+4752006,Nashville-Davidson metropolitan government (balance),Nashville,"Nashville, TN",TN,36.1718,-86.785002,79,77,79,79,78,77
 4752400,Newbern town,Newbern,"Newbern, TN",TN,36.116881,-89.271363,76,77,78,76,76,76
 4752520,New Deal CDP,New Deal,"New Deal, TN",TN,36.513864,-86.562867,76,74,76,76,75,75
 4752780,New Hope city,New Hope,"New Hope, TN",TN,34.999428,-85.668442,75,74,75,74,74,74
@@ -32333,6 +32333,6 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 7288293,Yeguada comunidad,Yeguada,"Yeguada, PR",PR,18.483885,-66.880244,,,,,,
 36085,Staten Island,Staten Island,"Staten Island, NY",NY,40.57409443316975,-74.14706705531458,86,80,80,74,73,72
 36047,Brooklyn,Brooklyn,"Brooklyn, NY",NY,40.6393815,-73.95151488434834,88,85,80,75,74,72
-36061,Manhattan,Manhattan,"Manhattan, NY",NY,40.7870945,-73.95773820687532,88,85,78,74,72,71
+36061,Manhattan,Manhattan,"Manhattan, NY",NY,40.787094499999995,-73.95773820687532,88,85,78,74,72,71
 36005,The Bronx,The Bronx,"The Bronx, NY",NY,40.8535835,-73.83967673136081,86,80,78,71,71,70
 36081,Queens,Queens,"Queens, NY",NY,40.702277,-73.82937932200142,86,80,79,74,72,71

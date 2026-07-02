@@ -5419,11 +5419,11 @@ place_id,name,name_display,name_state,state,lat,lon
 1302928,Arlington city,Arlington,"Arlington, GA",GA,31.437527,-84.729234
 1303124,Arnoldsville city,Arnoldsville,"Arnoldsville, GA",GA,33.914955,-83.218427
 1303236,Ashburn city,Ashburn,"Ashburn, GA",GA,31.709191,-83.652424
-1303440,Athens-Clarke County unified government (balance),Athens-Clarke County,"Athens-Clarke County, GA",GA,33.949597,-83.370088
+1303440,Athens-Clarke County unified government (balance),Athens,"Athens, GA",GA,33.949597,-83.370088
 1304000,Atlanta city,Atlanta,"Atlanta, GA",GA,33.762909,-84.422675
 1304084,Attapulgus city,Attapulgus,"Attapulgus, GA",GA,30.74949,-84.483886
 1304140,Auburn city,Auburn,"Auburn, GA",GA,34.015186,-83.833741
-1304204,Augusta-Richmond County consolidated government (balance),Augusta-Richmond County,"Augusta-Richmond County, GA",GA,33.365531,-82.073422
+1304204,Augusta-Richmond County consolidated government (balance),Augusta,"Augusta, GA",GA,33.365531,-82.073422
 1304252,Austell city,Austell,"Austell, GA",GA,33.819766,-84.643774
 1304392,Avalon town,Avalon,"Avalon, GA",GA,34.497141,-83.198203
 1304448,Avera city,Avera,"Avera, GA",GA,33.193423,-82.528732
@@ -5546,7 +5546,7 @@ place_id,name,name_display,name_state,state,lat,lon
 1320550,Crooked Creek CDP,Crooked Creek,"Crooked Creek, GA",GA,33.265688,-83.27525
 1320848,Culloden city,Culloden,"Culloden, GA",GA,32.864908,-84.093999
 1320932,Cumming city,Cumming,"Cumming, GA",GA,34.206067,-84.133848
-1321017,Cusseta-Chattahoochee County unified government,Cusseta-Chattahoochee County,"Cusseta-Chattahoochee County, GA",GA,32.347445,-84.788021
+1321017,Cusseta-Chattahoochee County unified government,Cusseta,"Cusseta, GA",GA,32.347445,-84.788021
 1321072,Cuthbert city,Cuthbert,"Cuthbert, GA",GA,31.770686,-84.793575
 1321184,Dacula city,Dacula,"Dacula, GA",GA,33.981967,-83.90108
 1321240,Dahlonega city,Dahlonega,"Dahlonega, GA",GA,34.529909,-83.979579
@@ -5595,7 +5595,7 @@ place_id,name,name_display,name_state,state,lat,lon
 1325692,East Newnan CDP,East Newnan,"East Newnan, GA",GA,33.345796,-84.776725
 1325720,East Point city,East Point,"East Point, GA",GA,33.67112,-84.473429
 1326084,Eatonton city,Eatonton,"Eatonton, GA",GA,33.325821,-83.388862
-1326156,Echols County consolidated government,Echols County,"Echols County, GA",GA,30.714008,-82.897376
+1326156,Echols County consolidated government,Echols,"Echols, GA",GA,30.714008,-82.897376
 1326224,Edge Hill city,Edge Hill,"Edge Hill, GA",GA,33.153421,-82.624989
 1326448,Edison city,Edison,"Edison, GA",GA,31.560812,-84.737402
 1326616,Elberton city,Elberton,"Elberton, GA",GA,34.104921,-82.87276
@@ -5644,7 +5644,7 @@ place_id,name,name_display,name_state,state,lat,lon
 1332384,Gay town,Gay,"Gay, GA",GA,33.095757,-84.579365
 1332412,Geneva town,Geneva,"Geneva, GA",GA,32.578235,-84.553065
 1332482,Georgetown CDP,Georgetown,"Georgetown, GA",GA,31.982716,-81.230275
-1332528,Georgetown-Quitman County unified government,Georgetown-Quitman County,"Georgetown-Quitman County, GA",GA,31.862938,-85.004798
+1332528,Georgetown-Quitman County unified government,Georgetown,"Georgetown, GA",GA,31.862938,-85.004798
 1332748,Gibson city,Gibson,"Gibson, GA",GA,33.231691,-82.600978
 1332860,Gillsville city,Gillsville,"Gillsville, GA",GA,34.309321,-83.63093
 1332916,Girard town,Girard,"Girard, GA",GA,33.033888,-81.715514
@@ -6039,7 +6039,7 @@ place_id,name,name_display,name_state,state,lat,lon
 1380956,Waycross city,Waycross,"Waycross, GA",GA,31.211006,-82.357658
 1380984,Waynesboro city,Waynesboro,"Waynesboro, GA",GA,33.091279,-82.01429
 1381012,Waynesville CDP,Waynesville,"Waynesville, GA",GA,31.227222,-81.783591
-1381128,Webster County unified government,Webster County,"Webster County, GA",GA,32.046691,-84.553828
+1381128,Webster County unified government,Webster,"Webster, GA",GA,32.046691,-84.553828
 1381208,Wenona CDP,Wenona,"Wenona, GA",GA,31.910941,-83.751066
 1381488,West Brow CDP,West Brow,"West Brow, GA",GA,34.914816,-85.418583
 1382132,West Point city,West Point,"West Point, GA",GA,32.898518,-85.141499
@@ -10187,7 +10187,7 @@ place_id,name,name_display,name_state,state,lat,lon
 2028200,Grantville CDP,Grantville,"Grantville, KS",KS,39.080594,-95.561169
 2028300,Great Bend city,Great Bend,"Great Bend, KS",KS,38.359792,-98.799514
 2028350,Greeley city,Greeley,"Greeley, KS",KS,38.367374,-95.126349
-2028412,Greeley County unified government (balance),Greeley County,"Greeley County, KS",KS,38.480413,-101.806024
+2028412,Greeley County unified government (balance),Greeley,"Greeley, KS",KS,38.480413,-101.806024
 2028425,Green city,Green,"Green, KS",KS,39.430124,-96.999896
 2028625,Greenleaf city,Greenleaf,"Greenleaf, KS",KS,39.726706,-96.979827
 2028675,Greensburg city,Greensburg,"Greensburg, KS",KS,37.604875,-99.289569
@@ -10956,7 +10956,7 @@ place_id,name,name_display,name_state,state,lat,lon
 2144686,Leitchfield city,Leitchfield,"Leitchfield, KY",KY,37.48624,-86.284687
 2145064,Lewisburg city,Lewisburg,"Lewisburg, KY",KY,36.98723,-86.950188
 2145136,Lewisport city,Lewisport,"Lewisport, KY",KY,37.930668,-86.902816
-2146027,Lexington-Fayette urban county,Lexington-Fayette urban county,"Lexington-Fayette urban county, KY",KY,38.040678,-84.458272
+2146027,Lexington-Fayette urban county,Lexington,"Lexington, KY",KY,38.040678,-84.458272
 2146072,Liberty city,Liberty,"Liberty, KY",KY,37.317988,-84.930487
 2146540,Lincolnshire city,Lincolnshire,"Lincolnshire, KY",KY,38.223784,-85.62156
 2147062,Livermore city,Livermore,"Livermore, KY",KY,37.492045,-87.134135
@@ -10965,7 +10965,7 @@ place_id,name,name_display,name_state,state,lat,lon
 2147710,Loretto city,Loretto,"Loretto, KY",KY,37.642039,-85.393147
 2147854,Louisa city,Louisa,"Louisa, KY",KY,38.111611,-82.61517
 2148000,Louisville city,Louisville,"Louisville, KY",KY,38.224728,-85.740614
-2148006,Louisville/Jefferson County metro government (balance),Louisville/Jefferson County,"Louisville/Jefferson County, KY",KY,38.165376,-85.647377
+2148006,Louisville/Jefferson County metro government (balance),Louisville,"Louisville, KY",KY,38.165376,-85.647377
 2148072,Lovelaceville CDP,Lovelaceville,"Lovelaceville, KY",KY,36.967427,-88.832446
 2148234,Lowes CDP,Lowes,"Lowes, KY",KY,36.882838,-88.766366
 2148288,Loyall city,Loyall,"Loyall, KY",KY,36.851937,-83.349013
@@ -15826,7 +15826,7 @@ place_id,name,name_display,name_state,state,lat,lon
 3000850,Alder CDP,Alder,"Alder, MT",MT,45.321591,-112.109216
 3001300,Alzada CDP,Alzada,"Alzada, MT",MT,45.020549,-104.412787
 3001525,Amsterdam CDP,Amsterdam,"Amsterdam, MT",MT,45.738262,-111.339096
-3001675,Anaconda-Deer Lodge County,Anaconda-Deer Lodge County,"Anaconda-Deer Lodge County, MT",MT,46.094672,-113.141624
+3001675,Anaconda-Deer Lodge County,Anaconda,"Anaconda, MT",MT,46.094672,-113.141624
 3002050,Antelope CDP,Antelope,"Antelope, MT",MT,48.689714,-104.454017
 3002350,Argenta CDP,Argenta,"Argenta, MT",MT,45.278728,-112.860611
 3002425,Arlee CDP,Arlee,"Arlee, MT",MT,47.168088,-114.083645
@@ -15880,7 +15880,7 @@ place_id,name,name_display,name_state,state,lat,lon
 3010375,Browning CDP,Browning,"Browning, MT",MT,48.556397,-113.01512
 3010935,Bull Lake CDP,Bull Lake,"Bull Lake, MT",MT,48.229506,-115.852598
 3011200,Busby CDP,Busby,"Busby, MT",MT,45.525636,-106.977522
-3011397,Butte-Silver Bow (balance),Butte-Silver Bow,"Butte-Silver Bow, MT",MT,45.896232,-112.660071
+3011397,Butte-Silver Bow (balance),Butte,"Butte, MT",MT,45.896232,-112.660071
 3011500,Bynum CDP,Bynum,"Bynum, MT",MT,47.968123,-112.316476
 3011800,Camas CDP,Camas,"Camas, MT",MT,47.617922,-114.655991
 3011995,Camp Three CDP,Camp Three,"Camp Three, MT",MT,46.453303,-108.574113
@@ -26652,7 +26652,7 @@ place_id,name,name_display,name_state,state,lat,lon
 4744200,Luray CDP,Luray,"Luray, TN",TN,35.601704,-88.570246
 4744300,Luttrell town,Luttrell,"Luttrell, TN",TN,36.209619,-83.748494
 4744360,Lyles CDP,Lyles,"Lyles, TN",TN,35.919496,-87.344979
-4744382,"Lynchburg, Moore County metropolitan government","Lynchburg, Moore County","Lynchburg, Moore County, TN",TN,35.288888,-86.358684
+4744382,"Lynchburg, Moore County metropolitan government",Lynchburg,"Lynchburg, TN",TN,35.288888,-86.358684
 4744420,Lynnville town,Lynnville,"Lynnville, TN",TN,35.378104,-87.005437
 4744700,McDonald CDP,McDonald,"McDonald, TN",TN,35.108782,-84.985289
 4744840,McEwen city,McEwen,"McEwen, TN",TN,36.109837,-87.635517
@@ -26698,7 +26698,7 @@ place_id,name,name_display,name_state,state,lat,lon
 4751402,Mowbray Mountain CDP,Mowbray Mountain,"Mowbray Mountain, TN",TN,35.275117,-85.222552
 4751540,Munford city,Munford,"Munford, TN",TN,35.442869,-89.815922
 4751560,Murfreesboro city,Murfreesboro,"Murfreesboro, TN",TN,35.853915,-86.421224
-4752006,Nashville-Davidson metropolitan government (balance),Nashville-Davidson,"Nashville-Davidson, TN",TN,36.1718,-86.785002
+4752006,Nashville-Davidson metropolitan government (balance),Nashville,"Nashville, TN",TN,36.1718,-86.785002
 4752400,Newbern town,Newbern,"Newbern, TN",TN,36.116881,-89.271363
 4752520,New Deal CDP,New Deal,"New Deal, TN",TN,36.513864,-86.562867
 4752780,New Hope city,New Hope,"New Hope, TN",TN,34.999428,-85.668442
