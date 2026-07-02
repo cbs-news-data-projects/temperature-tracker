@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>NDFD heat forecast</title>
+<title>How hot is it where you live? — U.S. heat forecast map</title>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/4.7.1/maplibre-gl.min.css" rel="stylesheet"/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/4.7.1/maplibre-gl.min.js"></script>
 <style>
@@ -15,6 +15,8 @@
          overflow-y:auto;-webkit-overflow-scrolling:touch}
   #phead{display:flex;align-items:center;justify-content:space-between;gap:8px}
   #panel h1{font-size:20px;line-height:1.15;margin:0}
+  #sub{font-size:12px;color:#666;margin-top:2px}
+  #panel.collapsed #sub{display:none}                 /* keep the collapsed bar slim */
   #status{display:none;font-size:12px;color:#555;margin-top:2px}
   #panel.collapsed #status{display:block}
   #collapse{border:1px solid #ddd;background:#f2f2f2;border-radius:16px;font-size:14px;font-weight:600;
@@ -65,13 +67,13 @@
 <body>
 <div id="panel">
   <div id="phead">
-    <div><h1 id="title">U.S. heat forecast</h1><div id="status"></div></div>
+    <div><h1 id="title">How hot is it where you live?</h1><div id="sub">U.S. heat forecast map</div><div id="status"></div></div>
     <button id="collapse" aria-label="Hide or show controls" title="Hide/show">Hide ⌃</button>
   </div>
   <div id="controls">
     <label for="search">Find a place</label>
     <div id="searchwrap">
-      <input id="search" type="text" placeholder="Search a city or town — incl. Alaska & Hawaii" autocomplete="off"/>
+      <input id="search" type="text" placeholder="Search for a city or town" autocomplete="off"/>
       <div id="results"></div>
     </div>
     <label>Measure</label>
