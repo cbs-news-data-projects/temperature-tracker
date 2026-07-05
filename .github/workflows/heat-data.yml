@@ -68,7 +68,10 @@ jobs:
           # and reference geographies are tracked — see .gitignore exceptions.
           git add data/reference data/processed
           git diff --cached --quiet || git commit -m "heat data $(date -u +%FT%TZ)"
-          git push
+          # main may have moved since checkout (a code push mid-run) — rebase our
+          # data commit on top, then push. Retry once in case of a fresh race.
+          git pull --rebase origin main
+          git push || (sleep 10 && git pull --rebase origin main && git push)
 
       # Assemble the site from THIS run's fresh outputs and stage it for deploy.
       # DATA_BASE in index.html defaults to "data", so the layout is index.html + data/.
