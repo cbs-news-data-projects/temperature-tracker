@@ -67,6 +67,27 @@ The GeoJSONs are deliberately minimal — only what the map displays. GeoJSON
 metadata carries `days[]` (`seq`, `fcst_date`, `valid_utc`; apt products add
 `n_hours`, `valid_start_utc`) and `issued_utc` (NWS forecast issuance). Whole °F only.
 
+## Data contract (for downstream consumers, e.g. the graphics-rig embed)
+
+External renderers fetch these six files at runtime — treat this as a frozen
+interface; breaking changes require coordinating with every consumer:
+
+- **URLs:** `https://cbs-news-data.github.io/temperature-tracker/data/{heat,feelslike,warmnight}_{points,counties}.geojson`
+- **Cadence:** refreshed 3× daily (9:23 / 15:23 / 0:23 UTC + Pages deploy + CDN);
+  consumers should fetch with `cache: "no-cache"`.
+- **Points features:** `properties = { name_state, day1..dayN }` — values are whole
+  °F ints or `null` (no data); N varies (typically 6–7). Point coords, 4 decimals.
+- **Counties features:** `properties = { GEOID, NAME, day1..dayN }` — same value rules.
+- **Metadata (points files):** `metadata.days[]` maps `dayN` keys to `seq`,
+  `fcst_date` (the date the value describes), `valid_utc`; apt products add
+  `n_hours` + `valid_start_utc` (thin-bucket flagging). `metadata.issued_utc` =
+  when NWS generated the forecast.
+- **Semantics to preserve in any renderer:** label days off `fcst_date`, never the
+  `dayN` index ("today" expires mid-day); warm-night `fcst_date` = the evening the
+  night begins; feels-like is NWS apparent temperature (Heat Index categories apply
+  to it, not to raw temperature); hide `null`s rather than painting them cold.
+- **CORS:** GitHub Pages serves `Access-Control-Allow-Origin: *` (verified).
+
 Place labels (Census Gazetteer) come in three forms in the reference/CSV outputs:
 `name` is raw (`"Phoenix city"`); `name_display` strips the descriptor (`"Phoenix"`,
 while keeping `"Carson City"`); `name_state` adds the state (`"Phoenix, AZ"` — the
