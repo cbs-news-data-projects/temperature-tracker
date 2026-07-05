@@ -8909,7 +8909,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 1900595,Afton city,Afton,"Afton, IA",IA,41.027589,-94.195296,89,88,90,91,87,84,88
 1900640,Agency city,Agency,"Agency, IA",IA,40.996979,-92.307285,88,87,90,92,87,85,87
 1900730,Ainsworth city,Ainsworth,"Ainsworth, IA",IA,41.29005,-91.554266,86,87,89,92,89,85,86
-1900775,Akron city,Akron,"Akron, IA",IA,42.826768,-96.557027,92,95,97,90,84,86,90
+1900775,Akron city,Akron,"Akron, IA",IA,42.826768,-96.557027,91,95,97,90,84,86,90
 1900865,Albert City city,Albert City,"Albert City, IA",IA,42.781602,-94.949139,89,90,93,90,80,85,89
 1900910,Albia city,Albia,"Albia, IA",IA,41.026511,-92.803778,88,88,89,92,88,85,86
 1900955,Albion city,Albion,"Albion, IA",IA,42.112523,-92.98857,87,88,90,91,84,84,87
@@ -8922,7 +8922,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 1901315,Allison city,Allison,"Allison, IA",IA,42.751986,-92.795719,85,86,88,88,79,80,83
 1901495,Alta city,Alta,"Alta, IA",IA,42.671677,-95.304513,88,90,92,89,80,84,88
 1901540,Alta Vista city,Alta Vista,"Alta Vista, IA",IA,43.196679,-92.416938,85,84,88,86,78,79,80
-1901585,Alton city,Alton,"Alton, IA",IA,42.987671,-96.009501,91,93,96,89,82,85,89
+1901585,Alton city,Alton,"Alton, IA",IA,42.987671,-96.009501,90,93,96,89,82,85,89
 1901630,Altoona city,Altoona,"Altoona, IA",IA,41.650639,-93.480018,89,89,90,94,85,84,88
 1901675,Alvord city,Alvord,"Alvord, IA",IA,43.341745,-96.303675,90,93,94,87,80,85,89
 1901720,Amana CDP,Amana,"Amana, IA",IA,41.803635,-91.875244,87,87,89,92,86,85,87
@@ -8936,7 +8936,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 1902350,Anthon city,Anthon,"Anthon, IA",IA,42.388094,-95.865549,90,91,92,90,82,85,88
 1902395,Aplington city,Aplington,"Aplington, IA",IA,42.581925,-92.883524,86,86,89,90,80,82,84
 1902485,Arcadia city,Arcadia,"Arcadia, IA",IA,42.086193,-95.043226,89,90,92,92,84,85,88
-1902530,Archer city,Archer,"Archer, IA",IA,43.115019,-95.74422,89,92,94,88,80,84,89
+1902530,Archer city,Archer,"Archer, IA",IA,43.115019,-95.74422,88,92,94,88,80,84,89
 1902620,Aredale city,Aredale,"Aredale, IA",IA,42.833236,-93.005442,86,86,90,88,79,82,84
 1902665,Argo CDP,Argo,"Argo, IA",IA,41.625766,-90.434092,84,85,86,89,85,84,85
 1902710,Argyle CDP,Argyle,"Argyle, IA",IA,40.535848,-91.567696,86,87,88,93,91,86,88
@@ -9019,7 +9019,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 1908470,Brighton city,Brighton,"Brighton, IA",IA,41.174692,-91.821185,86,87,88,91,87,85,86
 1908560,Bristow city,Bristow,"Bristow, IA",IA,42.773771,-92.907947,85,86,88,88,79,80,83
 1908605,Britt city,Britt,"Britt, IA",IA,43.098438,-93.803057,87,88,90,88,79,82,85
-1908650,Bronson city,Bronson,"Bronson, IA",IA,42.409025,-96.210531,90,93,94,90,82,85,89
+1908650,Bronson city,Bronson,"Bronson, IA",IA,42.409025,-96.210531,91,93,94,90,82,85,89
 1908695,Brooklyn city,Brooklyn,"Brooklyn, IA",IA,41.732052,-92.444981,86,86,89,90,85,84,85
 1908875,Brunsville city,Brunsville,"Brunsville, IA",IA,42.810976,-96.266363,90,93,96,90,82,86,89
 1909100,Buckeye city,Buckeye,"Buckeye, IA",IA,42.419533,-93.375825,85,86,88,90,80,82,86
@@ -9035,7 +9035,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 1909910,California Junction CDP,California Junction,"California Junction, IA",IA,41.56017,-95.994752,91,92,94,95,86,87,91
 1909955,Callender city,Callender,"Callender, IA",IA,42.361634,-94.295473,88,90,93,91,83,85,88
 1910045,Calmar city,Calmar,"Calmar, IA",IA,43.181104,-91.867965,83,84,87,85,78,79,80
-1910090,Calumet city,Calumet,"Calumet, IA",IA,42.945024,-95.551435,89,90,92,88,80,84,87
+1910090,Calumet city,Calumet,"Calumet, IA",IA,42.945024,-95.551435,88,90,92,88,80,84,87
 1910135,Camanche city,Camanche,"Camanche, IA",IA,41.792708,-90.276227,86,86,87,92,87,85,86
 1910225,Cambridge city,Cambridge,"Cambridge, IA",IA,41.90168,-93.53656,90,89,92,93,84,86,88
 1910450,Cantril city,Cantril,"Cantril, IA",IA,40.642898,-92.068372,87,89,90,94,92,87,87
@@ -9061,7 +9061,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 1912765,Charles City city,Charles City,"Charles City, IA",IA,43.06476,-92.674457,87,87,90,87,79,80,84
 1912855,Charlotte city,Charlotte,"Charlotte, IA",IA,41.962169,-90.468252,85,85,87,90,84,84,85
 1912900,Charter Oak city,Charter Oak,"Charter Oak, IA",IA,42.067838,-95.589526,89,90,92,92,80,84,88
-1912945,Chatsworth city,Chatsworth,"Chatsworth, IA",IA,42.916301,-96.514499,91,95,96,90,82,86,90
+1912945,Chatsworth city,Chatsworth,"Chatsworth, IA",IA,42.916301,-96.514499,90,95,96,90,82,86,90
 1912990,Chelsea city,Chelsea,"Chelsea, IA",IA,41.920463,-92.394447,87,86,89,91,85,84,86
 1913080,Cherokee city,Cherokee,"Cherokee, IA",IA,42.749499,-95.552159,90,91,93,90,82,85,89
 1913125,Chester city,Chester,"Chester, IA",IA,43.491579,-92.363964,84,84,87,80,77,78,79
@@ -9207,7 +9207,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 1925815,Essex city,Essex,"Essex, IA",IA,40.832802,-95.305347,92,91,93,95,88,87,91
 1925860,Estherville city,Estherville,"Estherville, IA",IA,43.399735,-94.834216,87,90,91,85,78,83,86
 1925995,Evansdale city,Evansdale,"Evansdale, IA",IA,42.465698,-92.269402,86,85,88,91,83,82,85
-1926175,Everly city,Everly,"Everly, IA",IA,43.165075,-95.317519,89,91,91,86,78,84,87
+1926175,Everly city,Everly,"Everly, IA",IA,43.165075,-95.317519,88,91,91,86,78,84,87
 1926265,Exira city,Exira,"Exira, IA",IA,41.591425,-94.881335,90,91,92,94,86,86,89
 1926310,Exline city,Exline,"Exline, IA",IA,40.649101,-92.843177,90,88,89,93,91,86,88
 1926355,Fairbank city,Fairbank,"Fairbank, IA",IA,42.640139,-92.047788,85,85,89,89,79,80,84
@@ -9273,7 +9273,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 1932115,Grandview city,Grandview,"Grandview, IA",IA,41.277115,-91.188077,86,87,88,91,88,84,85
 1932160,Granger city,Granger,"Granger, IA",IA,41.756594,-93.816756,89,90,91,94,85,85,89
 1932295,Grant city,Grant,"Grant, IA",IA,41.143271,-94.98417,90,90,92,94,86,86,89
-1932475,Granville city,Granville,"Granville, IA",IA,42.985344,-95.875011,90,92,94,89,80,85,88
+1932475,Granville city,Granville,"Granville, IA",IA,42.985344,-95.875011,89,92,94,89,80,85,88
 1932520,Gravity city,Gravity,"Gravity, IA",IA,40.76353,-94.74442,90,90,93,94,87,86,88
 1932565,Gray city,Gray,"Gray, IA",IA,41.841711,-94.985863,90,90,92,92,83,85,89
 1932610,Greeley city,Greeley,"Greeley, IA",IA,42.584905,-91.341734,84,84,88,88,80,80,83
@@ -9303,13 +9303,13 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 1934590,Harpers Ferry city,Harpers Ferry,"Harpers Ferry, IA",IA,43.200858,-91.152102,87,87,91,89,80,83,84
 1934635,Harris city,Harris,"Harris, IA",IA,43.4451,-95.437199,86,89,91,80,77,83,86
 1934680,Hartford city,Hartford,"Hartford, IA",IA,41.457729,-93.403799,88,88,90,92,86,84,87
-1934725,Hartley city,Hartley,"Hartley, IA",IA,43.179058,-95.476755,89,90,93,86,79,84,87
+1934725,Hartley city,Hartley,"Hartley, IA",IA,43.179058,-95.476755,88,90,93,86,79,84,87
 1934770,Hartwick city,Hartwick,"Hartwick, IA",IA,41.785608,-92.345194,86,86,87,91,84,84,85
 1934860,Harvey city,Harvey,"Harvey, IA",IA,41.317948,-92.922715,90,88,90,93,88,85,88
 1934995,Hastings city,Hastings,"Hastings, IA",IA,41.025153,-95.494742,90,90,93,94,86,86,90
 1935130,Havelock city,Havelock,"Havelock, IA",IA,42.833019,-94.701025,90,91,94,89,80,84,89
 1935220,Haverhill city,Haverhill,"Haverhill, IA",IA,41.944144,-92.960721,87,87,90,91,84,84,86
-1935265,Hawarden city,Hawarden,"Hawarden, IA",IA,43.001314,-96.482908,91,94,96,89,82,85,89
+1935265,Hawarden city,Hawarden,"Hawarden, IA",IA,43.001314,-96.482908,90,94,96,89,82,85,89
 1935310,Hawkeye city,Hawkeye,"Hawkeye, IA",IA,42.937787,-91.950402,83,84,87,87,78,79,80
 1935445,Hayesville city,Hayesville,"Hayesville, IA",IA,41.2648,-92.247792,86,87,89,92,87,84,86
 1935490,Hayfield CDP,Hayfield,"Hayfield, IA",IA,43.178562,-93.694828,87,87,90,86,79,82,84
@@ -9327,8 +9327,8 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 1936885,Holy Cross city,Holy Cross,"Holy Cross, IA",IA,42.601087,-90.996177,80,84,87,88,79,80,83
 1936975,Homestead CDP,Homestead,"Homestead, IA",IA,41.761205,-91.87114,85,86,88,91,85,84,86
 1937155,Hopkinton city,Hopkinton,"Hopkinton, IA",IA,42.342873,-91.249048,85,86,90,91,84,83,86
-1937200,Hornick city,Hornick,"Hornick, IA",IA,42.228989,-96.096459,91,92,94,91,84,86,90
-1937290,Hospers city,Hospers,"Hospers, IA",IA,43.071919,-95.903678,90,92,94,88,80,84,88
+1937200,Hornick city,Hornick,"Hornick, IA",IA,42.228989,-96.096459,90,92,94,91,84,86,90
+1937290,Hospers city,Hospers,"Hospers, IA",IA,43.071919,-95.903678,89,92,94,88,80,84,88
 1937335,Houghton city,Houghton,"Houghton, IA",IA,40.783708,-91.609996,86,87,88,92,89,86,86
 1937425,Hubbard city,Hubbard,"Hubbard, IA",IA,42.305793,-93.30166,87,87,90,92,80,83,86
 1937470,Hudson city,Hudson,"Hudson, IA",IA,42.434882,-92.451284,85,86,88,90,80,82,84
@@ -9477,7 +9477,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 1949215,Maquoketa city,Maquoketa,"Maquoketa, IA",IA,42.06053,-90.663862,85,85,87,90,84,84,84
 1949260,Marathon city,Marathon,"Marathon, IA",IA,42.860193,-94.982866,88,90,92,88,79,84,88
 1949305,Marble Rock city,Marble Rock,"Marble Rock, IA",IA,42.964608,-92.867772,86,86,89,87,79,80,83
-1949350,Marcus city,Marcus,"Marcus, IA",IA,42.822401,-95.806842,89,92,94,89,82,85,88
+1949350,Marcus city,Marcus,"Marcus, IA",IA,42.822401,-95.806842,88,92,94,89,82,85,88
 1949395,Marengo city,Marengo,"Marengo, IA",IA,41.796205,-92.068061,86,87,89,91,86,85,86
 1949485,Marion city,Marion,"Marion, IA",IA,42.044596,-91.58616,85,87,88,91,85,84,85
 1949575,Marne city,Marne,"Marne, IA",IA,41.448857,-95.110897,90,90,92,95,85,85,89
@@ -9557,7 +9557,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 1955560,Neola city,Neola,"Neola, IA",IA,41.451904,-95.618914,90,89,92,92,80,84,88
 1955695,Nevada city,Nevada,"Nevada, IA",IA,42.01749,-93.469674,89,88,91,94,85,85,88
 1955785,New Albin city,New Albin,"New Albin, IA",IA,43.496987,-91.287867,86,86,90,87,79,80,80
-1955965,Newell city,Newell,"Newell, IA",IA,42.609682,-95.003978,89,90,93,90,80,84,88
+1955965,Newell city,Newell,"Newell, IA",IA,42.609682,-95.003978,90,90,93,90,80,84,88
 1956055,Newhall city,Newhall,"Newhall, IA",IA,41.993249,-91.967224,84,86,88,91,84,84,86
 1956100,New Hampton city,New Hampton,"New Hampton, IA",IA,43.056219,-92.314725,85,84,88,86,78,79,80
 1956145,New Hartford city,New Hartford,"New Hartford, IA",IA,42.568201,-92.621391,86,87,90,90,80,83,85
@@ -9586,7 +9586,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 1958080,Oakland city,Oakland,"Oakland, IA",IA,41.31037,-95.399703,90,90,92,95,86,85,90
 1958170,Oakland Acres city,Oakland Acres,"Oakland Acres, IA",IA,41.720862,-92.81987,87,87,90,93,86,85,86
 1958395,Oakville city,Oakville,"Oakville, IA",IA,41.097988,-91.04379,86,88,89,92,89,86,87
-1958530,Ocheyedan city,Ocheyedan,"Ocheyedan, IA",IA,43.418215,-95.53666,87,90,91,80,77,80,86
+1958530,Ocheyedan city,Ocheyedan,"Ocheyedan, IA",IA,43.418215,-95.53666,86,90,91,80,77,80,86
 1958575,Odebolt city,Odebolt,"Odebolt, IA",IA,42.311842,-95.254378,89,91,92,91,83,84,88
 1958620,Oelwein city,Oelwein,"Oelwein, IA",IA,42.671581,-91.912787,85,85,88,89,79,80,84
 1958665,Ogden city,Ogden,"Ogden, IA",IA,42.039479,-94.028288,87,89,92,92,84,84,88
@@ -9626,7 +9626,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 1961770,Parnell city,Parnell,"Parnell, IA",IA,41.583702,-92.004425,85,86,88,91,85,84,86
 1961815,Paton city,Paton,"Paton, IA",IA,42.164386,-94.25503,89,90,92,93,84,86,89
 1961860,Patterson city,Patterson,"Patterson, IA",IA,41.348429,-93.877594,90,90,92,93,86,86,88
-1961905,Paullina city,Paullina,"Paullina, IA",IA,42.97986,-95.683443,89,92,94,88,80,84,87
+1961905,Paullina city,Paullina,"Paullina, IA",IA,42.97986,-95.683443,88,92,94,88,80,84,87
 1962040,Pella city,Pella,"Pella, IA",IA,41.404715,-92.917412,88,87,90,93,86,85,86
 1962130,Peosta city,Peosta,"Peosta, IA",IA,42.447214,-90.841426,80,84,86,87,80,80,82
 1962175,Percival CDP,Percival,"Percival, IA",IA,40.751269,-95.813266,91,91,93,96,89,87,91
@@ -9732,7 +9732,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 1970140,St. Olaf city,St. Olaf,"St. Olaf, IA",IA,42.926811,-91.387696,86,86,88,88,80,80,83
 1970185,St. Paul city,St. Paul,"St. Paul, IA",IA,40.767847,-91.516424,85,86,88,91,89,84,87
 1970230,Salem city,Salem,"Salem, IA",IA,40.85217,-91.62066,85,87,88,91,89,86,86
-1970320,Salix city,Salix,"Salix, IA",IA,42.311921,-96.292189,91,94,95,92,85,88,90
+1970320,Salix city,Salix,"Salix, IA",IA,42.311921,-96.292189,90,94,95,92,85,88,90
 1970410,Sanborn city,Sanborn,"Sanborn, IA",IA,43.181432,-95.655335,88,90,93,87,79,84,87
 1970545,Sandusky CDP,Sandusky,"Sandusky, IA",IA,40.453922,-91.389358,87,87,89,93,91,86,88
 1970590,Sandyville city,Sandyville,"Sandyville, IA",IA,41.370935,-93.386159,88,88,89,92,88,84,87
@@ -9751,7 +9751,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 1972210,Sheffield city,Sheffield,"Sheffield, IA",IA,42.888763,-93.207143,86,86,90,88,79,82,84
 1972300,Shelby city,Shelby,"Shelby, IA",IA,41.505574,-95.449363,90,90,92,94,84,86,89
 1972345,Sheldahl city,Sheldahl,"Sheldahl, IA",IA,41.864523,-93.69675,89,88,91,94,84,85,88
-1972390,Sheldon city,Sheldon,"Sheldon, IA",IA,43.179654,-95.843353,89,91,94,87,80,84,88
+1972390,Sheldon city,Sheldon,"Sheldon, IA",IA,43.179654,-95.843353,88,91,94,87,80,84,88
 1972435,Shell Rock city,Shell Rock,"Shell Rock, IA",IA,42.712345,-92.581658,85,86,88,90,79,80,84
 1972480,Shellsburg city,Shellsburg,"Shellsburg, IA",IA,42.092863,-91.871213,85,87,88,91,85,84,86
 1972525,Shenandoah city,Shenandoah,"Shenandoah, IA",IA,40.758206,-95.372068,91,91,93,97,88,87,91
@@ -9763,7 +9763,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 1973155,Silver City city,Silver City,"Silver City, IA",IA,41.111474,-95.637852,90,90,92,95,86,85,88
 1973290,Sioux Center city,Sioux Center,"Sioux Center, IA",IA,43.074846,-96.170651,90,92,94,88,80,85,88
 1973335,Sioux City city,Sioux City,"Sioux City, IA",IA,42.49538,-96.389495,92,94,96,91,83,87,90
-1973425,Sioux Rapids city,Sioux Rapids,"Sioux Rapids, IA",IA,42.891672,-95.148538,89,90,92,88,79,84,88
+1973425,Sioux Rapids city,Sioux Rapids,"Sioux Rapids, IA",IA,42.891672,-95.148538,88,90,92,88,79,84,88
 1973515,Slater city,Slater,"Slater, IA",IA,41.880736,-93.691179,88,88,91,94,83,84,88
 1973605,Sloan city,Sloan,"Sloan, IA",IA,42.233062,-96.22483,91,94,95,92,84,86,90
 1973650,Smithland city,Smithland,"Smithland, IA",IA,42.228903,-95.931578,90,92,93,91,84,85,89
@@ -9772,7 +9772,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 1973920,Somers city,Somers,"Somers, IA",IA,42.37875,-94.430991,89,90,93,92,83,85,88
 1973965,South Amana CDP,South Amana,"South Amana, IA",IA,41.77039,-91.959919,85,87,88,91,85,84,85
 1974055,South English city,South English,"South English, IA",IA,41.452153,-92.090333,85,87,88,92,87,84,86
-1974280,Spencer city,Spencer,"Spencer, IA",IA,43.147025,-95.152691,89,90,92,86,79,84,88
+1974280,Spencer city,Spencer,"Spencer, IA",IA,43.147025,-95.152691,88,90,92,86,79,84,88
 1974325,Sperry CDP,Sperry,"Sperry, IA",IA,40.961955,-91.164118,86,86,88,90,88,84,85
 1974370,Spillville city,Spillville,"Spillville, IA",IA,43.202841,-91.952212,85,85,88,87,78,80,80
 1974415,Spirit Lake city,Spirit Lake,"Spirit Lake, IA",IA,43.416659,-95.113071,86,89,90,80,78,82,86
@@ -13429,7 +13429,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2702728,Audubon city,Audubon,"Audubon, MN",MN,46.865228,-95.984096,86,92,84,76,79,79,82
 2702872,Aurora city,Aurora,"Aurora, MN",MN,47.531639,-92.241012,81,85,82,74,78,75,77
 2702908,Austin city,Austin,"Austin, MN",MN,43.672098,-92.977863,85,86,90,85,78,80,83
-2703052,Avoca city,Avoca,"Avoca, MN",MN,43.948754,-95.646724,86,89,91,80,78,83,85
+2703052,Avoca city,Avoca,"Avoca, MN",MN,43.948754,-95.646724,85,89,91,80,78,83,85
 2703070,Avon city,Avon,"Avon, MN",MN,45.605505,-94.447741,87,92,90,77,78,82,83
 2703106,Babbitt city,Babbitt,"Babbitt, MN",MN,47.643105,-91.928336,81,86,82,74,78,75,77
 2703124,Backus city,Backus,"Backus, MN",MN,46.820915,-94.514549,84,91,84,74,77,76,78
@@ -13696,7 +13696,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2722814,Fridley city,Fridley,"Fridley, MN",MN,45.084246,-93.26005,90,91,93,80,79,83,84
 2722904,Frontenac CDP,Frontenac,"Frontenac, MN",MN,44.503785,-92.352561,88,89,93,84,80,83,84
 2722940,Frost city,Frost,"Frost, MN",MN,43.584608,-93.924727,87,89,91,87,79,82,85
-2722958,Fulda city,Fulda,"Fulda, MN",MN,43.867377,-95.60552,86,89,91,84,78,83,85
+2722958,Fulda city,Fulda,"Fulda, MN",MN,43.867377,-95.60552,85,89,91,84,78,83,85
 2722976,Funkley city,Funkley,"Funkley, MN",MN,47.786816,-94.42664,84,91,82,76,80,77,79
 2723084,Garden City CDP,Garden City,"Garden City, MN",MN,44.047814,-94.170681,88,91,92,86,80,84,86
 2723120,Garfield city,Garfield,"Garfield, MN",MN,45.937601,-95.498535,86,90,86,76,77,79,82
@@ -13754,7 +13754,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2726990,Hanover city,Hanover,"Hanover, MN",MN,45.157755,-93.66275,88,90,91,79,79,82,83
 2727008,Hanska city,Hanska,"Hanska, MN",MN,44.148743,-94.494459,89,92,94,87,80,84,87
 2727098,Harding city,Harding,"Harding, MN",MN,46.119106,-94.036798,85,88,86,74,77,78,80
-2727116,Hardwick city,Hardwick,"Hardwick, MN",MN,43.77419,-96.197462,87,90,91,83,78,83,86
+2727116,Hardwick city,Hardwick,"Hardwick, MN",MN,43.77419,-96.197462,86,90,91,83,78,83,86
 2727188,Harmony city,Harmony,"Harmony, MN",MN,43.554005,-92.007471,80,83,86,79,76,77,79
 2727278,Harris city,Harris,"Harris, MN",MN,45.597768,-92.988641,88,91,92,78,79,82,84
 2727404,Hartland city,Hartland,"Hartland, MN",MN,43.80422,-93.48435,86,88,90,84,78,80,82
@@ -13799,18 +13799,18 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2730392,Hugo city,Hugo,"Hugo, MN",MN,45.164225,-92.960105,88,90,92,80,78,80,83
 2730446,Humboldt city,Humboldt,"Humboldt, MN",MN,48.921522,-97.094642,91,87,79,77,79,80,83
 2730644,Hutchinson city,Hutchinson,"Hutchinson, MN",MN,44.885358,-94.376876,88,91,91,79,78,80,83
-2730806,Ihlen city,Ihlen,"Ihlen, MN",MN,43.915574,-96.372771,87,91,92,80,78,83,86
+2730806,Ihlen city,Ihlen,"Ihlen, MN",MN,43.915574,-96.372771,86,91,92,80,78,83,86
 2730842,Independence city,Independence,"Independence, MN",MN,45.018594,-93.71975,88,91,91,79,78,82,83
 2730950,Inger CDP,Inger,"Inger, MN",MN,47.563282,-93.977317,85,88,83,75,78,75,78
 2731040,International Falls city,International Falls,"International Falls, MN",MN,48.586353,-93.407743,85,87,82,78,80,77,81
 2731076,Inver Grove Heights city,Inver Grove Heights,"Inver Grove Heights, MN",MN,44.829015,-93.060072,88,89,92,80,79,82,83
-2731094,Iona city,Iona,"Iona, MN",MN,43.915596,-95.783085,86,88,90,80,77,82,85
+2731094,Iona city,Iona,"Iona, MN",MN,43.915596,-95.783085,85,88,90,80,77,82,85
 2731238,Iron Junction city,Iron Junction,"Iron Junction, MN",MN,47.418986,-92.608644,81,86,82,75,78,75,77
 2731274,Ironton city,Ironton,"Ironton, MN",MN,46.48219,-94.003348,84,90,84,74,77,77,79
 2731328,Isanti city,Isanti,"Isanti, MN",MN,45.491545,-93.242818,90,92,92,79,79,82,84
 2731472,Isle city,Isle,"Isle, MN",MN,46.138076,-93.455793,83,86,83,73,76,77,78
 2731526,Ivanhoe city,Ivanhoe,"Ivanhoe, MN",MN,44.464282,-96.251729,86,91,90,77,76,82,84
-2731562,Jackson city,Jackson,"Jackson, MN",MN,43.62568,-94.988585,86,87,90,80,77,80,84
+2731562,Jackson city,Jackson,"Jackson, MN",MN,43.62568,-94.988585,85,87,90,80,77,80,84
 2731706,Janesville city,Janesville,"Janesville, MN",MN,44.119846,-93.709698,87,88,91,85,78,82,84
 2731760,Jasper city,Jasper,"Jasper, MN",MN,43.848886,-96.399636,87,91,92,83,78,83,86
 2731796,Jeffers city,Jeffers,"Jeffers, MN",MN,44.055905,-95.195353,86,88,90,79,77,80,84
@@ -13825,7 +13825,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2732606,Kelliher city,Kelliher,"Kelliher, MN",MN,47.948176,-94.43783,84,89,82,76,79,77,80
 2732642,Kellogg city,Kellogg,"Kellogg, MN",MN,44.307013,-91.998701,89,89,94,87,80,83,84
 2732732,Kennedy city,Kennedy,"Kennedy, MN",MN,48.643666,-96.910516,90,89,80,77,80,80,84
-2732750,Kenneth city,Kenneth,"Kenneth, MN",MN,43.754338,-96.072529,87,90,91,83,78,83,86
+2732750,Kenneth city,Kenneth,"Kenneth, MN",MN,43.754338,-96.072529,86,90,91,83,78,83,86
 2732768,Kensington city,Kensington,"Kensington, MN",MN,45.778179,-95.696867,88,92,87,76,77,80,84
 2732786,Kent city,Kent,"Kent, MN",MN,46.438072,-96.682577,89,96,86,77,79,84,87
 2732840,Kenyon city,Kenyon,"Kenyon, MN",MN,44.272551,-92.9864,85,87,89,80,77,80,82
@@ -13835,7 +13835,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2733056,Kiester city,Kiester,"Kiester, MN",MN,43.536505,-93.711172,87,89,91,87,78,82,84
 2733110,Kilkenny city,Kilkenny,"Kilkenny, MN",MN,44.315238,-93.574011,87,88,91,80,78,80,84
 2733164,Kimball city,Kimball,"Kimball, MN",MN,45.31433,-94.300807,87,91,90,77,77,80,82
-2733236,Kinbrae city,Kinbrae,"Kinbrae, MN",MN,43.822805,-95.475935,86,89,91,84,78,83,84
+2733236,Kinbrae city,Kinbrae,"Kinbrae, MN",MN,43.822805,-95.475935,85,89,91,84,78,83,84
 2733344,Kingston city,Kingston,"Kingston, MN",MN,45.194384,-94.307118,88,91,90,78,78,80,83
 2733416,Kinney city,Kinney,"Kinney, MN",MN,47.516501,-92.719531,81,86,81,74,77,75,76
 2733578,Knife River CDP,Knife River,"Knife River, MN",MN,46.948908,-91.78419,69,73,80,68,71,69,71
@@ -13871,7 +13871,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2736404,Lengby city,Lengby,"Lengby, MN",MN,47.515347,-95.634568,86,88,80,75,78,79,80
 2736494,Leonard city,Leonard,"Leonard, MN",MN,47.649802,-95.264158,84,88,80,75,77,77,78
 2736530,Leonidas city,Leonidas,"Leonidas, MN",MN,47.46766,-92.567436,82,86,82,75,78,76,77
-2736548,Leota CDP,Leota,"Leota, MN",MN,43.826383,-96.024232,87,90,91,83,78,82,86
+2736548,Leota CDP,Leota,"Leota, MN",MN,43.826383,-96.024232,86,90,91,83,78,82,86
 2736620,Le Roy city,Le Roy,"Le Roy, MN",MN,43.513277,-92.507793,84,84,87,80,77,78,79
 2736728,Lester Prairie city,Lester Prairie,"Lester Prairie, MN",MN,44.883322,-94.036998,87,90,91,78,78,80,83
 2736746,Le Sueur city,Le Sueur,"Le Sueur, MN",MN,44.470513,-93.901773,88,91,94,85,80,82,85
@@ -14020,7 +14020,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2748094,Odin city,Odin,"Odin, MN",MN,43.86727,-94.742762,87,90,91,84,79,82,85
 2748130,Ogema city,Ogema,"Ogema, MN",MN,47.10232,-95.916567,86,90,82,76,78,78,80
 2748166,Ogilvie city,Ogilvie,"Ogilvie, MN",MN,45.829828,-93.423042,86,90,89,76,78,80,82
-2748184,Okabena city,Okabena,"Okabena, MN",MN,43.739298,-95.318758,86,88,90,84,79,83,85
+2748184,Okabena city,Okabena,"Okabena, MN",MN,43.739298,-95.318758,85,88,90,84,79,83,85
 2748202,Oklee city,Oklee,"Oklee, MN",MN,47.838746,-95.849548,87,90,80,76,78,79,80
 2748256,Olivia city,Olivia,"Olivia, MN",MN,44.776964,-94.997144,88,92,93,79,79,82,85
 2748310,Onamia city,Onamia,"Onamia, MN",MN,46.070301,-93.66705,84,87,86,74,77,78,79
@@ -14058,7 +14058,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2751234,Pine Point CDP,Pine Point,"Pine Point, MN",MN,46.985338,-95.400015,84,88,82,74,77,77,78
 2751280,Pine River city,Pine River,"Pine River, MN",MN,46.723289,-94.396599,84,90,83,74,77,76,78
 2751316,Pine Springs city,Pine Springs,"Pine Springs, MN",MN,45.038031,-92.95594,88,89,91,80,78,82,82
-2751388,Pipestone city,Pipestone,"Pipestone, MN",MN,43.995916,-96.31108,87,90,91,80,78,82,85
+2751388,Pipestone city,Pipestone,"Pipestone, MN",MN,43.995916,-96.31108,86,90,91,80,78,82,85
 2751424,Plainview city,Plainview,"Plainview, MN",MN,44.164687,-92.16919,84,86,89,84,77,79,80
 2751460,Plato city,Plato,"Plato, MN",MN,44.77235,-94.039337,87,91,92,79,78,80,83
 2751712,Plummer city,Plummer,"Plummer, MN",MN,47.915166,-96.041542,88,90,80,76,78,79,82
@@ -14109,7 +14109,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2755726,Rosemount city,Rosemount,"Rosemount, MN",MN,44.745814,-93.068864,87,90,92,80,78,82,83
 2755852,Roseville city,Roseville,"Roseville, MN",MN,45.015625,-93.153807,89,91,92,80,79,83,84
 2756014,Rothsay city,Rothsay,"Rothsay, MN",MN,46.473091,-96.284242,88,95,86,76,78,82,85
-2756086,Round Lake city,Round Lake,"Round Lake, MN",MN,43.537198,-95.471926,87,88,90,80,77,82,85
+2756086,Round Lake city,Round Lake,"Round Lake, MN",MN,43.537198,-95.471926,86,88,90,80,77,82,85
 2756176,Royalton city,Royalton,"Royalton, MN",MN,45.830329,-94.292615,86,91,88,76,78,79,82
 2756212,Roy Lake CDP,Roy Lake,"Roy Lake, MN",MN,47.316833,-95.538731,85,88,80,75,77,76,79
 2756266,Rush City city,Rush City,"Rush City, MN",MN,45.687442,-92.965303,88,91,91,78,79,82,83
@@ -16460,7 +16460,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 3111615,Culbertson village,Culbertson,"Culbertson, NE",NE,40.2242,-100.83964,93,95,95,90,86,88,92
 3111825,Curtis city,Curtis,"Curtis, NE",NE,40.633562,-100.511262,91,93,95,90,85,88,93
 3111860,Cushing village,Cushing,"Cushing, NE",NE,41.294827,-98.369257,92,95,96,91,84,87,91
-3112000,Dakota City city,Dakota City,"Dakota City, NE",NE,42.418115,-96.420744,92,94,96,92,84,86,90
+3112000,Dakota City city,Dakota City,"Dakota City, NE",NE,42.418115,-96.420744,91,94,96,92,84,86,90
 3112070,Dalton village,Dalton,"Dalton, NE",NE,41.408231,-102.970777,89,91,90,83,81,84,90
 3112105,Danbury village,Danbury,"Danbury, NE",NE,40.037706,-100.405108,92,94,95,91,85,87,92
 3112140,Dannebrog village,Dannebrog,"Dannebrog, NE",NE,41.118605,-98.545735,91,93,94,90,84,86,90
@@ -16499,7 +16499,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 3115570,Elwood village,Elwood,"Elwood, NE",NE,40.590133,-99.861978,89,91,91,88,83,86,89
 3115605,Elyria village,Elyria,"Elyria, NE",NE,41.680064,-99.005316,90,93,93,87,82,86,89
 3115675,Emerald CDP,Emerald,"Emerald, NE",NE,40.81313,-96.835371,91,94,95,96,87,88,91
-3115710,Emerson village,Emerson,"Emerson, NE",NE,42.278205,-96.72629,89,93,95,90,82,86,89
+3115710,Emerson village,Emerson,"Emerson, NE",NE,42.278205,-96.72629,90,93,95,90,82,86,89
 3115815,Emmet village,Emmet,"Emmet, NE",NE,42.475698,-98.809302,90,94,94,85,82,86,90
 3115885,Enders CDP,Enders,"Enders, NE",NE,40.454919,-101.535567,92,94,97,89,85,88,91
 3115920,Endicott village,Endicott,"Endicott, NE",NE,40.082198,-97.095385,91,90,92,94,87,88,91
@@ -16578,13 +16578,13 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 3122640,Holdrege city,Holdrege,"Holdrege, NE",NE,40.439441,-99.377037,91,92,93,89,84,87,90
 3122780,Holmesville CDP,Holmesville,"Holmesville, NE",NE,40.201426,-96.65885,91,91,93,95,88,88,90
 3122815,Holstein village,Holstein,"Holstein, NE",NE,40.465224,-98.651043,91,93,94,91,86,87,91
-3122920,Homer village,Homer,"Homer, NE",NE,42.322495,-96.49121,90,92,94,91,83,86,89
+3122920,Homer village,Homer,"Homer, NE",NE,42.322495,-96.49121,89,92,94,91,83,86,89
 3123025,Hooper city,Hooper,"Hooper, NE",NE,41.611435,-96.549246,88,90,91,91,82,85,88
 3123200,Hordville village,Hordville,"Hordville, NE",NE,41.079361,-97.89035,91,94,94,93,84,87,91
 3123235,Hoskins village,Hoskins,"Hoskins, NE",NE,42.112636,-97.304384,87,89,91,87,80,84,88
 3123270,Howard City (Boelus) village,Howard City (Boelus),"Howard City (Boelus), NE",NE,41.075411,-98.715322,90,93,94,90,84,86,91
 3123340,Howells village,Howells,"Howells, NE",NE,41.724232,-97.004645,89,90,91,89,82,85,89
-3123375,Hubbard village,Hubbard,"Hubbard, NE",NE,42.385904,-96.59101,91,94,96,91,83,87,91
+3123375,Hubbard village,Hubbard,"Hubbard, NE",NE,42.385904,-96.59101,92,94,96,91,83,87,91
 3123410,Hubbell village,Hubbell,"Hubbell, NE",NE,40.008741,-97.497006,91,91,94,94,88,87,90
 3123445,Humboldt city,Humboldt,"Humboldt, NE",NE,40.165819,-95.94432,92,91,93,96,90,88,92
 3123480,Humphrey city,Humphrey,"Humphrey, NE",NE,41.688506,-97.485148,90,92,93,90,83,86,90
@@ -16660,7 +16660,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 3130835,Martell CDP,Martell,"Martell, NE",NE,40.638942,-96.758794,90,90,92,94,86,87,90
 3130905,Martin CDP,Martin,"Martin, NE",NE,41.258135,-101.709005,89,92,93,85,80,85,91
 3130940,Martinsburg village,Martinsburg,"Martinsburg, NE",NE,42.508573,-96.832,90,94,95,90,82,86,90
-3131045,Maskell village,Maskell,"Maskell, NE",NE,42.690418,-96.9809,92,96,96,90,83,87,92
+3131045,Maskell village,Maskell,"Maskell, NE",NE,42.690418,-96.9809,91,96,96,90,83,87,92
 3131115,Mason City village,Mason City,"Mason City, NE",NE,41.222172,-99.298789,91,93,94,88,84,86,90
 3131150,Max CDP,Max,"Max, NE",NE,40.11432,-101.404489,93,96,97,90,85,89,93
 3131220,Maxwell village,Maxwell,"Maxwell, NE",NE,41.077114,-100.526314,90,92,93,87,83,87,91
@@ -16871,7 +16871,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 3150790,Virginia village,Virginia,"Virginia, NE",NE,40.245859,-96.498824,89,88,90,92,87,86,89
 3150895,Waco village,Waco,"Waco, NE",NE,40.897,-97.461747,91,93,93,93,85,87,90
 3150965,Wahoo city,Wahoo,"Wahoo, NE",NE,41.21712,-96.617844,91,93,95,96,86,88,91
-3151070,Wakefield city,Wakefield,"Wakefield, NE",NE,42.266651,-96.862925,90,94,95,91,83,86,90
+3151070,Wakefield city,Wakefield,"Wakefield, NE",NE,42.266651,-96.862925,91,94,95,91,83,86,90
 3151175,Wallace village,Wallace,"Wallace, NE",NE,40.837579,-101.164481,91,93,95,88,83,87,90
 3151245,Walthill village,Walthill,"Walthill, NE",NE,42.148853,-96.49287,89,91,93,91,82,86,89
 3151280,Walton CDP,Walton,"Walton, NE",NE,40.796224,-96.565291,92,92,94,94,87,87,90
@@ -25900,7 +25900,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 4600540,Akaska town,Akaska,"Akaska, SD",SD,45.331026,-100.120861,95,97,89,80,83,86,92
 4600620,Albee town,Albee,"Albee, SD",SD,45.051287,-96.553528,91,95,92,78,79,83,87
 4600700,Alcester city,Alcester,"Alcester, SD",SD,43.027607,-96.626844,88,92,93,87,80,84,87
-4600820,Alexandria city,Alexandria,"Alexandria, SD",SD,43.654039,-97.779917,92,98,96,87,83,88,91
+4600820,Alexandria city,Alexandria,"Alexandria, SD",SD,43.654039,-97.779917,91,98,96,87,83,88,91
 4600900,Allen CDP,Allen,"Allen, SD",SD,43.279136,-101.92651,88,92,89,80,81,84,90
 4601020,Alpena town,Alpena,"Alpena, SD",SD,44.183378,-98.368362,91,97,94,82,81,85,90
 4601140,Altamont town,Altamont,"Altamont, SD",SD,44.84078,-96.690152,88,92,90,76,77,82,85
@@ -25912,13 +25912,13 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 4602180,Arlington city,Arlington,"Arlington, SD",SD,44.363514,-97.133822,87,93,91,78,78,83,86
 4602260,Armour city,Armour,"Armour, SD",SD,43.319339,-98.344149,91,96,96,85,82,86,90
 4602340,Artas town,Artas,"Artas, SD",SD,45.887226,-99.806799,92,93,85,76,80,82,87
-4602380,Artesian town,Artesian,"Artesian, SD",SD,44.007895,-97.923709,92,97,96,84,82,86,90
+4602380,Artesian town,Artesian,"Artesian, SD",SD,44.007895,-97.923709,91,97,96,84,82,86,90
 4602530,Ashland Heights CDP,Ashland Heights,"Ashland Heights, SD",SD,44.133411,-103.123712,94,91,87,81,84,87,93
 4602540,Ashton city,Ashton,"Ashton, SD",SD,44.993056,-98.499111,94,98,93,80,82,86,91
 4602580,Astoria town,Astoria,"Astoria, SD",SD,44.557732,-96.546499,87,90,88,76,77,82,84
 4602780,Aurora town,Aurora,"Aurora, SD",SD,44.283314,-96.682869,87,91,91,79,79,83,86
 4602860,Aurora Center CDP,Aurora Center,"Aurora Center, SD",SD,43.527155,-98.589466,90,95,95,84,82,86,90
-4602900,Avon city,Avon,"Avon, SD",SD,43.005203,-98.059262,91,96,95,87,82,86,90
+4602900,Avon city,Avon,"Avon, SD",SD,43.005203,-98.059262,90,96,95,87,82,86,90
 4603060,Badger town,Badger,"Badger, SD",SD,44.485502,-97.207868,89,95,93,79,79,83,88
 4603380,Baltic city,Baltic,"Baltic, SD",SD,43.760051,-96.736898,87,91,92,84,79,83,86
 4603420,Bancroft town,Bancroft,"Bancroft, SD",SD,44.489368,-97.750501,88,95,94,78,79,84,88
@@ -25927,7 +25927,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 4603960,Bath Corner CDP,Bath Corner,"Bath Corner, SD",SD,45.462689,-98.332896,95,97,91,79,82,84,89
 4604380,Belle Fourche city,Belle Fourche,"Belle Fourche, SD",SD,44.663798,-103.859143,94,89,86,82,85,86,93
 4604620,Belvidere town,Belvidere,"Belvidere, SD",SD,43.832224,-101.271118,92,96,93,82,84,87,93
-4604980,Beresford city,Beresford,"Beresford, SD",SD,43.079646,-96.780224,89,92,92,87,82,85,89
+4604980,Beresford city,Beresford,"Beresford, SD",SD,43.079646,-96.780224,88,92,92,87,82,85,89
 4605540,Big Stone City city,Big Stone City,"Big Stone City, SD",SD,45.308728,-96.472606,88,90,87,76,77,82,85
 4605580,Bijou Hills CDP,Bijou Hills,"Bijou Hills, SD",SD,43.528479,-99.143858,90,96,96,83,82,86,90
 4605620,Bison town,Bison,"Bison, SD",SD,45.52355,-102.467716,91,87,80,78,82,83,90
@@ -25951,7 +25951,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 4607180,Bridgewater city,Bridgewater,"Bridgewater, SD",SD,43.55021,-97.498384,91,97,96,86,82,87,91
 4607300,Bristol city,Bristol,"Bristol, SD",SD,45.343893,-97.744919,91,93,88,76,79,82,86
 4607380,Britton city,Britton,"Britton, SD",SD,45.792363,-97.752897,93,93,86,76,80,83,86
-4607420,Broadland town,Broadland,"Broadland, SD",SD,44.493825,-98.346556,91,97,94,80,81,85,90
+4607420,Broadland town,Broadland,"Broadland, SD",SD,44.493825,-98.346556,90,97,94,80,81,85,90
 4607580,Brookings city,Brookings,"Brookings, SD",SD,44.303364,-96.787339,87,91,91,79,79,83,86
 4607740,Bruce city,Bruce,"Bruce, SD",SD,44.437787,-96.890642,87,93,92,78,78,83,86
 4608060,Bryant city,Bryant,"Bryant, SD",SD,44.589903,-97.467281,90,94,91,77,78,83,87
@@ -25973,7 +25973,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 4610500,Castlewood city,Castlewood,"Castlewood, SD",SD,44.724158,-97.03092,90,94,92,78,78,84,87
 4610620,Cavour town,Cavour,"Cavour, SD",SD,44.369329,-98.042096,90,96,95,80,81,85,89
 4610835,Cedar Grove Colony CDP,Cedar Grove Colony,"Cedar Grove Colony, SD",SD,43.531623,-98.806421,91,98,97,85,82,87,93
-4611060,Centerville city,Centerville,"Centerville, SD",SD,43.116535,-96.959477,91,94,95,88,83,86,90
+4611060,Centerville city,Centerville,"Centerville, SD",SD,43.116535,-96.959477,90,94,95,88,83,86,90
 4611140,Central City city,Central City,"Central City, SD",SD,44.368603,-103.770248,85,81,78,73,75,79,84
 4611220,Chamberlain city,Chamberlain,"Chamberlain, SD",SD,43.798718,-99.329604,93,98,95,84,83,87,92
 4611380,Chancellor town,Chancellor,"Chancellor, SD",SD,43.371841,-96.987271,91,95,94,88,83,86,91
@@ -26009,15 +26009,15 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 4615256,Dakota Dunes CDP,Dakota Dunes,"Dakota Dunes, SD",SD,42.490311,-96.483992,92,94,96,92,84,86,91
 4615300,Dallas town,Dallas,"Dallas, SD",SD,43.237834,-99.517511,90,95,93,83,81,86,91
 4615420,Dante town,Dante,"Dante, SD",SD,43.039967,-98.185533,93,99,98,89,84,88,93
-4615540,Davis town,Davis,"Davis, SD",SD,43.259528,-96.994506,91,95,94,88,83,86,91
+4615540,Davis town,Davis,"Davis, SD",SD,43.259528,-96.994506,92,95,94,88,83,86,91
 4615700,Deadwood city,Deadwood,"Deadwood, SD",SD,44.387048,-103.720742,84,81,77,73,75,79,84
 4615774,Deerfield Colony CDP,Deerfield Colony,"Deerfield Colony, SD",SD,45.587368,-98.899548,94,96,87,78,81,84,88
 4615980,Dell Rapids city,Dell Rapids,"Dell Rapids, SD",SD,43.824824,-96.71459,88,92,94,84,79,84,87
 4616060,Delmont city,Delmont,"Delmont, SD",SD,43.266638,-98.159153,91,97,96,87,83,86,91
-4616260,De Smet city,De Smet,"De Smet, SD",SD,44.386148,-97.549688,88,94,91,77,78,83,87
-4616620,Dimock town,Dimock,"Dimock, SD",SD,43.477376,-97.987137,91,97,96,86,83,88,91
+4616260,De Smet city,De Smet,"De Smet, SD",SD,44.386148,-97.549688,87,94,91,77,78,83,87
+4616620,Dimock town,Dimock,"Dimock, SD",SD,43.477376,-97.987137,90,97,96,86,83,88,91
 4616820,Doland city,Doland,"Doland, SD",SD,44.894679,-98.099966,92,96,92,79,80,84,88
-4616860,Dolton town,Dolton,"Dolton, SD",SD,43.491093,-97.384798,91,95,94,85,79,85,90
+4616860,Dolton town,Dolton,"Dolton, SD",SD,43.491093,-97.384798,90,95,94,85,79,85,90
 4617020,Draper town,Draper,"Draper, SD",SD,43.926161,-100.53718,92,97,93,80,83,86,91
 4617215,Dudley CDP,Dudley,"Dudley, SD",SD,43.308159,-103.819167,94,93,91,83,84,89,95
 4617420,Dupree city,Dupree,"Dupree, SD",SD,45.049479,-101.601316,90,90,86,79,83,85,91
@@ -26027,7 +26027,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 4618460,Egan city,Egan,"Egan, SD",SD,44.000333,-96.648538,88,92,92,83,79,83,87
 4618620,Elk Point city,Elk Point,"Elk Point, SD",SD,42.681224,-96.68048,92,96,97,92,84,88,91
 4618700,Elkton city,Elkton,"Elkton, SD",SD,44.235074,-96.479409,86,89,90,79,77,82,85
-4619420,Emery city,Emery,"Emery, SD",SD,43.602,-97.619494,92,98,97,87,83,88,91
+4619420,Emery city,Emery,"Emery, SD",SD,43.602,-97.619494,91,98,97,87,83,88,91
 4619556,Enemy Swim CDP,Enemy Swim,"Enemy Swim, SD",SD,45.429367,-97.286856,88,90,84,74,77,80,83
 4619860,Erwin town,Erwin,"Erwin, SD",SD,44.488024,-97.440858,88,93,92,78,78,83,87
 4619980,Estelline city,Estelline,"Estelline, SD",SD,44.576766,-96.901082,89,93,91,78,78,83,86
@@ -26038,21 +26038,21 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 4620380,Fairfax town,Fairfax,"Fairfax, SD",SD,43.028049,-98.888945,90,95,94,84,82,86,91
 4620780,Fairview town,Fairview,"Fairview, SD",SD,43.222028,-96.487402,90,94,94,88,80,85,89
 4620980,Faith city,Faith,"Faith, SD",SD,45.025321,-102.037061,91,90,86,79,83,86,92
-4621060,Farmer town,Farmer,"Farmer, SD",SD,43.725301,-97.68905,93,98,96,87,83,88,91
+4621060,Farmer town,Farmer,"Farmer, SD",SD,43.725301,-97.68905,92,98,96,87,83,88,91
 4621260,Faulkton city,Faulkton,"Faulkton, SD",SD,45.034155,-99.126732,92,97,92,79,82,85,90
 4621340,Fedora CDP,Fedora,"Fedora, SD",SD,44.006667,-97.789562,91,98,97,83,82,86,89
 4621380,Ferney CDP,Ferney,"Ferney, SD",SD,45.334553,-98.093868,95,97,92,78,82,84,88
-4621540,Flandreau city,Flandreau,"Flandreau, SD",SD,44.045458,-96.601772,88,92,92,83,79,84,87
+4621540,Flandreau city,Flandreau,"Flandreau, SD",SD,44.045458,-96.601772,87,92,92,83,79,84,87
 4621820,Florence town,Florence,"Florence, SD",SD,45.054789,-97.326313,91,95,91,78,80,83,87
 4622070,Fordham Colony CDP,Fordham Colony,"Fordham Colony, SD",SD,44.767701,-97.906933,91,95,92,78,79,84,89
-4622100,Forestburg CDP,Forestburg,"Forestburg, SD",SD,44.021201,-98.103233,92,97,96,83,82,85,90
+4622100,Forestburg CDP,Forestburg,"Forestburg, SD",SD,44.021201,-98.103233,91,97,96,83,82,85,90
 4622260,Fort Pierre city,Fort Pierre,"Fort Pierre, SD",SD,44.366596,-100.382329,97,101,97,85,86,90,96
 4622340,Fort Thompson CDP,Fort Thompson,"Fort Thompson, SD",SD,44.054922,-99.404829,94,100,97,84,83,88,94
 4622580,Frankfort city,Frankfort,"Frankfort, SD",SD,44.877664,-98.309239,94,97,93,79,81,85,90
 4622860,Frederick town,Frederick,"Frederick, SD",SD,45.831883,-98.506703,94,96,86,78,81,84,88
 4623020,Freeman city,Freeman,"Freeman, SD",SD,43.347525,-97.430791,89,95,94,86,80,86,89
 4623140,Fruitdale town,Fruitdale,"Fruitdale, SD",SD,44.669209,-103.69547,94,90,86,82,84,87,93
-4623220,Fulton town,Fulton,"Fulton, SD",SD,43.72883,-97.822628,94,99,97,86,83,87,92
+4623220,Fulton town,Fulton,"Fulton, SD",SD,43.72883,-97.822628,93,99,97,86,83,87,92
 4623421,Gann Valley CDP,Gann Valley,"Gann Valley, SD",SD,44.033506,-98.988421,91,97,93,82,81,86,90
 4623460,Garden City town,Garden City,"Garden City, SD",SD,44.959263,-97.580412,91,94,91,77,78,82,86
 4623820,Garretson city,Garretson,"Garretson, SD",SD,43.714831,-96.503307,87,91,92,84,79,83,86
@@ -26064,7 +26064,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 4624620,Glenham town,Glenham,"Glenham, SD",SD,45.532994,-100.271118,96,95,88,80,84,86,92
 4624760,Golden View Colony CDP,Golden View Colony,"Golden View Colony, SD",SD,43.695418,-97.443644,90,96,95,85,80,86,90
 4624820,Goodwin town,Goodwin,"Goodwin, SD",SD,44.877514,-96.849701,88,92,89,75,76,80,85
-4625020,Graceville Colony CDP,Graceville Colony,"Graceville Colony, SD",SD,43.92886,-97.284002,90,95,93,80,79,84,88
+4625020,Graceville Colony CDP,Graceville Colony,"Graceville Colony, SD",SD,43.92886,-97.284002,89,95,93,80,79,84,88
 4625741,Grassland Colony CDP,Grassland Colony,"Grassland Colony, SD",SD,45.668242,-98.796458,94,95,86,78,81,83,87
 4625743,Grass Ranch Colony CDP,Grass Ranch Colony,"Grass Ranch Colony, SD",SD,43.650011,-98.883619,90,96,95,84,82,86,90
 4625900,Green Grass CDP,Green Grass,"Green Grass, SD",SD,45.156622,-101.286973,93,93,88,80,84,86,92
@@ -26085,7 +26085,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 4628300,Hermosa town,Hermosa,"Hermosa, SD",SD,43.840434,-103.189707,92,90,87,81,82,85,92
 4628340,Herreid city,Herreid,"Herreid, SD",SD,45.837808,-100.074684,95,94,86,79,83,84,90
 4628420,Herrick town,Herrick,"Herrick, SD",SD,43.115017,-99.188214,89,94,93,83,81,85,90
-4628460,Hetland town,Hetland,"Hetland, SD",SD,44.377229,-97.23467,89,95,93,79,78,83,88
+4628460,Hetland town,Hetland,"Hetland, SD",SD,44.377229,-97.23467,88,95,93,79,78,83,88
 4628980,Highmore city,Highmore,"Highmore, SD",SD,44.52137,-99.439332,91,95,90,79,81,85,90
 4629100,Hill City city,Hill City,"Hill City, SD",SD,43.931815,-103.568736,85,82,81,76,78,80,85
 4629116,Hillcrest Colony CDP,Hillcrest Colony,"Hillcrest Colony, SD",SD,44.942469,-97.667189,90,96,92,78,79,83,88
@@ -26096,18 +26096,18 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 4630140,Hosmer city,Hosmer,"Hosmer, SD",SD,45.578787,-99.473642,91,93,84,76,79,82,87
 4630220,Hot Springs city,Hot Springs,"Hot Springs, SD",SD,43.41953,-103.465089,93,91,90,82,82,87,93
 4630300,Hoven town,Hoven,"Hoven, SD",SD,45.241615,-99.777521,93,95,88,79,81,84,91
-4630460,Howard city,Howard,"Howard, SD",SD,44.011656,-97.524566,91,97,95,83,80,86,89
+4630460,Howard city,Howard,"Howard, SD",SD,44.011656,-97.524566,90,97,95,83,80,86,89
 4630740,Hudson town,Hudson,"Hudson, SD",SD,43.130109,-96.455619,90,94,96,88,82,85,89
-4630900,Humboldt town,Humboldt,"Humboldt, SD",SD,43.64494,-97.07452,90,93,93,84,79,83,87
-4630980,Hurley city,Hurley,"Hurley, SD",SD,43.279327,-97.089437,91,95,94,87,82,86,90
-4631060,Huron city,Huron,"Huron, SD",SD,44.362341,-98.209571,91,96,94,82,81,86,90
+4630900,Humboldt town,Humboldt,"Humboldt, SD",SD,43.64494,-97.07452,89,93,93,84,79,83,87
+4630980,Hurley city,Hurley,"Hurley, SD",SD,43.279327,-97.089437,90,95,94,87,82,86,90
+4631060,Huron city,Huron,"Huron, SD",SD,44.362341,-98.209571,90,96,94,82,81,86,90
 4631140,Huron Colony CDP,Huron Colony,"Huron Colony, SD",SD,44.563437,-98.205468,90,96,93,80,81,85,90
 4631196,Hutterville Colony CDP,Hutterville Colony,"Hutterville Colony, SD",SD,45.266322,-98.211516,94,97,92,78,80,84,89
 4631220,Ideal CDP,Ideal,"Ideal, SD",SD,43.540003,-99.921751,94,99,97,85,85,89,93
 4631620,Interior town,Interior,"Interior, SD",SD,43.727274,-101.983298,94,97,94,84,86,89,97
 4631860,Ipswich city,Ipswich,"Ipswich, SD",SD,45.443459,-99.029995,94,96,89,79,81,84,89
 4631940,Irene city,Irene,"Irene, SD",SD,43.083705,-97.157586,89,93,93,87,82,85,89
-4632020,Iroquois city,Iroquois,"Iroquois, SD",SD,44.367859,-97.849534,90,96,96,80,79,85,88
+4632020,Iroquois city,Iroquois,"Iroquois, SD",SD,44.367859,-97.849534,89,96,96,80,79,85,88
 4632140,Isabel town,Isabel,"Isabel, SD",SD,45.393744,-101.431515,92,90,85,78,83,84,91
 4632388,Jamesville Colony CDP,Jamesville Colony,"Jamesville Colony, SD",SD,43.101534,-97.481777,93,97,97,88,83,87,91
 4632460,Java town,Java,"Java, SD",SD,45.503819,-99.883882,92,91,85,76,79,82,88
@@ -26128,7 +26128,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 4635430,Lake Madison CDP,Lake Madison,"Lake Madison, SD",SD,43.955116,-97.026614,88,93,92,83,79,83,87
 4635460,Lake Norden city,Lake Norden,"Lake Norden, SD",SD,44.580057,-97.211569,90,95,93,78,79,84,88
 4635480,Lake Poinsett CDP,Lake Poinsett,"Lake Poinsett, SD",SD,44.572462,-97.108429,89,94,91,78,78,83,87
-4635500,Lake Preston city,Lake Preston,"Lake Preston, SD",SD,44.361663,-97.375992,90,95,93,79,79,84,88
+4635500,Lake Preston city,Lake Preston,"Lake Preston, SD",SD,44.361663,-97.375992,89,95,93,79,79,84,88
 4635671,Lakeview Colony CDP,Lakeview Colony,"Lakeview Colony, SD",SD,43.220202,-98.456374,90,95,95,85,82,86,91
 4635780,Lane town,Lane,"Lane, SD",SD,44.069689,-98.42462,90,97,94,82,81,85,90
 4635820,Langford town,Langford,"Langford, SD",SD,45.602279,-97.830224,94,96,89,78,81,83,87
@@ -26140,7 +26140,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 4636380,Lennox city,Lennox,"Lennox, SD",SD,43.349369,-96.894066,91,95,95,88,83,86,89
 4636460,Leola city,Leola,"Leola, SD",SD,45.721139,-98.938466,94,96,86,77,81,84,88
 4636540,Lesterville town,Lesterville,"Lesterville, SD",SD,43.038603,-97.590613,90,95,96,88,83,87,91
-4636620,Letcher town,Letcher,"Letcher, SD",SD,43.900282,-98.146357,93,98,97,84,82,87,91
+4636620,Letcher town,Letcher,"Letcher, SD",SD,43.900282,-98.146357,92,98,97,84,82,87,91
 4637900,Little Eagle CDP,Little Eagle,"Little Eagle, SD",SD,45.68507,-100.794794,96,94,87,80,85,86,93
 4638760,Long Hollow CDP,Long Hollow,"Long Hollow, SD",SD,45.683459,-97.158649,90,94,86,76,78,83,84
 4638860,Long Lake town,Long Lake,"Long Lake, SD",SD,45.856661,-99.205788,91,91,82,76,80,82,86
@@ -26154,7 +26154,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 4640220,Madison city,Madison,"Madison, SD",SD,44.006223,-97.108481,88,93,93,80,79,84,88
 4640550,Manderson-White Horse Creek CDP,Manderson-White Horse Creek,"Manderson-White Horse Creek, SD",SD,43.235039,-102.491511,90,91,90,82,82,85,91
 4640580,Mansfield CDP,Mansfield,"Mansfield, SD",SD,45.24648,-98.558154,96,98,93,80,82,85,90
-4640860,Marion city,Marion,"Marion, SD",SD,43.423571,-97.260549,90,94,95,86,80,85,90
+4640860,Marion city,Marion,"Marion, SD",SD,43.423571,-97.260549,89,94,95,86,80,85,90
 4641100,Martin city,Martin,"Martin, SD",SD,43.174875,-101.732315,88,92,90,81,82,84,91
 4641180,Marty CDP,Marty,"Marty, SD",SD,42.996489,-98.430196,94,100,98,88,85,89,94
 4641220,Marvin town,Marvin,"Marvin, SD",SD,45.260507,-96.915387,89,93,88,76,77,82,86
@@ -26174,10 +26174,10 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 4642700,Mina CDP,Mina,"Mina, SD",SD,45.454528,-98.73919,94,97,90,79,82,85,89
 4642940,Mission city,Mission,"Mission, SD",SD,43.306273,-100.660908,91,97,94,82,82,87,92
 4642980,Mission Hill town,Mission Hill,"Mission Hill, SD",SD,42.920757,-97.279053,91,96,96,88,83,87,91
-4643100,Mitchell city,Mitchell,"Mitchell, SD",SD,43.727072,-98.042192,93,98,97,85,82,87,90
+4643100,Mitchell city,Mitchell,"Mitchell, SD",SD,43.727072,-98.042192,92,98,97,85,82,87,90
 4643180,Mobridge city,Mobridge,"Mobridge, SD",SD,45.540961,-100.434905,94,93,86,79,83,86,91
 4643380,Monroe town,Monroe,"Monroe, SD",SD,43.486533,-97.216671,91,94,94,87,80,85,90
-4643500,Montrose city,Montrose,"Montrose, SD",SD,43.699771,-97.184405,91,95,95,85,80,84,90
+4643500,Montrose city,Montrose,"Montrose, SD",SD,43.699771,-97.184405,90,95,95,85,80,84,90
 4643780,Morningside CDP,Morningside,"Morningside, SD",SD,44.367629,-98.181393,90,96,94,80,80,85,88
 4643860,Morristown town,Morristown,"Morristown, SD",SD,45.938622,-101.71883,93,89,79,76,83,84,90
 4644020,Mound City town,Mound City,"Mound City, SD",SD,45.726179,-100.068837,95,95,87,79,83,84,91
@@ -26188,7 +26188,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 4644800,Newdale Colony CDP,Newdale Colony,"Newdale Colony, SD",SD,44.290013,-96.524318,86,91,90,79,78,83,86
 4644820,New Effington town,New Effington,"New Effington, SD",SD,45.857577,-96.915005,91,96,87,78,80,84,86
 4644860,Newell city,Newell,"Newell, SD",SD,44.717454,-103.418329,94,91,86,82,84,87,93
-4644900,New Elm Spring Colony CDP,New Elm Spring Colony,"New Elm Spring Colony, SD",SD,43.48918,-97.828377,92,97,97,87,83,87,92
+4644900,New Elm Spring Colony CDP,New Elm Spring Colony,"New Elm Spring Colony, SD",SD,43.48918,-97.828377,91,97,97,87,83,87,92
 4644940,New Holland CDP,New Holland,"New Holland, SD",SD,43.428675,-98.607331,91,97,95,85,82,86,91
 4645024,Newport Colony CDP,Newport Colony,"Newport Colony, SD",SD,45.679083,-97.932789,95,96,88,78,81,83,88
 4645060,New Underwood city,New Underwood,"New Underwood, SD",SD,44.098584,-102.840319,94,92,90,82,84,88,95
@@ -26197,20 +26197,20 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 4645390,Norfeld Colony CDP,Norfeld Colony,"Norfeld Colony, SD",SD,44.423263,-96.55617,85,89,88,77,77,80,83
 4645420,Norris CDP,Norris,"Norris, SD",SD,43.472289,-101.192798,91,96,94,82,84,87,93
 4645548,North Eagle Butte CDP,North Eagle Butte,"North Eagle Butte, SD",SD,45.021502,-101.230904,92,93,88,79,82,85,91
-4645700,North Sioux City city,North Sioux City,"North Sioux City, SD",SD,42.535885,-96.494717,93,95,97,92,84,88,91
+4645700,North Sioux City city,North Sioux City,"North Sioux City, SD",SD,42.535885,-96.494717,92,95,97,92,84,88,91
 4645715,North Spearfish CDP,North Spearfish,"North Spearfish, SD",SD,44.510708,-103.904527,93,87,85,81,82,85,91
 4645740,Northville town,Northville,"Northville, SD",SD,45.155384,-98.579325,95,98,93,79,82,85,90
 4646060,Nunda town,Nunda,"Nunda, SD",SD,44.159852,-97.019394,87,92,91,80,79,83,87
 4646180,Oacoma town,Oacoma,"Oacoma, SD",SD,43.804516,-99.366082,90,95,93,83,82,87,91
 4646240,Oahe Acres CDP,Oahe Acres,"Oahe Acres, SD",SD,44.464816,-100.344913,94,97,94,82,83,87,92
-4646388,Oak Lane Colony CDP,Oak Lane Colony,"Oak Lane Colony, SD",SD,43.509897,-97.741244,93,98,97,88,83,88,91
+4646388,Oak Lane Colony CDP,Oak Lane Colony,"Oak Lane Colony, SD",SD,43.509897,-97.741244,92,98,97,88,83,88,91
 4646500,Oelrichs town,Oelrichs,"Oelrichs, SD",SD,43.182023,-103.233427,95,94,91,82,83,88,93
 4646540,Oglala CDP,Oglala,"Oglala, SD",SD,43.191564,-102.709674,93,94,92,83,83,87,95
 4646620,Okaton CDP,Okaton,"Okaton, SD",SD,43.852108,-100.881366,93,97,95,83,83,87,92
 4646660,Okreek CDP,Okreek,"Okreek, SD",SD,43.348475,-100.38866,92,97,95,83,83,87,92
-4646700,Ola CDP,Ola,"Ola, SD",SD,43.600503,-99.211375,92,98,96,84,82,87,92
+4646700,Ola CDP,Ola,"Ola, SD",SD,43.600503,-99.211375,91,98,96,84,82,87,92
 4646770,Old Elm Spring Colony CDP,Old Elm Spring Colony,"Old Elm Spring Colony, SD",SD,43.491801,-97.804332,92,99,98,86,83,88,93
-4646780,Oldham city,Oldham,"Oldham, SD",SD,44.228201,-97.309527,88,95,94,80,79,84,87
+4646780,Oldham city,Oldham,"Oldham, SD",SD,44.228201,-97.309527,89,95,94,80,79,84,87
 4646900,Olivet town,Olivet,"Olivet, SD",SD,43.241689,-97.674359,90,95,96,87,83,87,90
 4646980,Onaka town,Onaka,"Onaka, SD",SD,45.19118,-99.464715,93,96,89,78,81,84,90
 4647180,Onida city,Onida,"Onida, SD",SD,44.704872,-100.067506,93,97,92,80,82,85,91
@@ -26219,7 +26219,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 4647588,Orland Colony CDP,Orland Colony,"Orland Colony, SD",SD,43.821573,-97.199015,88,93,93,80,79,83,87
 4647660,Ortley town,Ortley,"Ortley, SD",SD,45.334946,-97.204946,89,94,88,75,77,82,84
 4648380,Parker city,Parker,"Parker, SD",SD,43.397772,-97.133358,91,94,94,87,80,85,89
-4648460,Parkston city,Parkston,"Parkston, SD",SD,43.392946,-97.986424,92,97,97,86,82,87,90
+4648460,Parkston city,Parkston,"Parkston, SD",SD,43.392946,-97.986424,91,97,97,86,82,87,90
 4648500,Parmelee CDP,Parmelee,"Parmelee, SD",SD,43.333681,-101.042951,91,95,93,82,84,87,92
 4648820,Pearl Creek Colony CDP,Pearl Creek Colony,"Pearl Creek Colony, SD",SD,44.326034,-97.918419,90,96,94,83,82,85,90
 4648940,Peever town,Peever,"Peever, SD",SD,45.542235,-96.956123,90,95,88,77,79,83,85
@@ -26233,7 +26233,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 4649640,Pine Lakes Addition CDP,Pine Lakes Addition,"Pine Lakes Addition, SD",SD,43.551178,-96.635414,89,92,93,84,79,84,87
 4649660,Pine Ridge CDP,Pine Ridge,"Pine Ridge, SD",SD,43.026919,-102.552352,91,93,92,83,82,86,92
 4649980,Plainview Colony CDP,Plainview Colony,"Plainview Colony, SD",SD,45.581164,-99.011491,94,96,86,78,81,83,88
-4650020,Plankinton city,Plankinton,"Plankinton, SD",SD,43.715421,-98.483616,91,98,95,84,82,86,91
+4650020,Plankinton city,Plankinton,"Plankinton, SD",SD,43.715421,-98.483616,90,98,95,84,82,86,91
 4650260,Platte city,Platte,"Platte, SD",SD,43.386903,-98.843451,93,98,97,86,83,88,93
 4650310,Platte Colony CDP,Platte Colony,"Platte Colony, SD",SD,43.467898,-99.126223,91,97,95,83,82,87,91
 4650988,Pleasant Valley Colony CDP,Pleasant Valley Colony,"Pleasant Valley Colony, SD",SD,44.058869,-96.470966,87,90,92,80,79,83,86
@@ -26250,7 +26250,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 4652860,Ramona town,Ramona,"Ramona, SD",SD,44.119872,-97.215415,87,92,92,80,79,83,87
 4652980,Rapid City city,Rapid City,"Rapid City, SD",SD,44.071071,-103.217924,94,91,88,82,84,87,95
 4653007,Rapid Valley CDP,Rapid Valley,"Rapid Valley, SD",SD,44.067338,-103.122261,94,91,88,81,83,87,93
-4653220,Ravinia town,Ravinia,"Ravinia, SD",SD,43.136494,-98.426861,93,97,97,87,83,88,93
+4653220,Ravinia town,Ravinia,"Ravinia, SD",SD,43.136494,-98.426861,92,97,97,87,83,88,93
 4653260,Raymond town,Raymond,"Raymond, SD",SD,44.910547,-97.937258,92,96,92,79,80,84,89
 4653460,Redfield city,Redfield,"Redfield, SD",SD,44.873315,-98.519214,94,98,93,82,82,86,91
 4653940,Ree Heights town,Ree Heights,"Ree Heights, SD",SD,44.515823,-99.200525,91,96,92,79,82,85,90
@@ -26270,17 +26270,17 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 4656420,Roswell CDP,Roswell,"Roswell, SD",SD,44.005973,-97.697451,91,97,96,83,80,85,90
 4656580,Rowena CDP,Rowena,"Rowena, SD",SD,43.519088,-96.556151,89,92,92,85,79,84,87
 4656820,Running Water CDP,Running Water,"Running Water, SD",SD,42.782167,-97.981669,93,98,97,90,84,89,93
-4656964,Rustic Acres Colony CDP,Rustic Acres Colony,"Rustic Acres Colony, SD",SD,43.869779,-97.098962,88,93,94,84,80,83,88
+4656964,Rustic Acres Colony CDP,Rustic Acres Colony,"Rustic Acres Colony, SD",SD,43.869779,-97.098962,87,93,94,84,80,83,88
 4657060,St. Charles CDP,St. Charles,"St. Charles, SD",SD,43.088126,-99.094883,89,95,94,83,81,86,90
 4657140,St. Francis town,St. Francis,"St. Francis, SD",SD,43.142605,-100.902786,89,92,91,81,81,85,89
 4657180,St. Lawrence town,St. Lawrence,"St. Lawrence, SD",SD,44.516607,-98.937878,91,97,93,80,82,86,90
 4657260,St. Onge CDP,St. Onge,"St. Onge, SD",SD,44.545747,-103.719856,92,87,85,81,82,85,92
-4657340,Salem city,Salem,"Salem, SD",SD,43.722825,-97.389306,91,96,96,85,80,85,90
+4657340,Salem city,Salem,"Salem, SD",SD,43.722825,-97.389306,90,96,96,85,80,85,90
 4657940,Scotland city,Scotland,"Scotland, SD",SD,43.148189,-97.719838,91,96,96,88,83,87,91
 4658140,Selby city,Selby,"Selby, SD",SD,45.50573,-100.032904,94,94,86,78,82,84,90
 4658180,Seneca town,Seneca,"Seneca, SD",SD,45.060804,-99.509165,93,96,90,79,82,84,90
 4658310,Shamrock Colony CDP,Shamrock Colony,"Shamrock Colony, SD",SD,44.620961,-97.965059,89,96,94,79,79,85,88
-4658332,Shannon Colony CDP,Shannon Colony,"Shannon Colony, SD",SD,43.982612,-97.425074,90,95,94,83,80,85,89
+4658332,Shannon Colony CDP,Shannon Colony,"Shannon Colony, SD",SD,43.982612,-97.425074,89,95,94,83,80,85,89
 4658580,Sherman town,Sherman,"Sherman, SD",SD,43.757545,-96.475742,88,92,93,84,80,83,87
 4658590,Shindler CDP,Shindler,"Shindler, SD",SD,43.467706,-96.635522,90,94,94,87,80,85,89
 4658680,Sicangu Village CDP,Sicangu Village,"Sicangu Village, SD",SD,43.013755,-100.575718,90,93,91,82,81,85,90
@@ -26292,7 +26292,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 4659700,Soldier Creek CDP,Soldier Creek,"Soldier Creek, SD",SD,43.332643,-100.896809,92,97,95,83,84,88,92
 4659940,South Shore town,South Shore,"South Shore, SD",SD,45.10151,-96.930111,89,94,90,76,77,82,86
 4660020,Spearfish city,Spearfish,"Spearfish, SD",SD,44.491431,-103.816297,90,86,84,79,81,84,89
-4660060,Spencer city,Spencer,"Spencer, SD",SD,43.727466,-97.59111,92,97,96,86,82,87,91
+4660060,Spencer city,Spencer,"Spencer, SD",SD,43.727466,-97.59111,91,97,96,86,82,87,91
 4660180,Spink Colony CDP,Spink Colony,"Spink Colony, SD",SD,44.744949,-98.289184,94,97,93,80,81,85,90
 4660500,Spring Creek CDP,Spring Creek,"Spring Creek, SD",SD,43.11537,-101.030689,91,96,94,83,83,86,92
 4660540,Spring Creek Colony CDP,Spring Creek Colony,"Spring Creek Colony, SD",SD,45.907694,-98.880645,93,94,84,78,81,82,88
@@ -26302,7 +26302,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 4661580,Stephan CDP,Stephan,"Stephan, SD",SD,44.249138,-99.456674,92,97,94,82,82,86,92
 4661700,Stickney town,Stickney,"Stickney, SD",SD,43.589304,-98.437636,90,96,95,84,82,86,89
 4661740,Stockholm town,Stockholm,"Stockholm, SD",SD,45.103038,-96.798352,90,94,90,76,77,82,86
-4661940,Storla CDP,Storla,"Storla, SD",SD,43.862499,-98.352622,93,99,97,84,82,87,91
+4661940,Storla CDP,Storla,"Storla, SD",SD,43.862499,-98.352622,92,99,97,84,82,87,91
 4661980,Strandburg town,Strandburg,"Strandburg, SD",SD,45.044067,-96.760441,89,94,90,76,77,82,86
 4662020,Stratford town,Stratford,"Stratford, SD",SD,45.317449,-98.30434,95,97,91,79,81,84,90
 4662100,Sturgis city,Sturgis,"Sturgis, SD",SD,44.410441,-103.49957,92,88,86,81,82,85,92
@@ -26324,14 +26324,14 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 4664700,Twin Brooks town,Twin Brooks,"Twin Brooks, SD",SD,45.208974,-96.785505,91,96,91,77,78,84,87
 4664840,Two Strike CDP,Two Strike,"Two Strike, SD",SD,43.216362,-100.908211,89,93,91,81,82,86,90
 4664860,Tyndall city,Tyndall,"Tyndall, SD",SD,42.98987,-97.864223,92,98,97,89,84,89,93
-4665628,Upland Colony CDP,Upland Colony,"Upland Colony, SD",SD,43.877143,-97.977538,93,98,97,85,83,88,91
+4665628,Upland Colony CDP,Upland Colony,"Upland Colony, SD",SD,43.877143,-97.977538,92,98,97,85,83,88,91
 4665780,Utica town,Utica,"Utica, SD",SD,42.981085,-97.496661,90,95,96,88,83,86,91
 4665900,Vale CDP,Vale,"Vale, SD",SD,44.618315,-103.39868,95,92,88,83,86,88,95
 4666260,Valley Springs city,Valley Springs,"Valley Springs, SD",SD,43.582079,-96.46587,89,92,94,86,80,84,88
 4666540,Veblen city,Veblen,"Veblen, SD",SD,45.861989,-97.28691,91,94,86,77,80,83,85
 4666660,Verdon town,Verdon,"Verdon, SD",SD,45.244189,-98.09919,94,97,92,79,81,84,89
 4666700,Vermillion city,Vermillion,"Vermillion, SD",SD,42.781726,-96.925636,91,95,96,91,83,87,90
-4667020,Viborg city,Viborg,"Viborg, SD",SD,43.172235,-97.082427,90,95,94,87,82,86,90
+4667020,Viborg city,Viborg,"Viborg, SD",SD,43.172235,-97.082427,89,95,94,87,82,86,90
 4667220,Vienna town,Vienna,"Vienna, SD",SD,44.703163,-97.50002,91,96,93,78,79,83,87
 4667340,Vilas town,Vilas,"Vilas, SD",SD,44.008433,-97.595616,90,96,96,84,80,85,90
 4667500,Virgil town,Virgil,"Virgil, SD",SD,44.290937,-98.4276,90,98,95,83,82,86,90
@@ -26351,7 +26351,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 4669340,Waubay city,Waubay,"Waubay, SD",SD,45.334533,-97.305472,90,93,88,76,78,83,85
 4669420,Waverly CDP,Waverly,"Waverly, SD",SD,44.99867,-96.974135,90,92,90,76,77,82,86
 4669780,Webster city,Webster,"Webster, SD",SD,45.336563,-97.52183,90,93,87,76,78,80,85
-4670020,Wentworth village,Wentworth,"Wentworth, SD",SD,43.996945,-96.964546,88,93,93,83,79,83,87
+4670020,Wentworth village,Wentworth,"Wentworth, SD",SD,43.996945,-96.964546,87,93,93,83,79,83,87
 4670140,Wessington city,Wessington,"Wessington, SD",SD,44.455112,-98.69679,90,96,93,80,80,84,88
 4670220,Wessington Springs city,Wessington Springs,"Wessington Springs, SD",SD,44.080526,-98.571223,88,95,93,79,79,84,88
 4670284,West Brule CDP,West Brule,"West Brule, SD",SD,44.072742,-99.638363,93,98,94,82,82,86,92
@@ -26368,14 +26368,14 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 4671580,Whitewood city,Whitewood,"Whitewood, SD",SD,44.462251,-103.638306,90,86,84,80,82,85,90
 4671940,Willow Lake city,Willow Lake,"Willow Lake, SD",SD,44.627901,-97.638057,90,94,93,78,78,84,88
 4671980,Wilmot city,Wilmot,"Wilmot, SD",SD,45.409104,-96.854561,91,95,90,77,79,83,87
-4672100,Winfred CDP,Winfred,"Winfred, SD",SD,43.998795,-97.361614,89,94,92,79,78,84,87
+4672100,Winfred CDP,Winfred,"Winfred, SD",SD,43.998795,-97.361614,88,94,92,79,78,84,87
 4672180,Winner city,Winner,"Winner, SD",SD,43.377613,-99.855064,92,97,96,83,83,87,92
-4672500,Wolf Creek Colony CDP,Wolf Creek Colony,"Wolf Creek Colony, SD",SD,43.352777,-97.616014,92,97,96,88,83,86,91
+4672500,Wolf Creek Colony CDP,Wolf Creek Colony,"Wolf Creek Colony, SD",SD,43.352777,-97.616014,91,97,96,88,83,86,91
 4672540,Wolsey town,Wolsey,"Wolsey, SD",SD,44.410763,-98.473892,90,96,94,80,81,85,89
 4672590,Wonderland Homes CDP,Wonderland Homes,"Wonderland Homes, SD",SD,44.204118,-103.344542,93,89,87,81,83,86,93
 4672620,Wood town,Wood,"Wood, SD",SD,43.497059,-100.480158,93,99,97,84,85,88,94
 4672700,Woonsocket city,Woonsocket,"Woonsocket, SD",SD,44.054198,-98.271711,91,97,96,84,81,86,91
-4672820,Worthing city,Worthing,"Worthing, SD",SD,43.330046,-96.768247,90,95,94,87,83,85,89
+4672820,Worthing city,Worthing,"Worthing, SD",SD,43.330046,-96.768247,89,95,94,87,83,85,89
 4672900,Wounded Knee CDP,Wounded Knee,"Wounded Knee, SD",SD,43.143548,-102.368236,91,93,91,82,82,86,91
 4673020,Yale town,Yale,"Yale, SD",SD,44.433455,-97.987907,90,96,94,80,81,85,88
 4673060,Yankton city,Yankton,"Yankton, SD",SD,42.889751,-97.392687,93,97,98,89,85,89,93

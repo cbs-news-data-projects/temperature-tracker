@@ -9019,7 +9019,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 1908470,Brighton city,Brighton,"Brighton, IA",IA,41.174692,-91.821185,83,84,86,89,85,84,86
 1908560,Bristow city,Bristow,"Bristow, IA",IA,42.773771,-92.907947,82,83,84,85,80,82,83
 1908605,Britt city,Britt,"Britt, IA",IA,43.098438,-93.803057,83,84,86,85,80,83,84
-1908650,Bronson city,Bronson,"Bronson, IA",IA,42.409025,-96.210531,86,88,89,88,83,86,89
+1908650,Bronson city,Bronson,"Bronson, IA",IA,42.409025,-96.210531,87,88,89,88,83,86,89
 1908695,Brooklyn city,Brooklyn,"Brooklyn, IA",IA,41.732052,-92.444981,84,85,87,90,85,85,87
 1908875,Brunsville city,Brunsville,"Brunsville, IA",IA,42.810976,-96.266363,86,88,90,87,82,86,89
 1909100,Buckeye city,Buckeye,"Buckeye, IA",IA,42.419533,-93.375825,83,84,85,86,82,83,85
@@ -16499,7 +16499,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 3115570,Elwood village,Elwood,"Elwood, NE",NE,40.590133,-99.861978,90,91,91,91,85,87,91
 3115605,Elyria village,Elyria,"Elyria, NE",NE,41.680064,-99.005316,88,90,91,88,84,86,90
 3115675,Emerald CDP,Emerald,"Emerald, NE",NE,40.81313,-96.835371,88,89,91,92,86,88,91
-3115710,Emerson village,Emerson,"Emerson, NE",NE,42.278205,-96.72629,86,88,90,88,83,87,90
+3115710,Emerson village,Emerson,"Emerson, NE",NE,42.278205,-96.72629,87,88,90,88,83,87,90
 3115815,Emmet village,Emmet,"Emmet, NE",NE,42.475698,-98.809302,89,92,92,86,84,88,92
 3115885,Enders CDP,Enders,"Enders, NE",NE,40.454919,-101.535567,93,95,96,93,88,90,94
 3115920,Endicott village,Endicott,"Endicott, NE",NE,40.082198,-97.095385,88,88,91,93,88,88,92
@@ -16584,7 +16584,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 3123235,Hoskins village,Hoskins,"Hoskins, NE",NE,42.112636,-97.304384,86,87,89,87,83,86,89
 3123270,Howard City (Boelus) village,Howard City (Boelus),"Howard City (Boelus), NE",NE,41.075411,-98.715322,88,90,91,90,84,87,91
 3123340,Howells village,Howells,"Howells, NE",NE,41.724232,-97.004645,86,86,88,87,83,86,89
-3123375,Hubbard village,Hubbard,"Hubbard, NE",NE,42.385904,-96.59101,87,89,91,89,84,88,91
+3123375,Hubbard village,Hubbard,"Hubbard, NE",NE,42.385904,-96.59101,88,89,91,89,84,88,91
 3123410,Hubbell village,Hubbell,"Hubbell, NE",NE,40.008741,-97.497006,88,90,91,94,88,88,91
 3123445,Humboldt city,Humboldt,"Humboldt, NE",NE,40.165819,-95.94432,89,89,92,95,90,90,93
 3123480,Humphrey city,Humphrey,"Humphrey, NE",NE,41.688506,-97.485148,86,88,89,88,83,86,89
@@ -16871,7 +16871,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 3150790,Virginia village,Virginia,"Virginia, NE",NE,40.245859,-96.498824,87,88,90,93,88,88,91
 3150895,Waco village,Waco,"Waco, NE",NE,40.897,-97.461747,87,89,90,91,85,87,90
 3150965,Wahoo city,Wahoo,"Wahoo, NE",NE,41.21712,-96.617844,86,87,90,91,85,87,89
-3151070,Wakefield city,Wakefield,"Wakefield, NE",NE,42.266651,-96.862925,87,89,91,89,84,88,91
+3151070,Wakefield city,Wakefield,"Wakefield, NE",NE,42.266651,-96.862925,88,89,91,89,84,88,91
 3151175,Wallace village,Wallace,"Wallace, NE",NE,40.837579,-101.164481,92,94,95,91,86,89,92
 3151245,Walthill village,Walthill,"Walthill, NE",NE,42.148853,-96.49287,86,87,89,88,84,87,89
 3151280,Walton CDP,Walton,"Walton, NE",NE,40.796224,-96.565291,87,88,90,92,86,87,91
