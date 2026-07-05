@@ -931,7 +931,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 0280660,Unalakleet city,Unalakleet,"Unalakleet, AK",AK,63.892966,-160.795819,53,52,55,53,45,51
 0280770,Unalaska city,Unalaska,"Unalaska, AK",AK,53.910255,-166.529041,41,51,37,41,45,44
 0281320,Upper Kalskag city,Upper Kalskag,"Upper Kalskag, AK",AK,61.539159,-160.350935,54,54,53,51,50,51
-0281920,UtqiagÌvik city,UtqiagÌvik,"UtqiagÌvik, AK",AK,71.264377,-156.753678,37,42,36,31,27,27
+0281920,Utqiaġvik city,Utqiaġvik,"Utqiaġvik, AK",AK,71.264377,-156.753678,37,42,36,31,27,27
 0282200,Valdez city,Valdez,"Valdez, AK",AK,61.083621,-146.317179,43,46,45,41,45,44
 0282420,Venetie CDP,Venetie,"Venetie, AK",AK,67.020691,-146.374276,57,60,61,60,59,57
 0282750,Wainwright city,Wainwright,"Wainwright, AK",AK,70.658232,-159.985214,42,44,40,35,32,30
@@ -2762,7 +2762,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 0638772,Knightsen CDP,Knightsen,"Knightsen, CA",CA,37.962426,-121.64858,58,56,56,60,61,61
 0638786,Knights Ferry CDP,Knights Ferry,"Knights Ferry, CA",CA,37.821152,-120.669089,61,60,59,63,65,65
 0638800,Knights Landing CDP,Knights Landing,"Knights Landing, CA",CA,38.797972,-121.717447,56,54,55,59,60,59
-0639003,La CaÃ±ada Flintridge city,La CaÃ±ada Flintridge,"La CaÃ±ada Flintridge, CA",CA,34.20969,-118.200139,59,61,62,65,63,62
+0639003,La Cañada Flintridge city,La Cañada Flintridge,"La Cañada Flintridge, CA",CA,34.20969,-118.200139,59,61,62,65,63,62
 0639045,La Crescenta-Montrose CDP,La Crescenta-Montrose,"La Crescenta-Montrose, CA",CA,34.233016,-118.235774,61,65,67,70,67,65
 0639052,La Cresta CDP,La Cresta,"La Cresta, CA",CA,35.397201,-118.989312,71,70,69,71,74,74
 0639094,Ladera CDP,Ladera,"Ladera, CA",CA,37.399875,-122.198971,55,53,53,55,55,56
@@ -3166,7 +3166,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 0657244,Pine Mountain Lake CDP,Pine Mountain Lake,"Pine Mountain Lake, CA",CA,37.85954,-120.181662,65,65,65,68,70,70
 0657260,Pine Valley CDP,Pine Valley,"Pine Valley, CA",CA,32.841513,-116.510706,61,62,68,68,67,66
 0657288,Pinole city,Pinole,"Pinole, CA",CA,38.001702,-122.318488,56,54,54,56,57,57
-0657302,PiÃ±on Hills CDP,PiÃ±on Hills,"PiÃ±on Hills, CA",CA,34.445607,-117.623563,67,67,70,72,73,73
+0657302,Piñon Hills CDP,Piñon Hills,"Piñon Hills, CA",CA,34.445607,-117.623563,67,67,70,72,73,73
 0657330,Pioneer CDP,Pioneer,"Pioneer, CA",CA,38.433759,-120.586077,66,64,63,69,70,71
 0657372,Piru CDP,Piru,"Piru, CA",CA,34.405678,-118.805097,60,60,61,63,62,60
 0657414,Pismo Beach city,Pismo Beach,"Pismo Beach, CA",CA,35.153173,-120.673874,55,54,55,59,57,57
@@ -3720,7 +3720,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 0810985,Byers CDP,Byers,"Byers, CO",CO,39.709435,-104.212848,61,62,60,59,59,62
 0811260,Calhan town,Calhan,"Calhan, CO",CO,39.034031,-104.30021,57,58,58,58,57,58
 0811645,Campo town,Campo,"Campo, CO",CO,37.104711,-102.578798,62,64,66,66,63,63
-0811810,CaÃ±on City city,CaÃ±on City,"CaÃ±on City, CO",CO,38.441886,-105.220899,60,66,65,66,65,67
+0811810,Cañon City city,Cañon City,"Cañon City, CO",CO,38.441886,-105.220899,60,66,65,66,65,67
 0811975,Capulin CDP,Capulin,"Capulin, CO",CO,37.281886,-106.104946,47,51,51,53,53,54
 0812030,Carbonate town,Carbonate,"Carbonate, CO",CO,39.746462,-107.340127,45,46,45,44,44,46
 0812045,Carbondale town,Carbondale,"Carbondale, CO",CO,39.395559,-107.21502,51,54,54,54,53,54
@@ -6199,7 +6199,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 1569238,Seaview CDP,Seaview,"Seaview, HI",HI,19.406718,-154.921448,73,73,73,75,77,75
 1570280,Tiki Gardens CDP,Tiki Gardens,"Tiki Gardens, HI",HI,19.528699,-155.003087,68,67,67,68,64,65
 1570700,Ualapue CDP,Ualapue,"Ualapue, HI",HI,21.071883,-156.834987,72,73,71,73,73,72
-1571550,Urban Honolulu CDP,Urban Honolulu,"Urban Honolulu, HI",HI,21.324347,-157.84764,77,76,76,78,77,77
+1571550,Urban Honolulu CDP,Honolulu,"Honolulu, HI",HI,21.324347,-157.84764,77,76,76,78,77,77
 1572350,Volcano CDP,Volcano,"Volcano, HI",HI,19.486411,-155.277414,59,59,58,59,62,61
 1572468,Volcano Golf Course CDP,Volcano Golf Course,"Volcano Golf Course, HI",HI,19.442375,-155.278833,59,58,58,59,61,61
 1572650,Wahiawa CDP,Wahiawa,"Wahiawa, HI",HI,21.500665,-158.017964,69,68,70,69,68,67
@@ -6249,7 +6249,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 1608290,Blanchard CDP,Blanchard,"Blanchard, ID",ID,48.01099,-116.99521,50,54,57,51,53,54
 1608470,Bliss city,Bliss,"Bliss, ID",ID,42.924284,-114.947516,69,63,67,62,61,65
 1608560,Bloomington city,Bloomington,"Bloomington, ID",ID,42.19099,-111.402756,56,55,53,54,54,56
-1608830,Boise City city,Boise City,"Boise City, ID",ID,43.599335,-116.229817,72,68,70,65,64,67
+1608830,Boise City city,Boise,"Boise, ID",ID,43.599335,-116.229817,72,68,70,65,64,67
 1609370,Bonners Ferry city,Bonners Ferry,"Bonners Ferry, ID",ID,48.693374,-116.31836,54,60,62,58,57,60
 1609730,Bovill city,Bovill,"Bovill, ID",ID,46.858679,-116.393551,46,52,54,50,50,52
 1610450,Bruneau CDP,Bruneau,"Bruneau, ID",ID,42.872792,-115.795239,71,65,68,65,63,66
@@ -13399,38 +13399,38 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2700172,Ada city,Ada,"Ada, MN",MN,47.298859,-96.516498,68,63,62,59,62,62
 2700190,Adams city,Adams,"Adams, MN",MN,43.565363,-92.71904,63,64,67,66,63,63
 2700262,Adrian city,Adrian,"Adrian, MN",MN,43.63356,-95.932804,64,66,67,63,61,64
-2700316,Afton city,Afton,"Afton, MN",MN,44.898776,-92.819108,65,68,69,64,63,64
+2700316,Afton city,Afton,"Afton, MN",MN,44.898776,-92.819108,66,68,69,64,63,64
 2700460,Aitkin city,Aitkin,"Aitkin, MN",MN,46.52665,-93.704992,59,64,63,59,60,61
 2700496,Akeley city,Akeley,"Akeley, MN",MN,47.000418,-94.728215,63,64,62,60,61,62
 2700622,Albany city,Albany,"Albany, MN",MN,45.626654,-94.563237,65,68,67,61,61,62
-2700676,Alberta city,Alberta,"Alberta, MN",MN,45.574922,-96.050358,66,69,68,61,63,64
-2700694,Albert Lea city,Albert Lea,"Albert Lea, MN",MN,43.654293,-93.364148,64,67,69,65,64,65
-2700730,Albertville city,Albertville,"Albertville, MN",MN,45.236048,-93.662668,66,69,69,63,63,64
-2700838,Alden city,Alden,"Alden, MN",MN,43.667463,-93.569887,64,67,70,65,63,64
-2700892,Aldrich city,Aldrich,"Aldrich, MN",MN,46.37471,-94.939392,64,66,65,60,62,62
+2700676,Alberta city,Alberta,"Alberta, MN",MN,45.574922,-96.050358,67,69,68,61,63,64
+2700694,Albert Lea city,Albert Lea,"Albert Lea, MN",MN,43.654293,-93.364148,65,67,69,65,64,65
+2700730,Albertville city,Albertville,"Albertville, MN",MN,45.236048,-93.662668,67,69,69,63,63,64
+2700838,Alden city,Alden,"Alden, MN",MN,43.667463,-93.569887,66,67,70,65,63,64
+2700892,Aldrich city,Aldrich,"Aldrich, MN",MN,46.37471,-94.939392,63,66,65,60,62,62
 2700928,Alexandria city,Alexandria,"Alexandria, MN",MN,45.877178,-95.376965,66,68,66,61,63,64
-2701162,Alpha city,Alpha,"Alpha, MN",MN,43.637575,-94.871059,64,67,68,64,62,63
+2701162,Alpha city,Alpha,"Alpha, MN",MN,43.637575,-94.871059,66,67,68,64,62,63
 2701234,Altura city,Altura,"Altura, MN",MN,44.064208,-91.94358,62,63,67,65,62,63
 2701252,Alvarado city,Alvarado,"Alvarado, MN",MN,48.192875,-96.998452,67,60,59,58,61,61
-2701324,Amboy city,Amboy,"Amboy, MN",MN,43.887927,-94.158264,65,68,70,65,63,64
+2701324,Amboy city,Amboy,"Amboy, MN",MN,43.887927,-94.158264,66,68,70,65,63,64
 2701486,Andover city,Andover,"Andover, MN",MN,45.25242,-93.337402,66,70,70,63,62,64
 2701558,Angle Inlet CDP,Angle Inlet,"Angle Inlet, MN",MN,49.347409,-95.069804,68,62,63,63,65,65
-2701684,Annandale city,Annandale,"Annandale, MN",MN,45.259597,-94.121049,66,69,69,62,63,64
-2701720,Anoka city,Anoka,"Anoka, MN",MN,45.214398,-93.391638,67,71,70,63,63,65
+2701684,Annandale city,Annandale,"Annandale, MN",MN,45.259597,-94.121049,67,69,69,62,63,64
+2701720,Anoka city,Anoka,"Anoka, MN",MN,45.214398,-93.391638,68,71,70,63,63,65
 2701864,Appleton city,Appleton,"Appleton, MN",MN,45.199475,-96.022226,67,69,69,62,63,64
-2701900,Apple Valley city,Apple Valley,"Apple Valley, MN",MN,44.745301,-93.199413,66,69,70,64,64,65
+2701900,Apple Valley city,Apple Valley,"Apple Valley, MN",MN,44.745301,-93.199413,67,69,70,64,64,65
 2701972,Arco city,Arco,"Arco, MN",MN,44.384736,-96.183928,65,67,67,61,62,64
-2702026,Arden Hills city,Arden Hills,"Arden Hills, MN",MN,45.071159,-93.165472,67,71,71,64,64,66
+2702026,Arden Hills city,Arden Hills,"Arden Hills, MN",MN,45.071159,-93.165472,68,71,71,64,64,66
 2702134,Argyle city,Argyle,"Argyle, MN",MN,48.336573,-96.816228,67,59,59,58,61,61
-2702152,Arlington city,Arlington,"Arlington, MN",MN,44.608271,-94.076824,65,68,69,64,62,63
+2702152,Arlington city,Arlington,"Arlington, MN",MN,44.608271,-94.076824,66,68,69,64,62,63
 2702422,Ashby city,Ashby,"Ashby, MN",MN,46.095452,-95.819166,68,68,67,62,64,65
 2702548,Askov city,Askov,"Askov, MN",MN,46.188634,-92.782393,58,62,62,57,57,58
-2702692,Atwater city,Atwater,"Atwater, MN",MN,45.135492,-94.776877,66,69,69,62,63,64
+2702692,Atwater city,Atwater,"Atwater, MN",MN,45.135492,-94.776877,67,69,69,62,63,64
 2702728,Audubon city,Audubon,"Audubon, MN",MN,46.865228,-95.984096,67,65,64,61,63,63
 2702872,Aurora city,Aurora,"Aurora, MN",MN,47.531639,-92.241012,55,61,61,58,57,58
 2702908,Austin city,Austin,"Austin, MN",MN,43.672098,-92.977863,63,64,67,65,63,64
 2703052,Avoca city,Avoca,"Avoca, MN",MN,43.948754,-95.646724,64,67,68,63,62,64
-2703070,Avon city,Avon,"Avon, MN",MN,45.605505,-94.447741,65,68,68,61,62,63
+2703070,Avon city,Avon,"Avon, MN",MN,45.605505,-94.447741,66,68,68,61,62,63
 2703106,Babbitt city,Babbitt,"Babbitt, MN",MN,47.643105,-91.928336,56,61,61,59,58,59
 2703124,Backus city,Backus,"Backus, MN",MN,46.820915,-94.514549,60,64,63,60,61,61
 2703160,Badger city,Badger,"Badger, MN",MN,48.776773,-96.021268,66,57,58,57,60,60
@@ -13445,46 +13445,46 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2703970,Battle Lake city,Battle Lake,"Battle Lake, MN",MN,46.284912,-95.718697,67,67,65,62,64,64
 2704024,Baudette city,Baudette,"Baudette, MN",MN,48.712267,-94.591807,63,59,60,59,60,60
 2704042,Baxter city,Baxter,"Baxter, MN",MN,46.343935,-94.276015,62,66,65,61,62,62
-2704114,Bayport city,Bayport,"Bayport, MN",MN,45.014845,-92.778906,65,68,69,64,63,64
+2704114,Bayport city,Bayport,"Bayport, MN",MN,45.014845,-92.778906,66,68,69,64,63,64
 2704204,Beardsley city,Beardsley,"Beardsley, MN",MN,45.557826,-96.714484,66,67,67,61,63,65
 2704348,Beaulieu CDP,Beaulieu,"Beaulieu, MN",MN,47.335241,-95.816504,66,62,61,59,62,62
 2704456,Beaver Bay city,Beaver Bay,"Beaver Bay, MN",MN,47.256182,-91.306224,55,57,61,58,57,58
 2704492,Beaver Creek city,Beaver Creek,"Beaver Creek, MN",MN,43.612429,-96.362367,65,68,69,64,62,65
-2704618,Becker city,Becker,"Becker, MN",MN,45.386507,-93.887261,65,69,69,62,62,63
+2704618,Becker city,Becker,"Becker, MN",MN,45.386507,-93.887261,66,69,69,62,62,63
 2704672,Bejou city,Bejou,"Bejou, MN",MN,47.442913,-95.972712,66,62,61,58,61,61
-2704762,Belgrade city,Belgrade,"Belgrade, MN",MN,45.450627,-94.999813,66,68,68,61,62,63
+2704762,Belgrade city,Belgrade,"Belgrade, MN",MN,45.450627,-94.999813,65,68,68,61,62,63
 2704798,Bellechester city,Bellechester,"Bellechester, MN",MN,44.371019,-92.511322,63,64,67,63,62,63
-2704834,Belle Plaine city,Belle Plaine,"Belle Plaine, MN",MN,44.61978,-93.764595,66,68,70,64,63,64
-2704960,Bellingham city,Bellingham,"Bellingham, MN",MN,45.136439,-96.284103,66,69,69,61,62,64
+2704834,Belle Plaine city,Belle Plaine,"Belle Plaine, MN",MN,44.61978,-93.764595,67,68,70,64,63,64
+2704960,Bellingham city,Bellingham,"Bellingham, MN",MN,45.136439,-96.284103,67,69,69,61,62,64
 2705014,Beltrami city,Beltrami,"Beltrami, MN",MN,47.542495,-96.52708,67,62,62,58,62,62
-2705050,Belview city,Belview,"Belview, MN",MN,44.60654,-95.32874,66,70,70,63,63,65
+2705050,Belview city,Belview,"Belview, MN",MN,44.60654,-95.32874,67,70,70,63,63,65
 2705068,Bemidji city,Bemidji,"Bemidji, MN",MN,47.487034,-94.88269,63,63,61,60,61,62
 2705104,Bena city,Bena,"Bena, MN",MN,47.341003,-94.206406,60,63,61,58,60,60
 2705212,Benson city,Benson,"Benson, MN",MN,45.315182,-95.60537,66,70,69,62,63,64
 2705482,Bertha city,Bertha,"Bertha, MN",MN,46.267091,-95.061778,64,66,65,60,62,62
-2705554,Bethel city,Bethel,"Bethel, MN",MN,45.40442,-93.274901,65,70,69,62,62,63
+2705554,Bethel city,Bethel,"Bethel, MN",MN,45.40442,-93.274901,66,70,69,62,62,63
 2705644,Bigelow city,Bigelow,"Bigelow, MN",MN,43.505285,-95.689212,63,66,67,63,61,63
 2705680,Big Falls city,Big Falls,"Big Falls, MN",MN,48.179608,-93.809244,62,61,60,58,59,60
 2705698,Bigfork city,Bigfork,"Bigfork, MN",MN,47.746929,-93.653335,59,62,61,57,59,59
 2705744,Big Lake CDP,Big Lake,"Big Lake, MN",MN,46.70113,-92.62114,54,62,61,57,57,58
-2705752,Big Lake city,Big Lake,"Big Lake, MN",MN,45.342422,-93.743036,66,69,69,62,62,64
+2705752,Big Lake city,Big Lake,"Big Lake, MN",MN,45.342422,-93.743036,67,69,69,62,62,64
 2705896,Bingham Lake city,Bingham Lake,"Bingham Lake, MN",MN,43.909189,-95.044663,65,66,68,63,62,64
-2706058,Birchwood Village city,Birchwood Village,"Birchwood Village, MN",MN,45.059981,-92.978025,66,70,70,64,63,65
-2706076,Bird Island city,Bird Island,"Bird Island, MN",MN,44.765016,-94.894194,66,70,70,64,63,65
-2706112,Biscay city,Biscay,"Biscay, MN",MN,44.826274,-94.274071,65,68,69,63,62,63
+2706058,Birchwood Village city,Birchwood Village,"Birchwood Village, MN",MN,45.059981,-92.978025,67,70,70,64,63,65
+2706076,Bird Island city,Bird Island,"Bird Island, MN",MN,44.765016,-94.894194,67,70,70,64,63,65
+2706112,Biscay city,Biscay,"Biscay, MN",MN,44.826274,-94.274071,66,68,69,63,62,63
 2706148,Biwabik city,Biwabik,"Biwabik, MN",MN,47.540312,-92.342174,57,61,60,58,57,58
 2706256,Blackduck city,Blackduck,"Blackduck, MN",MN,47.73191,-94.559553,63,62,61,59,61,61
-2706382,Blaine city,Blaine,"Blaine, MN",MN,45.170515,-93.206089,66,70,70,64,63,65
+2706382,Blaine city,Blaine,"Blaine, MN",MN,45.170515,-93.206089,67,70,70,64,63,65
 2706490,Blomkest city,Blomkest,"Blomkest, MN",MN,44.942812,-95.023463,67,70,70,64,63,65
 2706580,Blooming Prairie city,Blooming Prairie,"Blooming Prairie, MN",MN,43.868455,-93.055725,63,64,67,64,62,63
-2706616,Bloomington city,Bloomington,"Bloomington, MN",MN,44.829666,-93.315217,67,71,71,66,65,66
-2706688,Blue Earth city,Blue Earth,"Blue Earth, MN",MN,43.640994,-94.100339,64,67,70,65,63,64
+2706616,Bloomington city,Bloomington,"Bloomington, MN",MN,44.829666,-93.315217,68,71,71,66,65,66
+2706688,Blue Earth city,Blue Earth,"Blue Earth, MN",MN,43.640994,-94.100339,66,67,70,65,63,64
 2706778,Bluffton city,Bluffton,"Bluffton, MN",MN,46.469401,-95.233935,64,65,65,60,62,62
 2706814,Bock city,Bock,"Bock, MN",MN,45.784458,-93.552833,62,67,66,60,60,61
 2707030,Borup city,Borup,"Borup, MN",MN,47.180266,-96.505831,68,64,62,59,62,63
 2707048,Bovey city,Bovey,"Bovey, MN",MN,47.298068,-93.405163,58,62,61,58,58,59
-2707066,Bowlus city,Bowlus,"Bowlus, MN",MN,45.819072,-94.407244,63,67,66,60,60,61
-2707138,Boyd city,Boyd,"Boyd, MN",MN,44.851179,-95.900919,66,69,70,63,62,65
+2707066,Bowlus city,Bowlus,"Bowlus, MN",MN,45.819072,-94.407244,64,67,66,60,60,61
+2707138,Boyd city,Boyd,"Boyd, MN",MN,44.851179,-95.900919,67,69,70,63,62,65
 2707174,Boy River city,Boy River,"Boy River, MN",MN,47.167808,-94.124114,59,63,61,59,60,61
 2707282,Braham city,Braham,"Braham, MN",MN,45.722348,-93.172197,62,67,66,60,60,61
 2707300,Brainerd city,Brainerd,"Brainerd, MN",MN,46.355269,-94.198372,63,66,66,62,62,63
@@ -13492,7 +13492,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2707462,Breckenridge city,Breckenridge,"Breckenridge, MN",MN,46.265925,-96.584616,67,66,65,60,63,64
 2707516,Breezy Point city,Breezy Point,"Breezy Point, MN",MN,46.60912,-94.20731,62,64,64,60,61,61
 2707660,Brewster city,Brewster,"Brewster, MN",MN,43.697269,-95.464523,65,67,69,64,62,64
-2707678,Bricelyn city,Bricelyn,"Bricelyn, MN",MN,43.56075,-93.813062,64,67,69,65,63,64
+2707678,Bricelyn city,Bricelyn,"Bricelyn, MN",MN,43.56075,-93.813062,66,67,69,65,63,64
 2707948,Brooklyn Center city,Brooklyn Center,"Brooklyn Center, MN",MN,45.06797,-93.317829,68,71,71,65,65,66
 2707966,Brooklyn Park city,Brooklyn Park,"Brooklyn Park, MN",MN,45.110906,-93.349088,68,72,71,65,65,66
 2707984,Brook Park city,Brook Park,"Brook Park, MN",MN,45.948428,-93.072828,61,64,64,58,58,60
@@ -13505,82 +13505,82 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2708218,Brownsville city,Brownsville,"Brownsville, MN",MN,43.701134,-91.288028,62,63,68,67,63,63
 2708254,Brownton city,Brownton,"Brownton, MN",MN,44.732507,-94.350899,65,69,69,63,62,64
 2708290,Bruno city,Bruno,"Bruno, MN",MN,46.280998,-92.668055,57,62,62,57,57,58
-2708416,Buckman city,Buckman,"Buckman, MN",MN,45.897345,-94.093986,63,67,66,60,61,62
-2708452,Buffalo city,Buffalo,"Buffalo, MN",MN,45.17951,-93.863995,66,69,69,63,63,64
-2708488,Buffalo Lake city,Buffalo Lake,"Buffalo Lake, MN",MN,44.736768,-94.616986,65,69,69,63,62,64
+2708416,Buckman city,Buckman,"Buckman, MN",MN,45.897345,-94.093986,64,67,66,60,61,62
+2708452,Buffalo city,Buffalo,"Buffalo, MN",MN,45.17951,-93.863995,67,69,69,63,63,64
+2708488,Buffalo Lake city,Buffalo Lake,"Buffalo Lake, MN",MN,44.736768,-94.616986,67,69,69,63,62,64
 2708524,Buhl city,Buhl,"Buhl, MN",MN,47.49859,-92.781109,57,61,60,57,58,58
 2708794,Burnsville city,Burnsville,"Burnsville, MN",MN,44.764409,-93.279372,67,70,71,66,65,66
-2708902,Burtrum city,Burtrum,"Burtrum, MN",MN,45.86582,-94.687361,64,67,66,60,61,62
-2708992,Butterfield city,Butterfield,"Butterfield, MN",MN,43.958682,-94.794127,65,68,69,63,62,64
+2708902,Burtrum city,Burtrum,"Burtrum, MN",MN,45.86582,-94.687361,65,67,66,60,61,62
+2708992,Butterfield city,Butterfield,"Butterfield, MN",MN,43.958682,-94.794127,67,68,69,63,62,64
 2709154,Byron city,Byron,"Byron, MN",MN,44.038107,-92.641072,63,64,67,64,62,63
 2709226,Caledonia city,Caledonia,"Caledonia, MN",MN,43.634127,-91.500399,61,61,67,66,62,62
 2709280,Callaway city,Callaway,"Callaway, MN",MN,46.981243,-95.917281,67,64,63,60,63,63
 2709316,Calumet city,Calumet,"Calumet, MN",MN,47.321955,-93.264172,57,62,61,58,58,59
-2709370,Cambridge city,Cambridge,"Cambridge, MN",MN,45.560772,-93.227702,63,68,67,61,61,62
+2709370,Cambridge city,Cambridge,"Cambridge, MN",MN,45.560772,-93.227702,64,68,67,61,61,62
 2709496,Campbell city,Campbell,"Campbell, MN",MN,46.097528,-96.405457,67,67,66,60,62,64
-2709604,Canby city,Canby,"Canby, MN",MN,44.716098,-96.269761,66,69,69,62,63,65
+2709604,Canby city,Canby,"Canby, MN",MN,44.716098,-96.269761,67,69,69,62,63,65
 2709730,Cannon Falls city,Cannon Falls,"Cannon Falls, MN",MN,44.517265,-92.889342,65,67,69,64,62,64
 2709802,Canton city,Canton,"Canton, MN",MN,43.529787,-91.930019,61,62,67,66,62,63
 2709964,Carlos city,Carlos,"Carlos, MN",MN,45.973519,-95.292361,65,67,66,61,62,63
 2710018,Carlton city,Carlton,"Carlton, MN",MN,46.655769,-92.430397,52,60,59,55,55,56
-2710144,Carver city,Carver,"Carver, MN",MN,44.761475,-93.632544,66,69,70,64,63,64
+2710144,Carver city,Carver,"Carver, MN",MN,44.761475,-93.632544,67,69,70,64,63,64
 2710252,Cass Lake city,Cass Lake,"Cass Lake, MN",MN,47.379727,-94.599409,62,63,63,59,61,61
 2710468,Cedar Mills city,Cedar Mills,"Cedar Mills, MN",MN,44.942911,-94.520103,66,69,69,63,63,64
-2710576,Center City city,Center City,"Center City, MN",MN,45.396617,-92.816842,64,68,68,62,62,63
-2710648,Centerville city,Centerville,"Centerville, MN",MN,45.167461,-93.055168,66,70,70,63,63,64
-2710792,Ceylon city,Ceylon,"Ceylon, MN",MN,43.532753,-94.630701,64,67,69,64,62,64
+2710576,Center City city,Center City,"Center City, MN",MN,45.396617,-92.816842,65,68,68,62,62,63
+2710648,Centerville city,Centerville,"Centerville, MN",MN,45.167461,-93.055168,67,70,70,63,63,64
+2710792,Ceylon city,Ceylon,"Ceylon, MN",MN,43.532753,-94.630701,66,67,69,64,62,64
 2710846,Champlin city,Champlin,"Champlin, MN",MN,45.172932,-93.386829,67,71,71,64,64,65
 2710900,Chandler city,Chandler,"Chandler, MN",MN,43.930645,-95.951171,64,67,68,63,62,64
-2710918,Chanhassen city,Chanhassen,"Chanhassen, MN",MN,44.854285,-93.562384,66,69,70,64,64,65
-2710972,Chaska city,Chaska,"Chaska, MN",MN,44.816364,-93.610023,66,69,70,65,64,65
+2710918,Chanhassen city,Chanhassen,"Chanhassen, MN",MN,44.854285,-93.562384,68,69,70,64,64,65
+2710972,Chaska city,Chaska,"Chaska, MN",MN,44.816364,-93.610023,67,69,70,65,64,65
 2711008,Chatfield city,Chatfield,"Chatfield, MN",MN,43.844464,-92.182851,62,63,68,65,62,63
 2711296,Chickamaw Beach city,Chickamaw Beach,"Chickamaw Beach, MN",MN,46.745026,-94.377832,61,64,63,60,61,61
 2711350,Chisago City city,Chisago City,"Chisago City, MN",MN,45.372274,-92.916665,64,69,68,62,62,63
 2711386,Chisholm city,Chisholm,"Chisholm, MN",MN,47.48753,-92.879401,57,61,60,57,58,58
 2711440,Chokio city,Chokio,"Chokio, MN",MN,45.573129,-96.174213,67,69,68,61,63,64
-2711494,Circle Pines city,Circle Pines,"Circle Pines, MN",MN,45.143748,-93.147517,67,71,70,64,63,65
-2711548,Clara City city,Clara City,"Clara City, MN",MN,44.957438,-95.367668,66,70,70,63,63,65
+2711494,Circle Pines city,Circle Pines,"Circle Pines, MN",MN,45.143748,-93.147517,68,71,70,64,63,65
+2711548,Clara City city,Clara City,"Clara City, MN",MN,44.957438,-95.367668,67,70,70,63,63,65
 2711566,Claremont city,Claremont,"Claremont, MN",MN,44.044914,-92.99722,63,64,67,63,62,62
-2711602,Clarissa city,Clarissa,"Clarissa, MN",MN,46.128461,-94.949076,64,66,65,60,62,62
-2711656,Clarkfield city,Clarkfield,"Clarkfield, MN",MN,44.790327,-95.807608,66,69,69,63,62,65
-2711674,Clarks Grove city,Clarks Grove,"Clarks Grove, MN",MN,43.762692,-93.328035,64,66,69,65,63,64
+2711602,Clarissa city,Clarissa,"Clarissa, MN",MN,46.128461,-94.949076,63,66,65,60,62,62
+2711656,Clarkfield city,Clarkfield,"Clarkfield, MN",MN,44.790327,-95.807608,67,69,69,63,62,65
+2711674,Clarks Grove city,Clarks Grove,"Clarks Grove, MN",MN,43.762692,-93.328035,65,66,69,65,63,64
 2711746,Clearbrook city,Clearbrook,"Clearbrook, MN",MN,47.696244,-95.429274,66,62,61,59,62,61
-2711764,Clear Lake city,Clear Lake,"Clear Lake, MN",MN,45.448615,-94.001429,65,69,68,62,62,63
+2711764,Clear Lake city,Clear Lake,"Clear Lake, MN",MN,45.448615,-94.001429,66,69,68,62,62,63
 2711800,Clearwater city,Clearwater,"Clearwater, MN",MN,45.409879,-94.04456,66,69,68,62,62,63
-2711836,Clements city,Clements,"Clements, MN",MN,44.380059,-95.054751,65,69,70,63,62,64
-2711872,Cleveland city,Cleveland,"Cleveland, MN",MN,44.32356,-93.835276,66,69,70,65,63,64
+2711836,Clements city,Clements,"Clements, MN",MN,44.380059,-95.054751,67,69,70,63,62,64
+2711872,Cleveland city,Cleveland,"Cleveland, MN",MN,44.32356,-93.835276,67,69,70,65,63,64
 2711962,Climax city,Climax,"Climax, MN",MN,47.609513,-96.81224,67,62,61,58,62,62
 2711980,Clinton city,Clinton,"Clinton, MN",MN,45.466935,-96.442644,66,68,67,62,63,65
 2712088,Clitherall city,Clitherall,"Clitherall, MN",MN,46.27368,-95.633315,67,67,65,61,63,64
 2712124,Clontarf city,Clontarf,"Clontarf, MN",MN,45.379758,-95.679949,66,69,69,62,62,64
 2712160,Cloquet city,Cloquet,"Cloquet, MN",MN,46.72507,-92.50133,54,61,61,57,57,58
-2712376,Coates city,Coates,"Coates, MN",MN,44.715111,-93.032064,65,68,69,64,63,64
-2712394,Cobden city,Cobden,"Cobden, MN",MN,44.282487,-94.846585,65,69,70,63,62,64
+2712376,Coates city,Coates,"Coates, MN",MN,44.715111,-93.032064,66,68,69,64,63,64
+2712394,Cobden city,Cobden,"Cobden, MN",MN,44.282487,-94.846585,67,69,70,63,62,64
 2712412,Cohasset city,Cohasset,"Cohasset, MN",MN,47.242447,-93.66423,58,63,61,58,59,59
 2712430,Cokato city,Cokato,"Cokato, MN",MN,45.076721,-94.187548,66,69,69,63,63,64
 2712484,Cold Spring city,Cold Spring,"Cold Spring, MN",MN,45.458256,-94.428154,66,69,68,62,62,63
 2712502,Coleraine city,Coleraine,"Coleraine, MN",MN,47.258731,-93.453936,57,63,61,58,58,59
-2712664,Cologne city,Cologne,"Cologne, MN",MN,44.769825,-93.792428,65,68,69,63,63,63
+2712664,Cologne city,Cologne,"Cologne, MN",MN,44.769825,-93.792428,66,68,69,63,63,63
 2712700,Columbia Heights city,Columbia Heights,"Columbia Heights, MN",MN,45.049104,-93.246749,68,71,71,65,65,66
 2712718,Columbus city,Columbus,"Columbus, MN",MN,45.254914,-93.107678,65,70,69,62,62,64
 2712772,Comfrey city,Comfrey,"Comfrey, MN",MN,44.111057,-94.902839,65,67,69,63,62,64
 2712862,Comstock city,Comstock,"Comstock, MN",MN,46.659568,-96.746472,68,65,64,60,62,63
-2712952,Conger city,Conger,"Conger, MN",MN,43.615251,-93.527498,64,67,69,65,63,64
+2712952,Conger city,Conger,"Conger, MN",MN,43.615251,-93.527498,66,67,69,65,63,64
 2713006,Cook city,Cook,"Cook, MN",MN,47.835672,-92.688846,57,62,61,58,59,59
 2713114,Coon Rapids city,Coon Rapids,"Coon Rapids, MN",MN,45.176411,-93.311454,68,72,71,64,65,66
-2713168,Corcoran city,Corcoran,"Corcoran, MN",MN,45.106897,-93.577979,67,70,70,64,63,64
+2713168,Corcoran city,Corcoran,"Corcoran, MN",MN,45.106897,-93.577979,68,70,70,64,63,64
 2713384,Correll city,Correll,"Correll, MN",MN,45.231934,-96.162645,66,69,68,62,63,65
 2713420,Cosmos city,Cosmos,"Cosmos, MN",MN,44.935859,-94.695399,66,70,70,64,63,64
 2713456,Cottage Grove city,Cottage Grove,"Cottage Grove, MN",MN,44.813326,-92.914315,66,69,70,64,64,65
 2713564,Cottonwood city,Cottonwood,"Cottonwood, MN",MN,44.611023,-95.671863,66,69,69,63,63,65
-2713582,Courtland city,Courtland,"Courtland, MN",MN,44.275349,-94.342423,66,69,70,64,63,64
-2713708,Credit River city,Credit River,"Credit River, MN",MN,44.670781,-93.361123,66,69,70,65,64,65
+2713582,Courtland city,Courtland,"Courtland, MN",MN,44.275349,-94.342423,67,69,70,64,63,64
+2713708,Credit River city,Credit River,"Credit River, MN",MN,44.670781,-93.361123,67,69,70,65,64,65
 2713780,Cromwell city,Cromwell,"Cromwell, MN",MN,46.679346,-92.870896,55,62,60,56,57,58
 2713870,Crookston city,Crookston,"Crookston, MN",MN,47.77474,-96.606426,69,62,63,60,63,63
 2713924,Crosby city,Crosby,"Crosby, MN",MN,46.493267,-93.94569,61,64,64,60,61,62
 2713978,Crosslake city,Crosslake,"Crosslake, MN",MN,46.678212,-94.102014,60,64,63,59,60,61
-2714054,Crown College CDP,Crown College,"Crown College, MN",MN,44.884686,-93.743508,66,69,69,64,63,64
-2714158,Crystal city,Crystal,"Crystal, MN",MN,45.03731,-93.359478,68,71,71,65,65,66
+2714054,Crown College CDP,Crown College,"Crown College, MN",MN,44.884686,-93.743508,67,69,69,64,63,64
+2714158,Crystal city,Crystal,"Crystal, MN",MN,45.03731,-93.359478,69,71,71,65,65,66
 2714320,Currie city,Currie,"Currie, MN",MN,44.070466,-95.666899,64,67,68,63,62,64
 2714428,Cuyuna city,Cuyuna,"Cuyuna, MN",MN,46.506747,-93.919671,61,65,64,60,61,62
 2714446,Cyrus city,Cyrus,"Cyrus, MN",MN,45.614762,-95.738197,66,69,68,61,63,64
@@ -13588,22 +13588,22 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2714626,Dalton city,Dalton,"Dalton, MN",MN,46.173937,-95.915465,68,68,67,63,64,65
 2714716,Danube city,Danube,"Danube, MN",MN,44.791036,-95.102898,67,70,70,64,64,66
 2714734,Danvers city,Danvers,"Danvers, MN",MN,45.281396,-95.755953,66,69,69,62,62,64
-2714770,Darfur city,Darfur,"Darfur, MN",MN,44.053463,-94.83775,65,68,69,63,62,64
+2714770,Darfur city,Darfur,"Darfur, MN",MN,44.053463,-94.83775,67,68,69,63,62,64
 2714842,Darwin city,Darwin,"Darwin, MN",MN,45.098626,-94.422483,66,69,69,63,63,64
-2714878,Dassel city,Dassel,"Dassel, MN",MN,45.084868,-94.316956,66,69,69,63,63,64
+2714878,Dassel city,Dassel,"Dassel, MN",MN,45.084868,-94.316956,67,69,69,63,63,64
 2714968,Dawson city,Dawson,"Dawson, MN",MN,44.928985,-96.050376,66,69,69,62,62,64
-2715022,Dayton city,Dayton,"Dayton, MN",MN,45.189088,-93.471575,66,70,70,63,63,64
-2715148,Deephaven city,Deephaven,"Deephaven, MN",MN,44.931974,-93.529104,67,70,69,64,64,65
+2715022,Dayton city,Dayton,"Dayton, MN",MN,45.189088,-93.471575,68,70,70,63,63,64
+2715148,Deephaven city,Deephaven,"Deephaven, MN",MN,44.931974,-93.529104,68,70,69,64,64,65
 2715184,Deer Creek city,Deer Creek,"Deer Creek, MN",MN,46.389663,-95.32084,64,65,63,60,62,63
 2715310,Deer River city,Deer River,"Deer River, MN",MN,47.339185,-93.792815,58,62,61,58,59,59
 2715346,Deerwood city,Deerwood,"Deerwood, MN",MN,46.467258,-93.898458,61,64,64,60,61,62
 2715418,De Graff city,De Graff,"De Graff, MN",MN,45.259871,-95.468375,67,70,69,62,63,64
 2715454,Delano city,Delano,"Delano, MN",MN,45.038266,-93.793012,66,69,70,64,63,64
-2715472,Delavan city,Delavan,"Delavan, MN",MN,43.767711,-94.017382,65,68,70,65,63,65
-2715544,Delhi city,Delhi,"Delhi, MN",MN,44.597999,-95.213359,66,70,70,64,63,65
-2715616,Dellwood city,Dellwood,"Dellwood, MN",MN,45.098812,-92.967619,66,69,69,63,63,64
+2715472,Delavan city,Delavan,"Delavan, MN",MN,43.767711,-94.017382,66,68,70,65,63,65
+2715544,Delhi city,Delhi,"Delhi, MN",MN,44.597999,-95.213359,67,70,70,64,63,65
+2715616,Dellwood city,Dellwood,"Dellwood, MN",MN,45.098812,-92.967619,67,69,69,63,63,64
 2715670,Denham city,Denham,"Denham, MN",MN,46.361693,-92.94149,56,61,61,56,57,58
-2715706,Dennison city,Dennison,"Dennison, MN",MN,44.408805,-93.03026,64,67,69,64,62,63
+2715706,Dennison city,Dennison,"Dennison, MN",MN,44.408805,-93.03026,66,67,69,64,62,63
 2715724,Dent city,Dent,"Dent, MN",MN,46.553166,-95.718606,67,65,64,61,63,64
 2715832,Detroit Lakes city,Detroit Lakes,"Detroit Lakes, MN",MN,46.807582,-95.846612,67,65,64,61,63,63
 2715886,Dexter city,Dexter,"Dexter, MN",MN,43.719411,-92.701715,63,64,67,65,62,63
@@ -13619,20 +13619,20 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2717090,Dumont city,Dumont,"Dumont, MN",MN,45.717375,-96.423094,66,68,67,61,64,65
 2717126,Dundas city,Dundas,"Dundas, MN",MN,44.427691,-93.203788,65,67,69,64,63,63
 2717144,Dundee city,Dundee,"Dundee, MN",MN,43.844012,-95.466566,65,67,69,64,62,64
-2717180,Dunnell city,Dunnell,"Dunnell, MN",MN,43.560465,-94.775179,64,67,69,64,62,63
+2717180,Dunnell city,Dunnell,"Dunnell, MN",MN,43.560465,-94.775179,66,67,69,64,62,63
 2717288,Eagan city,Eagan,"Eagan, MN",MN,44.815217,-93.162816,67,71,71,66,65,67
 2717342,Eagle Bend city,Eagle Bend,"Eagle Bend, MN",MN,46.164272,-95.034111,64,66,65,60,61,62
-2717378,Eagle Lake city,Eagle Lake,"Eagle Lake, MN",MN,44.1635,-93.882016,65,68,70,65,63,64
-2717486,East Bethel city,East Bethel,"East Bethel, MN",MN,45.353204,-93.21766,65,70,69,62,62,63
+2717378,Eagle Lake city,Eagle Lake,"Eagle Lake, MN",MN,44.1635,-93.882016,67,68,70,65,63,64
+2717486,East Bethel city,East Bethel,"East Bethel, MN",MN,45.353204,-93.21766,66,70,69,62,62,63
 2717612,East Grand Forks city,East Grand Forks,"East Grand Forks, MN",MN,47.928573,-97.013814,68,61,61,59,63,63
 2717630,East Gull Lake city,East Gull Lake,"East Gull Lake, MN",MN,46.397047,-94.363791,63,65,65,60,62,62
-2717738,Easton city,Easton,"Easton, MN",MN,43.766087,-93.90001,64,67,70,65,63,64
+2717738,Easton city,Easton,"Easton, MN",MN,43.766087,-93.90001,66,67,70,65,63,64
 2717882,Ebro CDP,Ebro,"Ebro, MN",MN,47.49422,-95.541079,65,61,60,58,60,61
 2717900,Echo city,Echo,"Echo, MN",MN,44.617646,-95.413787,66,70,70,63,63,65
-2718116,Eden Prairie city,Eden Prairie,"Eden Prairie, MN",MN,44.849595,-93.458721,67,70,70,65,65,66
+2718116,Eden Prairie city,Eden Prairie,"Eden Prairie, MN",MN,44.849595,-93.458721,68,70,70,65,65,66
 2718134,Eden Valley city,Eden Valley,"Eden Valley, MN",MN,45.325566,-94.545926,66,69,68,62,62,63
 2718152,Edgerton city,Edgerton,"Edgerton, MN",MN,43.87533,-96.130472,64,67,68,63,61,64
-2718188,Edina city,Edina,"Edina, MN",MN,44.891123,-93.359752,67,71,71,65,65,66
+2718188,Edina city,Edina,"Edina, MN",MN,44.891123,-93.359752,69,71,71,65,65,66
 2718260,Effie city,Effie,"Effie, MN",MN,47.841166,-93.637703,60,62,60,57,59,59
 2718368,Eitzen city,Eitzen,"Eitzen, MN",MN,43.508356,-91.465003,61,62,67,66,63,63
 2718386,Elba city,Elba,"Elba, MN",MN,44.086708,-92.016858,63,64,68,66,62,64
@@ -13640,34 +13640,34 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2718458,Elbow Lake city,Elbow Lake,"Elbow Lake, MN",MN,45.989595,-95.978766,68,68,67,62,63,64
 2718530,Elgin city,Elgin,"Elgin, MN",MN,44.129221,-92.25443,62,64,67,64,62,63
 2718566,Elizabeth city,Elizabeth,"Elizabeth, MN",MN,46.38012,-96.130973,68,67,65,61,63,64
-2718662,Elko New Market city,Elko New Market,"Elko New Market, MN",MN,44.567066,-93.334315,65,68,69,64,63,64
-2718674,Elk River city,Elk River,"Elk River, MN",MN,45.332212,-93.566528,65,69,69,62,62,63
+2718662,Elko New Market city,Elko New Market,"Elko New Market, MN",MN,44.567066,-93.334315,66,68,69,64,63,64
+2718674,Elk River city,Elk River,"Elk River, MN",MN,45.332212,-93.566528,66,69,69,62,62,63
 2718728,Elkton city,Elkton,"Elkton, MN",MN,43.660197,-92.706449,63,64,67,65,62,63
-2718746,Ellendale city,Ellendale,"Ellendale, MN",MN,43.872721,-93.299331,64,66,69,65,63,64
+2718746,Ellendale city,Ellendale,"Ellendale, MN",MN,43.872721,-93.299331,65,66,69,65,63,64
 2718836,Ellsworth city,Ellsworth,"Ellsworth, MN",MN,43.520579,-96.01859,64,67,69,63,61,64
-2718872,Elmdale city,Elmdale,"Elmdale, MN",MN,45.834018,-94.494218,63,67,66,60,61,62
+2718872,Elmdale city,Elmdale,"Elmdale, MN",MN,45.834018,-94.494218,64,67,66,60,61,62
 2718998,Elmore city,Elmore,"Elmore, MN",MN,43.506382,-94.088257,64,66,68,65,63,64
 2719088,Elrosa city,Elrosa,"Elrosa, MN",MN,45.562902,-94.947199,65,68,68,61,62,63
 2719142,Ely city,Ely,"Ely, MN",MN,47.905603,-91.850729,56,62,62,59,59,59
-2719160,Elysian city,Elysian,"Elysian, MN",MN,44.206366,-93.681284,65,68,70,64,63,64
+2719160,Elysian city,Elysian,"Elysian, MN",MN,44.206366,-93.681284,66,68,70,64,63,64
 2719286,Emily city,Emily,"Emily, MN",MN,46.769011,-93.980502,60,64,62,59,60,61
-2719340,Emmons city,Emmons,"Emmons, MN",MN,43.508245,-93.484247,64,66,69,65,63,64
-2719358,Empire city,Empire,"Empire, MN",MN,44.679892,-93.09224,65,68,69,64,63,64
+2719340,Emmons city,Emmons,"Emmons, MN",MN,43.508245,-93.484247,65,66,69,65,63,64
+2719358,Empire city,Empire,"Empire, MN",MN,44.679892,-93.09224,66,68,69,64,63,64
 2719556,Erhard city,Erhard,"Erhard, MN",MN,46.481653,-96.096181,69,67,66,62,64,65
 2719700,Erskine city,Erskine,"Erskine, MN",MN,47.663163,-96.016683,67,62,61,59,62,62
 2719718,Esko CDP,Esko,"Esko, MN",MN,46.710036,-92.372095,54,60,60,57,56,57
-2719754,Essig CDP,Essig,"Essig, MN",MN,44.328351,-94.603361,65,69,70,64,63,64
-2719880,Evan city,Evan,"Evan, MN",MN,44.35494,-94.836091,65,69,70,64,62,64
+2719754,Essig CDP,Essig,"Essig, MN",MN,44.328351,-94.603361,67,69,70,64,63,64
+2719880,Evan city,Evan,"Evan, MN",MN,44.35494,-94.836091,67,69,70,64,62,64
 2719898,Evansville city,Evansville,"Evansville, MN",MN,46.006002,-95.687979,67,68,67,62,64,65
 2719934,Eveleth city,Eveleth,"Eveleth, MN",MN,47.474921,-92.54961,58,62,61,58,58,59
 2720078,Excelsior city,Excelsior,"Excelsior, MN",MN,44.902695,-93.56643,67,70,70,65,64,66
 2720114,Eyota city,Eyota,"Eyota, MN",MN,43.98831,-92.232124,62,63,67,64,62,63
-2720222,Fairfax city,Fairfax,"Fairfax, MN",MN,44.528324,-94.722995,65,69,69,64,62,64
+2720222,Fairfax city,Fairfax,"Fairfax, MN",MN,44.528324,-94.722995,67,69,69,64,62,64
 2720276,Fairhaven CDP,Fairhaven,"Fairhaven, MN",MN,45.323991,-94.205474,66,69,68,62,63,64
-2720330,Fairmont city,Fairmont,"Fairmont, MN",MN,43.644789,-94.464015,64,67,69,64,63,64
-2720420,Falcon Heights city,Falcon Heights,"Falcon Heights, MN",MN,44.988052,-93.174659,67,71,71,65,65,66
-2720546,Faribault city,Faribault,"Faribault, MN",MN,44.299709,-93.278946,64,67,69,64,63,63
-2720618,Farmington city,Farmington,"Farmington, MN",MN,44.659163,-93.168705,65,68,69,64,63,64
+2720330,Fairmont city,Fairmont,"Fairmont, MN",MN,43.644789,-94.464015,67,67,69,64,63,64
+2720420,Falcon Heights city,Falcon Heights,"Falcon Heights, MN",MN,44.988052,-93.174659,68,71,71,65,65,66
+2720546,Faribault city,Faribault,"Faribault, MN",MN,44.299709,-93.278946,66,67,69,64,63,63
+2720618,Farmington city,Farmington,"Farmington, MN",MN,44.659163,-93.168705,66,68,69,64,63,64
 2720690,Farwell city,Farwell,"Farwell, MN",MN,45.752338,-95.618868,66,68,68,62,63,64
 2720798,Federal Dam city,Federal Dam,"Federal Dam, MN",MN,47.240227,-94.211998,60,63,61,59,60,61
 2720834,Felton city,Felton,"Felton, MN",MN,47.074977,-96.505745,68,64,63,59,62,63
@@ -13678,66 +13678,66 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2721122,Finlayson city,Finlayson,"Finlayson, MN",MN,46.210367,-92.930407,57,62,62,57,58,58
 2721158,Fisher city,Fisher,"Fisher, MN",MN,47.79917,-96.799527,68,62,61,59,62,62
 2721196,Fish Lake CDP,Fish Lake,"Fish Lake, MN",MN,43.838611,-95.047048,64,66,68,63,62,63
-2721266,Flensburg city,Flensburg,"Flensburg, MN",MN,45.94764,-94.530468,63,67,66,60,61,62
+2721266,Flensburg city,Flensburg,"Flensburg, MN",MN,45.94764,-94.530468,64,67,66,60,61,62
 2721338,Floodwood city,Floodwood,"Floodwood, MN",MN,46.910627,-92.905937,57,63,61,58,58,59
 2721410,Florence city,Florence,"Florence, MN",MN,44.23722,-96.051944,65,67,68,62,62,64
 2721536,Foley city,Foley,"Foley, MN",MN,45.663559,-93.909506,63,68,67,61,60,62
-2721608,Forada city,Forada,"Forada, MN",MN,45.788737,-95.356846,66,68,67,62,63,63
-2721770,Forest Lake city,Forest Lake,"Forest Lake, MN",MN,45.250831,-92.96692,65,69,69,63,63,64
-2721824,Foreston city,Foreston,"Foreston, MN",MN,45.727023,-93.708918,63,68,66,60,60,61
-2721932,Fort Ripley city,Fort Ripley,"Fort Ripley, MN",MN,46.166457,-94.365014,63,67,65,60,61,62
+2721608,Forada city,Forada,"Forada, MN",MN,45.788737,-95.356846,65,68,67,62,63,63
+2721770,Forest Lake city,Forest Lake,"Forest Lake, MN",MN,45.250831,-92.96692,66,69,69,63,63,64
+2721824,Foreston city,Foreston,"Foreston, MN",MN,45.727023,-93.708918,62,68,66,60,60,61
+2721932,Fort Ripley city,Fort Ripley,"Fort Ripley, MN",MN,46.166457,-94.365014,62,67,65,60,61,62
 2721986,Fosston city,Fosston,"Fosston, MN",MN,47.585142,-95.752685,66,61,60,58,61,61
 2722094,Fountain city,Fountain,"Fountain, MN",MN,43.742538,-92.134233,62,63,67,65,62,63
 2722202,Foxhome city,Foxhome,"Foxhome, MN",MN,46.276889,-96.312231,67,67,65,60,63,64
 2722364,Franklin city,Franklin,"Franklin, MN",MN,44.53058,-94.884118,66,69,70,64,62,64
 2722472,Frazee city,Frazee,"Frazee, MN",MN,46.728773,-95.703904,66,64,63,60,63,63
-2722526,Freeborn city,Freeborn,"Freeborn, MN",MN,43.76596,-93.564377,65,67,70,65,63,64
+2722526,Freeborn city,Freeborn,"Freeborn, MN",MN,43.76596,-93.564377,66,67,70,65,63,64
 2722652,Freeport city,Freeport,"Freeport, MN",MN,45.660329,-94.682809,65,68,67,60,61,62
-2722814,Fridley city,Fridley,"Fridley, MN",MN,45.084246,-93.26005,67,71,70,64,65,66
-2722904,Frontenac CDP,Frontenac,"Frontenac, MN",MN,44.503785,-92.352561,65,67,70,65,63,64
-2722940,Frost city,Frost,"Frost, MN",MN,43.584608,-93.924727,64,67,69,65,63,64
+2722814,Fridley city,Fridley,"Fridley, MN",MN,45.084246,-93.26005,68,71,70,64,65,66
+2722904,Frontenac CDP,Frontenac,"Frontenac, MN",MN,44.503785,-92.352561,66,67,70,65,63,64
+2722940,Frost city,Frost,"Frost, MN",MN,43.584608,-93.924727,66,67,69,65,63,64
 2722958,Fulda city,Fulda,"Fulda, MN",MN,43.867377,-95.60552,65,68,69,64,63,65
 2722976,Funkley city,Funkley,"Funkley, MN",MN,47.786816,-94.42664,63,62,61,59,61,61
-2723084,Garden City CDP,Garden City,"Garden City, MN",MN,44.047814,-94.170681,66,69,71,65,63,65
-2723120,Garfield city,Garfield,"Garfield, MN",MN,45.937601,-95.498535,67,68,67,62,64,64
+2723084,Garden City CDP,Garden City,"Garden City, MN",MN,44.047814,-94.170681,67,69,71,65,63,65
+2723120,Garfield city,Garfield,"Garfield, MN",MN,45.937601,-95.498535,66,68,67,62,64,64
 2723192,Garrison city,Garrison,"Garrison, MN",MN,46.298696,-93.825954,64,65,65,60,61,62
 2723228,Garvin city,Garvin,"Garvin, MN",MN,44.212479,-95.76019,65,67,68,62,62,64
 2723246,Gary city,Gary,"Gary, MN",MN,47.373958,-96.265607,67,63,62,58,61,62
-2723300,Gaylord city,Gaylord,"Gaylord, MN",MN,44.55577,-94.213222,65,68,69,64,63,63
-2723318,Gem Lake city,Gem Lake,"Gem Lake, MN",MN,45.061068,-93.038067,66,70,70,64,63,65
-2723354,Geneva city,Geneva,"Geneva, MN",MN,43.819522,-93.272612,64,66,69,64,63,64
+2723300,Gaylord city,Gaylord,"Gaylord, MN",MN,44.55577,-94.213222,66,68,69,64,63,63
+2723318,Gem Lake city,Gem Lake,"Gem Lake, MN",MN,45.061068,-93.038067,68,70,70,64,63,65
+2723354,Geneva city,Geneva,"Geneva, MN",MN,43.819522,-93.272612,65,66,69,64,63,64
 2723444,Genola city,Genola,"Genola, MN",MN,45.965536,-94.112788,63,67,66,60,60,61
 2723498,Georgetown city,Georgetown,"Georgetown, MN",MN,47.07842,-96.795872,68,64,62,59,63,63
 2723660,Ghent city,Ghent,"Ghent, MN",MN,44.511569,-95.89261,66,69,69,63,63,65
-2723678,Gibbon city,Gibbon,"Gibbon, MN",MN,44.533228,-94.524219,65,69,69,64,62,64
+2723678,Gibbon city,Gibbon,"Gibbon, MN",MN,44.533228,-94.524219,67,69,69,64,62,64
 2723714,Gilbert city,Gilbert,"Gilbert, MN",MN,47.490784,-92.458312,56,61,61,58,57,58
-2723804,Gilman city,Gilman,"Gilman, MN",MN,45.73533,-93.948552,63,68,66,60,60,62
-2723948,Glencoe city,Glencoe,"Glencoe, MN",MN,44.769566,-94.151027,65,68,69,63,62,63
-2724056,Glenville city,Glenville,"Glenville, MN",MN,43.574108,-93.281062,63,66,69,65,63,64
+2723804,Gilman city,Gilman,"Gilman, MN",MN,45.73533,-93.948552,64,68,66,60,60,62
+2723948,Glencoe city,Glencoe,"Glencoe, MN",MN,44.769566,-94.151027,66,68,69,63,62,63
+2724056,Glenville city,Glenville,"Glenville, MN",MN,43.574108,-93.281062,65,66,69,65,63,64
 2724074,Glenwood city,Glenwood,"Glenwood, MN",MN,45.6647,-95.387261,66,68,68,62,63,64
 2724182,Glyndon city,Glyndon,"Glyndon, MN",MN,46.870987,-96.578411,68,65,64,59,62,63
-2724308,Golden Valley city,Golden Valley,"Golden Valley, MN",MN,44.990233,-93.358736,68,71,71,65,65,67
+2724308,Golden Valley city,Golden Valley,"Golden Valley, MN",MN,44.990233,-93.358736,69,71,71,65,65,67
 2724344,Gonvick city,Gonvick,"Gonvick, MN",MN,47.739118,-95.51247,65,62,60,58,61,61
-2724398,Goodhue city,Goodhue,"Goodhue, MN",MN,44.399432,-92.625458,63,65,68,63,62,63
+2724398,Goodhue city,Goodhue,"Goodhue, MN",MN,44.399432,-92.625458,65,65,68,63,62,63
 2724434,Goodland CDP,Goodland,"Goodland, MN",MN,47.163583,-93.137587,56,62,61,58,58,59
 2724470,Goodridge city,Goodridge,"Goodridge, MN",MN,48.144175,-95.80396,65,59,60,58,61,60
-2724506,Good Thunder city,Good Thunder,"Good Thunder, MN",MN,44.00669,-94.070296,65,69,71,65,64,65
+2724506,Good Thunder city,Good Thunder,"Good Thunder, MN",MN,44.00669,-94.070296,67,69,71,65,64,65
 2724524,Goodview city,Goodview,"Goodview, MN",MN,44.068809,-91.714643,63,64,69,66,63,63
 2724758,Graceville city,Graceville,"Graceville, MN",MN,45.568681,-96.437187,66,68,67,62,63,65
-2724884,Granada city,Granada,"Granada, MN",MN,43.693017,-94.349536,64,67,69,64,62,64
+2724884,Granada city,Granada,"Granada, MN",MN,43.693017,-94.349536,66,67,69,64,62,64
 2724992,Grand Marais city,Grand Marais,"Grand Marais, MN",MN,47.758556,-90.344319,58,59,62,60,59,60
 2725010,Grand Meadow city,Grand Meadow,"Grand Meadow, MN",MN,43.706205,-92.570163,63,64,67,65,62,63
 2725118,Grand Rapids city,Grand Rapids,"Grand Rapids, MN",MN,47.238518,-93.53257,58,63,61,58,59,59
 2725280,Granite Falls city,Granite Falls,"Granite Falls, MN",MN,44.807268,-95.542338,67,70,70,63,63,65
-2725334,Grant city,Grant,"Grant, MN",MN,45.082077,-92.910948,65,69,69,63,63,64
+2725334,Grant city,Grant,"Grant, MN",MN,45.082077,-92.910948,66,69,69,63,63,64
 2725424,Grasston city,Grasston,"Grasston, MN",MN,45.797369,-93.155005,61,66,65,60,60,61
 2725604,Greenbush city,Greenbush,"Greenbush, MN",MN,48.701061,-96.183554,66,58,59,57,60,60
-2725622,Greenfield city,Greenfield,"Greenfield, MN",MN,45.094065,-93.690773,67,70,70,64,63,65
-2725658,Green Isle city,Green Isle,"Green Isle, MN",MN,44.682858,-94.004089,65,68,69,63,62,63
+2725622,Greenfield city,Greenfield,"Greenfield, MN",MN,45.094065,-93.690773,68,70,70,64,63,65
+2725658,Green Isle city,Green Isle,"Green Isle, MN",MN,44.682858,-94.004089,66,68,69,63,62,63
 2725874,Greenwald city,Greenwald,"Greenwald, MN",MN,45.60137,-94.859334,65,68,67,60,62,62
-2725918,Greenwood city,Greenwood,"Greenwood, MN",MN,44.912956,-93.553999,67,69,70,64,64,65
-2726000,Grey Eagle city,Grey Eagle,"Grey Eagle, MN",MN,45.824307,-94.749141,64,67,66,60,62,62
-2726126,Grove City city,Grove City,"Grove City, MN",MN,45.149166,-94.682451,66,69,69,62,63,64
+2725918,Greenwood city,Greenwood,"Greenwood, MN",MN,44.912956,-93.553999,68,69,70,64,64,65
+2726000,Grey Eagle city,Grey Eagle,"Grey Eagle, MN",MN,45.824307,-94.749141,65,67,66,60,62,62
+2726126,Grove City city,Grove City,"Grove City, MN",MN,45.149166,-94.682451,67,69,69,62,63,64
 2726216,Grygla city,Grygla,"Grygla, MN",MN,48.299667,-95.623963,64,58,59,57,60,59
 2726270,Gully city,Gully,"Gully, MN",MN,47.768437,-95.622861,66,61,61,58,61,61
 2726378,Hackensack city,Hackensack,"Hackensack, MN",MN,46.926471,-94.515987,61,64,63,60,61,62
@@ -13745,28 +13745,28 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2726576,Hallock city,Hallock,"Hallock, MN",MN,48.765415,-96.942485,68,58,59,58,62,61
 2726612,Halma city,Halma,"Halma, MN",MN,48.660463,-96.597716,67,58,59,58,61,61
 2726630,Halstad city,Halstad,"Halstad, MN",MN,47.351131,-96.825733,68,63,61,59,62,63
-2726666,Hamburg city,Hamburg,"Hamburg, MN",MN,44.732495,-93.963197,65,68,69,63,62,63
-2726738,Ham Lake city,Ham Lake,"Ham Lake, MN",MN,45.25393,-93.194841,66,70,70,63,63,64
+2726666,Hamburg city,Hamburg,"Hamburg, MN",MN,44.732495,-93.963197,66,68,69,63,62,63
+2726738,Ham Lake city,Ham Lake,"Ham Lake, MN",MN,45.25393,-93.194841,67,70,70,63,63,64
 2726828,Hammond city,Hammond,"Hammond, MN",MN,44.22266,-92.373728,63,64,68,64,62,63
-2726864,Hampton city,Hampton,"Hampton, MN",MN,44.608847,-93.002617,64,67,69,64,62,63
+2726864,Hampton city,Hampton,"Hampton, MN",MN,44.608847,-93.002617,65,67,69,64,62,63
 2726936,Hancock city,Hancock,"Hancock, MN",MN,45.497591,-95.794822,66,69,68,61,62,63
-2726972,Hanley Falls city,Hanley Falls,"Hanley Falls, MN",MN,44.691843,-95.619427,66,70,70,63,63,65
-2726990,Hanover city,Hanover,"Hanover, MN",MN,45.157755,-93.66275,66,70,70,64,63,64
-2727008,Hanska city,Hanska,"Hanska, MN",MN,44.148743,-94.494459,66,69,70,64,63,64
-2727098,Harding city,Harding,"Harding, MN",MN,46.119106,-94.036798,62,66,65,60,60,61
+2726972,Hanley Falls city,Hanley Falls,"Hanley Falls, MN",MN,44.691843,-95.619427,67,70,70,63,63,65
+2726990,Hanover city,Hanover,"Hanover, MN",MN,45.157755,-93.66275,68,70,70,64,63,64
+2727008,Hanska city,Hanska,"Hanska, MN",MN,44.148743,-94.494459,67,69,70,64,63,64
+2727098,Harding city,Harding,"Harding, MN",MN,46.119106,-94.036798,61,66,65,60,60,61
 2727116,Hardwick city,Hardwick,"Hardwick, MN",MN,43.77419,-96.197462,64,67,68,63,61,64
 2727188,Harmony city,Harmony,"Harmony, MN",MN,43.554005,-92.007471,62,62,66,66,62,63
-2727278,Harris city,Harris,"Harris, MN",MN,45.597768,-92.988641,63,68,67,61,61,62
-2727404,Hartland city,Hartland,"Hartland, MN",MN,43.80422,-93.48435,64,67,70,65,63,64
-2727530,Hastings city,Hastings,"Hastings, MN",MN,44.73178,-92.854512,65,68,69,64,63,64
+2727278,Harris city,Harris,"Harris, MN",MN,45.597768,-92.988641,64,68,67,61,61,62
+2727404,Hartland city,Hartland,"Hartland, MN",MN,43.80422,-93.48435,66,67,70,65,63,64
+2727530,Hastings city,Hastings,"Hastings, MN",MN,44.73178,-92.854512,66,68,69,64,63,64
 2727566,Hatfield city,Hatfield,"Hatfield, MN",MN,43.953677,-96.188895,64,67,68,62,61,64
 2727746,Hawley city,Hawley,"Hawley, MN",MN,46.877444,-96.320009,68,65,64,60,63,64
 2727872,Hayfield city,Hayfield,"Hayfield, MN",MN,43.890261,-92.847034,63,64,67,64,62,62
-2727944,Hayward city,Hayward,"Hayward, MN",MN,43.649892,-93.245986,64,66,69,65,63,64
-2728016,Hazel Run city,Hazel Run,"Hazel Run, MN",MN,44.748434,-95.716542,66,69,70,63,63,65
-2728124,Hector city,Hector,"Hector, MN",MN,44.741255,-94.712084,65,69,69,63,62,64
-2728214,Heidelberg city,Heidelberg,"Heidelberg, MN",MN,44.493062,-93.626434,65,68,69,64,63,64
-2728394,Henderson city,Henderson,"Henderson, MN",MN,44.524305,-93.913547,66,69,70,64,63,64
+2727944,Hayward city,Hayward,"Hayward, MN",MN,43.649892,-93.245986,65,66,69,65,63,64
+2728016,Hazel Run city,Hazel Run,"Hazel Run, MN",MN,44.748434,-95.716542,67,69,70,63,63,65
+2728124,Hector city,Hector,"Hector, MN",MN,44.741255,-94.712084,67,69,69,63,62,64
+2728214,Heidelberg city,Heidelberg,"Heidelberg, MN",MN,44.493062,-93.626434,66,68,69,64,63,64
+2728394,Henderson city,Henderson,"Henderson, MN",MN,44.524305,-93.913547,67,69,70,64,63,64
 2728430,Hendricks city,Hendricks,"Hendricks, MN",MN,44.508647,-96.426422,65,67,67,61,62,64
 2728484,Hendrum city,Hendrum,"Hendrum, MN",MN,47.264053,-96.81068,68,63,62,59,63,63
 2728520,Henning city,Henning,"Henning, MN",MN,46.323052,-95.441976,66,67,65,61,63,64
@@ -13778,7 +13778,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2728790,Hibbing city,Hibbing,"Hibbing, MN",MN,47.395902,-92.946466,56,61,60,57,58,58
 2728862,High Forest CDP,High Forest,"High Forest, MN",MN,43.846158,-92.548017,63,64,67,65,62,63
 2729096,Hill City city,Hill City,"Hill City, MN",MN,46.985161,-93.594992,57,63,61,57,58,59
-2729150,Hillman city,Hillman,"Hillman, MN",MN,46.006281,-93.88865,62,66,65,60,60,61
+2729150,Hillman city,Hillman,"Hillman, MN",MN,46.006281,-93.88865,61,66,65,60,60,61
 2729204,Hills city,Hills,"Hills, MN",MN,43.527617,-96.359322,65,68,69,64,62,65
 2729258,Hilltop city,Hilltop,"Hilltop, MN",MN,45.053579,-93.250127,68,71,71,65,65,66
 2729294,Hinckley city,Hinckley,"Hinckley, MN",MN,46.013033,-92.912722,60,64,63,58,58,59
@@ -13787,39 +13787,39 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2729510,Hokah city,Hokah,"Hokah, MN",MN,43.760062,-91.349435,62,63,69,67,63,63
 2729582,Holdingford city,Holdingford,"Holdingford, MN",MN,45.730321,-94.471373,64,67,66,60,61,62
 2729618,Holland city,Holland,"Holland, MN",MN,44.090171,-96.198881,64,67,68,62,61,64
-2729636,Hollandale city,Hollandale,"Hollandale, MN",MN,43.759781,-93.205586,64,66,69,65,63,64
-2729672,Holloway city,Holloway,"Holloway, MN",MN,45.243082,-95.906795,66,69,69,62,63,64
+2729636,Hollandale city,Hollandale,"Hollandale, MN",MN,43.759781,-93.205586,65,66,69,65,63,64
+2729672,Holloway city,Holloway,"Holloway, MN",MN,45.243082,-95.906795,67,69,69,62,63,64
 2729870,Holt city,Holt,"Holt, MN",MN,48.292923,-96.194471,65,58,59,58,60,60
 2730014,Homer CDP,Homer,"Homer, MN",MN,44.007209,-91.560865,62,63,67,66,63,63
-2730140,Hopkins city,Hopkins,"Hopkins, MN",MN,44.925107,-93.404494,67,70,71,65,65,66
+2730140,Hopkins city,Hopkins,"Hopkins, MN",MN,44.925107,-93.404494,68,70,71,65,65,66
 2730230,Houston city,Houston,"Houston, MN",MN,43.756636,-91.572676,61,62,66,66,62,62
-2730284,Howard Lake city,Howard Lake,"Howard Lake, MN",MN,45.053986,-94.061,66,69,69,63,63,64
+2730284,Howard Lake city,Howard Lake,"Howard Lake, MN",MN,45.053986,-94.061,67,69,69,63,63,64
 2730302,Hoyt Lakes city,Hoyt Lakes,"Hoyt Lakes, MN",MN,47.571615,-92.108331,55,60,61,58,57,58
 2730320,Hubbard CDP,Hubbard,"Hubbard, MN",MN,46.837454,-95.009045,62,63,63,59,60,61
 2730392,Hugo city,Hugo,"Hugo, MN",MN,45.164225,-92.960105,65,69,69,63,63,64
 2730446,Humboldt city,Humboldt,"Humboldt, MN",MN,48.921522,-97.094642,68,58,59,58,61,61
 2730644,Hutchinson city,Hutchinson,"Hutchinson, MN",MN,44.885358,-94.376876,66,69,70,63,63,64
 2730806,Ihlen city,Ihlen,"Ihlen, MN",MN,43.915574,-96.372771,65,67,69,63,61,64
-2730842,Independence city,Independence,"Independence, MN",MN,45.018594,-93.71975,66,70,70,64,63,64
+2730842,Independence city,Independence,"Independence, MN",MN,45.018594,-93.71975,68,70,70,64,63,64
 2730950,Inger CDP,Inger,"Inger, MN",MN,47.563282,-93.977317,59,62,60,58,59,60
 2731040,International Falls city,International Falls,"International Falls, MN",MN,48.586353,-93.407743,62,60,61,60,60,60
 2731076,Inver Grove Heights city,Inver Grove Heights,"Inver Grove Heights, MN",MN,44.829015,-93.060072,67,70,70,65,64,65
 2731094,Iona city,Iona,"Iona, MN",MN,43.915596,-95.783085,64,67,68,63,62,64
 2731238,Iron Junction city,Iron Junction,"Iron Junction, MN",MN,47.418986,-92.608644,56,62,61,58,57,59
 2731274,Ironton city,Ironton,"Ironton, MN",MN,46.48219,-94.003348,62,65,64,60,61,62
-2731328,Isanti city,Isanti,"Isanti, MN",MN,45.491545,-93.242818,64,69,68,62,61,62
-2731472,Isle city,Isle,"Isle, MN",MN,46.138076,-93.455793,60,66,64,59,60,61
+2731328,Isanti city,Isanti,"Isanti, MN",MN,45.491545,-93.242818,65,69,68,62,61,62
+2731472,Isle city,Isle,"Isle, MN",MN,46.138076,-93.455793,59,66,64,59,60,61
 2731526,Ivanhoe city,Ivanhoe,"Ivanhoe, MN",MN,44.464282,-96.251729,65,67,67,61,62,64
 2731562,Jackson city,Jackson,"Jackson, MN",MN,43.62568,-94.988585,64,66,68,63,62,64
-2731706,Janesville city,Janesville,"Janesville, MN",MN,44.119846,-93.709698,65,68,70,64,63,64
+2731706,Janesville city,Janesville,"Janesville, MN",MN,44.119846,-93.709698,66,68,70,64,63,64
 2731760,Jasper city,Jasper,"Jasper, MN",MN,43.848886,-96.399636,65,68,69,63,62,64
 2731796,Jeffers city,Jeffers,"Jeffers, MN",MN,44.055905,-95.195353,64,66,68,62,62,63
 2731832,Jenkins city,Jenkins,"Jenkins, MN",MN,46.651092,-94.328181,61,64,63,60,61,62
 2732012,Johnson city,Johnson,"Johnson, MN",MN,45.572251,-96.29404,66,68,67,62,63,65
-2732174,Jordan city,Jordan,"Jordan, MN",MN,44.66463,-93.640222,66,69,70,64,63,64
+2732174,Jordan city,Jordan,"Jordan, MN",MN,44.66463,-93.640222,67,69,70,64,63,64
 2732372,Kandiyohi city,Kandiyohi,"Kandiyohi, MN",MN,45.131524,-94.932793,67,70,69,63,63,65
 2732444,Karlstad city,Karlstad,"Karlstad, MN",MN,48.577986,-96.516113,67,58,58,58,61,61
-2732462,Kasota city,Kasota,"Kasota, MN",MN,44.29195,-93.968535,66,70,71,65,64,65
+2732462,Kasota city,Kasota,"Kasota, MN",MN,44.29195,-93.968535,67,70,71,65,64,65
 2732498,Kasson city,Kasson,"Kasson, MN",MN,44.033174,-92.748578,63,64,67,64,61,63
 2732570,Keewatin city,Keewatin,"Keewatin, MN",MN,47.399441,-93.084205,57,62,60,57,58,58
 2732606,Kelliher city,Kelliher,"Kelliher, MN",MN,47.948176,-94.43783,63,62,60,59,61,61
@@ -13828,72 +13828,72 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2732750,Kenneth city,Kenneth,"Kenneth, MN",MN,43.754338,-96.072529,64,67,68,63,62,64
 2732768,Kensington city,Kensington,"Kensington, MN",MN,45.778179,-95.696867,67,69,68,62,63,64
 2732786,Kent city,Kent,"Kent, MN",MN,46.438072,-96.682577,67,66,64,60,62,63
-2732840,Kenyon city,Kenyon,"Kenyon, MN",MN,44.272551,-92.9864,63,66,68,63,62,63
+2732840,Kenyon city,Kenyon,"Kenyon, MN",MN,44.272551,-92.9864,65,66,68,63,62,63
 2732876,Kerkhoven city,Kerkhoven,"Kerkhoven, MN",MN,45.191405,-95.318253,67,70,69,62,63,64
 2732912,Kerrick city,Kerrick,"Kerrick, MN",MN,46.339061,-92.585161,55,62,61,57,57,58
 2732966,Kettle River city,Kettle River,"Kettle River, MN",MN,46.486219,-92.877569,54,60,60,56,56,57
-2733056,Kiester city,Kiester,"Kiester, MN",MN,43.536505,-93.711172,64,67,69,65,63,64
-2733110,Kilkenny city,Kilkenny,"Kilkenny, MN",MN,44.315238,-93.574011,65,68,69,64,63,64
+2733056,Kiester city,Kiester,"Kiester, MN",MN,43.536505,-93.711172,66,67,69,65,63,64
+2733110,Kilkenny city,Kilkenny,"Kilkenny, MN",MN,44.315238,-93.574011,66,68,69,64,63,64
 2733164,Kimball city,Kimball,"Kimball, MN",MN,45.31433,-94.300807,66,69,68,62,62,63
 2733236,Kinbrae city,Kinbrae,"Kinbrae, MN",MN,43.822805,-95.475935,65,67,69,64,62,64
-2733344,Kingston city,Kingston,"Kingston, MN",MN,45.194384,-94.307118,66,69,69,63,63,64
+2733344,Kingston city,Kingston,"Kingston, MN",MN,45.194384,-94.307118,67,69,69,63,63,64
 2733416,Kinney city,Kinney,"Kinney, MN",MN,47.516501,-92.719531,57,61,60,57,58,58
 2733578,Knife River CDP,Knife River,"Knife River, MN",MN,46.948908,-91.78419,55,58,60,58,56,57
 2733866,La Crescent city,La Crescent,"La Crescent, MN",MN,43.829716,-91.304953,62,62,67,66,63,63
-2733920,Lafayette city,Lafayette,"Lafayette, MN",MN,44.4471,-94.392687,65,69,70,64,63,64
+2733920,Lafayette city,Lafayette,"Lafayette, MN",MN,44.4471,-94.392687,67,69,70,64,63,64
 2734100,Lake Benton city,Lake Benton,"Lake Benton, MN",MN,44.262226,-96.299257,65,67,67,62,61,64
 2734136,Lake Bronson city,Lake Bronson,"Lake Bronson, MN",MN,48.732431,-96.664928,68,58,59,58,61,61
 2734172,Lake City city,Lake City,"Lake City, MN",MN,44.445705,-92.280925,64,66,68,65,63,64
-2734190,Lake Crystal city,Lake Crystal,"Lake Crystal, MN",MN,44.105404,-94.219141,65,68,70,64,63,64
-2734244,Lake Elmo city,Lake Elmo,"Lake Elmo, MN",MN,44.987847,-92.909654,65,69,69,64,63,64
+2734190,Lake Crystal city,Lake Crystal,"Lake Crystal, MN",MN,44.105404,-94.219141,66,68,70,64,63,64
+2734244,Lake Elmo city,Lake Elmo,"Lake Elmo, MN",MN,44.987847,-92.909654,66,69,69,64,63,64
 2734316,Lakefield city,Lakefield,"Lakefield, MN",MN,43.678014,-95.169454,65,67,68,63,62,63
 2734370,Lake George CDP,Lake George,"Lake George, MN",MN,47.178816,-94.972365,64,63,62,59,61,62
 2734478,Lake Henry city,Lake Henry,"Lake Henry, MN",MN,45.462042,-94.796493,65,68,68,61,62,63
-2734622,Lakeland city,Lakeland,"Lakeland, MN",MN,44.953174,-92.76663,65,68,69,63,63,64
-2734658,Lakeland Shores city,Lakeland Shores,"Lakeland Shores, MN",MN,44.949468,-92.762428,65,68,69,63,63,64
+2734622,Lakeland city,Lakeland,"Lakeland, MN",MN,44.953174,-92.76663,66,68,69,63,63,64
+2734658,Lakeland Shores city,Lakeland Shores,"Lakeland Shores, MN",MN,44.949468,-92.762428,66,68,69,63,63,64
 2734676,Lake Lillian city,Lake Lillian,"Lake Lillian, MN",MN,44.945868,-94.879995,67,70,70,64,63,65
 2734784,Lake Park city,Lake Park,"Lake Park, MN",MN,46.883733,-96.097958,68,66,64,61,64,64
-2734865,Lake St. Croix Beach city,Lake St. Croix Beach,"Lake St. Croix Beach, MN",MN,44.924492,-92.766121,65,68,69,63,63,64
+2734865,Lake St. Croix Beach city,Lake St. Croix Beach,"Lake St. Croix Beach, MN",MN,44.924492,-92.766121,66,68,69,63,63,64
 2734928,Lake Shore city,Lake Shore,"Lake Shore, MN",MN,46.504346,-94.366514,63,66,65,61,62,62
-2735180,Lakeville city,Lakeville,"Lakeville, MN",MN,44.676134,-93.251743,65,68,69,64,63,64
+2735180,Lakeville city,Lakeville,"Lakeville, MN",MN,44.676134,-93.251743,66,68,69,64,63,64
 2735198,Lake Wilson city,Lake Wilson,"Lake Wilson, MN",MN,43.995358,-95.954588,64,67,68,63,62,64
-2735288,Lamberton city,Lamberton,"Lamberton, MN",MN,44.230644,-95.2676,65,68,69,63,62,64
+2735288,Lamberton city,Lamberton,"Lamberton, MN",MN,44.230644,-95.2676,66,68,69,63,62,64
 2735378,Lancaster city,Lancaster,"Lancaster, MN",MN,48.858197,-96.801399,68,58,59,58,61,61
 2735414,Landfall city,Landfall,"Landfall, MN",MN,44.950029,-92.976955,67,70,70,65,64,65
 2735450,Lanesboro city,Lanesboro,"Lanesboro, MN",MN,43.715122,-91.970197,62,63,68,66,62,63
 2735558,Lansing CDP,Lansing,"Lansing, MN",MN,43.747724,-92.965732,63,64,67,65,62,63
 2735612,Laporte city,Laporte,"Laporte, MN",MN,47.214735,-94.757377,63,63,63,59,61,62
 2735648,La Prairie city,La Prairie,"La Prairie, MN",MN,47.230043,-93.491362,58,63,61,58,58,59
-2735702,La Salle city,La Salle,"La Salle, MN",MN,44.07106,-94.571289,65,68,70,64,63,64
+2735702,La Salle city,La Salle,"La Salle, MN",MN,44.07106,-94.571289,67,68,70,64,63,64
 2735720,Lastrup city,Lastrup,"Lastrup, MN",MN,46.039845,-94.061769,62,66,65,59,60,61
-2735738,Lauderdale city,Lauderdale,"Lauderdale, MN",MN,44.994407,-93.203134,68,71,71,65,65,66
-2736134,Le Center city,Le Center,"Le Center, MN",MN,44.386593,-93.731082,65,68,69,64,63,64
+2735738,Lauderdale city,Lauderdale,"Lauderdale, MN",MN,44.994407,-93.203134,69,71,71,65,65,66
+2736134,Le Center city,Le Center,"Le Center, MN",MN,44.386593,-93.731082,66,68,69,64,63,64
 2736404,Lengby city,Lengby,"Lengby, MN",MN,47.515347,-95.634568,67,63,61,59,62,62
 2736494,Leonard city,Leonard,"Leonard, MN",MN,47.649802,-95.264158,64,62,61,59,61,61
 2736530,Leonidas city,Leonidas,"Leonidas, MN",MN,47.46766,-92.567436,57,62,61,58,58,59
 2736548,Leota CDP,Leota,"Leota, MN",MN,43.826383,-96.024232,65,67,69,63,62,64
 2736620,Le Roy city,Le Roy,"Le Roy, MN",MN,43.513277,-92.507793,62,63,67,66,62,63
-2736728,Lester Prairie city,Lester Prairie,"Lester Prairie, MN",MN,44.883322,-94.036998,65,68,69,63,63,63
-2736746,Le Sueur city,Le Sueur,"Le Sueur, MN",MN,44.470513,-93.901773,66,69,70,64,63,64
+2736728,Lester Prairie city,Lester Prairie,"Lester Prairie, MN",MN,44.883322,-94.036998,66,68,69,63,63,63
+2736746,Le Sueur city,Le Sueur,"Le Sueur, MN",MN,44.470513,-93.901773,67,69,70,64,63,64
 2736800,Lewiston city,Lewiston,"Lewiston, MN",MN,43.982386,-91.869487,62,63,66,65,62,63
-2736818,Lewisville city,Lewisville,"Lewisville, MN",MN,43.924142,-94.434137,66,69,71,65,63,65
-2736836,Lexington city,Lexington,"Lexington, MN",MN,45.138153,-93.171375,67,71,70,64,63,65
-2737016,Lilydale city,Lilydale,"Lilydale, MN",MN,44.908785,-93.130754,68,71,72,66,65,67
-2737304,Lindstrom city,Lindstrom,"Lindstrom, MN",MN,45.385816,-92.843674,64,68,68,62,62,63
-2737322,Lino Lakes city,Lino Lakes,"Lino Lakes, MN",MN,45.15546,-93.106858,66,70,70,64,63,65
+2736818,Lewisville city,Lewisville,"Lewisville, MN",MN,43.924142,-94.434137,67,69,71,65,63,65
+2736836,Lexington city,Lexington,"Lexington, MN",MN,45.138153,-93.171375,68,71,70,64,63,65
+2737016,Lilydale city,Lilydale,"Lilydale, MN",MN,44.908785,-93.130754,69,71,72,66,65,67
+2737304,Lindstrom city,Lindstrom,"Lindstrom, MN",MN,45.385816,-92.843674,65,68,68,62,62,63
+2737322,Lino Lakes city,Lino Lakes,"Lino Lakes, MN",MN,45.15546,-93.106858,67,70,70,64,63,65
 2737412,Lismore city,Lismore,"Lismore, MN",MN,43.749112,-95.94809,63,66,67,62,61,63
-2737448,Litchfield city,Litchfield,"Litchfield, MN",MN,45.12197,-94.525901,66,69,69,63,63,64
-2737502,Little Canada city,Little Canada,"Little Canada, MN",MN,45.023265,-93.083655,67,70,71,65,64,66
-2737556,Little Falls city,Little Falls,"Little Falls, MN",MN,45.985557,-94.359676,63,67,66,60,61,62
+2737448,Litchfield city,Litchfield,"Litchfield, MN",MN,45.12197,-94.525901,67,69,69,63,63,64
+2737502,Little Canada city,Little Canada,"Little Canada, MN",MN,45.023265,-93.083655,68,70,71,65,64,66
+2737556,Little Falls city,Little Falls,"Little Falls, MN",MN,45.985557,-94.359676,64,67,66,60,61,62
 2737592,Littlefork city,Littlefork,"Littlefork, MN",MN,48.396427,-93.557778,61,59,60,58,58,59
 2737656,Little Rock CDP,Little Rock,"Little Rock, MN",MN,47.864588,-95.100155,67,64,63,62,63,64
 2737970,Long Beach city,Long Beach,"Long Beach, MN",MN,45.652051,-95.430768,67,70,69,63,64,65
-2738006,Long Lake city,Long Lake,"Long Lake, MN",MN,44.983248,-93.570054,67,70,70,64,64,65
+2738006,Long Lake city,Long Lake,"Long Lake, MN",MN,44.983248,-93.570054,68,70,70,64,64,65
 2738060,Long Prairie city,Long Prairie,"Long Prairie, MN",MN,45.97472,-94.861352,64,66,65,60,61,62
 2738114,Longville city,Longville,"Longville, MN",MN,46.987368,-94.211983,61,64,63,59,60,61
-2738150,Lonsdale city,Lonsdale,"Lonsdale, MN",MN,44.477631,-93.424226,65,67,69,64,63,63
-2738222,Loretto city,Loretto,"Loretto, MN",MN,45.054769,-93.635337,67,70,70,64,63,65
-2738258,Louisburg city,Louisburg,"Louisburg, MN",MN,45.164478,-96.171064,66,69,69,62,63,64
+2738150,Lonsdale city,Lonsdale,"Lonsdale, MN",MN,44.477631,-93.424226,66,67,69,64,63,63
+2738222,Loretto city,Loretto,"Loretto, MN",MN,45.054769,-93.635337,68,70,70,64,63,65
+2738258,Louisburg city,Louisburg,"Louisburg, MN",MN,45.164478,-96.171064,67,69,69,62,63,64
 2738366,Lowry city,Lowry,"Lowry, MN",MN,45.704901,-95.519086,66,69,68,62,63,64
 2738420,Lucan city,Lucan,"Lucan, MN",MN,44.410183,-95.412945,66,70,70,63,62,65
 2738546,Lutsen CDP,Lutsen,"Lutsen, MN",MN,47.67443,-90.692776,56,58,63,61,60,60
@@ -13905,126 +13905,126 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2739014,McGregor city,McGregor,"McGregor, MN",MN,46.610359,-93.299543,56,63,61,57,57,58
 2739050,McIntosh city,McIntosh,"McIntosh, MN",MN,47.637371,-95.88701,66,61,60,58,61,61
 2739140,McKinley city,McKinley,"McKinley, MN",MN,47.50985,-92.406529,55,61,60,58,57,58
-2739230,Madelia city,Madelia,"Madelia, MN",MN,44.048164,-94.419927,65,68,70,64,63,64
+2739230,Madelia city,Madelia,"Madelia, MN",MN,44.048164,-94.419927,67,68,70,64,63,64
 2739266,Madison city,Madison,"Madison, MN",MN,45.012763,-96.189057,66,69,69,61,62,64
-2739320,Madison Lake city,Madison Lake,"Madison Lake, MN",MN,44.208059,-93.817855,65,68,70,65,63,64
+2739320,Madison Lake city,Madison Lake,"Madison Lake, MN",MN,44.208059,-93.817855,66,68,70,65,63,64
 2739338,Magnolia city,Magnolia,"Magnolia, MN",MN,43.644078,-96.075282,64,67,68,63,61,64
 2739392,Mahnomen city,Mahnomen,"Mahnomen, MN",MN,47.314775,-95.967377,66,62,61,58,61,61
 2739394,Mahnomen CDP,Mahnomen,"Mahnomen, MN",MN,46.773064,-92.541752,55,62,61,57,57,58
-2739428,Mahtomedi city,Mahtomedi,"Mahtomedi, MN",MN,45.058292,-92.970186,66,70,70,64,63,65
+2739428,Mahtomedi city,Mahtomedi,"Mahtomedi, MN",MN,45.058292,-92.970186,67,70,70,64,63,65
 2739446,Mahtowa CDP,Mahtowa,"Mahtowa, MN",MN,46.551745,-92.636106,53,60,59,55,55,56
-2739716,Manchester city,Manchester,"Manchester, MN",MN,43.725424,-93.45087,64,67,69,65,63,64
+2739716,Manchester city,Manchester,"Manchester, MN",MN,43.725424,-93.45087,65,67,69,65,63,64
 2739806,Manhattan Beach city,Manhattan Beach,"Manhattan Beach, MN",MN,46.7356,-94.143626,60,64,63,59,61,61
-2739878,Mankato city,Mankato,"Mankato, MN",MN,44.171122,-93.97638,66,69,71,65,64,65
+2739878,Mankato city,Mankato,"Mankato, MN",MN,44.171122,-93.97638,68,69,71,65,64,65
 2739986,Mantorville city,Mantorville,"Mantorville, MN",MN,44.065198,-92.747168,63,64,67,64,62,63
-2740166,Maple Grove city,Maple Grove,"Maple Grove, MN",MN,45.112764,-93.462975,67,70,70,64,64,65
-2740220,Maple Lake city,Maple Lake,"Maple Lake, MN",MN,45.232626,-94.009546,66,69,68,63,63,64
-2740256,Maple Plain city,Maple Plain,"Maple Plain, MN",MN,45.008633,-93.662369,67,70,70,64,64,65
-2740310,Mapleton city,Mapleton,"Mapleton, MN",MN,43.927138,-93.955282,65,68,70,65,63,65
+2740166,Maple Grove city,Maple Grove,"Maple Grove, MN",MN,45.112764,-93.462975,68,70,70,64,64,65
+2740220,Maple Lake city,Maple Lake,"Maple Lake, MN",MN,45.232626,-94.009546,67,69,68,63,63,64
+2740256,Maple Plain city,Maple Plain,"Maple Plain, MN",MN,45.008633,-93.662369,68,70,70,64,64,65
+2740310,Mapleton city,Mapleton,"Mapleton, MN",MN,43.927138,-93.955282,66,68,70,65,63,65
 2740346,Mapleview city,Mapleview,"Mapleview, MN",MN,43.690063,-92.974,63,64,67,65,63,64
-2740382,Maplewood city,Maplewood,"Maplewood, MN",MN,45.019015,-93.03106,67,70,71,65,64,66
+2740382,Maplewood city,Maplewood,"Maplewood, MN",MN,45.019015,-93.03106,68,70,71,65,64,66
 2740418,Marble city,Marble,"Marble, MN",MN,47.331839,-93.290033,58,63,61,58,59,59
 2740526,Marietta city,Marietta,"Marietta, MN",MN,45.010489,-96.418942,66,68,68,61,62,64
 2740562,Marine on St. Croix city,Marine on St. Croix,"Marine on St. Croix, MN",MN,45.190929,-92.77843,65,68,68,62,62,63
 2740598,Marion CDP,Marion,"Marion, MN",MN,43.943115,-92.353105,63,64,67,65,62,63
 2740688,Marshall city,Marshall,"Marshall, MN",MN,44.449061,-95.789201,66,69,69,63,63,65
-2740814,Martin Lake CDP,Martin Lake,"Martin Lake, MN",MN,45.383384,-93.08994,65,69,68,62,62,63
-2741138,Mayer city,Mayer,"Mayer, MN",MN,44.888916,-93.894539,65,68,69,63,63,63
+2740814,Martin Lake CDP,Martin Lake,"Martin Lake, MN",MN,45.383384,-93.08994,66,69,68,62,62,63
+2741138,Mayer city,Mayer,"Mayer, MN",MN,44.888916,-93.894539,66,68,69,63,63,63
 2741210,Maynard city,Maynard,"Maynard, MN",MN,44.905587,-95.468607,67,70,70,63,63,65
 2741282,Mazeppa city,Mazeppa,"Mazeppa, MN",MN,44.273686,-92.540204,63,64,67,64,62,63
 2741372,Meadowlands city,Meadowlands,"Meadowlands, MN",MN,47.073102,-92.731274,56,63,62,58,58,59
-2741426,Medford city,Medford,"Medford, MN",MN,44.168531,-93.247259,63,66,68,64,62,63
-2741462,Medicine Lake city,Medicine Lake,"Medicine Lake, MN",MN,44.995786,-93.418072,68,71,71,65,65,66
-2741480,Medina city,Medina,"Medina, MN",MN,45.03452,-93.575598,67,70,70,64,64,65
+2741426,Medford city,Medford,"Medford, MN",MN,44.168531,-93.247259,65,66,68,64,62,63
+2741462,Medicine Lake city,Medicine Lake,"Medicine Lake, MN",MN,44.995786,-93.418072,69,71,71,65,65,66
+2741480,Medina city,Medina,"Medina, MN",MN,45.03452,-93.575598,68,70,70,64,64,65
 2741534,Meire Grove city,Meire Grove,"Meire Grove, MN",MN,45.626408,-94.869394,65,68,67,60,62,62
 2741570,Melrose city,Melrose,"Melrose, MN",MN,45.677008,-94.814774,65,68,67,60,61,62
 2741660,Menahga city,Menahga,"Menahga, MN",MN,46.753697,-95.102864,63,64,62,59,60,61
-2741678,Mendota city,Mendota,"Mendota, MN",MN,44.887493,-93.161716,68,71,72,66,66,67
-2741696,Mendota Heights city,Mendota Heights,"Mendota Heights, MN",MN,44.878932,-93.133929,68,71,72,66,66,67
+2741678,Mendota city,Mendota,"Mendota, MN",MN,44.887493,-93.161716,69,71,72,66,66,67
+2741696,Mendota Heights city,Mendota Heights,"Mendota Heights, MN",MN,44.878932,-93.133929,69,71,72,66,66,67
 2741714,Mentor city,Mentor,"Mentor, MN",MN,47.696662,-96.144035,67,62,61,59,62,62
 2741804,Merrifield CDP,Merrifield,"Merrifield, MN",MN,46.467412,-94.174627,63,65,65,60,61,63
 2741912,Middle River city,Middle River,"Middle River, MN",MN,48.43485,-96.161722,65,58,59,58,60,60
 2742010,Midway CDP,Midway,"Midway, MN",MN,47.315943,-95.779375,66,63,63,59,62,62
-2742092,Miesville city,Miesville,"Miesville, MN",MN,44.598982,-92.81961,64,67,69,64,62,63
-2742110,Milaca city,Milaca,"Milaca, MN",MN,45.758035,-93.651565,62,68,66,60,60,61
+2742092,Miesville city,Miesville,"Miesville, MN",MN,44.598982,-92.81961,65,67,69,64,62,63
+2742110,Milaca city,Milaca,"Milaca, MN",MN,45.758035,-93.651565,63,68,66,60,60,61
 2742146,Milan city,Milan,"Milan, MN",MN,45.112649,-95.911829,67,70,70,62,63,65
 2742254,Millerville city,Millerville,"Millerville, MN",MN,46.069087,-95.557004,66,68,66,62,63,64
 2742290,Millville city,Millville,"Millville, MN",MN,44.244329,-92.296734,63,64,67,64,62,63
 2742362,Milroy city,Milroy,"Milroy, MN",MN,44.41775,-95.553595,66,69,70,63,62,65
-2742398,Miltona city,Miltona,"Miltona, MN",MN,46.046258,-95.293197,66,68,66,61,63,63
-2743000,Minneapolis city,Minneapolis,"Minneapolis, MN",MN,44.963324,-93.26832,68,71,71,65,65,67
+2742398,Miltona city,Miltona,"Miltona, MN",MN,46.046258,-95.293197,65,68,66,61,63,63
+2743000,Minneapolis city,Minneapolis,"Minneapolis, MN",MN,44.963324,-93.26832,69,71,71,65,65,67
 2743036,Minneiska city,Minneiska,"Minneiska, MN",MN,44.197331,-91.880651,64,64,68,65,63,64
 2743126,Minneota city,Minneota,"Minneota, MN",MN,44.562526,-95.98272,67,69,69,63,63,65
 2743144,Minnesota City city,Minnesota City,"Minnesota City, MN",MN,44.092296,-91.749995,63,64,68,66,63,64
-2743198,Minnesota Lake city,Minnesota Lake,"Minnesota Lake, MN",MN,43.841915,-93.828996,65,67,70,65,63,64
-2743252,Minnetonka city,Minnetonka,"Minnetonka, MN",MN,44.93256,-93.456705,67,70,70,65,65,66
-2743306,Minnetrista city,Minnetrista,"Minnetrista, MN",MN,44.938619,-93.712387,66,69,69,64,63,64
+2743198,Minnesota Lake city,Minnesota Lake,"Minnesota Lake, MN",MN,43.841915,-93.828996,66,67,70,65,63,64
+2743252,Minnetonka city,Minnetonka,"Minnetonka, MN",MN,44.93256,-93.456705,68,70,70,65,65,66
+2743306,Minnetrista city,Minnetrista,"Minnetrista, MN",MN,44.938619,-93.712387,67,69,69,64,63,64
 2743540,Mizpah city,Mizpah,"Mizpah, MN",MN,47.920867,-94.213179,62,61,60,58,60,60
 2743720,Montevideo city,Montevideo,"Montevideo, MN",MN,44.950165,-95.715382,67,70,70,63,62,65
-2743738,Montgomery city,Montgomery,"Montgomery, MN",MN,44.445075,-93.579753,65,68,69,64,63,64
-2743774,Monticello city,Monticello,"Monticello, MN",MN,45.294103,-93.786294,65,69,69,62,62,64
-2743810,Montrose city,Montrose,"Montrose, MN",MN,45.066545,-93.920253,66,69,69,63,63,64
+2743738,Montgomery city,Montgomery,"Montgomery, MN",MN,44.445075,-93.579753,66,68,69,64,63,64
+2743774,Monticello city,Monticello,"Monticello, MN",MN,45.294103,-93.786294,67,69,69,62,62,64
+2743810,Montrose city,Montrose,"Montrose, MN",MN,45.066545,-93.920253,67,69,69,63,63,64
 2743864,Moorhead city,Moorhead,"Moorhead, MN",MN,46.864704,-96.744552,69,65,64,60,63,64
 2743954,Moose Lake city,Moose Lake,"Moose Lake, MN",MN,46.450299,-92.760955,54,60,59,55,55,56
-2744044,Mora city,Mora,"Mora, MN",MN,45.876981,-93.290284,61,66,64,59,59,61
-2744116,Morgan city,Morgan,"Morgan, MN",MN,44.415862,-94.924889,65,69,70,63,62,64
-2744242,Morris city,Morris,"Morris, MN",MN,45.585879,-95.905406,66,69,68,61,63,64
-2744296,Morristown city,Morristown,"Morristown, MN",MN,44.225203,-93.445227,64,67,69,64,63,64
-2744368,Morton city,Morton,"Morton, MN",MN,44.553268,-94.984321,66,70,70,64,63,65
+2744044,Mora city,Mora,"Mora, MN",MN,45.876981,-93.290284,60,66,64,59,59,61
+2744116,Morgan city,Morgan,"Morgan, MN",MN,44.415862,-94.924889,67,69,70,63,62,64
+2744242,Morris city,Morris,"Morris, MN",MN,45.585879,-95.905406,67,69,68,61,63,64
+2744296,Morristown city,Morristown,"Morristown, MN",MN,44.225203,-93.445227,65,67,69,64,63,64
+2744368,Morton city,Morton,"Morton, MN",MN,44.553268,-94.984321,67,70,70,64,63,65
 2744422,Motley city,Motley,"Motley, MN",MN,46.334754,-94.642772,63,67,65,60,61,62
 2744476,Mound city,Mound,"Mound, MN",MN,44.93196,-93.658302,66,69,69,64,63,64
-2744530,Mounds View city,Mounds View,"Mounds View, MN",MN,45.106737,-93.206834,67,71,70,64,64,66
+2744530,Mounds View city,Mounds View,"Mounds View, MN",MN,45.106737,-93.206834,68,71,70,64,64,66
 2744548,Mountain Iron city,Mountain Iron,"Mountain Iron, MN",MN,47.53669,-92.616572,56,62,61,58,58,58
 2744566,Mountain Lake city,Mountain Lake,"Mountain Lake, MN",MN,43.940133,-94.927696,64,66,68,63,62,63
 2744818,Murdock city,Murdock,"Murdock, MN",MN,45.223392,-95.394613,67,70,69,62,63,64
-2744890,Myrtle city,Myrtle,"Myrtle, MN",MN,43.563233,-93.162987,63,65,69,65,63,64
+2744890,Myrtle city,Myrtle,"Myrtle, MN",MN,43.563233,-93.162987,65,65,69,65,63,64
 2744944,Nashua city,Nashua,"Nashua, MN",MN,46.03772,-96.30598,67,67,66,60,63,64
 2744980,Nashwauk city,Nashwauk,"Nashwauk, MN",MN,47.379958,-93.166686,57,62,60,57,58,58
 2745016,Nassau city,Nassau,"Nassau, MN",MN,45.067723,-96.44176,66,69,69,61,63,65
 2745052,Naytahwaush CDP,Naytahwaush,"Naytahwaush, MN",MN,47.274921,-95.627671,66,63,61,60,62,62
 2745106,Nelson city,Nelson,"Nelson, MN",MN,45.886537,-95.264865,65,68,66,61,63,63
-2745196,Nerstrand city,Nerstrand,"Nerstrand, MN",MN,44.342929,-93.063979,64,67,69,64,62,63
+2745196,Nerstrand city,Nerstrand,"Nerstrand, MN",MN,44.342929,-93.063979,66,67,69,64,62,63
 2745279,Nett Lake CDP,Nett Lake,"Nett Lake, MN",MN,48.114619,-93.081069,58,61,61,58,59,59
 2745340,Nevis city,Nevis,"Nevis, MN",MN,46.964831,-94.842984,63,64,62,60,61,62
-2745376,New Auburn city,New Auburn,"New Auburn, MN",MN,44.672806,-94.232022,65,68,69,63,62,63
-2745430,New Brighton city,New Brighton,"New Brighton, MN",MN,45.067226,-93.205779,67,71,71,64,64,66
+2745376,New Auburn city,New Auburn,"New Auburn, MN",MN,44.672806,-94.232022,66,68,69,63,62,63
+2745430,New Brighton city,New Brighton,"New Brighton, MN",MN,45.067226,-93.205779,68,71,71,64,64,66
 2745520,Newfolden city,Newfolden,"Newfolden, MN",MN,48.356733,-96.329729,65,58,59,58,60,60
-2745556,New Germany city,New Germany,"New Germany, MN",MN,44.880196,-93.978093,65,68,69,63,62,63
-2745628,New Hope city,New Hope,"New Hope, MN",MN,45.035943,-93.386886,68,71,71,65,65,66
-2745682,New London city,New London,"New London, MN",MN,45.296875,-94.94753,67,69,69,62,63,64
+2745556,New Germany city,New Germany,"New Germany, MN",MN,44.880196,-93.978093,66,68,69,63,62,63
+2745628,New Hope city,New Hope,"New Hope, MN",MN,45.035943,-93.386886,69,71,71,65,65,66
+2745682,New London city,New London,"New London, MN",MN,45.296875,-94.94753,66,69,69,62,63,64
 2745772,New Munich city,New Munich,"New Munich, MN",MN,45.630815,-94.752499,65,68,67,60,61,62
-2745790,Newport city,Newport,"Newport, MN",MN,44.874399,-92.998647,66,69,70,65,64,65
-2745808,New Prague city,New Prague,"New Prague, MN",MN,44.545738,-93.575595,65,68,69,64,63,64
-2745862,New Richland city,New Richland,"New Richland, MN",MN,43.893914,-93.493922,64,67,69,65,63,64
-2746024,New Trier city,New Trier,"New Trier, MN",MN,44.603801,-92.932839,64,67,69,64,62,63
-2746042,New Ulm city,New Ulm,"New Ulm, MN",MN,44.312067,-94.468896,65,69,69,64,63,64
+2745790,Newport city,Newport,"Newport, MN",MN,44.874399,-92.998647,67,69,70,65,64,65
+2745808,New Prague city,New Prague,"New Prague, MN",MN,44.545738,-93.575595,66,68,69,64,63,64
+2745862,New Richland city,New Richland,"New Richland, MN",MN,43.893914,-93.493922,66,67,69,65,63,64
+2746024,New Trier city,New Trier,"New Trier, MN",MN,44.603801,-92.932839,65,67,69,64,62,63
+2746042,New Ulm city,New Ulm,"New Ulm, MN",MN,44.312067,-94.468896,67,69,69,64,63,64
 2746060,New York Mills city,New York Mills,"New York Mills, MN",MN,46.51963,-95.37278,64,65,65,60,62,63
-2746150,Nicollet city,Nicollet,"Nicollet, MN",MN,44.274615,-94.188069,66,69,70,64,63,64
+2746150,Nicollet city,Nicollet,"Nicollet, MN",MN,44.274615,-94.188069,67,69,70,64,63,64
 2746258,Nielsville city,Nielsville,"Nielsville, MN",MN,47.529323,-96.815699,68,62,61,58,62,62
 2746294,Nimrod city,Nimrod,"Nimrod, MN",MN,46.635167,-94.880637,63,65,63,60,61,62
 2746348,Nisswa city,Nisswa,"Nisswa, MN",MN,46.500661,-94.297783,63,65,65,60,61,62
 2746492,Norcross city,Norcross,"Norcross, MN",MN,45.868708,-96.196424,67,67,67,61,63,64
-2746798,North Branch city,North Branch,"North Branch, MN",MN,45.509885,-92.955655,63,68,67,61,61,62
-2746924,Northfield city,Northfield,"Northfield, MN",MN,44.455645,-93.170311,65,67,69,64,63,63
-2747068,North Mankato city,North Mankato,"North Mankato, MN",MN,44.182714,-94.041128,66,69,71,65,64,65
-2747104,North Oaks city,North Oaks,"North Oaks, MN",MN,45.10484,-93.101065,66,70,70,64,64,65
+2746798,North Branch city,North Branch,"North Branch, MN",MN,45.509885,-92.955655,64,68,67,61,61,62
+2746924,Northfield city,Northfield,"Northfield, MN",MN,44.455645,-93.170311,66,67,69,64,63,63
+2747068,North Mankato city,North Mankato,"North Mankato, MN",MN,44.182714,-94.041128,67,69,71,65,64,65
+2747104,North Oaks city,North Oaks,"North Oaks, MN",MN,45.10484,-93.101065,68,70,70,64,64,65
 2747122,Northome city,Northome,"Northome, MN",MN,47.874387,-94.26831,62,62,61,58,60,61
-2747212,Northrop city,Northrop,"Northrop, MN",MN,43.735962,-94.436615,64,67,69,64,62,64
-2747221,North St. Paul city,North St. Paul,"North St. Paul, MN",MN,45.013522,-93.00184,67,70,70,65,64,66
-2747520,Norwood Young America city,Norwood Young America,"Norwood Young America, MN",MN,44.772107,-93.917287,65,68,69,63,63,63
-2747536,Nowthen city,Nowthen,"Nowthen, MN",MN,45.343116,-93.449553,66,70,69,63,62,64
-2747680,Oakdale city,Oakdale,"Oakdale, MN",MN,44.987546,-92.963553,66,70,70,64,63,65
-2747690,Oak Grove city,Oak Grove,"Oak Grove, MN",MN,45.348351,-93.32727,65,70,69,62,62,64
-2747914,Oak Park Heights city,Oak Park Heights,"Oak Park Heights, MN",MN,45.033432,-92.810186,65,68,69,63,63,64
+2747212,Northrop city,Northrop,"Northrop, MN",MN,43.735962,-94.436615,66,67,69,64,62,64
+2747221,North St. Paul city,North St. Paul,"North St. Paul, MN",MN,45.013522,-93.00184,68,70,70,65,64,66
+2747520,Norwood Young America city,Norwood Young America,"Norwood Young America, MN",MN,44.772107,-93.917287,66,68,69,63,63,63
+2747536,Nowthen city,Nowthen,"Nowthen, MN",MN,45.343116,-93.449553,67,70,69,63,62,64
+2747680,Oakdale city,Oakdale,"Oakdale, MN",MN,44.987546,-92.963553,68,70,70,64,63,65
+2747690,Oak Grove city,Oak Grove,"Oak Grove, MN",MN,45.348351,-93.32727,66,70,69,62,62,64
+2747914,Oak Park Heights city,Oak Park Heights,"Oak Park Heights, MN",MN,45.033432,-92.810186,66,68,69,63,63,64
 2748058,Odessa city,Odessa,"Odessa, MN",MN,45.262184,-96.33348,66,68,68,62,63,65
-2748094,Odin city,Odin,"Odin, MN",MN,43.86727,-94.742762,65,68,69,63,62,64
+2748094,Odin city,Odin,"Odin, MN",MN,43.86727,-94.742762,67,68,69,63,62,64
 2748130,Ogema city,Ogema,"Ogema, MN",MN,47.10232,-95.916567,67,64,62,60,62,63
 2748166,Ogilvie city,Ogilvie,"Ogilvie, MN",MN,45.829828,-93.423042,61,66,65,60,59,60
 2748184,Okabena city,Okabena,"Okabena, MN",MN,43.739298,-95.318758,65,68,69,64,63,65
 2748202,Oklee city,Oklee,"Oklee, MN",MN,47.838746,-95.849548,66,61,60,58,61,61
 2748256,Olivia city,Olivia,"Olivia, MN",MN,44.776964,-94.997144,67,70,70,64,64,65
 2748310,Onamia city,Onamia,"Onamia, MN",MN,46.070301,-93.66705,60,66,64,60,60,61
-2748562,Ormsby city,Ormsby,"Ormsby, MN",MN,43.850369,-94.698589,65,68,69,64,62,64
+2748562,Ormsby city,Ormsby,"Ormsby, MN",MN,43.850369,-94.698589,67,68,69,64,62,64
 2748580,Orono city,Orono,"Orono, MN",MN,44.96098,-93.587728,67,69,70,64,64,65
 2748598,Oronoco city,Oronoco,"Oronoco, MN",MN,44.158446,-92.539194,63,64,67,64,62,63
 2748634,Orr city,Orr,"Orr, MN",MN,48.05763,-92.823568,58,61,60,58,59,59
@@ -14032,85 +14032,85 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2748760,Osage CDP,Osage,"Osage, MN",MN,46.928354,-95.263086,63,63,61,59,60,61
 2748796,Osakis city,Osakis,"Osakis, MN",MN,45.865374,-95.153072,65,68,66,61,62,63
 2748976,Oslo city,Oslo,"Oslo, MN",MN,48.195632,-97.13144,67,60,59,58,61,61
-2749012,Osseo city,Osseo,"Osseo, MN",MN,45.117866,-93.3992,67,71,70,64,64,65
+2749012,Osseo city,Osseo,"Osseo, MN",MN,45.117866,-93.3992,68,71,70,64,64,65
 2749030,Ostrander city,Ostrander,"Ostrander, MN",MN,43.613734,-92.426263,62,63,66,65,62,63
-2749138,Otsego city,Otsego,"Otsego, MN",MN,45.264286,-93.620742,66,69,69,63,62,64
+2749138,Otsego city,Otsego,"Otsego, MN",MN,45.264286,-93.620742,67,69,69,63,62,64
 2749210,Ottertail city,Ottertail,"Ottertail, MN",MN,46.43164,-95.571223,67,66,64,62,64,64
-2749300,Owatonna city,Owatonna,"Owatonna, MN",MN,44.091904,-93.231715,63,66,69,64,62,63
+2749300,Owatonna city,Owatonna,"Owatonna, MN",MN,44.091904,-93.231715,65,66,69,64,62,63
 2749498,Palisade city,Palisade,"Palisade, MN",MN,46.712723,-93.489312,57,62,61,57,58,59
 2749732,Parkers Prairie city,Parkers Prairie,"Parkers Prairie, MN",MN,46.152827,-95.328313,65,66,65,61,63,63
 2749768,Park Rapids city,Park Rapids,"Park Rapids, MN",MN,46.916394,-95.057932,63,63,63,59,60,61
-2749966,Paynesville city,Paynesville,"Paynesville, MN",MN,45.378519,-94.721592,65,68,68,62,62,63
-2750056,Pease city,Pease,"Pease, MN",MN,45.70079,-93.648699,63,68,66,60,60,61
+2749966,Paynesville city,Paynesville,"Paynesville, MN",MN,45.378519,-94.721592,66,68,68,62,62,63
+2750056,Pease city,Pease,"Pease, MN",MN,45.70079,-93.648699,62,68,66,60,60,61
 2750164,Pelican Rapids city,Pelican Rapids,"Pelican Rapids, MN",MN,46.570281,-96.085853,68,66,65,61,64,64
-2750200,Pemberton city,Pemberton,"Pemberton, MN",MN,44.008499,-93.783893,65,68,70,65,63,64
+2750200,Pemberton city,Pemberton,"Pemberton, MN",MN,44.008499,-93.783893,66,68,70,65,63,64
 2750344,Pennock city,Pennock,"Pennock, MN",MN,45.145855,-95.175033,67,70,69,63,63,64
 2750416,Pequot Lakes city,Pequot Lakes,"Pequot Lakes, MN",MN,46.588091,-94.287969,62,65,64,60,62,62
 2750470,Perham city,Perham,"Perham, MN",MN,46.599611,-95.577104,65,64,63,60,62,63
 2750506,Perley city,Perley,"Perley, MN",MN,47.176158,-96.801521,68,64,62,59,63,63
 2750596,Peterson city,Peterson,"Peterson, MN",MN,43.788469,-91.831968,62,63,67,66,62,63
 2750740,Pickwick CDP,Pickwick,"Pickwick, MN",MN,43.981591,-91.494553,63,64,67,66,63,64
-2750776,Pierz city,Pierz,"Pierz, MN",MN,45.977198,-94.10082,62,66,65,60,60,61
+2750776,Pierz city,Pierz,"Pierz, MN",MN,45.977198,-94.10082,63,66,65,60,60,61
 2750902,Pillager city,Pillager,"Pillager, MN",MN,46.330621,-94.477351,62,66,65,60,62,62
 2751028,Pine Bend CDP,Pine Bend,"Pine Bend, MN",MN,47.418251,-95.596838,65,62,60,59,61,61
 2751064,Pine City city,Pine City,"Pine City, MN",MN,45.84098,-92.966492,62,65,65,59,59,60
-2751136,Pine Island city,Pine Island,"Pine Island, MN",MN,44.198124,-92.628119,63,65,68,64,62,63
+2751136,Pine Island city,Pine Island,"Pine Island, MN",MN,44.198124,-92.628119,65,65,68,64,62,63
 2751234,Pine Point CDP,Pine Point,"Pine Point, MN",MN,46.985338,-95.400015,63,63,61,59,61,61
 2751280,Pine River city,Pine River,"Pine River, MN",MN,46.723289,-94.396599,61,65,63,60,61,61
-2751316,Pine Springs city,Pine Springs,"Pine Springs, MN",MN,45.038031,-92.95594,66,69,69,64,63,65
+2751316,Pine Springs city,Pine Springs,"Pine Springs, MN",MN,45.038031,-92.95594,67,69,69,64,63,65
 2751388,Pipestone city,Pipestone,"Pipestone, MN",MN,43.995916,-96.31108,65,67,68,62,61,64
 2751424,Plainview city,Plainview,"Plainview, MN",MN,44.164687,-92.16919,62,64,67,64,62,63
-2751460,Plato city,Plato,"Plato, MN",MN,44.77235,-94.039337,65,68,69,63,62,63
+2751460,Plato city,Plato,"Plato, MN",MN,44.77235,-94.039337,66,68,69,63,62,63
 2751712,Plummer city,Plummer,"Plummer, MN",MN,47.915166,-96.041542,67,60,60,58,61,61
-2751730,Plymouth city,Plymouth,"Plymouth, MN",MN,45.022312,-93.462883,67,70,70,64,64,65
+2751730,Plymouth city,Plymouth,"Plymouth, MN",MN,45.022312,-93.462883,68,70,70,64,64,65
 2751892,Ponemah CDP,Ponemah,"Ponemah, MN",MN,48.034837,-94.898296,67,64,63,62,64,64
 2752144,Porter city,Porter,"Porter, MN",MN,44.641399,-96.169869,67,70,70,62,63,65
 2752450,Preston city,Preston,"Preston, MN",MN,43.672567,-92.082802,62,63,68,66,62,63
 2752522,Princeton city,Princeton,"Princeton, MN",MN,45.568215,-93.590254,64,68,67,61,61,62
 2752558,Prinsburg city,Prinsburg,"Prinsburg, MN",MN,44.934915,-95.187003,67,70,70,64,63,65
-2752594,Prior Lake city,Prior Lake,"Prior Lake, MN",MN,44.725594,-93.440877,66,69,70,65,64,65
+2752594,Prior Lake city,Prior Lake,"Prior Lake, MN",MN,44.725594,-93.440877,67,69,70,65,64,65
 2752630,Proctor city,Proctor,"Proctor, MN",MN,46.740786,-92.228132,54,60,62,58,57,58
 2752756,Quamba city,Quamba,"Quamba, MN",MN,45.915045,-93.175868,60,66,64,59,59,60
 2752882,Racine city,Racine,"Racine, MN",MN,43.77551,-92.480969,62,64,67,65,62,63
-2753026,Ramsey city,Ramsey,"Ramsey, MN",MN,45.260019,-93.452233,66,70,69,63,62,64
-2753080,Randall city,Randall,"Randall, MN",MN,46.088667,-94.500718,63,67,65,60,61,61
-2753098,Randolph city,Randolph,"Randolph, MN",MN,44.526624,-93.020642,64,67,69,63,62,63
+2753026,Ramsey city,Ramsey,"Ramsey, MN",MN,45.260019,-93.452233,67,70,69,63,62,64
+2753080,Randall city,Randall,"Randall, MN",MN,46.088667,-94.500718,62,67,65,60,61,61
+2753098,Randolph city,Randolph,"Randolph, MN",MN,44.526624,-93.020642,65,67,69,63,62,63
 2753134,Ranier city,Ranier,"Ranier, MN",MN,48.604323,-93.357296,62,60,62,61,61,61
 2753296,Raymond city,Raymond,"Raymond, MN",MN,45.018413,-95.236681,67,70,70,63,63,65
 2753386,Redby CDP,Redby,"Redby, MN",MN,47.870044,-94.903668,65,64,62,62,63,63
 2753458,Red Lake CDP,Red Lake,"Red Lake, MN",MN,47.869888,-95.005018,67,65,63,62,64,64
 2753476,Red Lake Falls city,Red Lake Falls,"Red Lake Falls, MN",MN,47.883688,-96.272727,67,61,61,59,62,62
-2753620,Red Wing city,Red Wing,"Red Wing, MN",MN,44.581265,-92.605011,65,67,69,64,63,64
-2753656,Redwood Falls city,Redwood Falls,"Redwood Falls, MN",MN,44.547125,-95.102637,66,70,69,64,63,65
+2753620,Red Wing city,Red Wing,"Red Wing, MN",MN,44.581265,-92.605011,66,67,69,64,63,64
+2753656,Redwood Falls city,Redwood Falls,"Redwood Falls, MN",MN,44.547125,-95.102637,68,70,69,64,63,65
 2753710,Regal city,Regal,"Regal, MN",MN,45.405377,-94.83973,66,68,68,61,62,63
 2753782,Remer city,Remer,"Remer, MN",MN,47.056855,-93.91259,59,63,61,57,59,59
 2753890,Renville city,Renville,"Renville, MN",MN,44.790785,-95.204794,67,70,70,64,64,66
-2753908,Revere city,Revere,"Revere, MN",MN,44.221554,-95.361148,65,68,69,63,62,64
+2753908,Revere city,Revere,"Revere, MN",MN,44.221554,-95.361148,66,68,69,63,62,64
 2753998,Rice city,Rice,"Rice, MN",MN,45.758617,-94.242906,64,68,67,60,61,62
 2754056,Rice Lake CDP,Rice Lake,"Rice Lake, MN",MN,47.388299,-95.524367,65,62,60,59,61,61
 2754060,Rice Lake city,Rice Lake,"Rice Lake, MN",MN,46.908901,-92.132225,55,61,62,59,58,59
-2754214,Richfield city,Richfield,"Richfield, MN",MN,44.874354,-93.282445,68,71,71,66,65,66
-2754268,Richmond city,Richmond,"Richmond, MN",MN,45.454513,-94.513607,65,68,68,61,62,63
+2754214,Richfield city,Richfield,"Richfield, MN",MN,44.874354,-93.282445,69,71,71,66,65,66
+2754268,Richmond city,Richmond,"Richmond, MN",MN,45.454513,-94.513607,66,68,68,61,62,63
 2754340,Richville city,Richville,"Richville, MN",MN,46.505895,-95.625871,66,66,64,61,63,64
 2754596,Riverland CDP,Riverland,"Riverland, MN",MN,47.322899,-95.951066,66,62,61,59,61,62
 2754736,Riverton city,Riverton,"Riverton, MN",MN,46.457035,-94.054461,63,65,65,60,62,62
-2754808,Robbinsdale city,Robbinsdale,"Robbinsdale, MN",MN,45.024534,-93.330644,68,71,71,65,65,66
+2754808,Robbinsdale city,Robbinsdale,"Robbinsdale, MN",MN,45.024534,-93.330644,69,71,71,65,65,66
 2754880,Rochester city,Rochester,"Rochester, MN",MN,44.014299,-92.478592,64,65,68,65,63,64
 2754934,Rock Creek city,Rock Creek,"Rock Creek, MN",MN,45.764654,-92.903506,63,65,66,60,60,61
-2755006,Rockford city,Rockford,"Rockford, MN",MN,45.090841,-93.745218,66,70,70,64,64,65
-2755078,Rockville city,Rockville,"Rockville, MN",MN,45.466049,-94.318918,65,68,68,62,62,63
-2755186,Rogers city,Rogers,"Rogers, MN",MN,45.18385,-93.571669,66,70,70,63,63,64
+2755006,Rockford city,Rockford,"Rockford, MN",MN,45.090841,-93.745218,68,70,70,64,64,65
+2755078,Rockville city,Rockville,"Rockville, MN",MN,45.466049,-94.318918,66,68,68,62,62,63
+2755186,Rogers city,Rogers,"Rogers, MN",MN,45.18385,-93.571669,68,70,70,63,63,64
 2755276,Rollingstone city,Rollingstone,"Rollingstone, MN",MN,44.099397,-91.818587,63,64,68,66,63,64
 2755366,Ronneby CDP,Ronneby,"Ronneby, MN",MN,45.685346,-93.86011,63,68,67,61,60,62
 2755438,Roosevelt city,Roosevelt,"Roosevelt, MN",MN,48.806952,-95.100969,66,60,62,61,62,62
-2755510,Roscoe city,Roscoe,"Roscoe, MN",MN,45.432334,-94.636518,65,68,68,61,62,63
+2755510,Roscoe city,Roscoe,"Roscoe, MN",MN,45.432334,-94.636518,66,68,68,61,62,63
 2755546,Roseau city,Roseau,"Roseau, MN",MN,48.844462,-95.762434,65,57,58,57,60,59
 2755600,Rose Creek city,Rose Creek,"Rose Creek, MN",MN,43.60446,-92.828902,63,64,67,66,63,63
-2755726,Rosemount city,Rosemount,"Rosemount, MN",MN,44.745814,-93.068864,65,68,69,64,63,64
-2755852,Roseville city,Roseville,"Roseville, MN",MN,45.015625,-93.153807,67,71,71,65,65,66
+2755726,Rosemount city,Rosemount,"Rosemount, MN",MN,44.745814,-93.068864,66,68,69,64,63,64
+2755852,Roseville city,Roseville,"Roseville, MN",MN,45.015625,-93.153807,68,71,71,65,65,66
 2756014,Rothsay city,Rothsay,"Rothsay, MN",MN,46.473091,-96.284242,68,67,66,61,63,64
 2756086,Round Lake city,Round Lake,"Round Lake, MN",MN,43.537198,-95.471926,64,66,68,63,62,63
-2756176,Royalton city,Royalton,"Royalton, MN",MN,45.830329,-94.292615,63,67,66,60,60,62
+2756176,Royalton city,Royalton,"Royalton, MN",MN,45.830329,-94.292615,64,67,66,60,60,62
 2756212,Roy Lake CDP,Roy Lake,"Roy Lake, MN",MN,47.316833,-95.538731,66,63,62,59,62,62
 2756266,Rush City city,Rush City,"Rush City, MN",MN,45.687442,-92.965303,62,67,67,60,60,61
 2756284,Rushford city,Rushford,"Rushford, MN",MN,43.813437,-91.753828,62,63,68,66,62,63
@@ -14121,72 +14121,72 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2756518,Rutledge city,Rutledge,"Rutledge, MN",MN,46.25589,-92.878205,57,62,61,57,57,58
 2756554,Sabin city,Sabin,"Sabin, MN",MN,46.781371,-96.654227,68,65,64,60,62,63
 2756572,Sacred Heart city,Sacred Heart,"Sacred Heart, MN",MN,44.781715,-95.350728,67,70,70,64,63,65
-2756680,St. Anthony city,St. Anthony,"St. Anthony, MN",MN,45.030332,-93.215417,67,71,71,64,65,66
-2756698,St. Anthony city,St. Anthony,"St. Anthony, MN",MN,45.688967,-94.61165,64,67,67,60,61,62
-2756724,St. Augusta city,St. Augusta,"St. Augusta, MN",MN,45.450173,-94.193785,65,68,68,62,62,63
-2756770,St. Bonifacius city,St. Bonifacius,"St. Bonifacius, MN",MN,44.905066,-93.748288,66,69,69,64,63,64
+2756680,St. Anthony city,St. Anthony,"St. Anthony, MN",MN,45.030332,-93.215417,68,71,71,64,65,66
+2756698,St. Anthony city,St. Anthony,"St. Anthony, MN",MN,45.688967,-94.61165,65,67,67,60,61,62
+2756724,St. Augusta city,St. Augusta,"St. Augusta, MN",MN,45.450173,-94.193785,66,68,68,62,62,63
+2756770,St. Bonifacius city,St. Bonifacius,"St. Bonifacius, MN",MN,44.905066,-93.748288,67,69,69,64,63,64
 2756788,St. Charles city,St. Charles,"St. Charles, MN",MN,43.968747,-92.059295,62,63,67,65,62,63
-2756824,St. Clair city,St. Clair,"St. Clair, MN",MN,44.083885,-93.860545,65,68,71,65,64,65
-2756896,St. Cloud city,St. Cloud,"St. Cloud, MN",MN,45.526658,-94.171007,65,69,68,62,62,63
-2756950,St. Francis city,St. Francis,"St. Francis, MN",MN,45.394034,-93.394117,65,70,69,62,62,63
+2756824,St. Clair city,St. Clair,"St. Clair, MN",MN,44.083885,-93.860545,67,68,71,65,64,65
+2756896,St. Cloud city,St. Cloud,"St. Cloud, MN",MN,45.526658,-94.171007,66,69,68,62,62,63
+2756950,St. Francis city,St. Francis,"St. Francis, MN",MN,45.394034,-93.394117,66,70,69,62,62,63
 2757022,St. Hilaire city,St. Hilaire,"St. Hilaire, MN",MN,48.01316,-96.21357,66,60,61,58,61,61
-2757040,St. James city,St. James,"St. James, MN",MN,43.983362,-94.625392,65,68,70,64,63,64
-2757094,St. John's University CDP,St. John's University,"St. John's University, MN",MN,45.579722,-94.391868,65,69,68,61,62,63
-2757130,St. Joseph city,St. Joseph,"St. Joseph, MN",MN,45.56507,-94.30207,65,69,68,61,62,63
+2757040,St. James city,St. James,"St. James, MN",MN,43.983362,-94.625392,66,68,70,64,63,64
+2757094,St. John's University CDP,St. John's University,"St. John's University, MN",MN,45.579722,-94.391868,66,69,68,61,62,63
+2757130,St. Joseph city,St. Joseph,"St. Joseph, MN",MN,45.56507,-94.30207,66,69,68,61,62,63
 2757202,St. Leo city,St. Leo,"St. Leo, MN",MN,44.717313,-96.0526,66,69,70,62,62,65
-2757220,St. Louis Park city,St. Louis Park,"St. Louis Park, MN",MN,44.948681,-93.365035,68,71,71,65,65,66
-2757238,St. Martin city,St. Martin,"St. Martin, MN",MN,45.502779,-94.667741,65,68,68,61,62,63
-2757292,St. Marys Point city,St. Marys Point,"St. Marys Point, MN",MN,44.910548,-92.770157,65,69,68,63,63,64
-2757346,St. Michael city,St. Michael,"St. Michael, MN",MN,45.199238,-93.689526,66,69,69,63,63,64
-2758000,St. Paul city,St. Paul,"St. Paul, MN",MN,44.948901,-93.104063,67,71,71,65,65,66
-2758018,St. Paul Park city,St. Paul Park,"St. Paul Park, MN",MN,44.83568,-92.994128,67,70,71,66,65,66
-2758036,St. Peter city,St. Peter,"St. Peter, MN",MN,44.329282,-93.967656,66,69,71,65,64,65
-2758072,St. Rosa city,St. Rosa,"St. Rosa, MN",MN,45.72679,-94.713701,64,67,66,60,61,62
+2757220,St. Louis Park city,St. Louis Park,"St. Louis Park, MN",MN,44.948681,-93.365035,69,71,71,65,65,66
+2757238,St. Martin city,St. Martin,"St. Martin, MN",MN,45.502779,-94.667741,66,68,68,61,62,63
+2757292,St. Marys Point city,St. Marys Point,"St. Marys Point, MN",MN,44.910548,-92.770157,66,69,68,63,63,64
+2757346,St. Michael city,St. Michael,"St. Michael, MN",MN,45.199238,-93.689526,67,69,69,63,63,64
+2758000,St. Paul city,St. Paul,"St. Paul, MN",MN,44.948901,-93.104063,69,71,71,65,65,66
+2758018,St. Paul Park city,St. Paul Park,"St. Paul Park, MN",MN,44.83568,-92.994128,68,70,71,66,65,66
+2758036,St. Peter city,St. Peter,"St. Peter, MN",MN,44.329282,-93.967656,67,69,71,65,64,65
+2758072,St. Rosa city,St. Rosa,"St. Rosa, MN",MN,45.72679,-94.713701,65,67,66,60,61,62
 2758090,St. Stephen city,St. Stephen,"St. Stephen, MN",MN,45.701039,-94.274204,65,68,67,61,61,62
 2758144,St. Vincent city,St. Vincent,"St. Vincent, MN",MN,48.969125,-97.226337,67,58,59,58,61,61
-2758306,Sanborn city,Sanborn,"Sanborn, MN",MN,44.210004,-95.129477,65,68,69,63,62,64
+2758306,Sanborn city,Sanborn,"Sanborn, MN",MN,44.210004,-95.129477,66,68,69,63,62,64
 2758396,Sandstone city,Sandstone,"Sandstone, MN",MN,46.129036,-92.864553,59,62,62,57,58,59
 2758576,Sargeant city,Sargeant,"Sargeant, MN",MN,43.806082,-92.800174,63,64,67,64,62,63
-2758612,Sartell city,Sartell,"Sartell, MN",MN,45.61809,-94.212153,65,68,68,61,62,63
+2758612,Sartell city,Sartell,"Sartell, MN",MN,45.61809,-94.212153,66,68,68,61,62,63
 2758648,Sauk Centre city,Sauk Centre,"Sauk Centre, MN",MN,45.736472,-94.952729,65,67,66,60,62,62
-2758684,Sauk Rapids city,Sauk Rapids,"Sauk Rapids, MN",MN,45.594724,-94.152747,65,68,68,61,62,63
+2758684,Sauk Rapids city,Sauk Rapids,"Sauk Rapids, MN",MN,45.594724,-94.152747,64,68,68,61,62,63
 2758738,Savage city,Savage,"Savage, MN",MN,44.759057,-93.364213,67,70,71,65,65,66
-2758900,Scandia city,Scandia,"Scandia, MN",MN,45.251536,-92.833409,64,68,68,62,62,63
+2758900,Scandia city,Scandia,"Scandia, MN",MN,45.251536,-92.833409,65,68,68,62,62,63
 2758936,Scanlon city,Scanlon,"Scanlon, MN",MN,46.705945,-92.42873,53,60,60,56,56,57
-2759098,Seaforth city,Seaforth,"Seaforth, MN",MN,44.475861,-95.335862,66,70,70,64,63,65
-2759116,Searles CDP,Searles,"Searles, MN",MN,44.230751,-94.436126,66,69,70,64,63,64
+2759098,Seaforth city,Seaforth,"Seaforth, MN",MN,44.475861,-95.335862,68,70,70,64,63,65
+2759116,Searles CDP,Searles,"Searles, MN",MN,44.230751,-94.436126,67,69,70,64,63,64
 2759152,Sebeka city,Sebeka,"Sebeka, MN",MN,46.629164,-95.087882,64,65,63,60,61,62
 2759188,Sedan city,Sedan,"Sedan, MN",MN,45.578175,-95.245295,66,68,67,61,62,63
-2759314,Shafer city,Shafer,"Shafer, MN",MN,45.389965,-92.758343,64,68,68,62,62,63
+2759314,Shafer city,Shafer,"Shafer, MN",MN,45.389965,-92.758343,65,68,68,62,62,63
 2759350,Shakopee city,Shakopee,"Shakopee, MN",MN,44.771906,-93.475699,67,70,70,65,64,65
 2759566,Shelly city,Shelly,"Shelly, MN",MN,47.458194,-96.819717,68,63,61,59,63,63
-2759620,Sherburn city,Sherburn,"Sherburn, MN",MN,43.6549,-94.727489,65,67,69,64,62,63
+2759620,Sherburn city,Sherburn,"Sherburn, MN",MN,43.6549,-94.727489,66,67,69,64,62,63
 2759782,Shevlin city,Shevlin,"Shevlin, MN",MN,47.530146,-95.259509,63,61,60,58,60,60
-2759998,Shoreview city,Shoreview,"Shoreview, MN",MN,45.082989,-93.140492,67,71,70,64,64,66
-2760016,Shorewood city,Shorewood,"Shorewood, MN",MN,44.902442,-93.595334,67,69,69,64,64,65
+2759998,Shoreview city,Shoreview,"Shoreview, MN",MN,45.082989,-93.140492,68,71,70,64,64,66
+2760016,Shorewood city,Shorewood,"Shorewood, MN",MN,44.902442,-93.595334,68,69,69,64,64,65
 2760250,Silver Bay city,Silver Bay,"Silver Bay, MN",MN,47.293311,-91.276813,56,58,62,59,59,60
-2760322,Silver Creek CDP,Silver Creek,"Silver Creek, MN",MN,45.308206,-93.98638,66,69,69,63,63,64
-2760376,Silver Lake city,Silver Lake,"Silver Lake, MN",MN,44.904169,-94.198638,65,68,69,63,62,63
-2760754,Skyline city,Skyline,"Skyline, MN",MN,44.140892,-94.033618,66,70,72,66,64,66
+2760322,Silver Creek CDP,Silver Creek,"Silver Creek, MN",MN,45.308206,-93.98638,67,69,69,63,63,64
+2760376,Silver Lake city,Silver Lake,"Silver Lake, MN",MN,44.904169,-94.198638,66,68,69,63,62,63
+2760754,Skyline city,Skyline,"Skyline, MN",MN,44.140892,-94.033618,67,70,72,66,64,66
 2760808,Slayton city,Slayton,"Slayton, MN",MN,43.990229,-95.758371,64,67,68,63,61,64
-2760844,Sleepy Eye city,Sleepy Eye,"Sleepy Eye, MN",MN,44.298945,-94.723594,65,69,70,64,62,64
-2761006,Sobieski city,Sobieski,"Sobieski, MN",MN,45.923002,-94.482024,63,67,66,60,61,62
+2760844,Sleepy Eye city,Sleepy Eye,"Sleepy Eye, MN",MN,44.298945,-94.723594,67,69,70,64,62,64
+2761006,Sobieski city,Sobieski,"Sobieski, MN",MN,45.923002,-94.482024,64,67,66,60,61,62
 2761114,Solway city,Solway,"Solway, MN",MN,47.521044,-95.130255,63,62,60,59,60,61
 2761204,Soudan CDP,Soudan,"Soudan, MN",MN,47.81301,-92.235608,59,62,61,58,59,59
 2761340,South End CDP,South End,"South End, MN",MN,47.323094,-95.478783,65,63,61,59,62,61
 2761402,South Haven city,South Haven,"South Haven, MN",MN,45.292736,-94.217376,66,69,68,62,63,64
 2761492,South St. Paul city,South St. Paul,"South St. Paul, MN",MN,44.888027,-93.040497,68,71,71,66,65,66
 2761690,Spicer city,Spicer,"Spicer, MN",MN,45.233643,-94.939962,66,69,69,62,63,64
-2761816,Springfield city,Springfield,"Springfield, MN",MN,44.237214,-94.981872,65,68,70,63,62,64
+2761816,Springfield city,Springfield,"Springfield, MN",MN,44.237214,-94.981872,67,68,70,63,62,64
 2761852,Spring Grove city,Spring Grove,"Spring Grove, MN",MN,43.560754,-91.636968,61,62,67,66,62,62
 2761888,Spring Hill city,Spring Hill,"Spring Hill, MN",MN,45.523239,-94.831711,65,68,67,60,62,62
-2761996,Spring Lake Park city,Spring Lake Park,"Spring Lake Park, MN",MN,45.11593,-93.245164,68,71,71,64,64,66
-2762014,Spring Park city,Spring Park,"Spring Park, MN",MN,44.935926,-93.63011,66,69,69,64,64,65
+2761996,Spring Lake Park city,Spring Lake Park,"Spring Lake Park, MN",MN,45.11593,-93.245164,69,71,71,64,64,66
+2762014,Spring Park city,Spring Park,"Spring Park, MN",MN,44.935926,-93.63011,67,69,69,64,64,65
 2762104,Spring Valley city,Spring Valley,"Spring Valley, MN",MN,43.688803,-92.389765,62,63,67,65,62,63
 2762284,Squaw Lake city,Squaw Lake,"Squaw Lake, MN",MN,47.620687,-94.137439,61,62,61,58,60,60
-2762320,Stacy city,Stacy,"Stacy, MN",MN,45.423044,-92.97032,64,68,68,62,61,63
+2762320,Stacy city,Stacy,"Stacy, MN",MN,45.423044,-92.97032,65,68,68,62,61,63
 2762356,Stanchfield CDP,Stanchfield,"Stanchfield, MN",MN,45.663238,-93.18168,63,68,66,60,60,61
-2762446,Staples city,Staples,"Staples, MN",MN,46.372154,-94.815011,64,66,65,60,61,62
+2762446,Staples city,Staples,"Staples, MN",MN,46.372154,-94.815011,63,66,65,60,61,62
 2762500,Starbuck city,Starbuck,"Starbuck, MN",MN,45.611628,-95.532189,66,69,68,62,63,64
 2762662,Steen city,Steen,"Steen, MN",MN,43.514305,-96.263083,65,68,69,64,62,65
 2762698,Stephen city,Stephen,"Stephen, MN",MN,48.452415,-96.876337,68,60,60,58,62,62
@@ -14199,13 +14199,13 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2763130,Strathcona city,Strathcona,"Strathcona, MN",MN,48.553705,-96.167045,67,58,58,58,61,61
 2763220,Sturgeon Lake city,Sturgeon Lake,"Sturgeon Lake, MN",MN,46.390335,-92.822118,55,60,60,56,56,57
 2763454,Sunburg city,Sunburg,"Sunburg, MN",MN,45.348017,-95.239819,66,69,68,62,63,63
-2763544,Sunfish Lake city,Sunfish Lake,"Sunfish Lake, MN",MN,44.872673,-93.086963,67,70,71,66,65,66
-2763778,Swanville city,Swanville,"Swanville, MN",MN,45.916175,-94.638792,63,67,66,60,61,62
+2763544,Sunfish Lake city,Sunfish Lake,"Sunfish Lake, MN",MN,44.872673,-93.086963,68,70,71,66,65,66
+2763778,Swanville city,Swanville,"Swanville, MN",MN,45.916175,-94.638792,64,67,66,60,61,62
 2764048,Taconite city,Taconite,"Taconite, MN",MN,47.31795,-93.382868,58,63,61,58,58,59
 2764156,Tamarack city,Tamarack,"Tamarack, MN",MN,46.652958,-93.12496,55,62,61,57,57,58
 2764210,Taopi city,Taopi,"Taopi, MN",MN,43.557486,-92.640411,63,63,67,66,62,63
 2764264,Taunton city,Taunton,"Taunton, MN",MN,44.59424,-96.062947,67,69,69,63,63,65
-2764318,Taylors Falls city,Taylors Falls,"Taylors Falls, MN",MN,45.405611,-92.673632,64,68,68,62,62,63
+2764318,Taylors Falls city,Taylors Falls,"Taylors Falls, MN",MN,45.405611,-92.673632,65,68,68,62,62,63
 2764444,Tenstrike city,Tenstrike,"Tenstrike, MN",MN,47.659447,-94.68391,63,63,61,59,61,62
 2764543,The Lakes CDP,The Lakes,"The Lakes, MN",MN,44.104869,-95.670244,64,67,68,63,62,64
 2764547,The Ranch CDP,The Ranch,"The Ranch, MN",MN,47.319773,-95.695154,67,63,62,60,62,62
@@ -14215,75 +14215,75 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2765272,Tower city,Tower,"Tower, MN",MN,47.815754,-92.274689,58,62,61,58,59,59
 2765308,Tracy city,Tracy,"Tracy, MN",MN,44.24039,-95.62086,65,67,68,63,63,64
 2765344,Trail city,Trail,"Trail, MN",MN,47.783285,-95.698034,66,61,61,58,61,61
-2765470,Trimont city,Trimont,"Trimont, MN",MN,43.761045,-94.716233,65,67,69,64,62,64
+2765470,Trimont city,Trimont,"Trimont, MN",MN,43.761045,-94.716233,66,67,69,64,62,64
 2765506,Trommald city,Trommald,"Trommald, MN",MN,46.507744,-94.015179,62,65,64,60,61,62
 2765542,Trosky city,Trosky,"Trosky, MN",MN,43.89,-96.247833,64,67,68,63,61,64
-2765668,Truman city,Truman,"Truman, MN",MN,43.827872,-94.436569,65,68,70,64,62,64
+2765668,Truman city,Truman,"Truman, MN",MN,43.827872,-94.436569,67,68,70,64,62,64
 2765794,Turtle River city,Turtle River,"Turtle River, MN",MN,47.588353,-94.758264,63,63,61,60,62,62
-2765920,Twin Lakes city,Twin Lakes,"Twin Lakes, MN",MN,43.561114,-93.423478,64,66,69,65,63,64
+2765920,Twin Lakes city,Twin Lakes,"Twin Lakes, MN",MN,43.561114,-93.423478,65,66,69,65,63,64
 2765927,Twin Lakes CDP,Twin Lakes,"Twin Lakes, MN",MN,47.219043,-95.648816,65,63,61,59,62,62
 2765938,Twin Valley city,Twin Valley,"Twin Valley, MN",MN,47.258871,-96.259189,67,63,62,59,62,62
 2765956,Two Harbors city,Two Harbors,"Two Harbors, MN",MN,47.029954,-91.675744,55,58,61,59,57,58
 2766046,Tyler city,Tyler,"Tyler, MN",MN,44.277941,-96.1361,64,67,67,62,61,64
 2766136,Ulen city,Ulen,"Ulen, MN",MN,47.078152,-96.258209,67,64,63,59,62,62
 2766172,Underwood city,Underwood,"Underwood, MN",MN,46.291145,-95.872907,68,67,66,62,64,65
-2766334,Upsala city,Upsala,"Upsala, MN",MN,45.812893,-94.563729,64,67,66,60,61,62
+2766334,Upsala city,Upsala,"Upsala, MN",MN,45.812893,-94.563729,63,67,66,60,61,62
 2766388,Urbank city,Urbank,"Urbank, MN",MN,46.124024,-95.51006,66,67,65,61,64,64
 2766424,Utica city,Utica,"Utica, MN",MN,43.977166,-91.949457,62,63,66,65,62,63
-2766460,Vadnais Heights city,Vadnais Heights,"Vadnais Heights, MN",MN,45.057938,-93.066454,67,70,70,64,64,65
+2766460,Vadnais Heights city,Vadnais Heights,"Vadnais Heights, MN",MN,45.057938,-93.066454,68,70,70,64,64,65
 2766766,Vergas city,Vergas,"Vergas, MN",MN,46.648762,-95.802139,67,65,64,61,63,64
-2766802,Vermillion city,Vermillion,"Vermillion, MN",MN,44.669691,-92.963426,65,68,69,64,63,64
+2766802,Vermillion city,Vermillion,"Vermillion, MN",MN,44.669691,-92.963426,66,68,69,64,63,64
 2766874,Verndale city,Verndale,"Verndale, MN",MN,46.396883,-95.012151,64,65,64,60,62,62
-2766910,Vernon Center city,Vernon Center,"Vernon Center, MN",MN,43.962365,-94.166881,65,69,71,65,63,65
+2766910,Vernon Center city,Vernon Center,"Vernon Center, MN",MN,43.962365,-94.166881,67,69,71,65,63,65
 2766982,Vesta city,Vesta,"Vesta, MN",MN,44.506633,-95.414074,66,69,70,63,63,65
 2767036,Victoria city,Victoria,"Victoria, MN",MN,44.862117,-93.658426,66,69,70,64,64,64
 2767090,Viking city,Viking,"Viking, MN",MN,48.2182,-96.406784,67,59,60,58,61,61
 2767130,Village of Minnetonka Beach city,Village of Minnetonka Beach,"Village of Minnetonka Beach, MN",MN,44.939625,-93.587127,67,70,70,64,64,65
 2767144,Villard city,Villard,"Villard, MN",MN,45.713438,-95.269852,65,68,67,61,63,63
-2767180,Vineland CDP,Vineland,"Vineland, MN",MN,46.179281,-93.781161,61,66,65,60,61,61
+2767180,Vineland CDP,Vineland,"Vineland, MN",MN,46.179281,-93.781161,62,66,65,60,61,61
 2767216,Vining city,Vining,"Vining, MN",MN,46.257406,-95.535893,68,68,66,63,65,65
 2767288,Virginia city,Virginia,"Virginia, MN",MN,47.527955,-92.517602,56,62,61,58,58,59
 2767378,Wabasha city,Wabasha,"Wabasha, MN",MN,44.371107,-92.0457,65,66,69,66,63,64
-2767396,Wabasso city,Wabasso,"Wabasso, MN",MN,44.402517,-95.255412,66,69,70,63,62,65
-2767432,Waconia city,Waconia,"Waconia, MN",MN,44.84153,-93.790092,65,68,69,63,63,64
+2767396,Wabasso city,Wabasso,"Wabasso, MN",MN,44.402517,-95.255412,67,69,70,63,62,65
+2767432,Waconia city,Waconia,"Waconia, MN",MN,44.84153,-93.790092,66,68,69,63,63,64
 2767504,Wadena city,Wadena,"Wadena, MN",MN,46.447194,-95.126697,64,65,63,60,62,62
 2767558,Wahkon city,Wahkon,"Wahkon, MN",MN,46.120021,-93.522383,60,65,64,59,60,61
-2767612,Waite Park city,Waite Park,"Waite Park, MN",MN,45.520868,-94.242982,65,68,68,62,62,63
-2767756,Waldorf city,Waldorf,"Waldorf, MN",MN,43.933149,-93.69756,65,67,70,65,63,64
+2767612,Waite Park city,Waite Park,"Waite Park, MN",MN,45.520868,-94.242982,66,68,68,62,62,63
+2767756,Waldorf city,Waldorf,"Waldorf, MN",MN,43.933149,-93.69756,66,67,70,65,63,64
 2767792,Walker city,Walker,"Walker, MN",MN,47.090803,-94.586932,62,64,63,60,61,62
-2767846,Walnut Grove city,Walnut Grove,"Walnut Grove, MN",MN,44.225005,-95.469189,65,69,70,63,62,64
-2767900,Walters city,Walters,"Walters, MN",MN,43.604928,-93.674346,64,67,69,65,63,64
+2767846,Walnut Grove city,Walnut Grove,"Walnut Grove, MN",MN,44.225005,-95.469189,67,69,70,63,62,64
+2767900,Walters city,Walters,"Walters, MN",MN,43.604928,-93.674346,66,67,69,65,63,64
 2767918,Waltham city,Waltham,"Waltham, MN",MN,43.819315,-92.874625,63,64,67,64,62,63
-2767972,Wanamingo city,Wanamingo,"Wanamingo, MN",MN,44.302775,-92.787281,63,65,68,63,61,63
-2768008,Wanda city,Wanda,"Wanda, MN",MN,44.313221,-95.213542,65,69,70,63,62,64
+2767972,Wanamingo city,Wanamingo,"Wanamingo, MN",MN,44.302775,-92.787281,65,65,68,63,61,63
+2768008,Wanda city,Wanda,"Wanda, MN",MN,44.313221,-95.213542,67,69,70,63,62,64
 2768080,Warba city,Warba,"Warba, MN",MN,47.135593,-93.2701,58,63,61,58,58,59
 2768170,Warren city,Warren,"Warren, MN",MN,48.194034,-96.768816,68,60,61,58,62,62
 2768224,Warroad city,Warroad,"Warroad, MN",MN,48.917103,-95.327984,64,58,60,59,61,61
-2768260,Warsaw CDP,Warsaw,"Warsaw, MN",MN,44.262189,-93.376876,64,67,69,64,63,64
-2768296,Waseca city,Waseca,"Waseca, MN",MN,44.081533,-93.503954,64,67,69,64,63,64
-2768548,Watertown city,Watertown,"Watertown, MN",MN,44.960214,-93.843921,66,69,69,63,63,64
-2768584,Waterville city,Waterville,"Waterville, MN",MN,44.221886,-93.572571,65,68,70,64,63,64
+2768260,Warsaw CDP,Warsaw,"Warsaw, MN",MN,44.262189,-93.376876,65,67,69,64,63,64
+2768296,Waseca city,Waseca,"Waseca, MN",MN,44.081533,-93.503954,65,67,69,64,63,64
+2768548,Watertown city,Watertown,"Watertown, MN",MN,44.960214,-93.843921,67,69,69,63,63,64
+2768584,Waterville city,Waterville,"Waterville, MN",MN,44.221886,-93.572571,66,68,70,64,63,64
 2768620,Watkins city,Watkins,"Watkins, MN",MN,45.315829,-94.412004,66,69,68,62,62,63
-2768656,Watson city,Watson,"Watson, MN",MN,45.010065,-95.799777,66,69,69,62,62,64
+2768656,Watson city,Watson,"Watson, MN",MN,45.010065,-95.799777,67,69,69,62,62,64
 2768674,Waubun city,Waubun,"Waubun, MN",MN,47.183916,-95.940124,66,63,62,59,62,62
-2768764,Waverly city,Waverly,"Waverly, MN",MN,45.06374,-93.966628,66,69,69,63,63,64
-2768818,Wayzata city,Wayzata,"Wayzata, MN",MN,44.969981,-93.518214,67,70,69,64,64,65
-2769070,Welcome city,Welcome,"Welcome, MN",MN,43.666246,-94.607302,65,67,69,64,62,64
-2769106,Wells city,Wells,"Wells, MN",MN,43.743211,-93.732947,65,67,70,65,63,64
+2768764,Waverly city,Waverly,"Waverly, MN",MN,45.06374,-93.966628,67,69,69,63,63,64
+2768818,Wayzata city,Wayzata,"Wayzata, MN",MN,44.969981,-93.518214,69,70,69,64,64,65
+2769070,Welcome city,Welcome,"Welcome, MN",MN,43.666246,-94.607302,67,67,69,64,62,64
+2769106,Wells city,Wells,"Wells, MN",MN,43.743211,-93.732947,66,67,70,65,63,64
 2769142,Wendell city,Wendell,"Wendell, MN",MN,46.035908,-96.100817,67,67,66,62,63,64
 2769250,Westbrook city,Westbrook,"Westbrook, MN",MN,44.042214,-95.437489,64,67,68,62,62,63
 2769304,West Concord city,West Concord,"West Concord, MN",MN,44.152818,-92.900003,63,64,67,63,61,62
 2769628,Westport city,Westport,"Westport, MN",MN,45.714515,-95.167917,65,68,67,60,62,63
 2769690,West Roy Lake CDP,West Roy Lake,"West Roy Lake, MN",MN,47.311549,-95.595442,65,63,61,59,62,62
-2769700,West St. Paul city,West St. Paul,"West St. Paul, MN",MN,44.902414,-93.085327,67,71,71,66,65,66
+2769700,West St. Paul city,West St. Paul,"West St. Paul, MN",MN,44.902414,-93.085327,69,71,71,66,65,66
 2769736,West Union city,West Union,"West Union, MN",MN,45.804363,-95.082482,65,67,66,60,62,62
 2769808,Whalan city,Whalan,"Whalan, MN",MN,43.73318,-91.925022,62,63,68,66,62,63
 2769844,Wheaton city,Wheaton,"Wheaton, MN",MN,45.80588,-96.498048,66,67,66,61,63,64
 2769880,Whipholt CDP,Whipholt,"Whipholt, MN",MN,47.040458,-94.385438,63,64,63,60,61,61
-2769970,White Bear Lake city,White Bear Lake,"White Bear Lake, MN",MN,45.065214,-93.012871,66,70,70,64,63,65
+2769970,White Bear Lake city,White Bear Lake,"White Bear Lake, MN",MN,45.065214,-93.012871,67,70,70,64,63,65
 2770006,White Earth CDP,White Earth,"White Earth, MN",MN,47.101357,-95.857318,67,64,62,60,62,63
 2770258,Wilder city,Wilder,"Wilder, MN",MN,43.828862,-95.207805,65,67,69,64,63,64
-2770366,Willernie city,Willernie,"Willernie, MN",MN,45.053731,-92.957987,66,70,70,64,63,65
+2770366,Willernie city,Willernie,"Willernie, MN",MN,45.053731,-92.957987,67,70,70,64,63,65
 2770402,Williams city,Williams,"Williams, MN",MN,48.767954,-94.953304,64,59,61,60,61,61
 2770420,Willmar city,Willmar,"Willmar, MN",MN,45.121029,-95.058734,67,70,70,63,63,65
 2770492,Willow River city,Willow River,"Willow River, MN",MN,46.323766,-92.829961,55,61,60,56,56,57
@@ -14291,26 +14291,26 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 2770708,Wilton city,Wilton,"Wilton, MN",MN,47.50748,-94.999767,63,62,61,59,61,61
 2770798,Windom city,Windom,"Windom, MN",MN,43.873552,-95.119136,65,67,68,63,62,64
 2770870,Winger city,Winger,"Winger, MN",MN,47.536303,-95.985969,66,61,60,58,61,61
-2770924,Winnebago city,Winnebago,"Winnebago, MN",MN,43.764946,-94.170634,64,67,70,65,63,64
+2770924,Winnebago city,Winnebago,"Winnebago, MN",MN,43.764946,-94.170634,67,67,70,65,63,64
 2771032,Winona city,Winona,"Winona, MN",MN,44.051271,-91.668076,62,64,67,66,63,63
-2771086,Winsted city,Winsted,"Winsted, MN",MN,44.958192,-94.050277,65,68,69,63,63,64
+2771086,Winsted city,Winsted,"Winsted, MN",MN,44.958192,-94.050277,66,68,69,63,63,64
 2771122,Winthrop city,Winthrop,"Winthrop, MN",MN,44.542254,-94.360013,65,69,69,64,62,63
 2771140,Winton city,Winton,"Winton, MN",MN,47.92917,-91.801294,56,62,62,59,60,60
 2771338,Wolf Lake city,Wolf Lake,"Wolf Lake, MN",MN,46.8101,-95.35034,63,63,63,59,61,61
 2771392,Wolverton city,Wolverton,"Wolverton, MN",MN,46.563031,-96.736245,67,65,64,60,62,63
-2771428,Woodbury city,Woodbury,"Woodbury, MN",MN,44.906283,-92.923703,66,69,69,64,63,64
-2771446,Wood Lake city,Wood Lake,"Wood Lake, MN",MN,44.65132,-95.535842,66,70,70,63,63,65
-2771500,Woodland city,Woodland,"Woodland, MN",MN,44.94976,-93.521372,67,70,70,64,64,65
+2771428,Woodbury city,Woodbury,"Woodbury, MN",MN,44.906283,-92.923703,67,69,69,64,63,64
+2771446,Wood Lake city,Wood Lake,"Wood Lake, MN",MN,44.65132,-95.535842,67,70,70,63,63,65
+2771500,Woodland city,Woodland,"Woodland, MN",MN,44.94976,-93.521372,68,70,70,64,64,65
 2771680,Woodstock city,Woodstock,"Woodstock, MN",MN,44.01104,-96.096678,64,67,68,62,61,64
 2771734,Worthington city,Worthington,"Worthington, MN",MN,43.628733,-95.599702,64,67,68,64,62,64
 2771788,Wrenshall city,Wrenshall,"Wrenshall, MN",MN,46.621689,-92.384069,53,59,59,55,55,56
 2771824,Wright city,Wright,"Wright, MN",MN,46.672515,-93.006856,56,62,61,57,57,58
 2771950,Wykoff city,Wykoff,"Wykoff, MN",MN,43.708656,-92.267391,62,63,67,66,63,63
-2772022,Wyoming city,Wyoming,"Wyoming, MN",MN,45.339912,-92.968392,65,69,68,62,62,63
+2772022,Wyoming city,Wyoming,"Wyoming, MN",MN,45.339912,-92.968392,66,69,68,62,62,63
 2772184,Zemple city,Zemple,"Zemple, MN",MN,47.32065,-93.785869,58,62,61,58,59,59
-2772238,Zimmerman city,Zimmerman,"Zimmerman, MN",MN,45.440562,-93.596092,65,69,68,62,61,63
+2772238,Zimmerman city,Zimmerman,"Zimmerman, MN",MN,45.440562,-93.596092,66,69,68,62,61,63
 2772310,Zumbro Falls city,Zumbro Falls,"Zumbro Falls, MN",MN,44.28782,-92.427083,63,64,67,64,62,63
-2772328,Zumbrota city,Zumbrota,"Zumbrota, MN",MN,44.295165,-92.67287,63,65,68,63,62,63
+2772328,Zumbrota city,Zumbrota,"Zumbrota, MN",MN,44.295165,-92.67287,65,65,68,63,62,63
 2800100,Abbeville town,Abbeville,"Abbeville, MS",MS,34.503392,-89.502517,72,72,74,76,77,76
 2800180,Aberdeen city,Aberdeen,"Aberdeen, MS",MS,33.828299,-88.554741,73,73,75,76,77,76
 2800300,Ackerman town,Ackerman,"Ackerman, MS",MS,33.311435,-89.170116,72,72,73,74,75,75
@@ -17894,13 +17894,13 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 3509630,Buckhorn CDP,Buckhorn,"Buckhorn, NM",NM,33.03148,-108.69439,64,65,65,65,66,66
 3509980,Butterfield Park CDP,Butterfield Park,"Butterfield Park, NM",NM,32.405228,-106.645663,72,72,72,74,74,73
 3510050,Caballo CDP,Caballo,"Caballo, NM",NM,32.980627,-107.307479,70,69,70,71,72,71
-3510470,CaÃ±ada de los Alamos CDP,CaÃ±ada de los Alamos,"CaÃ±ada de los Alamos, NM",NM,35.592655,-105.859754,58,59,59,61,62,61
+3510470,Cañada de los Alamos CDP,Cañada de los Alamos,"Cañada de los Alamos, NM",NM,35.592655,-105.859754,58,59,59,61,62,61
 3510592,Candy Kitchen CDP,Candy Kitchen,"Candy Kitchen, NM",NM,34.909301,-108.496452,59,57,58,61,60,60
 3510610,Canjilon CDP,Canjilon,"Canjilon, NM",NM,36.483678,-106.42402,55,56,55,57,56,57
 3510750,Cannon AFB CDP,Cannon AFB,"Cannon AFB, NM",NM,34.382137,-103.316944,62,66,69,70,68,67
-3510770,CaÃ±on CDP,CaÃ±on,"CaÃ±on, NM",NM,35.671759,-106.752682,65,66,65,68,67,67
-3511256,CaÃ±oncito CDP,CaÃ±oncito,"CaÃ±oncito, NM",NM,35.535238,-105.838875,58,59,59,61,63,62
-3511310,CaÃ±ones CDP,CaÃ±ones,"CaÃ±ones, NM",NM,36.176434,-106.419355,59,60,59,62,61,61
+3510770,Cañon CDP,Cañon,"Cañon, NM",NM,35.671759,-106.752682,65,66,65,68,67,67
+3511256,Cañoncito CDP,Cañoncito,"Cañoncito, NM",NM,35.535238,-105.838875,58,59,59,61,63,62
+3511310,Cañones CDP,Cañones,"Cañones, NM",NM,36.176434,-106.419355,59,60,59,62,61,61
 3511520,Canova CDP,Canova,"Canova, NM",NM,36.167839,-105.988802,59,60,59,61,61,62
 3511800,Capitan village,Capitan,"Capitan, NM",NM,33.539248,-105.598242,59,61,62,65,64,63
 3512010,Capulin CDP,Capulin,"Capulin, NM",NM,36.746498,-104.00213,52,55,56,56,55,56
@@ -17964,7 +17964,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 3520480,Des Moines village,Des Moines,"Des Moines, NM",NM,36.761265,-103.834074,57,60,61,61,59,61
 3520620,Dexter town,Dexter,"Dexter, NM",NM,33.194827,-104.368898,66,69,71,72,73,71
 3520830,Dixon CDP,Dixon,"Dixon, NM",NM,36.179591,-105.891039,60,61,61,62,62,62
-3521110,DoÃ±a Ana CDP,DoÃ±a Ana,"DoÃ±a Ana, NM",NM,32.393941,-106.817714,71,70,70,72,72,71
+3521110,Doña Ana CDP,Doña Ana,"Doña Ana, NM",NM,32.393941,-106.817714,71,70,70,72,72,71
 3521180,Dora village,Dora,"Dora, NM",NM,33.925866,-103.33855,62,67,69,72,70,68
 3521390,Dulce CDP,Dulce,"Dulce, NM",NM,36.953773,-107.000284,49,50,50,49,49,51
 3521810,Duran CDP,Duran,"Duran, NM",NM,34.463621,-105.380715,59,62,62,64,63,62
@@ -17988,7 +17988,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 3524960,Ensenada CDP,Ensenada,"Ensenada, NM",NM,36.730925,-106.536813,49,49,49,51,51,51
 3525100,Escondida CDP,Escondida,"Escondida, NM",NM,34.101314,-106.897407,71,69,70,73,73,72
 3525135,Escudilla Bonita CDP,Escudilla Bonita,"Escudilla Bonita, NM",NM,34.110067,-109.02277,60,58,59,62,61,61
-3525170,EspaÃ±ola city,EspaÃ±ola,"EspaÃ±ola, NM",NM,36.003959,-106.070131,61,62,60,62,62,63
+3525170,Española city,Española,"Española, NM",NM,36.003959,-106.070131,61,62,60,62,62,63
 3525380,Estancia town,Estancia,"Estancia, NM",NM,34.764273,-106.038558,56,57,57,59,59,58
 3525450,Eunice city,Eunice,"Eunice, NM",NM,32.436147,-103.149043,69,71,73,75,75,73
 3525590,Fairacres CDP,Fairacres,"Fairacres, NM",NM,32.304724,-106.836643,70,70,70,71,72,70
@@ -18180,8 +18180,8 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 3555595,Peak Place CDP,Peak Place,"Peak Place, NM",NM,35.791172,-105.943204,62,63,63,64,63,64
 3555605,Pecan Park CDP,Pecan Park,"Pecan Park, NM",NM,32.270417,-107.67399,69,69,69,69,71,69
 3555620,Pecos village,Pecos,"Pecos, NM",NM,35.575706,-105.678407,55,57,57,59,59,59
-3555830,PeÃ±a Blanca CDP,PeÃ±a Blanca,"PeÃ±a Blanca, NM",NM,35.570919,-106.331955,67,68,66,70,70,70
-3555900,PeÃ±asco CDP,PeÃ±asco,"PeÃ±asco, NM",NM,36.17032,-105.69072,50,51,51,53,52,53
+3555830,Peña Blanca CDP,Peña Blanca,"Peña Blanca, NM",NM,35.570919,-106.331955,67,68,66,70,70,70
+3555900,Peñasco CDP,Peñasco,"Peñasco, NM",NM,36.17032,-105.69072,50,51,51,53,52,53
 3556180,Peralta town,Peralta,"Peralta, NM",NM,34.828351,-106.685951,63,64,63,66,66,65
 3556748,Picacho Hills CDP,Picacho Hills,"Picacho Hills, NM",NM,32.315804,-106.878497,70,69,69,70,71,70
 3556810,Picuris Pueblo CDP,Picuris Pueblo,"Picuris Pueblo, NM",NM,36.200146,-105.723504,56,57,57,59,58,58
@@ -27160,7 +27160,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 4813828,Center Point CDP,Center Point,"Center Point, TX",TX,29.93455,-99.047785,73,72,73,73,74,74
 4813900,Centerville city,Centerville,"Centerville, TX",TX,31.258315,-95.979399,75,74,75,76,76,76
 4813972,Central Gardens CDP,Central Gardens,"Central Gardens, TX",TX,29.987973,-94.021651,78,78,78,79,80,80
-4814038,CÃ©sar ChÃ¡vez CDP,CÃ©sar ChÃ¡vez,"CÃ©sar ChÃ¡vez, TX",TX,26.310953,-98.111875,78,77,78,78,79,79
+4814038,César Chávez CDP,César Chávez,"César Chávez, TX",TX,26.310953,-98.111875,78,77,78,78,79,79
 4814224,Chandler city,Chandler,"Chandler, TX",TX,32.30688,-95.473689,75,74,75,77,77,77
 4814236,Channelview CDP,Channelview,"Channelview, TX",TX,29.793023,-95.114482,79,79,79,79,80,80
 4814260,Channing city,Channing,"Channing, TX",TX,35.681901,-102.332244,63,67,70,71,68,68
@@ -27848,7 +27848,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 4843822,Longoria CDP,Longoria,"Longoria, TX",TX,26.30238,-98.642489,78,78,78,79,79,79
 4843888,Longview city,Longview,"Longview, TX",TX,32.520234,-94.761114,76,75,76,78,79,79
 4843948,Loop CDP,Loop,"Loop, TX",TX,32.914189,-102.414709,68,70,73,76,76,74
-4843960,LopeÃ±o CDP,LopeÃ±o,"LopeÃ±o, TX",TX,26.711834,-99.100966,77,77,77,78,78,79
+4843960,Lopeño CDP,Lopeño,"Lopeño, TX",TX,26.711834,-99.100966,77,77,77,78,78,79
 4843972,Lopezville CDP,Lopezville,"Lopezville, TX",TX,26.245241,-98.153746,78,78,78,78,79,79
 4843996,Loraine town,Loraine,"Loraine, TX",TX,32.408651,-100.712515,73,74,77,80,80,79
 4844020,Lorena city,Lorena,"Lorena, TX",TX,31.383111,-97.210204,76,73,75,76,76,76
@@ -28352,8 +28352,8 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 4864244,St. Paul CDP,St. Paul,"St. Paul, TX",TX,28.090962,-97.563184,76,76,77,78,79,79
 4864268,Salado village,Salado,"Salado, TX",TX,30.948383,-97.528337,75,73,75,76,76,76
 4864307,Salida del Sol Estates CDP,Salida del Sol Estates,"Salida del Sol Estates, TX",TX,26.325684,-98.446923,78,78,78,78,79,79
-4864316,SalineÃ±o CDP,SalineÃ±o,"SalineÃ±o, TX",TX,26.517553,-99.112058,78,78,78,78,79,79
-4864322,SalineÃ±o North CDP,SalineÃ±o North,"SalineÃ±o North, TX",TX,26.527223,-99.094956,78,78,78,78,79,79
+4864316,Salineño CDP,Salineño,"Salineño, TX",TX,26.517553,-99.112058,78,78,78,78,79,79
+4864322,Salineño North CDP,Salineño North,"Salineño North, TX",TX,26.527223,-99.094956,78,78,78,78,79,79
 4864442,Sammy Martinez CDP,Sammy Martinez,"Sammy Martinez, TX",TX,26.432851,-98.751298,78,77,78,78,79,79
 4864448,Samnorwood CDP,Samnorwood,"Samnorwood, TX",TX,35.050114,-100.281401,67,69,72,76,75,73
 4864460,Sam Rayburn CDP,Sam Rayburn,"Sam Rayburn, TX",TX,31.077263,-94.025528,78,77,77,78,78,78
@@ -31040,9 +31040,9 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5501325,Almena village,Almena,"Almena, WI",WI,45.414923,-92.03832,62,66,66,61,60,61
 5501400,Almond village,Almond,"Almond, WI",WI,44.261011,-89.408638,57,59,66,66,61,62
 5501500,Alto CDP,Alto,"Alto, WI",WI,43.667638,-88.792355,59,58,67,67,63,63
-5501550,Altoona city,Altoona,"Altoona, WI",WI,44.799963,-91.439585,62,66,68,64,62,63
+5501550,Altoona city,Altoona,"Altoona, WI",WI,44.799963,-91.439585,63,66,68,64,62,63
 5501650,Amberg CDP,Amberg,"Amberg, WI",WI,45.506075,-87.987589,53,57,64,62,58,59
-5501725,Amery city,Amery,"Amery, WI",WI,45.30459,-92.363356,63,66,67,61,61,62
+5501725,Amery city,Amery,"Amery, WI",WI,45.30459,-92.363356,62,66,67,61,61,62
 5501750,Amherst village,Amherst,"Amherst, WI",WI,44.448329,-89.281683,58,59,68,65,61,62
 5501800,Amherst Junction village,Amherst Junction,"Amherst Junction, WI",WI,44.468509,-89.31722,58,59,67,65,61,62
 5501950,Angelica CDP,Angelica,"Angelica, WI",WI,44.675029,-88.321566,57,58,65,65,61,62
@@ -31053,7 +31053,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5502550,Arena village,Arena,"Arena, WI",WI,43.163628,-89.907397,61,60,67,68,63,62
 5502600,Argonne CDP,Argonne,"Argonne, WI",WI,45.658219,-88.877747,54,58,64,60,57,58
 5502650,Argyle village,Argyle,"Argyle, WI",WI,42.701409,-89.865671,61,61,67,70,65,64
-5502700,Arkansaw CDP,Arkansaw,"Arkansaw, WI",WI,44.63431,-92.021072,63,66,69,64,62,64
+5502700,Arkansaw CDP,Arkansaw,"Arkansaw, WI",WI,44.63431,-92.021072,64,66,69,64,62,64
 5502725,Arkdale CDP,Arkdale,"Arkdale, WI",WI,44.026185,-89.88609,59,60,68,66,63,63
 5502800,Arlington village,Arlington,"Arlington, WI",WI,43.335052,-89.372573,59,60,67,68,63,63
 5503025,Arpin village,Arpin,"Arpin, WI",WI,44.539381,-90.031512,58,59,66,64,61,62
@@ -31062,13 +31062,13 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5503425,Ashwaubenon village,Ashwaubenon,"Ashwaubenon, WI",WI,44.479409,-88.08748,59,58,67,68,63,65
 5503550,Athens village,Athens,"Athens, WI",WI,45.034871,-90.07921,57,59,64,62,59,60
 5503775,Auburndale village,Auburndale,"Auburndale, WI",WI,44.626596,-90.014405,57,59,65,63,61,61
-5503825,Augusta city,Augusta,"Augusta, WI",WI,44.678407,-91.120332,61,64,67,64,61,62
+5503825,Augusta city,Augusta,"Augusta, WI",WI,44.678407,-91.120332,62,64,67,64,61,62
 5504025,Avoca village,Avoca,"Avoca, WI",WI,43.187676,-90.326345,61,61,68,69,64,63
 5504150,Babcock CDP,Babcock,"Babcock, WI",WI,44.304401,-90.107649,58,59,66,65,62,62
 5504250,Bagley village,Bagley,"Bagley, WI",WI,42.901521,-91.097002,62,62,69,69,65,65
 5504300,Baileys Harbor CDP,Baileys Harbor,"Baileys Harbor, WI",WI,45.067089,-87.135538,60,62,67,68,65,66
-5504400,Baldwin village,Baldwin,"Baldwin, WI",WI,44.954482,-92.371588,63,66,67,62,61,62
-5504475,Balsam Lake village,Balsam Lake,"Balsam Lake, WI",WI,45.462041,-92.447066,62,66,66,60,60,62
+5504400,Baldwin village,Baldwin,"Baldwin, WI",WI,44.954482,-92.371588,64,66,67,62,61,62
+5504475,Balsam Lake village,Balsam Lake,"Balsam Lake, WI",WI,45.462041,-92.447066,63,66,66,60,60,62
 5504525,Bancroft CDP,Bancroft,"Bancroft, WI",WI,44.308554,-89.506181,57,59,66,65,61,62
 5504550,Bangor village,Bangor,"Bangor, WI",WI,43.893715,-90.993385,60,62,68,66,62,63
 5504625,Baraboo city,Baraboo,"Baraboo, WI",WI,43.468072,-89.738387,60,61,68,68,64,63
@@ -31076,7 +31076,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5504875,Barron city,Barron,"Barron, WI",WI,45.402192,-91.84435,62,66,66,61,60,61
 5504925,Barronett CDP,Barronett,"Barronett, WI",WI,45.636229,-91.993745,62,65,66,61,60,62
 5505275,Batavia CDP,Batavia,"Batavia, WI",WI,43.592342,-88.048365,60,59,66,68,63,63
-5505325,Bay City village,Bay City,"Bay City, WI",WI,44.589297,-92.453455,64,67,69,64,62,63
+5505325,Bay City village,Bay City,"Bay City, WI",WI,44.589297,-92.453455,66,67,69,64,62,63
 5505350,Bayfield city,Bayfield,"Bayfield, WI",WI,46.816135,-90.824838,56,63,64,60,61,62
 5505387,Bayfront CDP,Bayfront,"Bayfront, WI",WI,46.623539,-90.78962,54,62,62,58,57,60
 5505450,Bayside village,Bayside,"Bayside, WI",WI,43.182584,-87.901705,62,63,69,68,64,64
@@ -31102,7 +31102,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5507900,Black River Falls city,Black River Falls,"Black River Falls, WI",WI,44.298452,-90.842787,58,59,67,64,61,62
 5508075,Blair city,Blair,"Blair, WI",WI,44.327131,-91.299402,61,62,68,64,62,63
 5508125,Blanchardville village,Blanchardville,"Blanchardville, WI",WI,42.810443,-89.860576,62,61,68,70,65,64
-5508225,Bloomer city,Bloomer,"Bloomer, WI",WI,45.102828,-91.49154,62,65,67,63,61,62
+5508225,Bloomer city,Bloomer,"Bloomer, WI",WI,45.102828,-91.49154,63,65,67,63,61,62
 5508265,Bloomfield village,Bloomfield,"Bloomfield, WI",WI,42.549037,-88.351773,61,60,66,69,64,63
 5508375,Bloomington village,Bloomington,"Bloomington, WI",WI,42.893141,-90.926501,61,61,68,68,64,64
 5508475,Blue Mounds village,Blue Mounds,"Blue Mounds, WI",WI,43.01778,-89.82686,61,61,67,68,64,64
@@ -31114,8 +31114,8 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5508850,Boscobel city,Boscobel,"Boscobel, WI",WI,43.147132,-90.705141,60,60,67,68,64,63
 5508925,Boulder Junction CDP,Boulder Junction,"Boulder Junction, WI",WI,46.1148,-89.654438,57,61,63,59,58,60
 5509025,Bowler village,Bowler,"Bowler, WI",WI,44.862745,-88.981408,57,59,66,64,60,61
-5509050,Boyceville village,Boyceville,"Boyceville, WI",WI,45.042815,-92.038473,63,66,68,63,61,62
-5509075,Boyd village,Boyd,"Boyd, WI",WI,44.953281,-91.039766,60,63,67,62,60,61
+5509050,Boyceville village,Boyceville,"Boyceville, WI",WI,45.042815,-92.038473,64,66,68,63,61,62
+5509075,Boyd village,Boyd,"Boyd, WI",WI,44.953281,-91.039766,61,63,67,62,60,61
 5509300,Brandon village,Brandon,"Brandon, WI",WI,43.73542,-88.782116,59,59,67,67,62,63
 5509465,Brice Prairie CDP,Brice Prairie,"Brice Prairie, WI",WI,43.937526,-91.307364,63,64,67,66,63,64
 5509575,Briggsville CDP,Briggsville,"Briggsville, WI",WI,43.660293,-89.592846,58,59,67,67,62,62
@@ -31129,7 +31129,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5510425,Browns Lake CDP,Browns Lake,"Browns Lake, WI",WI,42.689527,-88.237726,61,59,66,69,64,63
 5510450,Brownsville village,Brownsville,"Brownsville, WI",WI,43.614608,-88.495215,59,58,66,67,62,62
 5510475,Browntown village,Browntown,"Browntown, WI",WI,42.578789,-89.789406,61,60,67,70,65,63
-5510500,Bruce village,Bruce,"Bruce, WI",WI,45.463455,-91.279266,60,64,66,61,60,61
+5510500,Bruce village,Bruce,"Bruce, WI",WI,45.463455,-91.279266,61,64,66,61,60,61
 5510550,Brule CDP,Brule,"Brule, WI",WI,46.55843,-91.570892,54,62,63,58,57,60
 5511062,Buffalo City city,Buffalo City,"Buffalo City, WI",WI,44.223161,-91.865888,64,65,68,65,63,64
 5511200,Burlington city,Burlington,"Burlington, WI",WI,42.675249,-88.271871,60,59,66,69,64,63
@@ -31138,7 +31138,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5511500,Butte des Morts CDP,Butte des Morts,"Butte des Morts, WI",WI,44.10626,-88.657269,60,59,68,67,63,64
 5511525,Butternut village,Butternut,"Butternut, WI",WI,46.013304,-90.497426,60,61,63,58,57,58
 5511650,Cable CDP,Cable,"Cable, WI",WI,46.201093,-91.293667,58,63,65,59,58,60
-5511750,Cadott village,Cadott,"Cadott, WI",WI,44.949802,-91.15376,61,64,67,63,61,62
+5511750,Cadott village,Cadott,"Cadott, WI",WI,44.949802,-91.15376,62,64,67,63,61,62
 5511950,Caledonia village,Caledonia,"Caledonia, WI",WI,42.797411,-87.877405,63,62,68,70,66,65
 5512200,Cambria village,Cambria,"Cambria, WI",WI,43.541358,-89.111482,59,58,67,67,62,62
 5512225,Cambridge village,Cambridge,"Cambridge, WI",WI,43.006555,-89.021412,60,60,67,69,63,63
@@ -31166,11 +31166,11 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5514440,Chief Lake CDP,Chief Lake,"Chief Lake, WI",WI,45.938728,-91.335895,61,63,65,60,59,61
 5514450,Chili CDP,Chili,"Chili, WI",WI,44.633455,-90.36191,58,60,67,63,61,61
 5514475,Chilton city,Chilton,"Chilton, WI",WI,44.030188,-88.161667,58,58,66,67,63,63
-5514575,Chippewa Falls city,Chippewa Falls,"Chippewa Falls, WI",WI,44.934653,-91.389165,63,66,68,64,62,63
+5514575,Chippewa Falls city,Chippewa Falls,"Chippewa Falls, WI",WI,44.934653,-91.389165,64,66,68,64,62,63
 5514850,Clam Lake CDP,Clam Lake,"Clam Lake, WI",WI,46.154438,-90.905809,59,62,63,58,58,59
 5514925,Clarks Mills CDP,Clarks Mills,"Clarks Mills, WI",WI,44.091142,-87.862627,58,57,66,67,63,63
-5515100,Clayton village,Clayton,"Clayton, WI",WI,45.327452,-92.164524,62,66,67,61,60,61
-5515250,Clear Lake village,Clear Lake,"Clear Lake, WI",WI,45.24798,-92.267805,62,66,66,61,60,62
+5515100,Clayton village,Clayton,"Clayton, WI",WI,45.327452,-92.164524,63,66,67,61,60,61
+5515250,Clear Lake village,Clear Lake,"Clear Lake, WI",WI,45.24798,-92.267805,63,66,66,61,60,62
 5515400,Cleveland village,Cleveland,"Cleveland, WI",WI,43.918064,-87.749809,59,58,65,69,65,65
 5515625,Clinton village,Clinton,"Clinton, WI",WI,42.557474,-88.868055,61,59,66,69,64,63
 5515725,Clintonville city,Clintonville,"Clintonville, WI",WI,44.62212,-88.751714,58,58,67,66,61,62
@@ -31179,15 +31179,15 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5516025,Cochrane village,Cochrane,"Cochrane, WI",WI,44.227092,-91.841075,64,65,68,65,63,64
 5516150,Colby city,Colby,"Colby, WI",WI,44.911327,-90.315729,58,60,66,62,60,61
 5516250,Coleman village,Coleman,"Coleman, WI",WI,45.066998,-88.035661,54,56,66,64,60,61
-5516275,Colfax village,Colfax,"Colfax, WI",WI,44.996966,-91.725513,63,66,68,64,61,63
+5516275,Colfax village,Colfax,"Colfax, WI",WI,44.996966,-91.725513,64,66,68,64,61,63
 5516350,Collins CDP,Collins,"Collins, WI",WI,44.085671,-87.981124,58,57,66,67,63,63
 5516375,Coloma village,Coloma,"Coloma, WI",WI,44.038651,-89.531148,57,57,65,65,61,61
 5516450,Columbus city,Columbus,"Columbus, WI",WI,43.336805,-89.029988,59,59,67,68,63,63
 5516500,Combined Locks village,Combined Locks,"Combined Locks, WI",WI,44.261995,-88.309534,59,58,67,67,63,64
 5516575,Como CDP,Como,"Como, WI",WI,42.613055,-88.486115,61,60,67,69,64,63
-5516775,Conrath village,Conrath,"Conrath, WI",WI,45.384185,-91.035708,60,63,66,61,59,60
+5516775,Conrath village,Conrath,"Conrath, WI",WI,45.384185,-91.035708,61,63,66,61,59,60
 5516900,Coon Valley village,Coon Valley,"Coon Valley, WI",WI,43.701893,-91.011415,60,62,68,66,63,63
-5517100,Cornell city,Cornell,"Cornell, WI",WI,45.163817,-91.150436,61,64,67,62,60,62
+5517100,Cornell city,Cornell,"Cornell, WI",WI,45.163817,-91.150436,62,64,67,62,60,62
 5517150,Cornucopia CDP,Cornucopia,"Cornucopia, WI",WI,46.856681,-91.108144,53,58,59,56,57,58
 5517175,Cottage Grove village,Cottage Grove,"Cottage Grove, WI",WI,43.092222,-89.205337,60,60,68,69,63,63
 5517225,Couderay village,Couderay,"Couderay, WI",WI,45.797438,-91.296704,61,63,65,60,59,61
@@ -31196,17 +31196,17 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5517775,Cross Plains village,Cross Plains,"Cross Plains, WI",WI,43.115026,-89.647119,61,61,68,69,64,64
 5517950,Cuba City city,Cuba City,"Cuba City, WI",WI,42.603615,-90.431798,61,61,67,69,65,64
 5517975,Cudahy city,Cudahy,"Cudahy, WI",WI,42.946711,-87.864016,64,64,70,70,66,65
-5518025,Cumberland city,Cumberland,"Cumberland, WI",WI,45.536073,-92.024753,62,66,66,61,60,61
+5518025,Cumberland city,Cumberland,"Cumberland, WI",WI,45.536073,-92.024753,61,66,66,61,60,61
 5518125,Curtiss village,Curtiss,"Curtiss, WI",WI,44.952767,-90.439585,58,61,66,62,60,61
 5518500,Dale CDP,Dale,"Dale, WI",WI,44.27566,-88.673017,59,58,67,67,62,63
-5518575,Dallas village,Dallas,"Dallas, WI",WI,45.258178,-91.814619,62,66,67,62,60,62
+5518575,Dallas village,Dallas,"Dallas, WI",WI,45.258178,-91.814619,63,66,67,62,60,62
 5518625,Dalton CDP,Dalton,"Dalton, WI",WI,43.6564,-89.207633,59,59,67,67,62,62
 5518650,Danbury CDP,Danbury,"Danbury, WI",WI,46.009548,-92.376323,60,64,64,59,58,60
 5518700,Dane village,Dane,"Dane, WI",WI,43.2461,-89.499577,60,60,67,69,63,63
 5518825,Darien village,Darien,"Darien, WI",WI,42.599001,-88.714273,61,59,67,69,64,63
 5518875,Darlington city,Darlington,"Darlington, WI",WI,42.676355,-90.12052,62,61,67,69,65,64
 5519250,Deerfield village,Deerfield,"Deerfield, WI",WI,43.049181,-89.076153,60,60,67,69,63,63
-5519325,Deer Park village,Deer Park,"Deer Park, WI",WI,45.18854,-92.388687,62,65,66,61,60,62
+5519325,Deer Park village,Deer Park,"Deer Park, WI",WI,45.18854,-92.388687,63,65,66,61,60,62
 5519350,DeForest village,DeForest,"DeForest, WI",WI,43.227335,-89.345702,60,60,68,69,63,63
 5519365,Dekorra CDP,Dekorra,"Dekorra, WI",WI,43.453876,-89.460309,60,60,67,68,62,63
 5519400,Delafield city,Delafield,"Delafield, WI",WI,43.067421,-88.388833,61,60,67,69,63,63
@@ -31216,7 +31216,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5519700,Denmark village,Denmark,"Denmark, WI",WI,44.349336,-87.831198,58,58,66,67,63,63
 5519775,De Pere city,De Pere,"De Pere, WI",WI,44.43099,-88.079936,59,58,67,67,63,64
 5519850,De Soto village,De Soto,"De Soto, WI",WI,43.429061,-91.196334,62,63,69,68,64,64
-5520125,Diamond Bluff CDP,Diamond Bluff,"Diamond Bluff, WI",WI,44.648888,-92.618884,64,66,68,64,62,63
+5520125,Diamond Bluff CDP,Diamond Bluff,"Diamond Bluff, WI",WI,44.648888,-92.618884,65,66,68,64,62,63
 5520167,Diaperville CDP,Diaperville,"Diaperville, WI",WI,46.604782,-90.713502,54,62,63,58,58,61
 5520175,Dickeyville village,Dickeyville,"Dickeyville, WI",WI,42.625437,-90.59609,63,63,69,71,66,65
 5520275,Dodge CDP,Dodge,"Dodge, WI",WI,44.134381,-91.549335,63,64,68,66,63,64
@@ -31224,12 +31224,12 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5520450,Dorchester village,Dorchester,"Dorchester, WI",WI,45.001426,-90.331157,57,59,65,62,59,60
 5520550,Dousman village,Dousman,"Dousman, WI",WI,43.009381,-88.47557,60,59,67,69,63,63
 5520675,Downing village,Downing,"Downing, WI",WI,45.04982,-92.124322,63,66,67,62,61,62
-5520725,Downsville CDP,Downsville,"Downsville, WI",WI,44.775055,-91.928659,63,67,69,64,62,63
+5520725,Downsville CDP,Downsville,"Downsville, WI",WI,44.775055,-91.928659,64,67,69,64,62,63
 5520775,Doylestown village,Doylestown,"Doylestown, WI",WI,43.428274,-89.146858,59,59,67,67,62,62
-5520850,Dresser village,Dresser,"Dresser, WI",WI,45.363176,-92.634675,64,68,68,62,62,63
+5520850,Dresser village,Dresser,"Dresser, WI",WI,45.363176,-92.634675,65,68,68,62,62,63
 5520875,Drummond CDP,Drummond,"Drummond, WI",WI,46.343697,-91.249894,57,63,65,59,58,60
 5520975,Dunbar CDP,Dunbar,"Dunbar, WI",WI,45.646709,-88.179716,53,58,64,61,57,58
-5521225,Durand city,Durand,"Durand, WI",WI,44.622405,-91.960308,64,67,70,65,63,64
+5521225,Durand city,Durand,"Durand, WI",WI,44.622405,-91.960308,65,67,70,65,63,64
 5521375,Dyckesville CDP,Dyckesville,"Dyckesville, WI",WI,44.640309,-87.764824,59,59,66,67,64,64
 5521425,Eagle village,Eagle,"Eagle, WI",WI,42.882243,-88.463377,61,59,67,69,63,63
 5521525,Eagle Lake CDP,Eagle Lake,"Eagle Lake, WI",WI,42.695587,-88.128844,61,60,66,70,65,64
@@ -31237,7 +31237,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5521900,Eastman village,Eastman,"Eastman, WI",WI,43.165171,-91.032768,61,61,67,68,63,63
 5521975,Easton CDP,Easton,"Easton, WI",WI,43.836023,-89.799125,58,59,67,66,62,63
 5522100,East Troy village,East Troy,"East Troy, WI",WI,42.785184,-88.395573,61,59,67,69,64,63
-5522300,Eau Claire city,Eau Claire,"Eau Claire, WI",WI,44.818343,-91.494769,63,67,69,65,62,63
+5522300,Eau Claire city,Eau Claire,"Eau Claire, WI",WI,44.818343,-91.494769,64,67,69,65,62,63
 5522475,Eden village,Eden,"Eden, WI",WI,43.694065,-88.366064,60,59,67,67,62,63
 5522550,Edgar village,Edgar,"Edgar, WI",WI,44.922851,-89.962611,57,59,65,62,60,61
 5522575,Edgerton city,Edgerton,"Edgerton, WI",WI,42.838947,-89.069571,60,60,67,69,64,63
@@ -31249,24 +31249,24 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5523175,Eleva village,Eleva,"Eleva, WI",WI,44.576566,-91.470254,62,63,68,64,62,63
 5523275,Elkhart Lake village,Elkhart Lake,"Elkhart Lake, WI",WI,43.831899,-88.01312,60,59,67,68,63,63
 5523300,Elkhorn city,Elkhorn,"Elkhorn, WI",WI,42.671601,-88.536256,61,59,66,69,63,63
-5523325,Elk Mound village,Elk Mound,"Elk Mound, WI",WI,44.874421,-91.686238,63,66,69,64,62,63
+5523325,Elk Mound village,Elk Mound,"Elk Mound, WI",WI,44.874421,-91.686238,64,66,69,64,62,63
 5523475,Ellison Bay CDP,Ellison Bay,"Ellison Bay, WI",WI,45.255326,-87.072914,61,63,67,68,66,68
-5523525,Ellsworth village,Ellsworth,"Ellsworth, WI",WI,44.736178,-92.480249,64,66,68,63,61,63
+5523525,Ellsworth village,Ellsworth,"Ellsworth, WI",WI,44.736178,-92.480249,65,66,68,63,61,63
 5523575,Elm Grove village,Elm Grove,"Elm Grove, WI",WI,43.04752,-88.087029,62,62,68,70,65,64
-5523700,Elmwood village,Elmwood,"Elmwood, WI",WI,44.780073,-92.14897,63,66,68,63,61,63
+5523700,Elmwood village,Elmwood,"Elmwood, WI",WI,44.780073,-92.14897,64,66,68,63,61,63
 5523725,Elmwood Park village,Elmwood Park,"Elmwood Park, WI",WI,42.691254,-87.822051,64,63,68,70,67,66
 5523800,Elroy city,Elroy,"Elroy, WI",WI,43.741562,-90.270172,58,60,68,66,62,63
 5523850,Embarrass village,Embarrass,"Embarrass, WI",WI,44.670484,-88.703189,57,58,67,66,61,62
-5523900,Emerald CDP,Emerald,"Emerald, WI",WI,45.086675,-92.249478,62,66,67,62,60,61
+5523900,Emerald CDP,Emerald,"Emerald, WI",WI,45.086675,-92.249478,63,66,67,62,60,61
 5524075,Endeavor village,Endeavor,"Endeavor, WI",WI,43.714386,-89.469166,59,59,67,66,61,62
 5524150,Ephraim village,Ephraim,"Ephraim, WI",WI,45.167749,-87.172619,62,64,68,66,64,66
 5524400,Ettrick village,Ettrick,"Ettrick, WI",WI,44.169553,-91.265042,61,62,68,64,62,63
 5524475,Eureka CDP,Eureka,"Eureka, WI",WI,44.011625,-88.841388,58,57,66,67,63,63
 5524550,Evansville city,Evansville,"Evansville, WI",WI,42.77823,-89.294786,60,59,67,69,64,63
 5524700,Exeland village,Exeland,"Exeland, WI",WI,45.667431,-91.241478,60,63,65,60,59,60
-5524825,Fairchild village,Fairchild,"Fairchild, WI",WI,44.605234,-90.956722,60,62,67,63,61,62
+5524825,Fairchild village,Fairchild,"Fairchild, WI",WI,44.605234,-90.956722,62,62,67,63,61,62
 5525075,Fairwater village,Fairwater,"Fairwater, WI",WI,43.742542,-88.866939,59,59,67,67,62,63
-5525125,Fall Creek village,Fall Creek,"Fall Creek, WI",WI,44.763962,-91.277797,61,64,67,63,61,62
+5525125,Fall Creek village,Fall Creek,"Fall Creek, WI",WI,44.763962,-91.277797,63,64,67,63,61,62
 5525150,Fall River village,Fall River,"Fall River, WI",WI,43.385851,-89.045468,59,59,67,67,63,63
 5525600,Fennimore city,Fennimore,"Fennimore, WI",WI,42.979388,-90.64917,60,60,67,68,64,63
 5525650,Fenwood village,Fenwood,"Fenwood, WI",WI,44.86578,-90.014578,57,59,66,62,60,61
@@ -31304,7 +31304,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5529200,Gilmanton CDP,Gilmanton,"Gilmanton, WI",WI,44.480867,-91.672104,63,64,69,64,62,64
 5529350,Glenbeulah village,Glenbeulah,"Glenbeulah, WI",WI,43.798394,-88.046792,60,60,67,68,63,63
 5529400,Glendale city,Glendale,"Glendale, WI",WI,43.126142,-87.927195,62,63,69,70,65,65
-5529475,Glen Flora village,Glen Flora,"Glen Flora, WI",WI,45.496957,-90.893479,59,63,65,60,59,60
+5529475,Glen Flora village,Glen Flora,"Glen Flora, WI",WI,45.496957,-90.893479,61,63,65,60,59,60
 5529500,Glen Haven CDP,Glen Haven,"Glen Haven, WI",WI,42.83574,-91.060752,62,62,68,69,65,64
 5529625,Glenwood City city,Glenwood City,"Glenwood City, WI",WI,45.052078,-92.165813,63,66,67,62,61,62
 5529675,Glidden CDP,Glidden,"Glidden, WI",WI,46.134673,-90.572127,59,61,63,57,57,58
@@ -31327,9 +31327,9 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5531525,Greenville village,Greenville,"Greenville, WI",WI,44.284135,-88.547272,59,58,68,67,62,63
 5531575,Greenwood city,Greenwood,"Greenwood, WI",WI,44.765376,-90.598951,59,61,67,63,60,61
 5531675,Gresham village,Gresham,"Gresham, WI",WI,44.84861,-88.786076,57,59,66,65,60,61
-5531975,Hager City CDP,Hager City,"Hager City, WI",WI,44.602063,-92.533469,65,67,69,64,62,63
+5531975,Hager City CDP,Hager City,"Hager City, WI",WI,44.602063,-92.533469,66,67,69,64,62,63
 5532075,Hales Corners village,Hales Corners,"Hales Corners, WI",WI,42.941231,-88.0495,63,61,68,69,64,64
-5532325,Hammond village,Hammond,"Hammond, WI",WI,44.969023,-92.438072,63,66,67,62,61,63
+5532325,Hammond village,Hammond,"Hammond, WI",WI,44.969023,-92.438072,64,66,67,62,61,63
 5532450,Hancock village,Hancock,"Hancock, WI",WI,44.133308,-89.520954,57,58,66,66,61,62
 5532550,Hanover CDP,Hanover,"Hanover, WI",WI,42.638884,-89.171034,61,59,67,69,64,63
 5532790,Harrison village,Harrison,"Harrison, WI",WI,44.192246,-88.294059,59,59,67,67,62,64
@@ -31339,7 +31339,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5533150,Hatfield CDP,Hatfield,"Hatfield, WI",WI,44.416937,-90.751111,59,60,67,63,61,62
 5533175,Hatley village,Hatley,"Hatley, WI",WI,44.886494,-89.337101,57,59,65,64,59,60
 5533225,Haugen village,Haugen,"Haugen, WI",WI,45.607593,-91.778588,61,65,66,61,60,62
-5533275,Hawkins village,Hawkins,"Hawkins, WI",WI,45.511853,-90.717153,59,62,65,60,59,60
+5533275,Hawkins village,Hawkins,"Hawkins, WI",WI,45.511853,-90.717153,60,62,65,60,59,60
 5533450,Hayward city,Hayward,"Hayward, WI",WI,46.006588,-91.489684,60,64,65,60,59,61
 5533500,Hazel Green village,Hazel Green,"Hazel Green, WI",WI,42.534165,-90.436081,62,61,68,70,66,64
 5533675,Hebron CDP,Hebron,"Hebron, WI",WI,42.918787,-88.689478,60,59,67,69,63,63
@@ -31352,7 +31352,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5535000,Hingham CDP,Hingham,"Hingham, WI",WI,43.654278,-87.910623,60,61,67,68,64,64
 5535075,Hixton village,Hixton,"Hixton, WI",WI,44.383081,-91.0148,59,60,67,63,61,62
 5535150,Hobart village,Hobart,"Hobart, WI",WI,44.495441,-88.155601,59,58,68,67,62,64
-5535225,Holcombe CDP,Holcombe,"Holcombe, WI",WI,45.222301,-91.120552,60,64,67,62,60,61
+5535225,Holcombe CDP,Holcombe,"Holcombe, WI",WI,45.222301,-91.120552,61,64,67,62,60,61
 5535400,Hollandale village,Hollandale,"Hollandale, WI",WI,42.874972,-89.9335,62,61,67,70,65,64
 5535450,Holmen village,Holmen,"Holmen, WI",WI,43.970767,-91.265783,62,63,67,66,63,63
 5535750,Horicon city,Horicon,"Horicon, WI",WI,43.445001,-88.640328,60,59,67,68,63,63
@@ -31366,7 +31366,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5536625,Hustisford village,Hustisford,"Hustisford, WI",WI,43.342696,-88.603471,60,59,67,68,63,63
 5536675,Hustler village,Hustler,"Hustler, WI",WI,43.877286,-90.265801,59,60,68,66,63,63
 5536800,Independence city,Independence,"Independence, WI",WI,44.309824,-91.42071,62,63,67,64,62,63
-5536925,Ingram village,Ingram,"Ingram, WI",WI,45.505624,-90.813687,59,62,65,60,58,60
+5536925,Ingram village,Ingram,"Ingram, WI",WI,45.505624,-90.813687,61,62,65,60,58,60
 5537025,Iola village,Iola,"Iola, WI",WI,44.509708,-89.117218,58,59,68,66,61,62
 5537125,Iron Belt CDP,Iron Belt,"Iron Belt, WI",WI,46.403009,-90.319218,60,62,63,58,57,60
 5537150,Iron Ridge village,Iron Ridge,"Iron Ridge, WI",WI,43.398061,-88.531928,60,59,67,68,63,63
@@ -31376,7 +31376,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5537675,Jackson village,Jackson,"Jackson, WI",WI,43.319883,-88.164117,60,60,67,69,63,63
 5537825,Janesville city,Janesville,"Janesville, WI",WI,42.684698,-89.01317,61,60,67,69,64,63
 5537900,Jefferson city,Jefferson,"Jefferson, WI",WI,43.003955,-88.808473,60,59,67,69,63,63
-5538225,Jim Falls CDP,Jim Falls,"Jim Falls, WI",WI,45.047823,-91.271888,61,65,67,63,61,62
+5538225,Jim Falls CDP,Jim Falls,"Jim Falls, WI",WI,45.047823,-91.271888,62,65,67,63,61,62
 5538350,Johnson Creek village,Johnson Creek,"Johnson Creek, WI",WI,43.079053,-88.771069,60,59,67,69,63,63
 5538487,Jolmaville CDP,Jolmaville,"Jolmaville, WI",WI,46.433051,-90.749832,56,65,65,59,58,62
 5538600,Juda CDP,Juda,"Juda, WI",WI,42.589961,-89.50922,61,60,67,69,64,63
@@ -31397,7 +31397,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5539650,Kimberly village,Kimberly,"Kimberly, WI",WI,44.26676,-88.338004,59,59,67,68,63,64
 5539700,King CDP,King,"King, WI",WI,44.342086,-89.12485,58,59,68,66,62,62
 5539750,Kingston village,Kingston,"Kingston, WI",WI,43.693268,-89.131469,59,59,67,67,63,63
-5539975,Knapp village,Knapp,"Knapp, WI",WI,44.948898,-92.080767,63,66,68,63,61,62
+5539975,Knapp village,Knapp,"Knapp, WI",WI,44.948898,-92.080767,64,66,68,63,61,62
 5540125,Knowlton CDP,Knowlton,"Knowlton, WI",WI,44.718188,-89.680363,58,60,66,65,61,62
 5540275,Kohler village,Kohler,"Kohler, WI",WI,43.739983,-87.776838,60,61,67,68,64,64
 5540450,Krakow CDP,Krakow,"Krakow, WI",WI,44.758507,-88.261086,56,57,65,65,61,62
@@ -31411,7 +31411,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5541210,Lake Camelot CDP,Lake Camelot,"Lake Camelot, WI",WI,44.212774,-89.763025,58,60,68,66,62,62
 5541300,Lake Delton village,Lake Delton,"Lake Delton, WI",WI,43.591986,-89.783139,60,61,68,68,63,63
 5541450,Lake Geneva city,Lake Geneva,"Lake Geneva, WI",WI,42.583346,-88.428454,61,60,67,69,64,63
-5541525,Lake Hallie village,Lake Hallie,"Lake Hallie, WI",WI,44.891691,-91.420333,62,66,68,64,62,63
+5541525,Lake Hallie village,Lake Hallie,"Lake Hallie, WI",WI,44.891691,-91.420333,63,66,68,64,62,63
 5541560,Lake Ivanhoe CDP,Lake Ivanhoe,"Lake Ivanhoe, WI",WI,42.57924,-88.335973,60,60,66,69,64,63
 5541583,Lake Koshkonong CDP,Lake Koshkonong,"Lake Koshkonong, WI",WI,42.860502,-88.940129,60,60,67,69,63,63
 5541645,Lake Lorraine CDP,Lake Lorraine,"Lake Lorraine, WI",WI,42.73038,-88.740323,60,59,67,68,63,63
@@ -31422,7 +31422,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5541875,Lake Tomahawk CDP,Lake Tomahawk,"Lake Tomahawk, WI",WI,45.809175,-89.577404,57,60,64,61,59,61
 5541975,Lake Wazeecha CDP,Lake Wazeecha,"Lake Wazeecha, WI",WI,44.37087,-89.749231,58,59,67,65,62,62
 5542012,Lake Wisconsin CDP,Lake Wisconsin,"Lake Wisconsin, WI",WI,43.36474,-89.59601,60,61,68,69,64,64
-5542025,Lake Wissota CDP,Lake Wissota,"Lake Wissota, WI",WI,44.925954,-91.289635,62,65,67,63,61,62
+5542025,Lake Wissota CDP,Lake Wissota,"Lake Wissota, WI",WI,44.925954,-91.289635,64,65,67,63,61,62
 5542050,Lakewood CDP,Lakewood,"Lakewood, WI",WI,45.300592,-88.514541,54,57,64,61,58,58
 5542250,Lancaster city,Lancaster,"Lancaster, WI",WI,42.847414,-90.706412,61,61,68,69,64,64
 5542450,Lannon village,Lannon,"Lannon, WI",WI,43.15724,-88.158198,60,60,67,68,63,63
@@ -31458,7 +31458,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5546700,Lyons CDP,Lyons,"Lyons, WI",WI,42.648231,-88.360114,60,60,66,69,64,63
 5546850,McFarland village,McFarland,"McFarland, WI",WI,43.019225,-89.28342,61,61,68,70,64,64
 5548000,Madison city,Madison,"Madison, WI",WI,43.087815,-89.429856,61,62,68,70,65,64
-5548175,Maiden Rock village,Maiden Rock,"Maiden Rock, WI",WI,44.567897,-92.309307,64,67,69,64,62,64
+5548175,Maiden Rock village,Maiden Rock,"Maiden Rock, WI",WI,44.567897,-92.309307,66,67,69,64,62,64
 5548225,Maine village,Maine,"Maine, WI",WI,45.05803,-89.681321,56,58,65,62,59,60
 5548350,Manawa city,Manawa,"Manawa, WI",WI,44.461517,-88.920464,58,58,68,66,61,62
 5548500,Manitowoc city,Manitowoc,"Manitowoc, WI",WI,44.097981,-87.678945,59,59,65,67,64,63
@@ -31483,7 +31483,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5550800,Melvina village,Melvina,"Melvina, WI",WI,43.802449,-90.781459,60,62,68,67,63,63
 5550825,Menasha city,Menasha,"Menasha, WI",WI,44.212338,-88.427357,60,60,67,68,63,64
 5551000,Menomonee Falls village,Menomonee Falls,"Menomonee Falls, WI",WI,43.159411,-88.121548,60,60,68,69,64,64
-5551025,Menomonie city,Menomonie,"Menomonie, WI",WI,44.8892,-91.90957,63,66,68,64,62,63
+5551025,Menomonie city,Menomonie,"Menomonie, WI",WI,44.8892,-91.90957,64,66,68,64,62,63
 5551150,Mequon city,Mequon,"Mequon, WI",WI,43.211357,-88.014237,61,60,67,69,64,64
 5551175,Mercer CDP,Mercer,"Mercer, WI",WI,46.161334,-90.041842,59,61,64,58,58,59
 5551250,Merrill city,Merrill,"Merrill, WI",WI,45.180635,-89.700339,56,58,65,62,59,60
@@ -31494,7 +31494,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5551617,Middle Village CDP,Middle Village,"Middle Village, WI",WI,44.926491,-88.717814,57,59,66,64,60,61
 5551875,Milladore village,Milladore,"Milladore, WI",WI,44.605625,-89.855161,57,59,66,64,61,62
 5552025,Millston CDP,Millston,"Millston, WI",WI,44.189264,-90.645691,59,60,68,65,62,62
-5552075,Milltown village,Milltown,"Milltown, WI",WI,45.521082,-92.498503,62,66,66,60,60,62
+5552075,Milltown village,Milltown,"Milltown, WI",WI,45.521082,-92.498503,63,66,66,60,60,62
 5552200,Milton city,Milton,"Milton, WI",WI,42.774675,-88.939991,60,59,67,69,63,63
 5553000,Milwaukee city,Milwaukee,"Milwaukee, WI",WI,43.063348,-87.966695,63,63,69,71,65,65
 5553050,Mindoro CDP,Mindoro,"Mindoro, WI",WI,44.020139,-91.101926,61,62,67,66,62,63
@@ -31533,7 +31533,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5556075,Neosho village,Neosho,"Neosho, WI",WI,43.307141,-88.521184,60,59,67,68,63,63
 5556125,Neshkoro village,Neshkoro,"Neshkoro, WI",WI,43.965128,-89.215764,59,59,67,66,61,62
 5556250,Newald CDP,Newald,"Newald, WI",WI,45.739576,-88.700487,53,57,62,59,57,58
-5556350,New Auburn village,New Auburn,"New Auburn, WI",WI,45.198779,-91.566342,62,66,68,63,61,62
+5556350,New Auburn village,New Auburn,"New Auburn, WI",WI,45.198779,-91.566342,63,66,68,63,61,62
 5556375,New Berlin city,New Berlin,"New Berlin, WI",WI,42.972,-88.129168,62,60,67,69,64,63
 5556450,Newburg village,Newburg,"Newburg, WI",WI,43.432257,-88.047925,60,60,67,69,63,64
 5556700,New Glarus village,New Glarus,"New Glarus, WI",WI,42.813107,-89.633698,61,61,67,70,65,64
@@ -31543,7 +31543,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5557000,New Munster CDP,New Munster,"New Munster, WI",WI,42.575763,-88.231108,61,60,66,69,64,64
 5557008,New Odanah CDP,New Odanah,"New Odanah, WI",WI,46.598621,-90.650817,55,62,63,58,58,61
 5557050,New Post CDP,New Post,"New Post, WI",WI,45.902783,-91.207142,61,63,66,59,59,60
-5557100,New Richmond city,New Richmond,"New Richmond, WI",WI,45.124977,-92.547938,64,66,68,62,61,63
+5557100,New Richmond city,New Richmond,"New Richmond, WI",WI,45.124977,-92.547938,63,66,68,62,61,63
 5557325,Niagara city,Niagara,"Niagara, WI",WI,45.779259,-88.003197,53,58,65,61,57,58
 5557375,Nichols village,Nichols,"Nichols, WI",WI,44.567202,-88.467799,58,57,67,66,61,62
 5557700,North Bay village,North Bay,"North Bay, WI",WI,42.764171,-87.780619,64,62,64,68,65,65
@@ -31588,7 +31588,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5561675,Pella CDP,Pella,"Pella, WI",WI,44.743504,-88.822441,57,58,67,65,60,62
 5561750,Pembine CDP,Pembine,"Pembine, WI",WI,45.636676,-87.991306,52,57,64,61,58,59
 5561800,Pence CDP,Pence,"Pence, WI",WI,46.410323,-90.2695,59,62,64,58,57,60
-5561925,Pepin village,Pepin,"Pepin, WI",WI,44.44278,-92.147668,65,67,70,65,63,65
+5561925,Pepin village,Pepin,"Pepin, WI",WI,44.44278,-92.147668,66,67,70,65,63,65
 5562175,Peshtigo city,Peshtigo,"Peshtigo, WI",WI,45.056922,-87.744077,57,58,66,65,62,63
 5562240,Pewaukee city,Pewaukee,"Pewaukee, WI",WI,43.066141,-88.244465,60,59,67,68,63,63
 5562250,Pewaukee village,Pewaukee,"Pewaukee, WI",WI,43.086874,-88.256388,60,60,67,68,63,63
@@ -31601,7 +31601,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5563250,Platteville city,Platteville,"Platteville, WI",WI,42.727923,-90.468103,61,62,68,70,65,64
 5563300,Pleasant Prairie village,Pleasant Prairie,"Pleasant Prairie, WI",WI,42.526679,-87.888302,64,62,68,71,67,66
 5563525,Plover village,Plover,"Plover, WI",WI,44.46202,-89.537971,57,59,66,65,61,62
-5563600,Plum City village,Plum City,"Plum City, WI",WI,44.635583,-92.191705,64,66,69,64,62,63
+5563600,Plum City village,Plum City,"Plum City, WI",WI,44.635583,-92.191705,65,66,69,64,62,63
 5563700,Plymouth city,Plymouth,"Plymouth, WI",WI,43.745274,-87.965322,59,60,67,68,63,63
 5563925,Polonia CDP,Polonia,"Polonia, WI",WI,44.580548,-89.410626,58,60,67,65,61,62
 5563975,Poplar village,Poplar,"Poplar, WI",WI,46.581849,-91.782321,54,60,62,57,57,58
@@ -31619,9 +31619,9 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5564950,Poy Sippi CDP,Poy Sippi,"Poy Sippi, WI",WI,44.136658,-88.998117,57,57,66,66,62,62
 5565050,Prairie du Chien city,Prairie du Chien,"Prairie du Chien, WI",WI,43.041618,-91.135408,61,62,68,68,64,64
 5565100,Prairie du Sac village,Prairie du Sac,"Prairie du Sac, WI",WI,43.293928,-89.735231,60,60,67,68,63,63
-5565150,Prairie Farm village,Prairie Farm,"Prairie Farm, WI",WI,45.236352,-91.98003,62,66,67,62,60,62
+5565150,Prairie Farm village,Prairie Farm,"Prairie Farm, WI",WI,45.236352,-91.98003,63,66,67,62,60,62
 5565325,Prentice village,Prentice,"Prentice, WI",WI,45.541224,-90.292805,61,61,65,60,59,60
-5565375,Prescott city,Prescott,"Prescott, WI",WI,44.753374,-92.788975,65,68,70,64,63,64
+5565375,Prescott city,Prescott,"Prescott, WI",WI,44.753374,-92.788975,66,68,70,64,63,64
 5565600,Princeton city,Princeton,"Princeton, WI",WI,43.855891,-89.124818,59,59,67,66,62,62
 5565675,Pulaski village,Pulaski,"Pulaski, WI",WI,44.668206,-88.234279,57,57,65,65,61,62
 5565725,Pulcifer CDP,Pulcifer,"Pulcifer, WI",WI,44.849906,-88.362989,56,58,66,65,60,62
@@ -31640,19 +31640,19 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5567200,Rhinelander city,Rhinelander,"Rhinelander, WI",WI,45.634283,-89.429947,56,59,63,61,59,60
 5567275,Rib Lake village,Rib Lake,"Rib Lake, WI",WI,45.319514,-90.20224,57,60,65,60,59,60
 5567320,Rib Mountain village,Rib Mountain,"Rib Mountain, WI",WI,44.89722,-89.683855,57,59,66,64,60,61
-5567350,Rice Lake city,Rice Lake,"Rice Lake, WI",WI,45.481992,-91.745762,62,66,66,61,60,61
+5567350,Rice Lake city,Rice Lake,"Rice Lake, WI",WI,45.481992,-91.745762,61,66,66,61,60,61
 5567475,Richfield village,Richfield,"Richfield, WI",WI,43.23939,-88.234017,61,59,67,68,63,63
 5567625,Richland Center city,Richland Center,"Richland Center, WI",WI,43.340476,-90.38342,59,60,67,68,63,63
 5567800,Ridgeland village,Ridgeland,"Ridgeland, WI",WI,45.198063,-91.897959,63,66,68,63,60,62
 5567875,Ridgeway village,Ridgeway,"Ridgeway, WI",WI,42.998424,-89.992575,61,61,68,69,64,63
 5568100,Rio village,Rio,"Rio, WI",WI,43.452161,-89.241591,59,59,68,68,63,63
 5568175,Ripon city,Ripon,"Ripon, WI",WI,43.84356,-88.837936,60,60,68,67,63,63
-5568275,River Falls city,River Falls,"River Falls, WI",WI,44.86085,-92.625708,65,67,69,63,62,64
+5568275,River Falls city,River Falls,"River Falls, WI",WI,44.86085,-92.625708,66,67,69,63,62,64
 5568325,River Hills village,River Hills,"River Hills, WI",WI,43.17348,-87.933849,62,62,69,70,65,65
 5568475,Roberts village,Roberts,"Roberts, WI",WI,44.973298,-92.550082,64,66,68,62,61,63
 5568550,Rochester village,Rochester,"Rochester, WI",WI,42.732913,-88.250323,61,59,66,69,64,64
 5568725,Rockdale village,Rockdale,"Rockdale, WI",WI,42.969984,-89.03055,60,60,67,69,63,63
-5568800,Rock Falls CDP,Rock Falls,"Rock Falls, WI",WI,44.715651,-91.699258,63,66,69,65,62,64
+5568800,Rock Falls CDP,Rock Falls,"Rock Falls, WI",WI,44.715651,-91.699258,64,66,69,65,62,64
 5568900,Rockland village,Rockland,"Rockland, WI",WI,43.907594,-90.916581,59,61,68,65,62,62
 5568975,Rock Springs village,Rock Springs,"Rock Springs, WI",WI,43.478726,-89.926906,60,61,68,68,63,63
 5569300,Rome CDP,Rome,"Rome, WI",WI,42.985323,-88.649857,60,59,66,68,63,63
@@ -31662,7 +31662,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5569950,Rubicon CDP,Rubicon,"Rubicon, WI",WI,43.337226,-88.452554,60,59,67,68,62,63
 5570000,Rudolph village,Rudolph,"Rudolph, WI",WI,44.497198,-89.801808,58,59,66,65,61,62
 5570500,St. Cloud village,St. Cloud,"St. Cloud, WI",WI,43.822438,-88.171707,59,60,67,68,63,64
-5570550,St. Croix Falls city,St. Croix Falls,"St. Croix Falls, WI",WI,45.41137,-92.624694,64,68,68,62,62,63
+5570550,St. Croix Falls city,St. Croix Falls,"St. Croix Falls, WI",WI,45.41137,-92.624694,65,68,68,62,62,63
 5570650,St. Francis city,St. Francis,"St. Francis, WI",WI,42.970968,-87.871702,63,63,70,70,66,66
 5570800,St. Joseph CDP,St. Joseph,"St. Joseph, WI",WI,43.785465,-91.043627,60,62,68,66,63,63
 5571025,St. Nazianz village,St. Nazianz,"St. Nazianz, WI",WI,44.007345,-87.924787,58,57,66,67,63,64
@@ -31678,13 +31678,13 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5572150,Schofield city,Schofield,"Schofield, WI",WI,44.913348,-89.621478,57,59,66,63,60,61
 5572475,Seneca CDP,Seneca,"Seneca, WI",WI,43.265826,-90.956582,61,62,68,68,63,63
 5572650,Sextonville CDP,Sextonville,"Sextonville, WI",WI,43.279474,-90.292373,59,60,67,68,63,63
-5572670,Seymour CDP,Seymour,"Seymour, WI",WI,44.819561,-91.436434,63,66,68,64,62,63
+5572670,Seymour CDP,Seymour,"Seymour, WI",WI,44.819561,-91.436434,64,66,68,64,62,63
 5572725,Seymour city,Seymour,"Seymour, WI",WI,44.514416,-88.32734,58,57,67,66,61,63
 5572875,Sharon village,Sharon,"Sharon, WI",WI,42.498713,-88.730451,61,59,66,69,64,63
 5572925,Shawano city,Shawano,"Shawano, WI",WI,44.777894,-88.586019,57,58,67,65,61,62
 5572975,Sheboygan city,Sheboygan,"Sheboygan, WI",WI,43.738713,-87.731531,61,63,69,69,66,66
 5573025,Sheboygan Falls city,Sheboygan Falls,"Sheboygan Falls, WI",WI,43.729279,-87.826235,60,60,67,68,64,64
-5573175,Sheldon village,Sheldon,"Sheldon, WI",WI,45.311904,-90.956665,60,63,66,61,59,61
+5573175,Sheldon village,Sheldon,"Sheldon, WI",WI,45.311904,-90.956665,61,63,66,61,59,61
 5573200,Shell Lake city,Shell Lake,"Shell Lake, WI",WI,45.72637,-91.910025,64,65,66,61,60,62
 5573525,Sherwood village,Sherwood,"Sherwood, WI",WI,44.176933,-88.275019,59,60,69,68,63,64
 5573625,Shiocton village,Shiocton,"Shiocton, WI",WI,44.445041,-88.57645,58,57,68,67,61,62
@@ -31699,7 +31699,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5574550,Soldiers Grove village,Soldiers Grove,"Soldiers Grove, WI",WI,43.392305,-90.773432,59,60,67,67,63,63
 5574575,Solon Springs village,Solon Springs,"Solon Springs, WI",WI,46.347825,-91.829388,56,62,63,58,57,59
 5574625,Somers village,Somers,"Somers, WI",WI,42.643242,-87.892166,62,61,67,71,66,66
-5574675,Somerset village,Somerset,"Somerset, WI",WI,45.125706,-92.672961,64,67,68,63,62,63
+5574675,Somerset village,Somerset,"Somerset, WI",WI,45.125706,-92.672961,65,67,68,63,62,63
 5575125,South Milwaukee city,South Milwaukee,"South Milwaukee, WI",WI,42.912643,-87.862312,63,63,69,70,66,66
 5575275,South Wayne village,South Wayne,"South Wayne, WI",WI,42.567588,-89.876146,61,60,67,70,65,63
 5575325,Sparta city,Sparta,"Sparta, WI",WI,43.938249,-90.812705,59,61,68,66,62,63
@@ -31708,14 +31708,14 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5575775,Springbrook CDP,Springbrook,"Springbrook, WI",WI,45.946907,-91.688996,60,64,65,60,59,61
 5575975,Springfield CDP,Springfield,"Springfield, WI",WI,42.640657,-88.413527,61,60,66,69,64,63
 5576025,Spring Green village,Spring Green,"Spring Green, WI",WI,43.177577,-90.068837,61,60,67,69,64,63
-5576300,Spring Valley village,Spring Valley,"Spring Valley, WI",WI,44.852311,-92.242932,63,66,67,62,61,62
-5576625,Stanley city,Stanley,"Stanley, WI",WI,44.959383,-90.943719,60,63,66,62,60,61
-5576825,Star Prairie village,Star Prairie,"Star Prairie, WI",WI,45.197508,-92.532121,63,66,67,62,61,62
+5576300,Spring Valley village,Spring Valley,"Spring Valley, WI",WI,44.852311,-92.242932,64,66,67,62,61,62
+5576625,Stanley city,Stanley,"Stanley, WI",WI,44.959383,-90.943719,62,63,66,62,60,61
+5576825,Star Prairie village,Star Prairie,"Star Prairie, WI",WI,45.197508,-92.532121,64,66,67,62,61,62
 5577100,Stetsonville village,Stetsonville,"Stetsonville, WI",WI,45.077056,-90.314273,58,60,66,61,59,60
 5577175,Steuben village,Steuben,"Steuben, WI",WI,43.183354,-90.856936,60,61,68,68,63,63
 5577200,Stevens Point city,Stevens Point,"Stevens Point, WI",WI,44.5253,-89.550377,58,60,67,66,61,62
 5577400,Stockbridge village,Stockbridge,"Stockbridge, WI",WI,44.068447,-88.309707,60,62,66,67,63,64
-5577475,Stockholm village,Stockholm,"Stockholm, WI",WI,44.490989,-92.272135,65,67,70,65,63,64
+5577475,Stockholm village,Stockholm,"Stockholm, WI",WI,44.490989,-92.272135,66,67,70,65,63,64
 5577550,Stoddard village,Stoddard,"Stoddard, WI",WI,43.662514,-91.212852,61,62,66,67,63,63
 5577625,Stone Lake CDP,Stone Lake,"Stone Lake, WI",WI,45.838934,-91.552094,62,65,66,61,61,62
 5577675,Stoughton city,Stoughton,"Stoughton, WI",WI,42.923769,-89.222515,60,60,67,69,64,63
@@ -31732,7 +31732,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5578660,Superior village,Superior,"Superior, WI",WI,46.648749,-92.108872,51,57,58,54,54,55
 5578725,Suring village,Suring,"Suring, WI",WI,45.000727,-88.369325,55,57,66,64,60,62
 5578750,Sussex village,Sussex,"Sussex, WI",WI,43.134854,-88.226041,60,59,67,68,63,63
-5578980,Tainter Lake CDP,Tainter Lake,"Tainter Lake, WI",WI,44.989094,-91.848207,63,66,68,64,61,63
+5578980,Tainter Lake CDP,Tainter Lake,"Tainter Lake, WI",WI,44.989094,-91.848207,64,66,68,64,61,63
 5579100,Taycheedah CDP,Taycheedah,"Taycheedah, WI",WI,43.812533,-88.388613,61,61,69,68,63,64
 5579150,Taylor village,Taylor,"Taylor, WI",WI,44.321748,-91.120505,60,61,67,63,61,62
 5579250,Tennyson village,Tennyson,"Tennyson, WI",WI,42.690615,-90.686704,62,62,68,70,65,65
@@ -31746,7 +31746,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5579900,Tilleda CDP,Tilleda,"Tilleda, WI",WI,44.815522,-88.912575,58,59,67,64,60,61
 5580075,Tomah city,Tomah,"Tomah, WI",WI,43.98801,-90.50138,58,60,68,65,62,63
 5580125,Tomahawk city,Tomahawk,"Tomahawk, WI",WI,45.478961,-89.711773,57,59,64,61,59,60
-5580225,Tony village,Tony,"Tony, WI",WI,45.480315,-90.997158,59,63,65,60,59,60
+5580225,Tony village,Tony,"Tony, WI",WI,45.480315,-90.997158,60,63,65,60,59,60
 5580300,Townsend CDP,Townsend,"Townsend, WI",WI,45.324031,-88.590417,54,57,64,61,58,58
 5580425,Trego CDP,Trego,"Trego, WI",WI,45.905802,-91.83106,61,65,65,60,60,61
 5580475,Trempealeau village,Trempealeau,"Trempealeau, WI",WI,44.002233,-91.428001,62,63,67,66,63,63
@@ -31800,7 +31800,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5586275,West Salem village,West Salem,"West Salem, WI",WI,43.898534,-91.087453,60,62,68,66,63,63
 5586400,Weyauwega city,Weyauwega,"Weyauwega, WI",WI,44.323593,-88.933131,58,58,67,67,62,62
 5586450,Weyerhaeuser village,Weyerhaeuser,"Weyerhaeuser, WI",WI,45.425644,-91.41524,61,65,66,62,60,62
-5586575,Wheeler village,Wheeler,"Wheeler, WI",WI,45.043822,-91.89933,63,66,68,64,61,63
+5586575,Wheeler village,Wheeler,"Wheeler, WI",WI,45.043822,-91.89933,64,66,68,64,61,63
 5586700,Whitefish Bay village,Whitefish Bay,"Whitefish Bay, WI",WI,43.113137,-87.900475,62,61,66,69,65,64
 5586725,Whitehall city,Whitehall,"Whitehall, WI",WI,44.360516,-91.337802,61,62,68,64,62,63
 5586750,White Lake village,White Lake,"White Lake, WI",WI,45.159693,-88.763418,55,58,64,62,59,60
@@ -31810,7 +31810,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 5587000,Whittlesey CDP,Whittlesey,"Whittlesey, WI",WI,45.220619,-90.323224,58,60,65,61,59,60
 5587075,Wild Rose village,Wild Rose,"Wild Rose, WI",WI,44.178282,-89.244468,57,59,66,66,61,62
 5587200,Williams Bay village,Williams Bay,"Williams Bay, WI",WI,42.578848,-88.545719,61,59,66,67,63,62
-5587475,Wilson village,Wilson,"Wilson, WI",WI,44.958611,-92.170494,62,66,67,62,60,62
+5587475,Wilson village,Wilson,"Wilson, WI",WI,44.958611,-92.170494,63,66,67,62,60,62
 5587525,Wilton village,Wilton,"Wilton, WI",WI,43.813263,-90.52686,59,61,68,66,62,63
 5587625,Winchester CDP,Winchester,"Winchester, WI",WI,44.198236,-88.659907,59,58,68,67,62,64
 5587675,Wind Lake CDP,Wind Lake,"Wind Lake, WI",WI,42.827839,-88.154651,62,60,67,69,64,64
@@ -32048,10 +32048,10 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 7201089,Aguilita comunidad,Aguilita,"Aguilita, PR",PR,18.028544,-66.534059,,,,,,
 7201218,Aibonito zona urbana,Aibonito,"Aibonito, PR",PR,18.140051,-66.266355,,,,,,
 7201863,Alianza comunidad,Alianza,"Alianza, PR",PR,18.453449,-66.855599,,,,,,
-7202680,AÃ±asco zona urbana,AÃ±asco,"AÃ±asco, PR",PR,18.285525,-67.14012,,,,,,
+7202680,Añasco zona urbana,Añasco,"Añasco, PR",PR,18.285525,-67.14012,,,,,,
 7203024,Animas comunidad,Animas,"Animas, PR",PR,18.445744,-66.636436,,,,,,
 7203174,Anon Raices comunidad,Anon Raices,"Anon Raices, PR",PR,18.139059,-66.58577,,,,,,
-7203196,AntÃ³n RuÃ­z comunidad,AntÃ³n RuÃ­z,"AntÃ³n RuÃ­z, PR",PR,18.188269,-65.807881,,,,,,
+7203196,Antón Ruíz comunidad,Antón Ruíz,"Antón Ruíz, PR",PR,18.188269,-65.807881,,,,,,
 7203368,Arecibo zona urbana,Arecibo,"Arecibo, PR",PR,18.45486,-66.735442,,,,,,
 7203927,Arroyo zona urbana,Arroyo,"Arroyo, PR",PR,17.969618,-66.059899,,,,,,
 7204620,Bairoa La Veinticinco comunidad,Bairoa La Veinticinco,"Bairoa La Veinticinco, PR",PR,18.263567,-66.021499,,,,,,
@@ -32061,18 +32061,18 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 7205346,Barceloneta zona urbana,Barceloneta,"Barceloneta, PR",PR,18.452974,-66.538085,,,,,,
 7205690,Barranquitas zona urbana,Barranquitas,"Barranquitas, PR",PR,18.184765,-66.310174,,,,,,
 7206421,Bartolo comunidad,Bartolo,"Bartolo, PR",PR,18.362003,-65.841366,,,,,,
-7206593,BayamÃ³n zona urbana,BayamÃ³n,"BayamÃ³n, PR",PR,18.380055,-66.163253,,,,,,
-7206679,BayamÃ³n comunidad,BayamÃ³n,"BayamÃ³n, PR",PR,18.178136,-66.109726,,,,,,
-7207496,BenÃ­tez comunidad,BenÃ­tez,"BenÃ­tez, PR",PR,18.272533,-65.878831,,,,,,
+7206593,Bayamón zona urbana,Bayamón,"Bayamón, PR",PR,18.380055,-66.163253,,,,,,
+7206679,Bayamón comunidad,Bayamón,"Bayamón, PR",PR,18.178136,-66.109726,,,,,,
+7207496,Benítez comunidad,Benítez,"Benítez, PR",PR,18.272533,-65.878831,,,,,,
 7207668,Betances comunidad,Betances,"Betances, PR",PR,18.029568,-67.133546,,,,,,
-7207969,BoquerÃ³n comunidad,BoquerÃ³n,"BoquerÃ³n, PR",PR,18.034077,-67.171443,,,,,,
-7208099,BoquerÃ³n comunidad,BoquerÃ³n,"BoquerÃ³n, PR",PR,18.200145,-65.843879,,,,,,
-7208700,BreÃ±as comunidad,BreÃ±as,"BreÃ±as, PR",PR,18.473299,-66.334609,,,,,,
+7207969,Boquerón comunidad,Boquerón,"Boquerón, PR",PR,18.034077,-67.171443,,,,,,
+7208099,Boquerón comunidad,Boquerón,"Boquerón, PR",PR,18.200145,-65.843879,,,,,,
+7208700,Breñas comunidad,Breñas,"Breñas, PR",PR,18.473299,-66.334609,,,,,,
 7208722,Brisas del Campanero comunidad,Brisas del Campanero,"Brisas del Campanero, PR",PR,18.431598,-66.226068,,,,,,
 7209087,Buena Vista comunidad,Buena Vista,"Buena Vista, PR",PR,17.996468,-66.05155,,,,,,
 7209250,Buena Vista comunidad,Buena Vista,"Buena Vista, PR",PR,18.115311,-65.799057,,,,,,
-7209603,BÃºfalo comunidad,BÃºfalo,"BÃºfalo, PR",PR,18.416531,-66.57501,,,,,,
-7209689,CabÃ¡n comunidad,CabÃ¡n,"CabÃ¡n, PR",PR,18.445009,-67.136271,,,,,,
+7209603,Búfalo comunidad,Búfalo,"Búfalo, PR",PR,18.416531,-66.57501,,,,,,
+7209689,Cabán comunidad,Cabán,"Cabán, PR",PR,18.445009,-67.136271,,,,,,
 7209861,Cabo Rojo zona urbana,Cabo Rojo,"Cabo Rojo, PR",PR,18.086717,-67.148266,,,,,,
 7210048,Cacao comunidad,Cacao,"Cacao, PR",PR,18.452026,-66.956314,,,,,,
 7210334,Caguas zona urbana,Caguas,"Caguas, PR",PR,18.232149,-66.039035,,,,,,
@@ -32086,13 +32086,13 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 7212560,Candelaria Arenas comunidad,Candelaria Arenas,"Candelaria Arenas, PR",PR,18.417251,-66.220527,,,,,,
 7212568,Candelero Abajo comunidad,Candelero Abajo,"Candelero Abajo, PR",PR,18.094167,-65.816456,,,,,,
 7212613,Candelero Arriba comunidad,Candelero Arriba,"Candelero Arriba, PR",PR,18.101667,-65.834242,,,,,,
-7212806,CaÃ±o Martin PeÃ±a comunidad,CaÃ±o Martin PeÃ±a,"CaÃ±o Martin PeÃ±a, PR",PR,18.430367,-66.05007,,,,,,
-7212828,CanÃ³vanas zona urbana,CanÃ³vanas,"CanÃ³vanas, PR",PR,18.369209,-65.900894,,,,,,
+7212806,Caño Martin Peña comunidad,Caño Martin Peña,"Caño Martin Peña, PR",PR,18.430367,-66.05007,,,,,,
+7212828,Canóvanas zona urbana,Canóvanas,"Canóvanas, PR",PR,18.369209,-65.900894,,,,,,
 7213065,Canovanillas comunidad,Canovanillas,"Canovanillas, PR",PR,18.334528,-65.903963,,,,,,
 7213925,Capitanejo comunidad,Capitanejo,"Capitanejo, PR",PR,18.013122,-66.535641,,,,,,
 7214290,Carolina zona urbana,Carolina,"Carolina, PR",PR,18.412076,-65.979806,,,,,,
 7214634,Carrizales comunidad,Carrizales,"Carrizales, PR",PR,18.481088,-66.78791,,,,,,
-7215193,CataÃ±o zona urbana,CataÃ±o,"CataÃ±o, PR",PR,18.438069,-66.138834,,,,,,
+7215193,Cataño zona urbana,Cataño,"Cataño, PR",PR,18.438069,-66.138834,,,,,,
 7215494,Cayey zona urbana,Cayey,"Cayey, PR",PR,18.115296,-66.162877,,,,,,
 7215623,Cayuco comunidad,Cayuco,"Cayuco, PR",PR,18.29229,-66.734847,,,,,,
 7215924,Ceiba zona urbana,Ceiba,"Ceiba, PR",PR,18.264971,-65.648816,,,,,,
@@ -32104,10 +32104,10 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 7218074,Cidra zona urbana,Cidra,"Cidra, PR",PR,18.177505,-66.158486,,,,,,
 7218719,Coamo zona urbana,Coamo,"Coamo, PR",PR,18.078302,-66.363161,,,,,,
 7218891,Coco comunidad,Coco,"Coco, PR",PR,18.001277,-66.2607,,,,,,
-7219665,ComerÃ­o zona urbana,ComerÃ­o,"ComerÃ­o, PR",PR,18.219489,-66.225053,,,,,,
+7219665,Comerío zona urbana,Comerío,"Comerío, PR",PR,18.219489,-66.225053,,,,,,
 7219837,Comunas comunidad,Comunas,"Comunas, PR",PR,18.084569,-65.843537,,,,,,
-7220310,CoquÃ­ comunidad,CoquÃ­,"CoquÃ­, PR",PR,17.979286,-66.225551,,,,,,
-7220353,CorazÃ³n comunidad,CorazÃ³n,"CorazÃ³n, PR",PR,17.994008,-66.083355,,,,,,
+7220310,Coquí comunidad,Coquí,"Coquí, PR",PR,17.979286,-66.225551,,,,,,
+7220353,Corazón comunidad,Corazón,"Corazón, PR",PR,17.994008,-66.083355,,,,,,
 7220482,Corcovado comunidad,Corcovado,"Corcovado, PR",PR,18.461018,-66.777761,,,,,,
 7220783,Corozal zona urbana,Corozal,"Corozal, PR",PR,18.340988,-66.312464,,,,,,
 7220998,Corral Viejo comunidad,Corral Viejo,"Corral Viejo, PR",PR,18.075455,-66.652336,,,,,,
@@ -32119,40 +32119,40 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 7224008,Dorado zona urbana,Dorado,"Dorado, PR",PR,18.468976,-66.271108,,,,,,
 7224395,Duque comunidad,Duque,"Duque, PR",PR,18.237407,-65.742358,,,,,,
 7224954,El Combate comunidad,El Combate,"El Combate, PR",PR,17.983103,-67.208935,,,,,,
-7225556,El MangÃ³ comunidad,El MangÃ³,"El MangÃ³, PR",PR,18.23446,-65.875112,,,,,,
+7225556,El Mangó comunidad,El Mangó,"El Mangó, PR",PR,18.23446,-65.875112,,,,,,
 7225685,El Negro comunidad,El Negro,"El Negro, PR",PR,18.036932,-65.849446,,,,,,
 7225771,El Ojo comunidad,El Ojo,"El Ojo, PR",PR,18.003807,-66.391842,,,,,,
 7225835,El Paraiso comunidad,El Paraiso,"El Paraiso, PR",PR,18.064841,-66.602092,,,,,,
 7226287,El Tumbao comunidad,El Tumbao,"El Tumbao, PR",PR,18.000925,-66.902147,,,,,,
-7226362,El VeintisÃ©is comunidad,El VeintisÃ©is,"El VeintisÃ©is, PR",PR,18.439347,-66.203439,,,,,,
+7226362,El Veintiséis comunidad,El Veintiséis,"El Veintiséis, PR",PR,18.439347,-66.203439,,,,,,
 7226502,Emajagua comunidad,Emajagua,"Emajagua, PR",PR,18.001517,-65.882959,,,,,,
 7227190,Esperanza comunidad,Esperanza,"Esperanza, PR",PR,18.102317,-65.479735,,,,,,
 7227263,Espino comunidad,Espino,"Espino, PR",PR,18.279328,-67.119838,,,,,,
 7227964,Fajardo zona urbana,Fajardo,"Fajardo, PR",PR,18.333339,-65.657626,,,,,,
 7228367,Ferrer comunidad,Ferrer,"Ferrer, PR",PR,18.405378,-67.067185,,,,,,
 7228824,Florida zona urbana,Florida,"Florida, PR",PR,18.364524,-66.561275,,,,,,
-7229555,FrÃ¡nquez comunidad,FrÃ¡nquez,"FrÃ¡nquez, PR",PR,18.340069,-66.42764,,,,,,
-7229682,FrontÃ³n comunidad,FrontÃ³n,"FrontÃ³n, PR",PR,18.309652,-66.560254,,,,,,
+7229555,Fránquez comunidad,Fránquez,"Fránquez, PR",PR,18.340069,-66.42764,,,,,,
+7229682,Frontón comunidad,Frontón,"Frontón, PR",PR,18.309652,-66.560254,,,,,,
 7229727,Fuig comunidad,Fuig,"Fuig, PR",PR,17.986287,-66.91711,,,,,,
 7229813,Galateo comunidad,Galateo,"Galateo, PR",PR,18.364048,-66.261809,,,,,,
 7230372,Garrochales comunidad,Garrochales,"Garrochales, PR",PR,18.457199,-66.567551,,,,,,
-7230544,G. L. GarcÃ­a comunidad,G. L. GarcÃ­a,"G. L. GarcÃ­a, PR",PR,18.125902,-66.102608,,,,,,
-7231189,GuÃ¡nica zona urbana,GuÃ¡nica,"GuÃ¡nica, PR",PR,17.968376,-66.929187,,,,,,
+7230544,G. L. García comunidad,G. L. García,"G. L. García, PR",PR,18.125902,-66.102608,,,,,,
+7231189,Guánica zona urbana,Guánica,"Guánica, PR",PR,17.968376,-66.929187,,,,,,
 7231877,Guayabal comunidad,Guayabal,"Guayabal, PR",PR,18.076049,-66.501674,,,,,,
 7232221,Guayama zona urbana,Guayama,"Guayama, PR",PR,17.973819,-66.111498,,,,,,
 7232307,Guayanilla zona urbana,Guayanilla,"Guayanilla, PR",PR,18.022118,-66.789772,,,,,,
 7232522,Guaynabo zona urbana,Guaynabo,"Guaynabo, PR",PR,18.38399,-66.114942,,,,,,
 7232823,Gurabo zona urbana,Gurabo,"Gurabo, PR",PR,18.252607,-65.978641,,,,,,
-7233184,Hacienda San JosÃ© comunidad,Hacienda San JosÃ©,"Hacienda San JosÃ©, PR",PR,18.239749,-66.0737,,,,,,
+7233184,Hacienda San José comunidad,Hacienda San José,"Hacienda San José, PR",PR,18.239749,-66.0737,,,,,,
 7233296,Hatillo zona urbana,Hatillo,"Hatillo, PR",PR,18.483817,-66.822157,,,,,,
 7233597,Hato Arriba comunidad,Hato Arriba,"Hato Arriba, PR",PR,18.351982,-67.033598,,,,,,
 7233683,Hato Candal comunidad,Hato Candal,"Hato Candal, PR",PR,18.37318,-65.790598,,,,,,
 7234242,Hato Viejo comunidad,Hato Viejo,"Hato Viejo, PR",PR,18.35978,-66.481138,,,,,,
 7234914,Honduras comunidad,Honduras,"Honduras, PR",PR,18.141188,-66.200504,,,,,,
 7235059,Hormigueros zona urbana,Hormigueros,"Hormigueros, PR",PR,18.143559,-67.120577,,,,,,
-7235403,H. Rivera ColÃ³n comunidad,H. Rivera ColÃ³n,"H. Rivera ColÃ³n, PR",PR,18.34925,-66.276327,,,,,,
+7235403,H. Rivera Colón comunidad,H. Rivera Colón,"H. Rivera Colón, PR",PR,18.34925,-66.276327,,,,,,
 7235532,Humacao zona urbana,Humacao,"Humacao, PR",PR,18.151768,-65.820599,,,,,,
-7235962,ImbÃ©ry comunidad,ImbÃ©ry,"ImbÃ©ry, PR",PR,18.437106,-66.556498,,,,,,
+7235962,Imbéry comunidad,Imbéry,"Imbéry, PR",PR,18.437106,-66.556498,,,,,,
 7236177,Indios comunidad,Indios,"Indios, PR",PR,17.997254,-66.81937,,,,,,
 7236263,Ingenio comunidad,Ingenio,"Ingenio, PR",PR,18.445238,-66.22389,,,,,,
 7236478,Isabela zona urbana,Isabela,"Isabela, PR",PR,18.501749,-67.023722,,,,,,
@@ -32162,7 +32162,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 7238241,Jauca comunidad,Jauca,"Jauca, PR",PR,17.96257,-66.366984,,,,,,
 7238370,Jayuya zona urbana,Jayuya,"Jayuya, PR",PR,18.219801,-66.598311,,,,,,
 7238671,Jobos comunidad,Jobos,"Jobos, PR",PR,17.960716,-66.165519,,,,,,
-7238972,Juana DÃ­az zona urbana,Juana DÃ­az,"Juana DÃ­az, PR",PR,18.053345,-66.504734,,,,,,
+7238972,Juana Díaz zona urbana,Juana Díaz,"Juana Díaz, PR",PR,18.053345,-66.504734,,,,,,
 7239470,Juncal comunidad,Juncal,"Juncal, PR",PR,18.312385,-66.921834,,,,,,
 7239574,Juncos zona urbana,Juncos,"Juncos, PR",PR,18.225798,-65.915876,,,,,,
 7239875,La Alianza comunidad,La Alianza,"La Alianza, PR",PR,18.395072,-66.597472,,,,,,
@@ -32180,38 +32180,38 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 7242842,Las Carolinas comunidad,Las Carolinas,"Las Carolinas, PR",PR,18.253768,-66.064316,,,,,,
 7243057,Las Croabas comunidad,Las Croabas,"Las Croabas, PR",PR,18.367729,-65.630588,,,,,,
 7243294,Las Gaviotas comunidad,Las Gaviotas,"Las Gaviotas, PR",PR,18.436804,-66.190702,,,,,,
-7243702,Las MarÃ­as comunidad,Las MarÃ­as,"Las MarÃ­as, PR",PR,18.292696,-67.144542,,,,,,
-7243788,Las MarÃ­as zona urbana,Las MarÃ­as,"Las MarÃ­as, PR",PR,18.254593,-66.986945,,,,,,
+7243702,Las Marías comunidad,Las Marías,"Las Marías, PR",PR,18.292696,-67.144542,,,,,,
+7243788,Las Marías zona urbana,Las Marías,"Las Marías, PR",PR,18.254593,-66.986945,,,,,,
 7244003,Las Ochenta comunidad,Las Ochenta,"Las Ochenta, PR",PR,17.983895,-66.317691,,,,,,
 7244089,Las Ollas comunidad,Las Ollas,"Las Ollas, PR",PR,18.014654,-66.42116,,,,,,
 7244390,Las Piedras zona urbana,Las Piedras,"Las Piedras, PR",PR,18.17867,-65.871079,,,,,,
 7244507,Lassalle comunidad,Lassalle,"Lassalle, PR",PR,18.385599,-67.061621,,,,,,
 7245170,La Yuca comunidad,La Yuca,"La Yuca, PR",PR,18.072734,-66.607733,,,,,,
-7245379,Liborio NegrÃ³n Torres comunidad,Liborio NegrÃ³n Torres,"Liborio NegrÃ³n Torres, PR",PR,18.043095,-66.942801,,,,,,
+7245379,Liborio Negrón Torres comunidad,Liborio Negrón Torres,"Liborio Negrón Torres, PR",PR,18.043095,-66.942801,,,,,,
 7246282,Lluveras comunidad,Lluveras,"Lluveras, PR",PR,18.038008,-66.90376,,,,,,
-7246368,LoÃ­za zona urbana,LoÃ­za,"LoÃ­za, PR",PR,18.433056,-65.878011,,,,,,
+7246368,Loíza zona urbana,Loíza,"Loíza, PR",PR,18.433056,-65.878011,,,,,,
 7246626,Lomas comunidad,Lomas,"Lomas, PR",PR,18.268759,-65.909583,,,,,,
 7246800,Lomas Verdes comunidad,Lomas Verdes,"Lomas Verdes, PR",PR,18.38226,-67.120054,,,,,,
-7246960,Los HÃ©roes comunidad,Los HÃ©roes,"Los HÃ©roes, PR",PR,18.391074,-67.118732,,,,,,
+7246960,Los Héroes comunidad,Los Héroes,"Los Héroes, PR",PR,18.391074,-67.118732,,,,,,
 7247013,Los Llanos comunidad,Los Llanos,"Los Llanos, PR",PR,18.057963,-66.409135,,,,,,
 7247336,Los Panes comunidad,Los Panes,"Los Panes, PR",PR,18.184869,-66.076127,,,,,,
 7247422,Los Prados comunidad,Los Prados,"Los Prados, PR",PR,18.23301,-66.062138,,,,,,
-7247615,Luis LlorÃ©ns Torres comunidad,Luis LlorÃ©ns Torres,"Luis LlorÃ©ns Torres, PR",PR,18.056544,-66.526722,,,,,,
-7247701,Luis M. CintrÃ³n comunidad,Luis M. CintrÃ³n,"Luis M. CintrÃ³n, PR",PR,18.301384,-65.637833,,,,,,
+7247615,Luis Lloréns Torres comunidad,Luis Lloréns Torres,"Luis Lloréns Torres, PR",PR,18.056544,-66.526722,,,,,,
+7247701,Luis M. Cintrón comunidad,Luis M. Cintrón,"Luis M. Cintrón, PR",PR,18.301384,-65.637833,,,,,,
 7247787,Luquillo zona urbana,Luquillo,"Luquillo, PR",PR,18.375668,-65.72092,,,,,,
 7247873,Luyando comunidad,Luyando,"Luyando, PR",PR,18.357471,-67.155343,,,,,,
 7248604,Magas Arriba comunidad,Magas Arriba,"Magas Arriba, PR",PR,18.023426,-66.766443,,,,,,
 7248862,Maguayo comunidad,Maguayo,"Maguayo, PR",PR,18.009988,-67.085439,,,,,,
-7250152,ManatÃ­ zona urbana,ManatÃ­,"ManatÃ­, PR",PR,18.431295,-66.477145,,,,,,
-7250260,MansiÃ³n del Mar comunidad,MansiÃ³n del Mar,"MansiÃ³n del Mar, PR",PR,18.446857,-66.178596,,,,,,
-7250270,MansiÃ³n del Sol comunidad,MansiÃ³n del Sol,"MansiÃ³n del Sol, PR",PR,18.437018,-66.193697,,,,,,
-7250754,MarÃ­a Antonia comunidad,MarÃ­a Antonia,"MarÃ­a Antonia, PR",PR,17.978262,-66.889853,,,,,,
-7251055,Mariano ColÃ³n comunidad,Mariano ColÃ³n,"Mariano ColÃ³n, PR",PR,18.028675,-66.33563,,,,,,
+7250152,Manatí zona urbana,Manatí,"Manatí, PR",PR,18.431295,-66.477145,,,,,,
+7250260,Mansión del Mar comunidad,Mansión del Mar,"Mansión del Mar, PR",PR,18.446857,-66.178596,,,,,,
+7250270,Mansión del Sol comunidad,Mansión del Sol,"Mansión del Sol, PR",PR,18.437018,-66.193697,,,,,,
+7250754,María Antonia comunidad,María Antonia,"María Antonia, PR",PR,17.978262,-66.889853,,,,,,
+7251055,Mariano Colón comunidad,Mariano Colón,"Mariano Colón, PR",PR,18.028675,-66.33563,,,,,,
 7251270,Maricao zona urbana,Maricao,"Maricao, PR",PR,18.181836,-66.977403,,,,,,
 7251657,Martorell comunidad,Martorell,"Martorell, PR",PR,18.07304,-65.897671,,,,,,
-7251700,MarueÃ±o comunidad,MarueÃ±o,"MarueÃ±o, PR",PR,18.05842,-66.656864,,,,,,
+7251700,Marueño comunidad,Marueño,"Marueño, PR",PR,18.05842,-66.656864,,,,,,
 7252345,Maunabo zona urbana,Maunabo,"Maunabo, PR",PR,18.006268,-65.90122,,,,,,
-7252431,MayagÃ¼ez zona urbana,MayagÃ¼ez,"MayagÃ¼ez, PR",PR,18.201221,-67.14178,,,,,,
+7252431,Mayagüez zona urbana,Mayagüez,"Mayagüez, PR",PR,18.201221,-67.14178,,,,,,
 7253678,Miranda comunidad,Miranda,"Miranda, PR",PR,18.387052,-66.372629,,,,,,
 7253807,Moca zona urbana,Moca,"Moca, PR",PR,18.394248,-67.113821,,,,,,
 7253979,Monserrate comunidad,Monserrate,"Monserrate, PR",PR,18.43711,-66.356638,,,,,,
@@ -32225,7 +32225,7 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 7257075,Olimpo comunidad,Olimpo,"Olimpo, PR",PR,18.003243,-66.110063,,,,,,
 7257290,Orocovis zona urbana,Orocovis,"Orocovis, PR",PR,18.225851,-66.390193,,,,,,
 7257612,Pabellones comunidad,Pabellones,"Pabellones, PR",PR,18.441212,-66.215608,,,,,,
-7257806,PÃ¡jaros comunidad,PÃ¡jaros,"PÃ¡jaros, PR",PR,18.36093,-66.218404,,,,,,
+7257806,Pájaros comunidad,Pájaros,"Pájaros, PR",PR,18.36093,-66.218404,,,,,,
 7257862,Pajonal comunidad,Pajonal,"Pajonal, PR",PR,18.384657,-66.555982,,,,,,
 7257978,Palmarejo comunidad,Palmarejo,"Palmarejo, PR",PR,18.068197,-66.326629,,,,,,
 7258064,Palmarejo comunidad,Palmarejo,"Palmarejo, PR",PR,18.31481,-66.292326,,,,,,
@@ -32241,15 +32241,15 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 7259420,Parcelas La Milagrosa comunidad,Parcelas La Milagrosa,"Parcelas La Milagrosa, PR",PR,18.171508,-66.186848,,,,,,
 7259422,Parcelas Mandry comunidad,Parcelas Mandry,"Parcelas Mandry, PR",PR,18.081023,-66.562711,,,,,,
 7259425,Parcelas Nuevas comunidad,Parcelas Nuevas,"Parcelas Nuevas, PR",PR,18.139985,-66.170236,,,,,,
-7259440,Parcelas PeÃ±uelas comunidad,Parcelas PeÃ±uelas,"Parcelas PeÃ±uelas, PR",PR,18.009007,-66.353437,,,,,,
+7259440,Parcelas Peñuelas comunidad,Parcelas Peñuelas,"Parcelas Peñuelas, PR",PR,18.009007,-66.353437,,,,,,
 7259450,Parcelas Viejas Borinquen comunidad,Parcelas Viejas Borinquen,"Parcelas Viejas Borinquen, PR",PR,18.173854,-66.04062,,,,,,
 7260257,Pastos comunidad,Pastos,"Pastos, PR",PR,18.119292,-66.26009,,,,,,
 7260472,Patillas zona urbana,Patillas,"Patillas, PR",PR,18.006914,-66.013453,,,,,,
-7260945,PeÃ±a Pobre comunidad,PeÃ±a Pobre,"PeÃ±a Pobre, PR",PR,18.217437,-65.822196,,,,,,
-7261074,PeÃ±uelas zona urbana,PeÃ±uelas,"PeÃ±uelas, PR",PR,18.059634,-66.72114,,,,,,
+7260945,Peña Pobre comunidad,Peña Pobre,"Peña Pobre, PR",PR,18.217437,-65.822196,,,,,,
+7261074,Peñuelas zona urbana,Peñuelas,"Peñuelas, PR",PR,18.059634,-66.72114,,,,,,
 7261545,Piedra Aguza comunidad,Piedra Aguza,"Piedra Aguza, PR",PR,18.035065,-66.494593,,,,,,
 7261590,Piedra Gorda comunidad,Piedra Gorda,"Piedra Gorda, PR",PR,18.434194,-66.886085,,,,,,
-7261977,PiÃ±as comunidad,PiÃ±as,"PiÃ±as, PR",PR,18.190153,-66.233168,,,,,,
+7261977,Piñas comunidad,Piñas,"Piñas, PR",PR,18.190153,-66.233168,,,,,,
 7263310,Playa Fortuna comunidad,Playa Fortuna,"Playa Fortuna, PR",PR,18.378224,-65.743837,,,,,,
 7263503,Playita comunidad,Playita,"Playita, PR",PR,17.961086,-66.288982,,,,,,
 7263525,Playita comunidad,Playita,"Playita, PR",PR,18.040482,-65.907109,,,,,,
@@ -32258,25 +32258,25 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 7263820,Ponce zona urbana,Ponce,"Ponce, PR",PR,17.999711,-66.62368,,,,,,
 7264127,Potala Pastillo comunidad,Potala Pastillo,"Potala Pastillo, PR",PR,17.992035,-66.496718,,,,,,
 7264400,Pueblito del Carmen comunidad,Pueblito del Carmen,"Pueblito del Carmen, PR",PR,18.031545,-66.165577,,,,,,
-7264500,Pueblito del RÃ­o comunidad,Pueblito del RÃ­o,"Pueblito del RÃ­o, PR",PR,18.227979,-65.861538,,,,,,
+7264500,Pueblito del Río comunidad,Pueblito del Río,"Pueblito del Río, PR",PR,18.227979,-65.861538,,,,,,
 7265589,Puerto Real comunidad,Puerto Real,"Puerto Real, PR",PR,18.076433,-67.18733,,,,,,
 7266492,Punta Santiago comunidad,Punta Santiago,"Punta Santiago, PR",PR,18.16093,-65.758798,,,,,,
 7266660,Quebrada comunidad,Quebrada,"Quebrada, PR",PR,18.360396,-66.835453,,,,,,
 7267200,Quebrada del Agua comunidad,Quebrada del Agua,"Quebrada del Agua, PR",PR,18.038629,-66.683928,,,,,,
 7267675,Quebrada Prieta comunidad,Quebrada Prieta,"Quebrada Prieta, PR",PR,18.294274,-65.903756,,,,,,
 7268040,Quebradillas zona urbana,Quebradillas,"Quebradillas, PR",PR,18.471343,-66.934902,,,,,,
-7268513,Rafael CapÃ³ comunidad,Rafael CapÃ³,"Rafael CapÃ³, PR",PR,18.398961,-66.792007,,,,,,
-7268556,Rafael GonzÃ¡lez comunidad,Rafael GonzÃ¡lez,"Rafael GonzÃ¡lez, PR",PR,18.425379,-66.78436,,,,,,
-7268599,Rafael HernÃ¡ndez comunidad,Rafael HernÃ¡ndez,"Rafael HernÃ¡ndez, PR",PR,18.471859,-67.078583,,,,,,
+7268513,Rafael Capó comunidad,Rafael Capó,"Rafael Capó, PR",PR,18.398961,-66.792007,,,,,,
+7268556,Rafael González comunidad,Rafael González,"Rafael González, PR",PR,18.425379,-66.78436,,,,,,
+7268599,Rafael Hernández comunidad,Rafael Hernández,"Rafael Hernández, PR",PR,18.471859,-67.078583,,,,,,
 7268771,Ramos comunidad,Ramos,"Ramos, PR",PR,18.33891,-65.711101,,,,,,
-7269488,RincÃ³n comunidad,RincÃ³n,"RincÃ³n, PR",PR,18.14991,-66.156897,,,,,,
-7269588,RincÃ³n zona urbana,RincÃ³n,"RincÃ³n, PR",PR,18.338814,-67.251634,,,,,,
-7270448,RÃ­o Blanco comunidad,RÃ­o Blanco,"RÃ­o Blanco, PR",PR,18.212326,-65.792979,,,,,,
-7270706,RÃ­o CaÃ±as Abajo comunidad,RÃ­o CaÃ±as Abajo,"RÃ­o CaÃ±as Abajo, PR",PR,18.039826,-66.468157,,,,,,
-7271136,RÃ­o Grande zona urbana,RÃ­o Grande,"RÃ­o Grande, PR",PR,18.378897,-65.838892,,,,,,
-7271437,RÃ­o Lajas comunidad,RÃ­o Lajas,"RÃ­o Lajas, PR",PR,18.396452,-66.263465,,,,,,
-7271996,RodrÃ­guez Hevia comunidad,RodrÃ­guez Hevia,"RodrÃ­guez Hevia, PR",PR,18.202034,-66.182221,,,,,,
-7272555,Rosa SÃ¡nchez comunidad,Rosa SÃ¡nchez,"Rosa SÃ¡nchez, PR",PR,18.061788,-65.913635,,,,,,
+7269488,Rincón comunidad,Rincón,"Rincón, PR",PR,18.14991,-66.156897,,,,,,
+7269588,Rincón zona urbana,Rincón,"Rincón, PR",PR,18.338814,-67.251634,,,,,,
+7270448,Río Blanco comunidad,Río Blanco,"Río Blanco, PR",PR,18.212326,-65.792979,,,,,,
+7270706,Río Cañas Abajo comunidad,Río Cañas Abajo,"Río Cañas Abajo, PR",PR,18.039826,-66.468157,,,,,,
+7271136,Río Grande zona urbana,Río Grande,"Río Grande, PR",PR,18.378897,-65.838892,,,,,,
+7271437,Río Lajas comunidad,Río Lajas,"Río Lajas, PR",PR,18.396452,-66.263465,,,,,,
+7271996,Rodríguez Hevia comunidad,Rodríguez Hevia,"Rodríguez Hevia, PR",PR,18.202034,-66.182221,,,,,,
+7272555,Rosa Sánchez comunidad,Rosa Sánchez,"Rosa Sánchez, PR",PR,18.061788,-65.913635,,,,,,
 7273200,Sabana comunidad,Sabana,"Sabana, PR",PR,18.464311,-66.351671,,,,,,
 7273372,Sabana Eneas comunidad,Sabana Eneas,"Sabana Eneas, PR",PR,18.080974,-67.085196,,,,,,
 7273544,Sabana Grande zona urbana,Sabana Grande,"Sabana Grande, PR",PR,18.082648,-66.964025,,,,,,
@@ -32286,19 +32286,19 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 7275608,San Antonio comunidad,San Antonio,"San Antonio, PR",PR,18.492693,-67.100851,,,,,,
 7275694,San Antonio comunidad,San Antonio,"San Antonio, PR",PR,18.447078,-66.299399,,,,,,
 7275780,San Antonio comunidad,San Antonio,"San Antonio, PR",PR,18.437042,-66.934719,,,,,,
-7276167,San GermÃ¡n zona urbana,San GermÃ¡n,"San GermÃ¡n, PR",PR,18.082963,-67.045999,,,,,,
+7276167,San Germán zona urbana,San Germán,"San Germán, PR",PR,18.082963,-67.045999,,,,,,
 7276339,San Isidro comunidad,San Isidro,"San Isidro, PR",PR,18.392138,-65.884329,,,,,,
-7276683,San JosÃ© comunidad,San JosÃ©,"San JosÃ©, PR",PR,18.403919,-66.249038,,,,,,
+7276683,San José comunidad,San José,"San José, PR",PR,18.403919,-66.249038,,,,,,
 7276770,San Juan zona urbana,San Juan,"San Juan, PR",PR,18.404559,-66.063746,,,,,,
 7277027,San Lorenzo zona urbana,San Lorenzo,"San Lorenzo, PR",PR,18.187061,-65.967354,,,,,,
-7277500,San SebastiÃ¡n zona urbana,San SebastiÃ¡n,"San SebastiÃ¡n, PR",PR,18.335498,-66.994756,,,,,,
-7277672,Santa BÃ¡rbara comunidad,Santa BÃ¡rbara,"Santa BÃ¡rbara, PR",PR,18.395494,-65.917584,,,,,,
+7277500,San Sebastián zona urbana,San Sebastián,"San Sebastián, PR",PR,18.335498,-66.994756,,,,,,
+7277672,Santa Bárbara comunidad,Santa Bárbara,"Santa Bárbara, PR",PR,18.395494,-65.917584,,,,,,
 7277826,Santa Clara comunidad,Santa Clara,"Santa Clara, PR",PR,18.209339,-66.133428,,,,,,
 7278145,Santa Isabel zona urbana,Santa Isabel,"Santa Isabel, PR",PR,17.969149,-66.405052,,,,,,
-7278317,Santa MarÃ­a comunidad,Santa MarÃ­a,"Santa MarÃ­a, PR",PR,18.270899,-65.66168,,,,,,
+7278317,Santa María comunidad,Santa María,"Santa María, PR",PR,18.270899,-65.66168,,,,,,
 7279564,Santo Domingo comunidad,Santo Domingo,"Santo Domingo, PR",PR,18.074159,-66.744901,,,,,,
 7280596,Stella comunidad,Stella,"Stella, PR",PR,18.323631,-67.246448,,,,,,
-7280639,SuÃ¡rez comunidad,SuÃ¡rez,"SuÃ¡rez, PR",PR,18.431752,-65.852355,,,,,,
+7280639,Suárez comunidad,Suárez,"Suárez, PR",PR,18.431752,-65.852355,,,,,,
 7281413,Tallaboa comunidad,Tallaboa,"Tallaboa, PR",PR,17.993515,-66.706733,,,,,,
 7281456,Tallaboa Alta comunidad,Tallaboa Alta,"Tallaboa Alta, PR",PR,18.050106,-66.702397,,,,,,
 7282055,Tibes comunidad,Tibes,"Tibes, PR",PR,18.088649,-66.63327,,,,,,
@@ -32307,12 +32307,12 @@ place_id,name,name_display,name_state,state,lat,lon,day1,day2,day3,day4,day5,day
 7282488,Toa Alta zona urbana,Toa Alta,"Toa Alta, PR",PR,18.38812,-66.25125,,,,,,
 7282617,Toa Baja zona urbana,Toa Baja,"Toa Baja, PR",PR,18.443934,-66.254854,,,,,,
 7282692,Toaville comunidad,Toaville,"Toaville, PR",PR,18.44373,-66.243083,,,,,,
-7282875,TomÃ¡s de Castro comunidad,TomÃ¡s de Castro,"TomÃ¡s de Castro, PR",PR,18.184066,-66.018585,,,,,,
+7282875,Tomás de Castro comunidad,Tomás de Castro,"Tomás de Castro, PR",PR,18.184066,-66.018585,,,,,,
 7283606,Trujillo Alto zona urbana,Trujillo Alto,"Trujillo Alto, PR",PR,18.35961,-66.012658,,,,,,
 7284509,Utuado zona urbana,Utuado,"Utuado, PR",PR,18.26913,-66.706317,,,,,,
 7284917,Valle Hill comunidad,Valle Hill,"Valle Hill, PR",PR,18.395265,-65.894001,,,,,,
 7285025,Vayas comunidad,Vayas,"Vayas, PR",PR,18.054008,-66.585737,,,,,,
-7285111,VÃ¡zquez comunidad,VÃ¡zquez,"VÃ¡zquez, PR",PR,18.068363,-66.233161,,,,,,
+7285111,Vázquez comunidad,Vázquez,"Vázquez, PR",PR,18.068363,-66.233161,,,,,,
 7285197,Vega Alta zona urbana,Vega Alta,"Vega Alta, PR",PR,18.415176,-66.321158,,,,,,
 7285326,Vega Baja zona urbana,Vega Baja,"Vega Baja, PR",PR,18.44105,-66.399017,,,,,,
 7285971,Vieques comunidad,Vieques,"Vieques, PR",PR,18.426149,-65.832287,,,,,,
