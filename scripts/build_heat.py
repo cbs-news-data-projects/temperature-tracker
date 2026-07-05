@@ -133,37 +133,44 @@ def nearest_idx(lats1d, lons1d, lat, lon):
     return idx
 
 
-def write_points(out, days, outdir: Path, prefix, element_label, issued_utc=None) -> None:
+def write_points(out, days, outdir: Path, prefix, element_label,
+                 issued_utc=None, write_csv=False) -> None:
     day_cols = [f"day{d['seq']}" for d in days]
-    id_cols = [c for c in ("place_id", "name", "name_display", "name_state",
-                           "state", "lat", "lon") if c in out.columns]
-    out.to_csv(outdir / f"{prefix}_points.csv", index=False)
 
-    meta = {f"day{d['seq']}": d for d in days}
-    long = out.melt(id_vars=id_cols, value_vars=day_cols,
-                    var_name="day", value_name="value_f")
-    long["seq"] = long["day"].map(lambda x: meta[x]["seq"])
-    long["fcst_date"] = long["day"].map(lambda x: meta[x]["fcst_date"])
-    long["valid_utc"] = long["day"].map(lambda x: meta[x]["valid_utc"])
-    long.drop(columns=["day"]).to_csv(outdir / f"{prefix}_long.csv", index=False)
+    # Analyst tables (tidy long + wide) are opt-in (--csv): pure reformats of the
+    # GeoJSON values, kept out of the 3x-daily commits.
+    if write_csv:
+        id_cols = [c for c in ("place_id", "name", "name_display", "name_state",
+                               "state", "lat", "lon") if c in out.columns]
+        out.to_csv(outdir / f"{prefix}_points.csv", index=False)
+        meta = {f"day{d['seq']}": d for d in days}
+        long = out.melt(id_vars=id_cols, value_vars=day_cols,
+                        var_name="day", value_name="value_f")
+        long["seq"] = long["day"].map(lambda x: meta[x]["seq"])
+        long["fcst_date"] = long["day"].map(lambda x: meta[x]["fcst_date"])
+        long["valid_utc"] = long["day"].map(lambda x: meta[x]["valid_utc"])
+        long.drop(columns=["day"]).to_csv(outdir / f"{prefix}_long.csv", index=False)
 
-    prop_cols = [c for c in ("place_id", "name", "name_display", "name_state", "state")
-                 if c in out.columns]
+    # GeoJSON is the published map payload — keep it minimal: the display needs
+    # only the popup/search label (name_state) and the per-day values. Full
+    # identifiers (place_id etc.) live in the --csv outputs. 4-decimal coords
+    # (~11m) are ample for dots at map zooms.
     feats = []
     for _, r in out.iterrows():
-        props = {c: r[c] for c in prop_cols}
+        props = {"name_state": r["name_state"]} if "name_state" in out.columns else {}
         for c in day_cols:
             props[c] = None if pd.isna(r[c]) else int(r[c])
         feats.append({"type": "Feature",
                       "geometry": {"type": "Point", "coordinates":
-                                   [round(float(r["lon"]), 5), round(float(r["lat"]), 5)]},
+                                   [round(float(r["lon"]), 4), round(float(r["lat"]), 4)]},
                       "properties": props})
     meta_block = {"element": element_label, "days": [day_meta(d) for d in days]}
     if issued_utc is not None:
         meta_block["issued_utc"] = issued_utc.isoformat()  # NWS forecast issuance time
     gj = {"type": "FeatureCollection", "metadata": meta_block, "features": feats}
     (outdir / f"{prefix}_points.geojson").write_text(json.dumps(gj))
-    print(f"points: {len(out):,} communities -> {prefix}_points.[csv|geojson], {prefix}_long.csv")
+    csv_note = f", {prefix}_points.csv, {prefix}_long.csv" if write_csv else ""
+    print(f"points: {len(out):,} communities -> {prefix}_points.geojson{csv_note}")
 
 
 # ---------------------------------------------------------------- counties (geometry)
@@ -183,15 +190,22 @@ def accumulate_counties(county_vals, csub, geoid_col, lats1d, lons1d, days, deci
         county_vals.setdefault(d["fcst_date"], {}).update(agg.to_dict())
 
 
-def write_counties(counties, geoid_col, name_col, county_vals, days, outdir: Path, prefix, county_agg) -> None:
+def write_counties(counties, geoid_col, name_col, county_vals, days, outdir: Path,
+                   prefix, county_agg, write_csv=False) -> None:
     result = counties[[geoid_col] + ([name_col] if name_col else [])].copy()
     for d in days:
         vals = county_vals.get(d["fcst_date"], {})
         result[f"day{d['seq']}"] = to_int_f(result[geoid_col].map(lambda g: vals.get(g, np.nan)))
-    result.to_csv(outdir / f"{prefix}_counties.csv", index=False)
+    if write_csv:
+        result.to_csv(outdir / f"{prefix}_counties.csv", index=False)
     geo = counties[[geoid_col, "geometry"]].merge(result, on=geoid_col, how="left")
-    geo.to_file(outdir / f"{prefix}_counties.geojson", driver="GeoJSON")
-    print(f"counties: {len(result):,} polygons (agg={county_agg}) -> {prefix}_counties.[csv|geojson]")
+    # Cap coordinate precision: the source is 1:20M cartographic boundaries (~1km
+    # native accuracy) — full-precision floats are dead weight in the payload.
+    geo.to_file(outdir / f"{prefix}_counties.geojson", driver="GeoJSON",
+                COORDINATE_PRECISION="4")
+    csv_note = f", {prefix}_counties.csv" if write_csv else ""
+    print(f"counties: {len(result):,} polygons (agg={county_agg}) -> "
+          f"{prefix}_counties.geojson{csv_note}")
 
 
 # ---------------------------------------------------------------- main
@@ -236,6 +250,9 @@ def main() -> int:
                     help="county zonal value samples every Nth grid cell (2 ≈ 5km)")
     ap.add_argument("--outdir", default=str(config.PROCESSED_DATA_DIR))
     ap.add_argument("--outprefix", default=None)
+    ap.add_argument("--csv", action="store_true",
+                    help="also write analyst CSVs (long + wide); off by default — "
+                         "they reformat the GeoJSON values and aren't committed")
     args = ap.parse_args()
 
     prod = PRODUCTS[args.product]
@@ -306,9 +323,10 @@ def main() -> int:
         out = places.copy()
         for g in gdays:
             out[f"day{g['seq']}"] = to_int_f(place_vals.get(g["fcst_date"], np.full(len(places), np.nan)))
-        write_points(out, gdays, outdir, prefix, prod["label"], issued_utc)
+        write_points(out, gdays, outdir, prefix, prod["label"], issued_utc, args.csv)
     if want_counties:
-        write_counties(counties, geoid_col, name_col, county_vals, gdays, outdir, prefix, prod["county_agg"])
+        write_counties(counties, geoid_col, name_col, county_vals, gdays, outdir,
+                       prefix, prod["county_agg"], args.csv)
     return 0
 
 

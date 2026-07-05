@@ -35,9 +35,10 @@ data/raw/*.bin
 
 # Heat pipeline outputs ARE the deliverable — commit them (the data pipeline's
 # "store the latest data" step). Reference geographies refresh ~yearly.
+# Processed CSVs are NOT committed: analyst reformats of the GeoJSON values,
+# regenerate on demand with `build_heat.py --csv`.
 !data/reference/places.csv
 !data/reference/counties.geojson
-!data/processed/*.csv
 !data/processed/*.geojson
 
 # Editors / OS

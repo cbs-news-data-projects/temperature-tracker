@@ -59,17 +59,20 @@ uv run python -m http.server 8000
 
 | file | shape | use |
 |---|---|---|
-| `<p>_long.csv` | place × day (tidy) | source of truth; joins cleanly to ACS in R/pandas |
-| `<p>_points.csv` / `.geojson` | one row/feature per community, cols `day1…dayN` | **dots** layer |
-| `<p>_counties.csv` / `.geojson` | one row/polygon per county | **geometry** layer |
+| `<p>_points.geojson` | one feature per community: `name_state` + `day1…dayN`, 4-dec coords | **dots** layer (committed, published) |
+| `<p>_counties.geojson` | one polygon per county: `GEOID`, `NAME`, `day1…dayN` | **geometry** layer (committed, published) |
+| `<p>_long.csv` · `<p>_points.csv` · `<p>_counties.csv` | tidy / wide analyst tables with full identifiers (`place_id` etc.) | **on demand only** — `build_heat.py --csv`; not committed (pure reformats of the GeoJSON values) |
 
-Each day carries `seq`, `fcst_date`, and `valid_utc`. The apt products also carry
-`n_hours` (grids feeding the value) and `valid_start_utc`. Whole °F only.
+The GeoJSONs are deliberately minimal — only what the map displays. GeoJSON
+metadata carries `days[]` (`seq`, `fcst_date`, `valid_utc`; apt products add
+`n_hours`, `valid_start_utc`) and `issued_utc` (NWS forecast issuance). Whole °F only.
 
-Place labels (Census Gazetteer) come in three forms: `name` is raw (`"Phoenix
-city"`); `name_display` strips the descriptor (`"Phoenix"`, while keeping
-`"Carson City"`); `name_state` adds the state (`"Phoenix, AZ"` — the popup label).
-Join/dedupe on `place_id` (Census GEOID, a string), **never** on `name`. New York
+Place labels (Census Gazetteer) come in three forms in the reference/CSV outputs:
+`name` is raw (`"Phoenix city"`); `name_display` strips the descriptor (`"Phoenix"`,
+while keeping `"Carson City"`); `name_state` adds the state (`"Phoenix, AZ"` — the
+popup label, and the only label shipped in the points GeoJSON). Join/dedupe on
+`place_id` (Census GEOID, a string; in `data/reference/places.csv` and the `--csv`
+outputs), **never** on `name`. New York
 City is one consolidated place in the Census files (a single dot); `make_reference.py`
 replaces it with its five boroughs (`place_id` = borough-county GEOID) for detail.
 

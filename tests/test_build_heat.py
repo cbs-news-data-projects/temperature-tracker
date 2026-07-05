@@ -37,23 +37,36 @@ def test_write_points_outputs(tmp_path):
     days = _days()
 
     issued = datetime(2026, 7, 4, 13, 30, tzinfo=timezone.utc)
-    build_heat.write_points(out, days, tmp_path, "heat", "test label", issued)
+    build_heat.write_points(out, days, tmp_path, "heat", "test label", issued,
+                            write_csv=True)
 
-    # long.csv: one tidy row per place × day, NaN written as empty value_f
+    # long.csv (only with write_csv): one tidy row per place × day, NaN empty
     long = pd.read_csv(tmp_path / "heat_long.csv")
     assert len(long) == 4
     assert set(long.columns) >= {"place_id", "value_f", "seq", "fcst_date", "valid_utc"}
     ny_day1 = long[(long.place_id == 3651000) & (long.seq == 1)].iloc[0]
     assert pd.isna(ny_day1["value_f"])
 
-    # GeoJSON: NaN -> null, whole-degree rounding, metadata preserved
+    # GeoJSON: SLIM schema (name_state + dayN only), NaN -> null, whole degrees,
+    # 4-decimal coords, metadata preserved
     gj = json.loads((tmp_path / "heat_points.geojson").read_text())
     assert [d["key"] for d in gj["metadata"]["days"]] == ["day1", "day2"]
     assert gj["metadata"]["issued_utc"] == "2026-07-04T13:30:00+00:00"
     phx, nyc = gj["features"][0]["properties"], gj["features"][1]["properties"]
+    assert set(phx) == {"name_state", "day1", "day2"}   # nothing beyond display needs
+    assert phx["name_state"] == "Phoenix, AZ"
     assert phx["day1"] == 110 and phx["day2"] == 108   # 108.4 -> 108
     assert nyc["day1"] is None and nyc["day2"] == 96    # NaN -> null; 95.6 -> 96
-    assert gj["features"][0]["geometry"]["type"] == "Point"
+    assert gj["features"][0]["geometry"]["coordinates"] == [-112.07, 33.45]
+
+
+def test_write_points_skips_csv_by_default(tmp_path):
+    out = _places()
+    out["day1"] = build_heat.to_int_f([110.0, 95.0])
+    build_heat.write_points(out, _days()[:1], tmp_path, "heat", "test label")
+    assert (tmp_path / "heat_points.geojson").exists()
+    assert not (tmp_path / "heat_long.csv").exists()
+    assert not (tmp_path / "heat_points.csv").exists()
 
 
 def test_county_agg_decoupled_from_prefix():
