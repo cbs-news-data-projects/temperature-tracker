@@ -89,6 +89,7 @@ plain air temp in between.
   (default `0.95`; robust to a lone corrupt cell; `1.0` restores raw min/max).
 - `make_reference.py --incorporated --min-sqmi 0.5` — thin the places universe.
 - `fetch_ndfd.py --area conus,alaska,hawaii` — sectors (add `puertorico` if needed).
+- `validate_live.py` — smoke-test the live GRIB decode (fill-value masking, hourly `apt`, date labels); run it after touching the decode path or upgrading pygrib/NDFD.
 
 ## Editorial caveats (read before publishing anything from this data)
 
