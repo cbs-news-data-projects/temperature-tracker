@@ -28,16 +28,12 @@ import pandas as pd
 # that would otherwise poison a place value or a county aggregate.
 PLAUSIBLE_F = (-80.0, 145.0)
 
-# Physical sanity cap for apparent temp ("feels-like") against the co-located
-# air-temp max. The heat index runs ABOVE air temp in humid heat, but only so
-# far: across a full CONUS run the largest *real* gap we see is ~22°F (Gulf
-# Coast / Louisiana parishes). Anything much beyond that is a corrupt NDFD apt
-# cell, not weather. Case in point: Lemhi County, ID once published a 139°F
-# feels-like over a 100°F air-temp max — a +39°F gap from a single bad grid cell
-# that our per-cell MAX surfaced as the county value. 25°F leaves headroom over
-# the ~22°F real ceiling while still catching that class of corruption. This is
-# a value guard, NOT the heat-index formula (we never compute apt ourselves —
-# NDFD ships it; we only sanity-check what it ships).
+# Sanity cap for apparent temp vs the co-located air-temp max. Heat index runs
+# above air temp in humid heat, but the largest real gap across a full CONUS run
+# is ~22°F (Gulf Coast). Beyond that is a corrupt NDFD cell, not weather — Lemhi
+# County, ID once shipped 139°F over a 100°F max (+39) from one bad cell that our
+# per-cell MAX surfaced. 25°F leaves headroom over the ~22°F ceiling. We only
+# sanity-check NDFD's apt here; we never compute it.
 APT_OVER_AIRTEMP_MARGIN_F = 25.0
 
 # Warm-night window: local 8pm–8am. A reading before 8am belongs to the night

@@ -52,9 +52,8 @@ _CONSOL = re.compile(r"\b(?:urban county|city and borough|"
 _CONSOL_TAIL = re.compile(r"\s+(?:urban county|city and borough|"
                           r"(?:metropolitan|consolidated|unified|metro)\s+government)\b.*$", re.I)
 _COUNTY_TAIL = re.compile(r"\s+county$", re.I)
-# Case-SENSITIVE: lowercase "city" is the LSAD descriptor to strip ("Oklahoma City
-# city" -> "Oklahoma City"); a capitalized "City" is a real name part to keep
-# ("Carson City", "Kansas City").
+# Case-SENSITIVE (no re.I): a lowercase "city" is the descriptor to strip, a
+# capitalized "City" is part of the name to keep (examples in _BALANCE above).
 _DESC = re.compile(r"\s+(?:CDP|city|town|village|borough|municipality|comunidad|pueblo|zona urbana)$")
 
 # Consolidated city-counties whose Gazetteer name carries NO government marker, so
