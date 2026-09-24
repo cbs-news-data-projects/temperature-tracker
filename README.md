@@ -54,29 +54,74 @@ without touching this pipeline.
   to it, not raw temperature); hide `null`s.
 - **CORS:** GitHub Pages serves `Access-Control-Allow-Origin: *`.
 
-## Population exposure estimate (`feelslike_exposure.json`) — not part of the contract above
+## Population exposure estimate (`feelslike_exposure.json`, `warmnight_exposure.json`) — not part of the contract above
 
-`scripts/build_exposure.py` runs after the `feelslike` build and joins
-`feelslike_counties.geojson` against a county population reference
-(`data/reference/county_population.csv`, GEOID → population; sourced from the
-Census Bureau's Population Estimates Program — see the script's docstring for
-the current vintage/URL) to estimate how many people live in counties
-forecast to cross a Heat Index threshold each day.
+`scripts/build_exposure.py --product feelslike|warmnight` (mirrors
+`build_heat.py`'s `--product` flag) runs after the matching `build_heat.py`
+product and joins its `<prefix>_counties.geojson` against a county
+population reference (`data/reference/county_population.csv`, GEOID →
+population; sourced from the Census Bureau's Population Estimates Program —
+see the script's docstring for the current vintage/URL) to estimate how many
+people live in counties forecast to cross a heat-danger threshold each day.
 
-- **It's an estimate, not a headcount.** County values are a 95th-percentile
-  grid cell (see below), not an average — a large, climate-diverse county can
-  cross a threshold from one hot corner while most residents don't. Counting
-  a county's *entire* population when it crosses is a deliberate,
-  directional simplification. Every field name ends `_est`
-  (`extreme_caution_pop_est`, `danger_pop_est`) and anything user-facing must
-  say "estimated."
-- **Non-contractual.** Unlike the six files above, this can change shape or
-  stop publishing without notice — it's a derived convenience output, not
+- **It's an estimate, not a headcount.** `feelslike` county values are the
+  95th-percentile (hottest) grid cell; `warmnight` county values are the
+  5th-percentile (coolest) grid cell — neither is an average, so a large,
+  climate-diverse county can cross a threshold from one extreme corner while
+  most residents don't. (For `warmnight` this cuts conservative, not lenient:
+  a county only counts once even its coolest corner stays at/above the
+  threshold.) Counting a county's *entire* population when it crosses is
+  still a deliberate, directional simplification. Every field name ends
+  `_est` (`extreme_caution_pop_est`, `danger_pop_est`, `warm_night_pop_est`)
+  and anything user-facing must say "estimated."
+- **Thresholds live in the data, not the front end.** Each file's
+  `metadata.thresholds_f` carries the cutoff(s) used to build it. The
+  graphics-rig embed reads the cutoff from there for reader-facing copy
+  ("no overnight relief below 75°F tonight") — changing a threshold is a
+  pipeline-only change, never hard-coded downstream.
+- **`warm_night_pop_est` methodology.** Threshold: **75°F overnight apparent-
+  temperature low**, fixed nationally — reviewed and signed off editorially
+  (2026-09-24), not a default. Unlike the daytime figure, there's no NWS Heat
+  Index category to inherit (that scale is defined on daytime apparent
+  temperature; this repo's warm-night color bands were chosen for display,
+  not risk), so this was researched independently:
+  - NWS's own Excessive Heat Warning criteria repeatedly pair a daytime heat-
+    index bar with an overnight-low condition, and 75°F recurs as that
+    overnight component across offices in different climates — e.g. NWS
+    Indianapolis (heat index ≥110°F **and** doesn't fall below 75°F for 48h,
+    [weather.gov/ind/heatinfo](https://weather.gov/ind/heatinfo)), NWS
+    Paducah (≥110°F for 2 days **and** lows ≥75°F,
+    [weather.gov/pah](https://www.weather.gov/pah/hazardous_weather_heat)),
+    and general Northeast-office criteria (≥105°F **and** lows don't drop
+    below 75°F, per
+    [ABC57's summary](https://abc57.com/news/excessive-heat-warning-criteria-082724)).
+  - NWS/CDC **HeatRisk v2** folds overnight lows into its score but computes
+    it relative to each location's own climatology and a locally-derived
+    "minimum mortality temperature," not one fixed national number
+    ([CDC/NWS collaboration](https://www.wpc.ncep.noaa.gov/heatrisk/cdc.html)).
+  - The heat-mortality literature's dominant modern approach defines "hot
+    nights" as a location-relative percentile (commonly the 95th percentile
+    of that place's own historical daily minimum) specifically to capture
+    acclimatization
+    ([multicountry hot-nights study](https://www.sciencedirect.com/science/article/pii/S0160412025004702),
+    [Nature Communications DLNM study](https://www.nature.com/articles/s41467-025-56067-7)).
+  - **Known tradeoff, accepted for now:** a fixed 75°F cutoff overstates risk
+    in the acclimated, air-conditioned arid Southwest — Phoenix/Tucson-area
+    NWS criteria run closer to 80°F+
+    ([AZDHS Heat Safety Resource Guide](https://www.azdhs.gov/documents/preparedness/epidemiology-disease-control/extreme-weather/heat/az-heat-safety-resource-guide.pdf)),
+    so a flat 75°F would flag those counties on nearly every summer night —
+    and understates it in northern cities where housing assumes cool nights.
+    The literature-preferred fix is a per-county climatology-relative
+    percentile, but that needs a new reference asset (e.g. NOAA Climate
+    Normals) this repo doesn't have yet. Revisit if that becomes available.
+- **Non-contractual.** Unlike the six files above, these can change shape or
+  stop publishing without notice — they're derived convenience outputs, not
   relied on by the published map.
-- **Fails soft.** No-ops (prints, exits 0) until `data/reference/county_population.csv`
-  exists; a schema-only illustration (not real figures) lives at
-  `data/reference/example_county_population.csv`.
-- **URL (when present):** `https://cbs-news-data.github.io/temperature-tracker/data/feelslike_exposure.json`
+- **Fails soft.** No-ops (prints, exits 0) per product until
+  `data/reference/county_population.csv` exists; a schema-only illustration
+  (not real figures) lives at `data/reference/example_county_population.csv`.
+- **URLs (when present):**
+  `https://cbs-news-data.github.io/temperature-tracker/data/{feelslike,warmnight}_exposure.json`
 
 ## Products
 
@@ -95,8 +140,9 @@ plain air temp in between.
 
 - **`build-data` job** — fetch, build all three products (each place/county routed
   to its own sector grid: AK→alaska, HI→hawaii, else CONUS), estimate population
-  exposure off the `feelslike` output, rebase and commit `data/processed` +
-  `data/reference`, stage GeoJSON (+ the exposure estimate, if present) for deploy.
+  exposure off the `feelslike` and `warmnight` outputs, rebase and commit
+  `data/processed` + `data/reference`, stage GeoJSON (+ the exposure estimates,
+  if present) for deploy.
 - **`deploy` job** — publish the GeoJSON to GitHub Pages with an automatic retry
   (the Pages backend intermittently answers "Deployment failed, try again later";
   a failed attempt waits 3 minutes and retries). Delete this job and the
@@ -115,8 +161,8 @@ plain air temp in between.
 - `make_reference.py --incorporated --min-sqmi 0.5` — thin the places universe.
 - `fetch_ndfd.py --area conus,alaska,hawaii` — sectors (add `puertorico` if needed).
 - `validate_live.py` — smoke-test the live GRIB decode (fill-value masking, hourly `apt`, date labels); run it after touching the decode path or upgrading pygrib/NDFD.
-- `build_exposure.py` — population exposure estimate (see above); no-ops without
-  `data/reference/county_population.csv`.
+- `build_exposure.py --product feelslike|warmnight` — population exposure
+  estimate (see above); no-ops without `data/reference/county_population.csv`.
 
 ## Editorial caveats (read before publishing anything from this data)
 
