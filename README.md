@@ -54,6 +54,30 @@ without touching this pipeline.
   to it, not raw temperature); hide `null`s.
 - **CORS:** GitHub Pages serves `Access-Control-Allow-Origin: *`.
 
+## Population exposure estimate (`feelslike_exposure.json`) — not part of the contract above
+
+`scripts/build_exposure.py` runs after the `feelslike` build and joins
+`feelslike_counties.geojson` against a county population reference
+(`data/reference/county_population.csv`, GEOID → population; sourced from the
+Census Bureau's Population Estimates Program — see the script's docstring for
+the current vintage/URL) to estimate how many people live in counties
+forecast to cross a Heat Index threshold each day.
+
+- **It's an estimate, not a headcount.** County values are a 95th-percentile
+  grid cell (see below), not an average — a large, climate-diverse county can
+  cross a threshold from one hot corner while most residents don't. Counting
+  a county's *entire* population when it crosses is a deliberate,
+  directional simplification. Every field name ends `_est`
+  (`extreme_caution_pop_est`, `danger_pop_est`) and anything user-facing must
+  say "estimated."
+- **Non-contractual.** Unlike the six files above, this can change shape or
+  stop publishing without notice — it's a derived convenience output, not
+  relied on by the published map.
+- **Fails soft.** No-ops (prints, exits 0) until `data/reference/county_population.csv`
+  exists; a schema-only illustration (not real figures) lives at
+  `data/reference/example_county_population.csv`.
+- **URL (when present):** `https://cbs-news-data.github.io/temperature-tracker/data/feelslike_exposure.json`
+
 ## Products
 
 | `--product` | element | what | prefix |
@@ -70,8 +94,9 @@ plain air temp in between.
 `.github/workflows/heat-data.yml` — three times daily; could be one or two after another month of testing:
 
 - **`build-data` job** — fetch, build all three products (each place/county routed
-  to its own sector grid: AK→alaska, HI→hawaii, else CONUS), rebase and commit
-  `data/processed` + `data/reference`, stage GeoJSON for deploy.
+  to its own sector grid: AK→alaska, HI→hawaii, else CONUS), estimate population
+  exposure off the `feelslike` output, rebase and commit `data/processed` +
+  `data/reference`, stage GeoJSON (+ the exposure estimate, if present) for deploy.
 - **`deploy` job** — publish the GeoJSON to GitHub Pages with an automatic retry
   (the Pages backend intermittently answers "Deployment failed, try again later";
   a failed attempt waits 3 minutes and retries). Delete this job and the
@@ -90,6 +115,8 @@ plain air temp in between.
 - `make_reference.py --incorporated --min-sqmi 0.5` — thin the places universe.
 - `fetch_ndfd.py --area conus,alaska,hawaii` — sectors (add `puertorico` if needed).
 - `validate_live.py` — smoke-test the live GRIB decode (fill-value masking, hourly `apt`, date labels); run it after touching the decode path or upgrading pygrib/NDFD.
+- `build_exposure.py` — population exposure estimate (see above); no-ops without
+  `data/reference/county_population.csv`.
 
 ## Editorial caveats (read before publishing anything from this data)
 
@@ -102,7 +129,9 @@ plain air temp in between.
 - **County values are near-extremes, not averages** — the 95th-percentile cell for
   temp/feelslike, 5th for warm nights (`--county-pct`); a tail percentile, not the
   single hottest/coolest cell, so one corrupt tiny-geography grid cell can't define a county. Not
-  population-weighted. Feels-like cells are also dropped when they exceed the same
+  population-weighted — `feelslike_exposure.json` (see "Population exposure estimate" above)
+  is the one exception, and even there it's a coarse, county-level *estimate*, not a
+  headcount. Feels-like cells are also dropped when they exceed the same
   day's air-temp max by more than 25°F (a corrupt-cell guard; see `cap_apt_to_airtemp`).
 - **Thin buckets** at the near/far ends rest on fewer hours (`n_hours` flags them).
 - **One fixed timezone per build** (`--tz`), not per-cell solar time.

@@ -41,6 +41,12 @@ data/raw/*.bin
 !data/reference/counties.geojson
 !data/processed/*.geojson
 
+# Population exposure estimate (build_exposure.py): reference file refreshes
+# ~yearly like the other reference geographies; the output rides along with
+# the other processed products. See README.md "Population exposure estimate".
+!data/reference/county_population.csv
+!data/processed/feelslike_exposure.json
+
 # Editors / OS
 .vscode/
 .idea/
