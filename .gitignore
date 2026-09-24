@@ -46,6 +46,7 @@ data/raw/*.bin
 # the other processed products. See README.md "Population exposure estimate".
 !data/reference/county_population.csv
 !data/processed/feelslike_exposure.json
+!data/processed/warmnight_exposure.json
 
 # Editors / OS
 .vscode/
