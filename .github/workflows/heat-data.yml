@@ -60,6 +60,11 @@ jobs:
           uv run python scripts/build_heat.py --product feelslike --mode both --decimate 2 --tz America/Chicago
           uv run python scripts/build_heat.py --product warmnight --mode both --decimate 2 --tz America/Chicago
 
+      # No-ops (prints, exits 0) until data/reference/county_population.csv is
+      # sourced — see README.md "Population exposure estimate".
+      - name: Estimate population under dangerous heat
+        run: uv run python scripts/build_exposure.py
+
       - name: Commit latest data
         run: |
           git config user.name  "heat-bot"
@@ -79,6 +84,8 @@ jobs:
         run: |
           mkdir -p _site/data
           cp data/processed/*.geojson _site/data/
+          # Non-contractual: only published when the population reference exists.
+          cp data/processed/feelslike_exposure.json _site/data/ 2>/dev/null || true
 
       - uses: actions/upload-pages-artifact@v3
         with:
